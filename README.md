@@ -37,6 +37,24 @@ Por defecto el script copia desde `../downloads`, que puede ser un symlink local
 ./scripts/sync-downloads.sh /ruta/a/mis/fondos
 ```
 
+## Kutxateka
+
+Para descargar resultados públicos de Kutxateka de forma conservadora:
+
+```bash
+./scripts/download-kutxateka.py --search "alarde de irun"
+```
+
+Por defecto guarda las imágenes fuera del sitio, en `../kutxateka-downloads/`, junto a un `metadata.csv` con fuente, licencia y atribución. Antes de usar cualquier imagen en la web, revisa la licencia y conserva la atribución indicada.
+
+Opciones útiles:
+
+```bash
+./scripts/download-kutxateka.py --dry-run
+./scripts/download-kutxateka.py --max-items 3
+./scripts/download-kutxateka.py --output ../kutxateka-alarde
+```
+
 ## Nota editorial
 
 Los horarios, recorridos y avisos pueden cambiar cada año. La web debe enlazar siempre a fuentes oficiales para la información operativa actualizada.

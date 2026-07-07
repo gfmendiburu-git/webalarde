@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+
+# Local Kutxateka exports are intentionally kept outside the published site.
+kutxateka-downloads/
