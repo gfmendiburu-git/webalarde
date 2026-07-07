@@ -227,6 +227,7 @@ a {
 .feature-list,
 .download-panel,
 .download-grid,
+.wallpaper-grid,
 .link-grid {
   max-width: 1120px;
   margin-inline: auto;
@@ -344,6 +345,49 @@ h3 {
   font-weight: 850;
 }
 
+.wallpaper-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.wallpaper-card {
+  display: grid;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.wallpaper-card:hover {
+  border-color: rgba(176, 0, 32, 0.45);
+  transform: translateY(-2px);
+}
+
+.wallpaper-card img {
+  width: 100%;
+  aspect-ratio: 13 / 9;
+  object-fit: cover;
+  background: var(--soft);
+}
+
+.wallpaper-card span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px;
+  font-weight: 850;
+}
+
+.wallpaper-card small {
+  color: var(--muted-ink);
+  font-size: 0.76rem;
+}
+
 code {
   padding: 2px 6px;
   border-radius: 5px;
@@ -446,6 +490,7 @@ code {
   .content-columns,
   .feature-list,
   .download-grid,
+  .wallpaper-grid,
   .link-grid {
     grid-template-columns: 1fr;
   }
