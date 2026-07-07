@@ -71,10 +71,11 @@ def extract_detail_urls(page_html: str) -> list[str]:
 
 
 def extract_next_url(page_html: str) -> str | None:
-    match = re.search(r"<a[^>]+class=['\"][^'\"]*jscroll-next[^'\"]*[^>]+href=['\"]([^'\"]+)", page_html)
-    if not match:
-        return None
-    return urljoin(BASE_URL, html.unescape(match.group(1)))
+    for match in re.finditer(r"(?is)<a\b([^>]*\bjscroll-next\b[^>]*)>", page_html):
+        href = re.search(r"href=['\"]([^'\"]+)", match.group(1))
+        if href:
+            return urljoin(BASE_URL, html.unescape(href.group(1)))
+    return None
 
 
 def extract_title(page_html: str) -> str:
@@ -120,6 +121,13 @@ def extension_from_url(url: str) -> str:
     return suffix if suffix in {".jpg", ".jpeg", ".png"} else ".jpg"
 
 
+def extract_variant_urls(page_html: str) -> list[str]:
+    urls = [BASE_URL + "/index.php/Search/objects/search/?search=" + quote_plus(DEFAULT_SEARCH)]
+    for href in re.findall(r"href=['\"]([^'\"]*/index\.php/Search/objects/[^'\"]*(?:sort|direction)[^'\"]*)", page_html):
+        urls.append(urljoin(BASE_URL, html.unescape(href)))
+    return unique(urls)
+
+
 def collect_detail_urls(opener, start_url: str, delay: float, max_pages: int | None) -> list[str]:
     urls: list[str] = []
     current_url: str | None = start_url
@@ -140,6 +148,25 @@ def collect_detail_urls(opener, start_url: str, delay: float, max_pages: int | N
     return unique(urls)
 
 
+def collect_detail_urls_from_variants(opener, start_url: str, delay: float, max_pages: int | None) -> list[str]:
+    print(f"Preparando variantes desde: {start_url}", file=sys.stderr)
+    first_page = fetch_text(opener, start_url)
+    variant_urls = extract_variant_urls(first_page)
+    all_urls: list[str] = []
+
+    first_page_urls = extract_detail_urls(first_page)
+    all_urls.extend(first_page_urls)
+    next_url = extract_next_url(first_page)
+    if next_url and (not max_pages or max_pages > 1):
+        all_urls.extend(collect_detail_urls(opener, next_url, delay, None if max_pages is None else max_pages - 1))
+
+    for variant_url in variant_urls[1:]:
+        time.sleep(delay)
+        all_urls.extend(collect_detail_urls(opener, variant_url, delay, max_pages))
+
+    return unique(all_urls)
+
+
 def build_attribution(row: dict[str, str]) -> str:
     archive = row.get("archive") or "Kutxa Fundazioa Fototeka"
     photographer = row.get("photographer") or "autor no indicado"
@@ -157,6 +184,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-pages", type=int, help="Limit result pages.")
     parser.add_argument("--max-items", type=int, help="Limit detail items.")
     parser.add_argument("--dry-run", action="store_true", help="List what would be downloaded.")
+    parser.add_argument("--refresh-list", action="store_true", help="Ignore cached detail_urls.txt.")
+    parser.add_argument("--variants", action="store_true", help="Collect multiple sort/direction variants and deduplicate.")
     return parser.parse_args()
 
 
@@ -168,15 +197,26 @@ def main() -> int:
     output_dir = args.output
     images_dir = output_dir / "images"
     metadata_path = output_dir / "metadata.csv"
+    detail_urls_path = output_dir / "detail_urls.txt"
 
     if args.delay < 10:
         print("Aviso: robots.txt indica Crawl-delay: 10 para bots genéricos.", file=sys.stderr)
 
-    try:
-        detail_urls = collect_detail_urls(opener, start_url, args.delay, args.max_pages)
-    except (HTTPError, URLError, TimeoutError) as exc:
-        print(f"Error leyendo resultados: {exc}", file=sys.stderr)
-        return 1
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    if detail_urls_path.exists() and not args.refresh_list and not args.max_pages:
+        detail_urls = [line.strip() for line in detail_urls_path.read_text(encoding="utf-8").splitlines() if line.strip()]
+        print(f"Usando lista cacheada: {detail_urls_path}", file=sys.stderr)
+    else:
+        try:
+            if args.variants:
+                detail_urls = collect_detail_urls_from_variants(opener, start_url, args.delay, args.max_pages)
+            else:
+                detail_urls = collect_detail_urls(opener, start_url, args.delay, args.max_pages)
+        except (HTTPError, URLError, TimeoutError) as exc:
+            print(f"Error leyendo resultados: {exc}", file=sys.stderr)
+            return 1
+        detail_urls_path.write_text("\n".join(detail_urls) + "\n", encoding="utf-8")
 
     if args.max_items:
         detail_urls = detail_urls[: args.max_items]
@@ -188,55 +228,6 @@ def main() -> int:
         return 0
 
     images_dir.mkdir(parents=True, exist_ok=True)
-
-    rows: list[dict[str, str]] = []
-    for index, detail_url in enumerate(detail_urls, start=1):
-        print(f"[{index}/{len(detail_urls)}] {detail_url}", file=sys.stderr)
-        try:
-            page_html = fetch_text(opener, detail_url)
-        except (HTTPError, URLError, TimeoutError) as exc:
-            print(f"  Error leyendo ficha: {exc}", file=sys.stderr)
-            continue
-
-        object_id = extract_object_id(detail_url)
-        title = extract_title(page_html)
-        image_url = extract_image_url(page_html)
-        photographer = extract_field(page_html, ["ARGAZKILARIA", "Argazkilaria", "AUTOR", "Autor"])
-        studio = extract_field(page_html, ["ESTUDIOA", "Estudioa", "ESTUDIO", "Estudio"])
-        archive = extract_field(page_html, ["Artxiboa", "ARCHIVO", "Archivo"])
-        date = extract_date(page_html)
-
-        filename = ""
-        if image_url:
-            filename = f"{object_id}-{safe_filename(title)}{extension_from_url(image_url)}"
-            destination = images_dir / filename
-            if not destination.exists():
-                try:
-                    time.sleep(args.delay)
-                    download_file(opener, image_url, destination)
-                except (HTTPError, URLError, TimeoutError) as exc:
-                    print(f"  Error descargando imagen: {exc}", file=sys.stderr)
-                    filename = ""
-        else:
-            print("  Sin URL de imagen original.", file=sys.stderr)
-
-        row = {
-            "object_id": object_id,
-            "title": title,
-            "date": date,
-            "photographer": photographer,
-            "studio": studio,
-            "archive": archive,
-            "license": LICENSE,
-            "detail_url": detail_url,
-            "image_url": image_url,
-            "file": f"images/{filename}" if filename else "",
-        }
-        row["attribution"] = build_attribution(row)
-        rows.append(row)
-
-        if index < len(detail_urls):
-            time.sleep(args.delay)
 
     with metadata_path.open("w", newline="", encoding="utf-8") as csv_file:
         fieldnames = [
@@ -254,7 +245,55 @@ def main() -> int:
         ]
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerows(rows)
+
+        for index, detail_url in enumerate(detail_urls, start=1):
+            print(f"[{index}/{len(detail_urls)}] {detail_url}", file=sys.stderr)
+            try:
+                page_html = fetch_text(opener, detail_url)
+            except (HTTPError, URLError, TimeoutError) as exc:
+                print(f"  Error leyendo ficha: {exc}", file=sys.stderr)
+                continue
+
+            object_id = extract_object_id(detail_url)
+            title = extract_title(page_html)
+            image_url = extract_image_url(page_html)
+            photographer = extract_field(page_html, ["ARGAZKILARIA", "Argazkilaria", "AUTOR", "Autor"])
+            studio = extract_field(page_html, ["ESTUDIOA", "Estudioa", "ESTUDIO", "Estudio"])
+            archive = extract_field(page_html, ["Artxiboa", "ARCHIVO", "Archivo"])
+            date = extract_date(page_html)
+
+            filename = ""
+            if image_url:
+                filename = f"{object_id}-{safe_filename(title)}{extension_from_url(image_url)}"
+                destination = images_dir / filename
+                if not destination.exists():
+                    try:
+                        time.sleep(args.delay)
+                        download_file(opener, image_url, destination)
+                    except (HTTPError, URLError, TimeoutError) as exc:
+                        print(f"  Error descargando imagen: {exc}", file=sys.stderr)
+                        filename = ""
+            else:
+                print("  Sin URL de imagen original.", file=sys.stderr)
+
+            row = {
+                "object_id": object_id,
+                "title": title,
+                "date": date,
+                "photographer": photographer,
+                "studio": studio,
+                "archive": archive,
+                "license": LICENSE,
+                "detail_url": detail_url,
+                "image_url": image_url,
+                "file": f"images/{filename}" if filename else "",
+            }
+            row["attribution"] = build_attribution(row)
+            writer.writerow(row)
+            csv_file.flush()
+
+            if index < len(detail_urls):
+                time.sleep(args.delay)
 
     print(f"Metadatos: {metadata_path}", file=sys.stderr)
     print(f"Imagenes: {images_dir}", file=sys.stderr)
