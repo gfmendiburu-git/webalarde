@@ -25,6 +25,18 @@ Abre `index.html` en el navegador o sirve la carpeta con cualquier servidor est�
 
 Sube fondos de pantalla u otros archivos descargables a la carpeta `downloads/` y enlázalos desde la sección `Descargas` de `index.html`.
 
+Si los fondos viven en una carpeta externa, sincronízalos al repositorio antes de publicar:
+
+```bash
+./scripts/sync-downloads.sh
+```
+
+Por defecto el script copia desde `../downloads`, que puede ser un symlink local hacia tu carpeta real de fondos. También puedes indicar otro origen:
+
+```bash
+./scripts/sync-downloads.sh /ruta/a/mis/fondos
+```
+
 ## Nota editorial
 
 Los horarios, recorridos y avisos pueden cambiar cada año. La web debe enlazar siempre a fuentes oficiales para la información operativa actualizada.
