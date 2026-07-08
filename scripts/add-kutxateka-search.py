@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Append missing Kutxateka results from a supplemental search."""
+"""Append missing Kutxateka results from a supplemental search or URL list."""
 
 from __future__ import annotations
 
@@ -31,6 +31,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Append missing Kutxateka objects from another search.")
     parser.add_argument("--search", help="Search text to add.")
     parser.add_argument("--start-url", help="Full Kutxateka search URL to add.")
+    parser.add_argument("--detail-urls-file", type=Path, help="Text file with one detail URL per line.")
     parser.add_argument("--archive", type=Path, default=DEFAULT_ARCHIVE, help="Existing Kutxateka archive folder.")
     parser.add_argument("--delay", type=float, default=10.0, help="Seconds between requests.")
     parser.add_argument("--max-pages", type=int, help="Limit result pages.")
@@ -108,13 +109,17 @@ def build_rows(mod, opener, detail_url: str, images_dir: Path, delay: float) -> 
 
 def main() -> int:
     args = parse_args()
-    if not args.search and not args.start_url:
-        print("Indica --search o --start-url.", file=sys.stderr)
+    if not args.search and not args.start_url and not args.detail_urls_file:
+        print("Indica --search, --start-url o --detail-urls-file.", file=sys.stderr)
         return 2
 
     mod = load_downloader()
     opener = build_opener(HTTPCookieProcessor())
-    start_url = args.start_url or f"{mod.BASE_URL}/index.php/Search/objects/search/?search={quote_plus(args.search)}"
+    start_url = args.start_url or (
+        f"{mod.BASE_URL}/index.php/Search/objects/search/?search={quote_plus(args.search)}"
+        if args.search
+        else ""
+    )
     detail_urls_path = args.archive / "detail_urls.txt"
     metadata_path = args.archive / "metadata.csv"
     images_dir = args.archive / "images"
@@ -126,11 +131,18 @@ def main() -> int:
     }
     fieldnames = existing_fieldnames(metadata_path)
 
-    try:
-        found_urls = mod.collect_detail_urls(opener, start_url, args.delay, args.max_pages)
-    except (HTTPError, URLError, TimeoutError) as exc:
-        print(f"Error leyendo resultados: {exc}", file=sys.stderr)
-        return 1
+    if args.detail_urls_file:
+        found_urls = [
+            line.strip()
+            for line in args.detail_urls_file.read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        ]
+    else:
+        try:
+            found_urls = mod.collect_detail_urls(opener, start_url, args.delay, args.max_pages)
+        except (HTTPError, URLError, TimeoutError) as exc:
+            print(f"Error leyendo resultados: {exc}", file=sys.stderr)
+            return 1
 
     missing_urls = [url for url in found_urls if url not in existing_urls]
     print(f"Fichas encontradas: {len(found_urls)}", file=sys.stderr)
