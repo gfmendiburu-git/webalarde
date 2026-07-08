@@ -12,6 +12,7 @@
     link.className = "image-card";
     link.href = item.full;
     link.dataset.lightbox = "";
+    link.dataset.lightboxTitle = item.title || "Fotografía histórica";
 
     const image = document.createElement("img");
     image.src = item.thumb;

@@ -529,6 +529,26 @@ h3 {
   background: #050505;
 }
 
+.lightbox-image[hidden] {
+  display: none;
+}
+
+.lightbox-status {
+  display: grid;
+  min-height: min(58vh, 520px);
+  margin: 0;
+  place-items: center;
+  padding: 24px;
+  background: #050505;
+  color: var(--white);
+  font-weight: 800;
+  text-align: center;
+}
+
+.lightbox-status:empty {
+  display: none;
+}
+
 .lightbox-close {
   position: absolute;
   top: 12px;
