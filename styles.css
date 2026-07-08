@@ -484,6 +484,110 @@ h3 {
   -webkit-line-clamp: 2;
 }
 
+.has-lightbox {
+  overflow: hidden;
+}
+
+.lightbox[hidden] {
+  display: none;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.82);
+}
+
+.lightbox-panel {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  width: min(1120px, 100%);
+  max-height: calc(100vh - 48px);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  background: #111111;
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.45);
+}
+
+.lightbox-image {
+  display: block;
+  width: 100%;
+  max-height: calc(100vh - 146px);
+  object-fit: contain;
+  background: #050505;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  display: inline-grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.72);
+  color: var(--white);
+  font-size: 1.65rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.lightbox-close:hover {
+  background: var(--accent);
+}
+
+.lightbox-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 16px;
+  background: #111111;
+  color: var(--white);
+}
+
+.lightbox-caption {
+  overflow: hidden;
+  margin: 0;
+  font-weight: 800;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lightbox-download {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 0 14px;
+  border-radius: 7px;
+  background: var(--accent);
+  color: var(--white);
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.lightbox-download:hover {
+  background: var(--accent-dark);
+}
+
 code {
   padding: 2px 6px;
   border-radius: 5px;
@@ -600,6 +704,27 @@ code {
   .download-panel {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .lightbox {
+    padding: 14px;
+  }
+
+  .lightbox-panel {
+    max-height: calc(100vh - 28px);
+  }
+
+  .lightbox-image {
+    max-height: calc(100vh - 158px);
+  }
+
+  .lightbox-footer {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .lightbox-caption {
+    white-space: normal;
   }
 }
 

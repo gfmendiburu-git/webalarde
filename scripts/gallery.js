@@ -11,8 +11,7 @@
     const link = document.createElement("a");
     link.className = "image-card";
     link.href = item.full;
-    link.target = "_blank";
-    link.rel = "noopener";
+    link.dataset.lightbox = "";
 
     const image = document.createElement("img");
     image.src = item.thumb;
