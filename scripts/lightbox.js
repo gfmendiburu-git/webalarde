@@ -7,7 +7,6 @@
     <div class="lightbox-panel" role="dialog" aria-modal="true" aria-label="Vista ampliada">
       <button class="lightbox-close" type="button" aria-label="Cerrar" data-lightbox-close>&times;</button>
       <img class="lightbox-image" alt="">
-      <p class="lightbox-status" aria-live="polite"></p>
       <div class="lightbox-footer">
         <p class="lightbox-caption"></p>
         <a class="lightbox-download" href="#" download>Descargar</a>
@@ -17,7 +16,6 @@
   document.body.append(dialog);
 
   const image = dialog.querySelector(".lightbox-image");
-  const status = dialog.querySelector(".lightbox-status");
   const caption = dialog.querySelector(".lightbox-caption");
   const download = dialog.querySelector(".lightbox-download");
   let previousFocus = null;
@@ -28,7 +26,6 @@
     dialog.hidden = true;
     document.body.classList.remove("has-lightbox");
     image.removeAttribute("src");
-    status.textContent = "";
     if (previousFocus) {
       previousFocus.focus();
     }
@@ -45,9 +42,8 @@
     image.alt = label;
     if (previewSrc) {
       image.src = previewSrc;
-      status.textContent = "Cargando imagen ampliada...";
     } else {
-      status.textContent = "Cargando imagen...";
+      image.src = link.href;
     }
     caption.textContent = label;
     download.href = link.href;
@@ -61,15 +57,12 @@
         return;
       }
       image.src = link.href;
-      status.textContent = "";
     };
     loader.onerror = () => {
-      if (currentToken !== loadToken) {
+      if (currentToken !== loadToken || previewSrc) {
         return;
       }
-      status.textContent = previewSrc
-        ? "No se ha podido cargar la imagen ampliada. Se muestra la previsualizacion."
-        : "No se ha podido cargar la imagen ampliada.";
+      image.removeAttribute("src");
     };
     loader.src = link.href;
   };

@@ -511,7 +511,7 @@ h3 {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-rows: minmax(0, 1fr) auto;
+  grid-template-rows: minmax(0, 1fr) minmax(60px, auto);
   width: min(1120px, 100%);
   max-height: calc(100vh - 48px);
   overflow: hidden;
@@ -527,22 +527,6 @@ h3 {
   max-height: calc(100vh - 146px);
   object-fit: contain;
   background: #050505;
-}
-
-.lightbox-status {
-  display: grid;
-  min-height: min(58vh, 520px);
-  margin: 0;
-  place-items: center;
-  padding: 24px;
-  background: #050505;
-  color: var(--white);
-  font-weight: 800;
-  text-align: center;
-}
-
-.lightbox-status:empty {
-  display: none;
 }
 
 .lightbox-close {
@@ -572,6 +556,7 @@ h3 {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
+  min-height: 60px;
   padding: 14px 16px;
   background: #111111;
   color: var(--white);
