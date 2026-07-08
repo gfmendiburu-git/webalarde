@@ -38,13 +38,20 @@
   const open = (link) => {
     const thumbnail = link.querySelector("img");
     const label = link.dataset.lightboxTitle || thumbnail?.alt || link.textContent.trim() || "Imagen ampliada";
+    const previewSrc = link.dataset.lightboxPreview || thumbnail?.currentSrc || thumbnail?.src || "";
     const currentToken = loadToken + 1;
     loadToken = currentToken;
     previousFocus = document.activeElement;
-    image.hidden = true;
     image.removeAttribute("src");
     image.alt = label;
-    status.textContent = "Cargando imagen...";
+    image.hidden = false;
+    if (previewSrc) {
+      image.src = previewSrc;
+      status.textContent = "Cargando imagen ampliada...";
+    } else {
+      image.hidden = true;
+      status.textContent = "Cargando imagen...";
+    }
     caption.textContent = label;
     download.href = link.href;
     dialog.hidden = false;
@@ -64,7 +71,9 @@
       if (currentToken !== loadToken) {
         return;
       }
-      status.textContent = "No se ha podido cargar la imagen ampliada.";
+      status.textContent = previewSrc
+        ? "No se ha podido cargar la imagen ampliada. Se muestra la previsualizacion."
+        : "No se ha podido cargar la imagen ampliada.";
     };
     loader.src = link.href;
   };

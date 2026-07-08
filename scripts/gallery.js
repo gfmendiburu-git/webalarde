@@ -13,6 +13,7 @@
     link.href = item.full;
     link.dataset.lightbox = "";
     link.dataset.lightboxTitle = item.title || "Fotografía histórica";
+    link.dataset.lightboxPreview = item.thumb;
 
     const image = document.createElement("img");
     image.src = item.thumb;
