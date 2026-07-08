@@ -510,9 +510,12 @@ h3 {
 .lightbox-panel {
   position: relative;
   z-index: 1;
-  display: grid;
-  grid-template-rows: minmax(0, 1fr) minmax(60px, auto);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: min(1120px, 100%);
+  height: calc(100vh - 48px);
   max-height: calc(100vh - 48px);
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -523,8 +526,11 @@ h3 {
 
 .lightbox-image {
   display: block;
-  width: 100%;
-  max-height: calc(100vh - 146px);
+  flex: 1 1 auto;
+  width: auto;
+  max-width: 100%;
+  min-height: 0;
+  max-height: calc(100vh - 132px);
   object-fit: contain;
   background: #050505;
 }
@@ -552,6 +558,7 @@ h3 {
 }
 
 .lightbox-footer {
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -712,11 +719,12 @@ code {
   }
 
   .lightbox-panel {
+    height: calc(100vh - 28px);
     max-height: calc(100vh - 28px);
   }
 
   .lightbox-image {
-    max-height: calc(100vh - 158px);
+    max-height: calc(100vh - 172px);
   }
 
   .lightbox-footer {
