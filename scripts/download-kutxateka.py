@@ -107,13 +107,29 @@ def extract_date(page_html: str) -> str:
     return strip_tags(match.group(1)) if match else ""
 
 
-def extract_image_url(page_html: str) -> str:
+def extract_image_urls(page_html: str) -> list[str]:
+    download_urls = re.findall(
+        r"<a\b[^>]*\bdownload\b[^>]*\bhref=['\"](https://kutxateka\.eus/media/images/[^'\"]+?_original\.(?:jpg|jpeg|png))['\"]",
+        page_html,
+        flags=re.IGNORECASE,
+    )
+    if download_urls:
+        return [html.unescape(url) for url in unique(download_urls)]
+
     urls = re.findall(
         r"https://kutxateka\.eus/media/images/[^'\"\s<>]+?_original\.(?:jpg|jpeg|png)",
         page_html,
         flags=re.IGNORECASE,
     )
-    return html.unescape(unique(urls)[0]) if urls else ""
+    return [html.unescape(url) for url in unique(urls)]
+
+
+def filename_for_image(object_id: str, title: str, image_url: str, image_index: int, image_count: int) -> str:
+    suffix = extension_from_url(image_url)
+    base = safe_filename(title)
+    if image_count == 1:
+        return f"{object_id}-{base}{suffix}"
+    return f"{object_id}-{image_index:03d}-{base}{suffix}"
 
 
 def extension_from_url(url: str) -> str:
@@ -240,6 +256,8 @@ def main() -> int:
             "license",
             "attribution",
             "detail_url",
+            "image_index",
+            "image_count",
             "image_url",
             "file",
         ]
@@ -256,40 +274,69 @@ def main() -> int:
 
             object_id = extract_object_id(detail_url)
             title = extract_title(page_html)
-            image_url = extract_image_url(page_html)
+            image_urls = extract_image_urls(page_html)
             photographer = extract_field(page_html, ["ARGAZKILARIA", "Argazkilaria", "AUTOR", "Autor"])
             studio = extract_field(page_html, ["ESTUDIOA", "Estudioa", "ESTUDIO", "Estudio"])
             archive = extract_field(page_html, ["Artxiboa", "ARCHIVO", "Archivo"])
             date = extract_date(page_html)
 
-            filename = ""
-            if image_url:
-                filename = f"{object_id}-{safe_filename(title)}{extension_from_url(image_url)}"
-                destination = images_dir / filename
-                if not destination.exists():
-                    try:
-                        time.sleep(args.delay)
-                        download_file(opener, image_url, destination)
-                    except (HTTPError, URLError, TimeoutError) as exc:
-                        print(f"  Error descargando imagen: {exc}", file=sys.stderr)
-                        filename = ""
-            else:
+            if not image_urls:
                 print("  Sin URL de imagen original.", file=sys.stderr)
+                row = {
+                    "object_id": object_id,
+                    "title": title,
+                    "date": date,
+                    "photographer": photographer,
+                    "studio": studio,
+                    "archive": archive,
+                    "license": LICENSE,
+                    "detail_url": detail_url,
+                    "image_index": "",
+                    "image_count": "0",
+                    "image_url": "",
+                    "file": "",
+                }
+                row["attribution"] = build_attribution(row)
+                writer.writerow(row)
+                csv_file.flush()
+            else:
+                if len(image_urls) > 1:
+                    print(f"  {len(image_urls)} imagenes en la ficha.", file=sys.stderr)
 
-            row = {
-                "object_id": object_id,
-                "title": title,
-                "date": date,
-                "photographer": photographer,
-                "studio": studio,
-                "archive": archive,
-                "license": LICENSE,
-                "detail_url": detail_url,
-                "image_url": image_url,
-                "file": f"images/{filename}" if filename else "",
-            }
-            row["attribution"] = build_attribution(row)
-            writer.writerow(row)
+                for image_index, image_url in enumerate(image_urls, start=1):
+                    filename = filename_for_image(object_id, title, image_url, image_index, len(image_urls))
+                    legacy_filename = f"{object_id}-{safe_filename(title)}{extension_from_url(image_url)}"
+                    destination = images_dir / filename
+                    legacy_destination = images_dir / legacy_filename
+
+                    if image_index == 1 and legacy_destination.exists() and not destination.exists():
+                        filename = legacy_filename
+                        destination = legacy_destination
+
+                    if not destination.exists():
+                        try:
+                            time.sleep(args.delay)
+                            download_file(opener, image_url, destination)
+                        except (HTTPError, URLError, TimeoutError) as exc:
+                            print(f"  Error descargando imagen {image_index}: {exc}", file=sys.stderr)
+                            filename = ""
+
+                    row = {
+                        "object_id": object_id,
+                        "title": title,
+                        "date": date,
+                        "photographer": photographer,
+                        "studio": studio,
+                        "archive": archive,
+                        "license": LICENSE,
+                        "detail_url": detail_url,
+                        "image_index": str(image_index),
+                        "image_count": str(len(image_urls)),
+                        "image_url": image_url,
+                        "file": f"images/{filename}" if filename else "",
+                    }
+                    row["attribution"] = build_attribution(row)
+                    writer.writerow(row)
             csv_file.flush()
 
             if index < len(detail_urls):
