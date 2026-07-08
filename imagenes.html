@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Galería histórica del Alarde de San Marcial de Irun con imágenes procedentes de Kutxa Fundazioa Fototeka."
+    >
+    <title>El Alarde en imágenes | Alarde de San Marcial</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Inicio">
+        <span class="brand-mark">SM</span>
+        <span>Alarde de San Marcial</span>
+      </a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="historia.html">Historia</a>
+        <a aria-current="page" href="imagenes.html">Imágenes</a>
+        <a href="recorrido.html">Recorrido</a>
+        <a href="contexto.html">Contexto</a>
+        <a href="descargas.html">Descargas</a>
+        <a href="enlaces.html">Enlaces</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Archivo visual</p>
+        <h1>El Alarde en imágenes</h1>
+        <p>
+          Selección documental de fotografías históricas procedentes de Kutxa Fundazioa Fototeka,
+          preparadas para consulta web y acompañadas de su atribución.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Galería</p>
+          <h2>Fotografías optimizadas para web</h2>
+        </div>
+        <div class="gallery-toolbar" aria-label="Filtros de galería">
+          <label>
+            <span>Año</span>
+            <select id="gallery-year-filter">
+              <option value="todos">Todos</option>
+            </select>
+          </label>
+          <p id="gallery-count" aria-live="polite"></p>
+        </div>
+        <div id="image-gallery" class="image-gallery" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Imágenes: Kutxa Fundazioa Fototeka. Revisa cada ficha original para ampliar la información
+        documental, condiciones de uso y atribución completa.
+      </p>
+    </footer>
+
+    <script src="scripts/gallery.js" defer></script>
+  </body>
+</html>

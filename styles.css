@@ -388,6 +388,102 @@ h3 {
   font-size: 0.76rem;
 }
 
+.gallery-toolbar,
+.image-gallery {
+  max-width: 1120px;
+  margin-inline: auto;
+}
+
+.gallery-toolbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 22px;
+}
+
+.gallery-toolbar label {
+  display: grid;
+  gap: 8px;
+  color: var(--muted-ink);
+  font-size: 0.82rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.gallery-toolbar select {
+  min-width: 150px;
+  min-height: 42px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--white);
+  color: var(--ink);
+  font: inherit;
+  text-transform: none;
+}
+
+.gallery-toolbar p {
+  margin: 0;
+  color: var(--muted-ink);
+  font-weight: 800;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.image-card {
+  display: grid;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.image-card:hover {
+  border-color: rgba(176, 0, 32, 0.45);
+  transform: translateY(-2px);
+}
+
+.image-card img {
+  width: 100%;
+  aspect-ratio: 13 / 9;
+  object-fit: cover;
+  background: var(--soft);
+}
+
+.image-card span {
+  display: grid;
+  gap: 6px;
+  min-height: 108px;
+  padding: 12px 14px;
+}
+
+.image-card strong {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 0.92rem;
+  line-height: 1.25;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.image-card small {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--muted-ink);
+  font-size: 0.78rem;
+  line-height: 1.35;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
 code {
   padding: 2px 6px;
   border-radius: 5px;
@@ -491,8 +587,14 @@ code {
   .feature-list,
   .download-grid,
   .wallpaper-grid,
+  .image-gallery,
   .link-grid {
     grid-template-columns: 1fr;
+  }
+
+  .gallery-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .download-panel {

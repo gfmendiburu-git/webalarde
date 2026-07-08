@@ -17,3 +17,4 @@
 - Comprobar el estado de Git antes de commitear y publicar cambios con mensajes de commit claros.
 - No depender de symlinks para publicar archivos en GitHub Pages. Si las descargas viven fuera del repositorio, sincronizarlas antes con `scripts/sync-downloads.sh`.
 - Para materiales de terceros, conservar fuente, licencia y atribución. No incorporar imágenes externas al sitio sin revisar permisos y metadatos.
+- Mantener intactas las imágenes originales de archivo fuera del sitio publicado. Para GitHub Pages, publicar copias optimizadas y regenerables junto con sus metadatos.
