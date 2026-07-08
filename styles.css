@@ -529,10 +529,6 @@ h3 {
   background: #050505;
 }
 
-.lightbox-image[hidden] {
-  display: none;
-}
-
 .lightbox-status {
   display: grid;
   min-height: min(58vh, 520px);

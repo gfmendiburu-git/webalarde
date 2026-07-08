@@ -28,7 +28,6 @@
     dialog.hidden = true;
     document.body.classList.remove("has-lightbox");
     image.removeAttribute("src");
-    image.hidden = true;
     status.textContent = "";
     if (previousFocus) {
       previousFocus.focus();
@@ -44,12 +43,10 @@
     previousFocus = document.activeElement;
     image.removeAttribute("src");
     image.alt = label;
-    image.hidden = false;
     if (previewSrc) {
       image.src = previewSrc;
       status.textContent = "Cargando imagen ampliada...";
     } else {
-      image.hidden = true;
       status.textContent = "Cargando imagen...";
     }
     caption.textContent = label;
@@ -64,7 +61,6 @@
         return;
       }
       image.src = link.href;
-      image.hidden = false;
       status.textContent = "";
     };
     loader.onerror = () => {
