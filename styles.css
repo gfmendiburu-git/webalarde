@@ -57,18 +57,6 @@ a {
   white-space: nowrap;
 }
 
-.brand-mark {
-  display: inline-grid;
-  place-items: center;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: var(--accent);
-  color: var(--white);
-  font-size: 0.82rem;
-  letter-spacing: 0;
-}
-
 .site-nav {
   display: flex;
   align-items: center;
