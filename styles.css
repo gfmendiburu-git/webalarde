@@ -53,9 +53,8 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
+  gap: 10px;
+  min-width: 0;
   border: 1px solid transparent;
   border-radius: 8px;
   color: var(--ink);
@@ -67,14 +66,49 @@ a {
   color: var(--accent-dark);
 }
 
-.brand-icon {
-  width: 24px;
-  height: 24px;
+.brand-mark {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+}
+
+.brand-mark-fill {
+  fill: var(--accent);
+}
+
+.brand-mark-stroke {
   fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
+  stroke: var(--black);
+  stroke-width: 4;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.brand-mark-cut {
+  fill: none;
+  stroke: var(--white);
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.brand-copy {
+  display: grid;
+  gap: 0;
+  line-height: 1.05;
+}
+
+.brand-copy strong {
+  color: var(--ink);
+  font-size: 1.02rem;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.brand-copy small {
+  color: var(--muted-ink);
+  font-size: 0.78rem;
+  font-weight: 650;
 }
 
 .site-nav {
