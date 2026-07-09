@@ -21,6 +21,13 @@
   let previousFocus = null;
   let loadToken = 0;
 
+  const truncate = (text, maxLength = 110) => {
+    const normalized = text.replace(/\s+/g, " ").trim();
+    return normalized.length > maxLength
+      ? `${normalized.slice(0, maxLength - 1)}...`
+      : normalized;
+  };
+
   const close = () => {
     loadToken += 1;
     dialog.classList.remove("is-open");
@@ -34,7 +41,7 @@
 
   const open = (link) => {
     const thumbnail = link.querySelector("img");
-    const label = link.dataset.lightboxTitle || thumbnail?.alt || link.textContent.trim() || "Imagen ampliada";
+    const label = truncate(link.dataset.lightboxTitle || thumbnail?.alt || link.textContent || "Imagen ampliada");
     const previewSrc = link.dataset.lightboxPreview || thumbnail?.currentSrc || thumbnail?.src || "";
     const currentToken = loadToken + 1;
     loadToken = currentToken;
