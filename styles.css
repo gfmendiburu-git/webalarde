@@ -701,9 +701,11 @@ code {
 }
 
 .link-grid a {
-  display: block;
-  min-height: 148px;
-  padding: 24px;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  min-height: 270px;
+  overflow: hidden;
+  padding: 0 0 22px;
   border-radius: 8px;
   color: var(--ink);
   font-weight: 800;
@@ -711,19 +713,39 @@ code {
 }
 
 .link-grid a:hover {
-  background: var(--accent);
   border-color: rgba(176, 0, 32, 0.45);
-  color: var(--white);
+  color: var(--accent-dark);
   transform: translateY(-2px);
 }
 
 .link-grid a:hover span {
-  color: rgba(255, 255, 255, 0.84);
+  color: var(--muted-ink);
+}
+
+.link-grid img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--soft);
+}
+
+.link-grid .link-card-logo {
+  object-fit: contain;
+  padding: 18px;
+  background: #f7f7f7;
+}
+
+.link-grid strong {
+  display: block;
+  padding: 20px 22px 0;
+  font-size: 1.1rem;
+  line-height: 1.2;
 }
 
 .link-grid span {
   display: block;
-  margin-top: 12px;
+  margin-top: 10px;
+  padding: 0 22px;
   font-weight: 500;
 }
 
