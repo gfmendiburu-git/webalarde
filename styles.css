@@ -702,8 +702,8 @@ code {
 
 .link-grid a {
   display: grid;
-  grid-template-rows: auto auto 1fr;
-  min-height: 270px;
+  grid-template-rows: 168px auto 1fr;
+  min-height: 326px;
   overflow: hidden;
   padding: 0 0 22px;
   border-radius: 8px;
@@ -724,7 +724,7 @@ code {
 
 .link-grid img {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 168px;
   object-fit: cover;
   background: var(--soft);
 }
@@ -747,6 +747,7 @@ code {
   margin-top: 10px;
   padding: 0 22px;
   font-weight: 500;
+  line-height: 1.45;
 }
 
 .site-footer {
