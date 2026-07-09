@@ -23,6 +23,7 @@
 
   const close = () => {
     loadToken += 1;
+    dialog.classList.remove("is-open");
     dialog.hidden = true;
     document.body.classList.remove("has-lightbox");
     image.removeAttribute("src");
@@ -49,6 +50,11 @@
     download.href = link.href;
     dialog.hidden = false;
     document.body.classList.add("has-lightbox");
+    requestAnimationFrame(() => {
+      if (currentToken === loadToken) {
+        dialog.classList.add("is-open");
+      }
+    });
     dialog.querySelector(".lightbox-close").focus();
 
     const loader = new Image();
