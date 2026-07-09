@@ -68,28 +68,9 @@ a {
 
 .brand-mark {
   flex: 0 0 auto;
-  width: 48px;
-  height: 48px;
-}
-
-.brand-mark-fill {
-  fill: var(--accent);
-}
-
-.brand-mark-stroke {
-  fill: none;
-  stroke: var(--black);
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.brand-mark-cut {
-  fill: none;
-  stroke: var(--white);
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+  width: 38px;
+  height: 42px;
+  object-fit: contain;
 }
 
 .brand-copy {
