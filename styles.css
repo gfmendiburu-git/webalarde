@@ -417,8 +417,9 @@ h3 {
 }
 
 .gallery-toolbar label {
-  display: grid;
-  gap: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   color: var(--muted-ink);
   font-size: 0.82rem;
   font-weight: 850;
