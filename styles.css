@@ -859,7 +859,7 @@ code {
 }
 
 .coming-soon {
-  width: min(680px, 100%);
+  width: min(760px, 100%);
   color: var(--white);
 }
 
@@ -869,10 +869,19 @@ code {
   margin-bottom: 28px;
 }
 
+.coming-soon-art {
+  display: block;
+  width: min(520px, 92vw);
+  max-height: min(48vh, 520px);
+  object-fit: contain;
+  object-position: left bottom;
+  margin: 0 0 28px;
+}
+
 .coming-soon h1 {
   margin: 0;
   font-family: var(--title-font);
-  font-size: clamp(3rem, 8vw, 6rem);
+  font-size: clamp(2.8rem, 7vw, 5.4rem);
   line-height: 0.95;
 }
 
