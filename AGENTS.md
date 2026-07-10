@@ -6,6 +6,7 @@
 - Se pueden usar variaciones de opacidad o grises neutros solo cuando sean necesarias para legibilidad, bordes, fondos secundarios o estados interactivos.
 - No introducir nuevos colores principales sin actualizar antes este archivo.
 - Las imágenes fotográficas o ilustrativas pueden conservar su color original si aportan contexto visual y no sustituyen a la paleta principal de la interfaz.
+- Usar `assets/logo-san-marcial-dark.svg` en la web normal sobre fondos claros y `assets/logo-san-marcial-light.svg` sobre fondos oscuros o en la pantalla de mantenimiento.
 
 ## Buenas prácticas
 
