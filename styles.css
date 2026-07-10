@@ -725,7 +725,8 @@ code {
 .link-grid img {
   width: 100%;
   height: 168px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   background: var(--soft);
 }
 
