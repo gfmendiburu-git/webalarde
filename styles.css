@@ -94,6 +94,7 @@ a {
 
 .site-nav {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
   gap: clamp(10px, 2vw, 22px);
