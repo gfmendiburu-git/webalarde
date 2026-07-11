@@ -1,14 +1,12 @@
 (function () {
   const modeInputs = document.querySelectorAll("[name='cantinera-view']");
-  const yearSelect = document.querySelector("#cantinera-year");
-  const companySelect = document.querySelector("#cantinera-company");
-  const yearControl = document.querySelector("#cantinera-year-control");
-  const companyControl = document.querySelector("#cantinera-company-control");
+  const filterLabel = document.querySelector("#cantinera-filter-label");
+  const filterSelect = document.querySelector("#cantinera-filter");
   const resultTitle = document.querySelector("#cantinera-result-title");
   const resultMeta = document.querySelector("#cantinera-result-meta");
   const resultBody = document.querySelector("#cantinera-results");
 
-  if (!modeInputs.length || !yearSelect || !companySelect || !resultBody) {
+  if (!modeInputs.length || !filterLabel || !filterSelect || !resultBody) {
     return;
   }
 
@@ -20,6 +18,11 @@
   const currentMode = () => {
     const checked = document.querySelector("[name='cantinera-view']:checked");
     return checked ? checked.value : "year";
+  };
+
+  const selected = {
+    year: "",
+    company: "",
   };
 
   const sourceLink = (entry) => {
@@ -78,13 +81,24 @@
     return table;
   };
 
+  const setFilterOptions = (items, value) => {
+    const fragment = document.createDocumentFragment();
+    items.forEach((item) => {
+      const option = document.createElement("option");
+      option.value = item;
+      option.textContent = item;
+      fragment.append(option);
+    });
+    filterSelect.replaceChildren(fragment);
+    filterSelect.value = items.includes(value) ? value : items[items.length - 1];
+  };
+
   const render = (data) => {
     const mode = currentMode();
-    yearControl.hidden = mode !== "year";
-    companyControl.hidden = mode !== "company";
 
     if (mode === "year") {
-      const year = Number(yearSelect.value);
+      const year = Number(filterSelect.value);
+      selected.year = filterSelect.value;
       const entries = data.entries
         .filter((entry) => entry.year === year)
         .sort((a, b) => byCompany(a.company, b.company));
@@ -98,7 +112,8 @@
       return;
     }
 
-    const company = companySelect.value;
+    const company = filterSelect.value;
+    selected.company = company;
     const entries = data.entries
       .filter((entry) => entry.company === company)
       .sort((a, b) => byYear(a.year, b.year));
@@ -111,31 +126,30 @@
     ]));
   };
 
+  const updateMode = (data, years, companies) => {
+    const mode = currentMode();
+    if (mode === "year") {
+      filterLabel.textContent = "Año";
+      setFilterOptions(years, selected.year);
+    } else {
+      filterLabel.textContent = "Compañía";
+      setFilterOptions(companies, selected.company);
+    }
+    render(data);
+  };
+
   fetch("data/cantineras.json?v=1")
     .then((response) => response.json())
     .then((data) => {
-      const years = [...new Set(data.entries.map((entry) => entry.year))].sort(byYear);
+      const years = [...new Set(data.entries.map((entry) => String(entry.year)))].sort(byYear);
       const companies = [...new Set(data.entries.map((entry) => entry.company))].sort(byCompany);
 
-      years.forEach((year) => {
-        const option = document.createElement("option");
-        option.value = year;
-        option.textContent = year;
-        yearSelect.append(option);
-      });
-      yearSelect.value = years[years.length - 1];
+      selected.year = years[years.length - 1];
+      selected.company = companies[0];
 
-      companies.forEach((company) => {
-        const option = document.createElement("option");
-        option.value = company;
-        option.textContent = company;
-        companySelect.append(option);
-      });
-
-      modeInputs.forEach((input) => input.addEventListener("change", () => render(data)));
-      yearSelect.addEventListener("change", () => render(data));
-      companySelect.addEventListener("change", () => render(data));
-      render(data);
+      modeInputs.forEach((input) => input.addEventListener("change", () => updateMode(data, years, companies)));
+      filterSelect.addEventListener("change", () => render(data));
+      updateMode(data, years, companies);
     })
     .catch(() => {
       resultTitle.textContent = "No se ha podido cargar el listado";
