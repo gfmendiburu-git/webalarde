@@ -593,6 +593,75 @@ a {
   overflow-x: auto;
 }
 
+.cantineras-results {
+  padding: 18px;
+}
+
+.cantineras-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 16px;
+}
+
+.cantinera-card {
+  display: grid;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
+}
+
+.cantinera-card-photo {
+  margin: 0;
+  aspect-ratio: 3 / 4;
+  background: var(--soft);
+}
+
+.cantinera-card-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cantinera-card-content {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+}
+
+.cantinera-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  color: var(--muted-ink);
+  font-size: 0.78rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.cantinera-card h4 {
+  min-height: 3.2em;
+  margin: 0;
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.cantinera-card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 28px;
+}
+
+.cantinera-card-actions a {
+  color: var(--accent-dark);
+  font-weight: 850;
+}
+
 .cantineras-table {
   width: 100%;
   min-width: 620px;

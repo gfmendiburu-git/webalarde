@@ -5,6 +5,7 @@
   const resultTitle = document.querySelector("#cantinera-result-title");
   const resultMeta = document.querySelector("#cantinera-result-meta");
   const resultBody = document.querySelector("#cantinera-results");
+  const defaultPhoto = "assets/cantineras/cantinera-generica.webp";
 
   if (!modeInputs.length || !filterLabel || !filterSelect || !resultBody) {
     return;
@@ -41,44 +42,59 @@
     return badge;
   };
 
-  const renderTable = (entries, columns) => {
-    const table = document.createElement("table");
-    table.className = "cantineras-table";
+  const createMeta = (label, value) => {
+    const item = document.createElement("span");
+    item.className = "cantinera-card-meta-item";
+    item.textContent = `${label}: ${value}`;
+    return item;
+  };
 
-    const thead = document.createElement("thead");
-    const headRow = document.createElement("tr");
-    columns.forEach((column) => {
-      const th = document.createElement("th");
-      th.textContent = column.label;
-      headRow.append(th);
-    });
-    thead.append(headRow);
+  const renderCards = (entries, mode) => {
+    const grid = document.createElement("div");
+    grid.className = "cantineras-card-grid";
 
-    const tbody = document.createElement("tbody");
     entries.forEach((entry) => {
-      const row = document.createElement("tr");
-      columns.forEach((column) => {
-        const cell = document.createElement("td");
-        if (column.key === "name") {
-          const name = document.createElement("strong");
-          name.textContent = entry.name;
-          cell.append(name);
-          if (entry.needs_review) {
-            cell.append(" ");
-            cell.append(reviewBadge());
-          }
-        } else if (column.key === "source") {
-          cell.append(sourceLink(entry));
-        } else {
-          cell.textContent = entry[column.key];
-        }
-        row.append(cell);
-      });
-      tbody.append(row);
+      const card = document.createElement("article");
+      card.className = "cantinera-card";
+
+      const figure = document.createElement("figure");
+      figure.className = "cantinera-card-photo";
+
+      const image = document.createElement("img");
+      image.src = entry.photo || defaultPhoto;
+      image.alt = `Imagen genérica de cantinera para ${entry.name}`;
+      image.loading = "lazy";
+      image.width = 600;
+      image.height = 800;
+      figure.append(image);
+
+      const content = document.createElement("div");
+      content.className = "cantinera-card-content";
+
+      const meta = document.createElement("div");
+      meta.className = "cantinera-card-meta";
+      if (mode === "year") {
+        meta.append(createMeta("Compañía", entry.company));
+      } else {
+        meta.append(createMeta("Año", entry.year));
+      }
+
+      const name = document.createElement("h4");
+      name.textContent = entry.name;
+
+      const actions = document.createElement("div");
+      actions.className = "cantinera-card-actions";
+      actions.append(sourceLink(entry));
+      if (entry.needs_review) {
+        actions.append(reviewBadge());
+      }
+
+      content.append(meta, name, actions);
+      card.append(figure, content);
+      grid.append(card);
     });
 
-    table.append(thead, tbody);
-    return table;
+    return grid;
   };
 
   const setFilterOptions = (items, value) => {
@@ -104,11 +120,7 @@
         .sort((a, b) => byCompany(a.company, b.company));
       resultTitle.textContent = `Cantineras de ${year}`;
       resultMeta.textContent = `${entries.length} registros localizados`;
-      resultBody.replaceChildren(renderTable(entries, [
-        { key: "company", label: "Compañía" },
-        { key: "name", label: "Cantinera" },
-        { key: "source", label: "Referencia" },
-      ]));
+      resultBody.replaceChildren(renderCards(entries, mode));
       return;
     }
 
@@ -119,11 +131,7 @@
       .sort((a, b) => byYear(a.year, b.year));
     resultTitle.textContent = company;
     resultMeta.textContent = `${entries.length} años con registro localizado`;
-    resultBody.replaceChildren(renderTable(entries, [
-      { key: "year", label: "Año" },
-      { key: "name", label: "Cantinera" },
-      { key: "source", label: "Referencia" },
-    ]));
+    resultBody.replaceChildren(renderCards(entries, mode));
   };
 
   const updateMode = (data, years, companies) => {
