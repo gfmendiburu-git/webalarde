@@ -79,7 +79,7 @@
     count.textContent = `${filtered.length} imágenes`;
   };
 
-  fetch("data/alarde-imagenes.json")
+  fetch("data/alarde-imagenes.json?v=2")
     .then((response) => response.json())
     .then((items) => {
       const years = [...new Set(items.map((item) => item.year || "sin-fecha"))].sort((a, b) => {

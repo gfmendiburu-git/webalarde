@@ -51,14 +51,14 @@ def build_rows(mod, opener, detail_url: str, images_dir: Path, delay: float) -> 
     page_html = mod.fetch_text(opener, detail_url)
     object_id = mod.extract_object_id(detail_url)
     title = mod.extract_title(page_html)
-    image_urls = mod.extract_image_urls(page_html)
+    image_records = mod.extract_image_records(page_html, detail_url)
     photographer = mod.extract_field(page_html, ["ARGAZKILARIA", "Argazkilaria", "AUTOR", "Autor"])
     studio = mod.extract_field(page_html, ["ESTUDIOA", "Estudioa", "ESTUDIO", "Estudio"])
     archive = mod.extract_field(page_html, ["Artxiboa", "ARCHIVO", "Archivo"])
     date = mod.extract_date(page_html)
     rows: list[dict[str, str]] = []
 
-    if not image_urls:
+    if not image_records:
         row = {
             "object_id": object_id,
             "title": title,
@@ -76,11 +76,12 @@ def build_rows(mod, opener, detail_url: str, images_dir: Path, delay: float) -> 
         row["attribution"] = mod.build_attribution(row)
         return [row]
 
-    if len(image_urls) > 1:
-        print(f"  {len(image_urls)} imagenes en la ficha.", file=sys.stderr)
+    if len(image_records) > 1:
+        print(f"  {len(image_records)} imagenes en la ficha.", file=sys.stderr)
 
-    for image_index, image_url in enumerate(image_urls, start=1):
-        filename = mod.filename_for_image(object_id, title, image_url, image_index, len(image_urls))
+    for image_index, image_record in enumerate(image_records, start=1):
+        image_url = image_record["image_url"]
+        filename = mod.filename_for_image(object_id, title, image_url, image_index, len(image_records))
         destination = images_dir / filename
 
         if not destination.exists():
@@ -95,12 +96,13 @@ def build_rows(mod, opener, detail_url: str, images_dir: Path, delay: float) -> 
             "studio": studio,
             "archive": archive,
             "license": mod.LICENSE,
-            "detail_url": detail_url,
+            "detail_url": image_record["detail_url"],
             "image_index": str(image_index),
-            "image_count": str(len(image_urls)),
+            "image_count": str(len(image_records)),
             "image_url": image_url,
             "file": f"images/{filename}",
         }
+        row["object_id"] = image_record["object_id"]
         row["attribution"] = mod.build_attribution(row)
         rows.append(row)
 

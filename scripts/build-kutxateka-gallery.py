@@ -98,6 +98,7 @@ def main() -> int:
             "detail_url": row["detail_url"],
             "image_index": row["image_index"],
             "image_count": row["image_count"],
+            "image_url": row.get("image_url", ""),
             "full": paths["full"],
             "thumb": paths["thumb"],
         }

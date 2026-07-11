@@ -124,6 +124,44 @@ def extract_image_urls(page_html: str) -> list[str]:
     return [html.unescape(url) for url in unique(urls)]
 
 
+def extract_media_id(url: str) -> str:
+    match = re.search(r"_media_(\d+)_", url)
+    return match.group(1) if match else ""
+
+
+def extract_image_records(page_html: str, fallback_detail_url: str) -> list[dict[str, str]]:
+    image_urls = extract_image_urls(page_html)
+    linked_details: dict[str, dict[str, str]] = {}
+
+    for match in re.finditer(
+        r"(?is)<a\s+href=['\"](/index\.php/Detail/objects/(\d+))['\"]>\s*"
+        r"<div\s+class=['\"]mediaSlide['\"]\s+id=['\"]img\d+['\"]>\s*"
+        r"<img\s+src=['\"](https://kutxateka\.eus/media/images/[^'\"]+?)['\"]",
+        page_html,
+    ):
+        media_id = extract_media_id(match.group(3))
+        if media_id:
+            linked_details[media_id] = {
+                "object_id": match.group(2),
+                "detail_url": urljoin(BASE_URL, match.group(1)),
+            }
+
+    records: list[dict[str, str]] = []
+    fallback_object_id = extract_object_id(fallback_detail_url)
+    for image_url in image_urls:
+        media_id = extract_media_id(image_url)
+        detail = linked_details.get(media_id, {})
+        records.append(
+            {
+                "image_url": image_url,
+                "object_id": detail.get("object_id", fallback_object_id),
+                "detail_url": detail.get("detail_url", fallback_detail_url),
+            }
+        )
+
+    return records
+
+
 def filename_for_image(object_id: str, title: str, image_url: str, image_index: int, image_count: int) -> str:
     suffix = extension_from_url(image_url)
     base = safe_filename(title)
@@ -274,13 +312,13 @@ def main() -> int:
 
             object_id = extract_object_id(detail_url)
             title = extract_title(page_html)
-            image_urls = extract_image_urls(page_html)
+            image_records = extract_image_records(page_html, detail_url)
             photographer = extract_field(page_html, ["ARGAZKILARIA", "Argazkilaria", "AUTOR", "Autor"])
             studio = extract_field(page_html, ["ESTUDIOA", "Estudioa", "ESTUDIO", "Estudio"])
             archive = extract_field(page_html, ["Artxiboa", "ARCHIVO", "Archivo"])
             date = extract_date(page_html)
 
-            if not image_urls:
+            if not image_records:
                 print("  Sin URL de imagen original.", file=sys.stderr)
                 row = {
                     "object_id": object_id,
@@ -300,11 +338,12 @@ def main() -> int:
                 writer.writerow(row)
                 csv_file.flush()
             else:
-                if len(image_urls) > 1:
-                    print(f"  {len(image_urls)} imagenes en la ficha.", file=sys.stderr)
+                if len(image_records) > 1:
+                    print(f"  {len(image_records)} imagenes en la ficha.", file=sys.stderr)
 
-                for image_index, image_url in enumerate(image_urls, start=1):
-                    filename = filename_for_image(object_id, title, image_url, image_index, len(image_urls))
+                for image_index, image_record in enumerate(image_records, start=1):
+                    image_url = image_record["image_url"]
+                    filename = filename_for_image(object_id, title, image_url, image_index, len(image_records))
                     legacy_filename = f"{object_id}-{safe_filename(title)}{extension_from_url(image_url)}"
                     destination = images_dir / filename
                     legacy_destination = images_dir / legacy_filename
@@ -329,12 +368,13 @@ def main() -> int:
                         "studio": studio,
                         "archive": archive,
                         "license": LICENSE,
-                        "detail_url": detail_url,
+                        "detail_url": image_record["detail_url"],
                         "image_index": str(image_index),
-                        "image_count": str(len(image_urls)),
+                        "image_count": str(len(image_records)),
                         "image_url": image_url,
                         "file": f"images/{filename}" if filename else "",
                     }
+                    row["object_id"] = image_record["object_id"]
                     row["attribution"] = build_attribution(row)
                     writer.writerow(row)
             csv_file.flush()
