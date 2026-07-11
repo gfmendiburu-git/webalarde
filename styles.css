@@ -97,15 +97,28 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  gap: clamp(10px, 2vw, 22px);
+  column-gap: clamp(10px, 1.8vw, 18px);
+  row-gap: 10px;
   color: var(--muted-ink);
   font-size: 0.94rem;
   font-weight: 650;
 }
 
 .site-nav a {
+  position: relative;
   border-bottom: 2px solid transparent;
   text-decoration: none;
+}
+
+.site-nav a + a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(clamp(10px, 1.8vw, 18px) / -2);
+  width: 1px;
+  height: 1.05em;
+  background: rgba(176, 0, 32, 0.24);
+  transform: translateY(-50%);
 }
 
 .site-nav a:hover,
@@ -805,6 +818,7 @@ code {
   .site-nav {
     width: 100%;
     justify-content: flex-start;
+    flex-wrap: nowrap;
     overflow-x: auto;
     padding-bottom: 4px;
   }
