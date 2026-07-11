@@ -104,13 +104,39 @@ a {
   font-weight: 650;
 }
 
-.site-nav a {
+.site-nav > * {
+  position: relative;
+}
+
+.site-nav a,
+.site-nav summary {
   position: relative;
   border-bottom: 2px solid transparent;
+  color: inherit;
+  list-style: none;
   text-decoration: none;
 }
 
-.site-nav a + a::before {
+.site-nav summary {
+  cursor: pointer;
+}
+
+.site-nav summary::-webkit-details-marker {
+  display: none;
+}
+
+.site-nav summary::after {
+  content: "";
+  display: inline-block;
+  width: 0.42em;
+  height: 0.42em;
+  margin-left: 0.45em;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-0.16em) rotate(45deg);
+}
+
+.site-nav > * + *::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -122,8 +148,47 @@ a {
 }
 
 .site-nav a:hover,
-.site-nav a[aria-current="page"] {
+.site-nav a[aria-current="page"],
+.nav-dropdown[open] > summary,
+.nav-dropdown.is-current > summary,
+.nav-dropdown > summary:hover {
   border-bottom-color: var(--accent);
+  color: var(--accent-dark);
+}
+
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  z-index: 20;
+  display: grid;
+  min-width: 250px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.16);
+}
+
+.nav-dropdown:not([open]) .nav-dropdown-menu {
+  display: none;
+}
+
+.nav-dropdown-menu a {
+  padding: 10px 12px;
+  border-bottom: 0;
+  border-radius: 6px;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.nav-dropdown-menu a:hover,
+.nav-dropdown-menu a[aria-current="page"] {
+  background: rgba(176, 0, 32, 0.08);
   color: var(--accent-dark);
 }
 
@@ -818,9 +883,14 @@ code {
   .site-nav {
     width: 100%;
     justify-content: flex-start;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    flex-wrap: wrap;
+    overflow: visible;
     padding-bottom: 4px;
+  }
+
+  .nav-dropdown-menu {
+    right: auto;
+    left: 0;
   }
 
   .hero {
