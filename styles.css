@@ -71,6 +71,8 @@ a {
   width: 42px;
   height: 62px;
   object-fit: contain;
+  transform: scale(1.22);
+  transform-origin: left center;
 }
 
 .brand-copy {
