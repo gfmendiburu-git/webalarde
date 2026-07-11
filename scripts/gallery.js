@@ -52,16 +52,7 @@
     image.loading = "lazy";
     image.decoding = "async";
 
-    const body = document.createElement("span");
-
-    const title = document.createElement("strong");
-    title.textContent = item.title || "Fotografía histórica";
-
-    const meta = document.createElement("small");
-    meta.textContent = [item.date, item.photographer].filter(Boolean).join(" · ");
-
-    body.append(title, meta);
-    link.append(image, body);
+    link.append(image);
 
     const credit = document.createElement("p");
     credit.className = "image-credit";
