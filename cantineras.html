@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Información sobre las cantineras del Alarde de San Marcial de Irun.">
+    <meta name="description" content="Origen y listado histórico de cantineras del Alarde tradicional de San Marcial de Irun.">
     <title>Cantineras | Alarde de San Marcial</title>
-    <link rel="stylesheet" href="styles.css?v=13">
+    <link rel="stylesheet" href="styles.css?v=14">
   </head>
   <body>
     <header class="site-header">
@@ -37,22 +37,110 @@
     <main>
       <section class="page-hero">
         <p class="eyebrow">Cantineras</p>
-        <h1>Cantineras</h1>
+        <h1>Cantineras del Alarde</h1>
         <p>
-          Apartado para reunir información sobre las cantineras, su presencia en el desfile y los
-          datos históricos o actuales que quieras ir incorporando con el tiempo.
+          Origen de la figura de la cantinera en el Alarde tradicional de San Marcial y relación
+          consultable por años y compañías.
         </p>
       </section>
 
       <section class="section">
-        <div class="content-columns">
+        <article class="history-article">
+          <p class="lead">
+            La cantinera es una de las figuras más reconocibles del Alarde de San Marcial. Su papel no
+            puede separarse de la evolución del propio desfile: nace dentro de una fiesta que conserva
+            lenguaje militar, compañías, mandos, música y símbolos locales, pero que con el tiempo se
+            transforma en una ceremonia popular de memoria y representación de Irun.
+          </p>
+
+          <h2>Origen en el Alarde de San Marcial</h2>
           <p>
-            Esta página queda preparada como punto de partida para ordenar información por año,
-            compañía, referencias históricas, imágenes o cualquier otro criterio útil.
+            En el Alarde irunés, la cantinera aparece vinculada a las compañías y cuerpos que forman
+            el desfile. No se trata simplemente de importar una figura militar genérica, sino de
+            adaptarla al ceremonial propio de San Marcial: cada unidad presenta una cantinera elegida
+            por su entorno, situada en un lugar destacado y reconocible por el barril, la banda, el
+            uniforme de la compañía y los saludos durante el recorrido.
           </p>
           <p>
-            Más adelante se puede convertir en una relación organizada, una tabla de consulta o una
-            galería específica con imágenes y descripciones.
+            Las referencias localizadas muestran presencia de cantineras desde finales del siglo XIX.
+            La base documental utilizada para esta página recoge menciones tan antiguas como Natalia
+            Eizaguirre Alzaga en Meaka en 1883, Josefa Antonia Aramburu en la Banda en 1885, Josefa
+            Antonia Arregui en la Banda en 1887 y Joxepa Anttoni Manterola Egiazabal en Ventas en
+            1892. En los primeros años del siglo XX aparecen también referencias para Artillería,
+            Lapice, Behobia, Meaka, Ventas, Tamborrada, Caballería y otras unidades.
+          </p>
+          <p>
+            La evolución por compañías no fue uniforme. Algunas unidades actuales tienen documentación
+            temprana; otras se incorporaron, se reorganizaron o recuperaron información con el tiempo.
+            La Compañía Behobia, por ejemplo, se vincula en la fuente consultada a la segregación del
+            barrio Bidasoa y a la creación de la compañía en 1888, con Casilda Olazabal como primera
+            cantinera documentada en 1910. La Compañía Santiago aparece como unidad que desfila por
+            primera vez en 1930, con Marcela Inciarte como primera cantinera. En Artillería se recoge
+            además un cambio visual relevante: hasta 1958 las cantineras desfilaron sentadas en el
+            armón y desde 1959 comenzaron a participar a caballo.
+          </p>
+          <p>
+            La relación siguiente se limita al Alarde tradicional de San Marcial de Irun. Se han
+            excluido los registros que en la fuente mencionan Hondarribia o compañías no verificadas
+            como propias de Irun. Algunas entradas aparecen marcadas como “Revisar” cuando la fuente
+            ofrece variantes del nombre o más de una mención para el mismo año y compañía.
+          </p>
+        </article>
+      </section>
+
+      <section class="section muted">
+        <div class="cantineras-browser">
+          <div class="section-heading">
+            <h2>Listado histórico</h2>
+            <p>
+              Consulta la relación por año o por compañía. Cada registro conserva un enlace a la
+              entrada usada como referencia.
+            </p>
+          </div>
+
+          <div class="browser-controls" aria-label="Opciones de consulta">
+            <fieldset class="segmented-control">
+              <legend>Vista</legend>
+              <label>
+                <input type="radio" name="cantinera-view" value="year" checked>
+                <span>Por año</span>
+              </label>
+              <label>
+                <input type="radio" name="cantinera-view" value="company">
+                <span>Por compañía</span>
+              </label>
+            </fieldset>
+
+            <label id="cantinera-year-control" class="select-control">
+              <span>Año</span>
+              <select id="cantinera-year"></select>
+            </label>
+
+            <label id="cantinera-company-control" class="select-control" hidden>
+              <span>Compañía</span>
+              <select id="cantinera-company"></select>
+            </label>
+          </div>
+
+          <div class="results-panel">
+            <div class="results-heading">
+              <h3 id="cantinera-result-title">Cargando listado</h3>
+              <p id="cantinera-result-meta"></p>
+            </div>
+            <div id="cantinera-results" class="table-scroll" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="history-article">
+          <h2>Fuentes y criterio de alcance</h2>
+          <p>
+            La base inicial se ha construido a partir de las entradas públicas de la categoría
+            <a href="https://veteranosescoltadecaballeria.com/category/alarde-irun/" target="_blank" rel="noopener noreferrer">Alarde Irún</a>
+            de Veteranos Escolta de Caballería. La extracción se ha deduplicado por año y compañía,
+            conservando enlaces a la entrada de referencia. La página no incorpora cantineras de otros
+            alardes ni registros ajenos a ese alcance.
           </p>
         </div>
       </section>
@@ -61,5 +149,6 @@
     <footer class="site-footer">
       <p>Web informativa independiente. Contrasta los datos operativos con fuentes oficiales.</p>
     </footer>
+    <script src="scripts/cantineras.js?v=1" defer></script>
   </body>
 </html>
