@@ -8,7 +8,7 @@
       <button class="lightbox-close" type="button" aria-label="Cerrar" data-lightbox-close>&times;</button>
       <img class="lightbox-image" alt="">
       <div class="lightbox-footer">
-        <p class="lightbox-caption"></p>
+        <div class="lightbox-caption"></div>
         <a class="lightbox-download" href="#" download>Descargar</a>
       </div>
     </div>
@@ -26,6 +26,61 @@
     return normalized.length > maxLength
       ? `${normalized.slice(0, maxLength - 1)}...`
       : normalized;
+  };
+
+  const normalize = (value, fallback = "") => {
+    const normalized = String(value || "").replace(/\s+/g, " ").trim();
+    return normalized || fallback;
+  };
+
+  const buildCaption = (link, label) => {
+    const hasKutxatekaMetadata = Boolean(
+      link.dataset.lightboxIdentifier
+        || link.dataset.lightboxFund
+        || link.dataset.lightboxAuthor
+        || link.dataset.lightboxDetailUrl,
+    );
+
+    if (!hasKutxatekaMetadata) {
+      const simple = document.createDocumentFragment();
+      const text = document.createElement("p");
+      text.textContent = label;
+      simple.append(text);
+      return simple;
+    }
+
+    const title = normalize(link.dataset.lightboxTitle, label);
+    const date = normalize(link.dataset.lightboxDate);
+    const identifier = normalize(link.dataset.lightboxIdentifier, "no indicado");
+    const license = normalize(link.dataset.lightboxLicense, "CC BY-NC 4.0");
+    const fund = normalize(link.dataset.lightboxFund, "no indicado");
+    const author = normalize(link.dataset.lightboxAuthor, "autor no indicado");
+    const detailUrl = normalize(link.dataset.lightboxDetailUrl);
+    const fragment = document.createDocumentFragment();
+
+    const summary = document.createElement("p");
+    const strong = document.createElement("strong");
+    strong.textContent = `«${title}»`;
+    summary.append(strong);
+    summary.append(date ? `, ${date}. Identificador: ${identifier}.` : `. Identificador: ${identifier}.`);
+
+    const credit = document.createElement("p");
+    credit.textContent = `${license} 2015 / KUTXA FUNDAZIOA FOTOTEKA / Fondo ${fund} / ${author}.`;
+
+    fragment.append(summary, credit);
+
+    if (detailUrl) {
+      const original = document.createElement("p");
+      const originalLink = document.createElement("a");
+      originalLink.href = detailUrl;
+      originalLink.target = "_blank";
+      originalLink.rel = "noopener noreferrer";
+      originalLink.textContent = "Ver ficha original en Kutxateka.";
+      original.append(originalLink);
+      fragment.append(original);
+    }
+
+    return fragment;
   };
 
   const close = () => {
@@ -53,7 +108,7 @@
     } else {
       image.src = link.href;
     }
-    caption.textContent = label;
+    caption.replaceChildren(buildCaption(link, label));
     download.href = link.href;
     dialog.hidden = false;
     document.body.classList.add("has-lightbox");

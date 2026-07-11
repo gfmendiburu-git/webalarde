@@ -7,12 +7,43 @@
     return;
   }
 
+  const FOUNDATION = "Kutxa Fundazioa Fototeka";
+  const LICENSE = "CC BY-NC 4.0";
+
+  const normalize = (value, fallback) => {
+    const normalized = String(value || "").replace(/\s+/g, " ").trim();
+    return normalized || fallback;
+  };
+
+  const getFund = (item) => normalize(item.studio || item.archive, "no indicado");
+  const getAuthor = (item) => normalize(item.photographer, "autor no indicado");
+  const getLicense = (item) => normalize(item.license, LICENSE);
+
+  const appendOriginalLink = (container, item) => {
+    container.append(" · ");
+    const original = document.createElement("a");
+    original.href = item.detail_url;
+    original.target = "_blank";
+    original.rel = "noopener noreferrer";
+    original.textContent = "Ficha original";
+    container.append(original);
+  };
+
   const fragmentFromItem = (item) => {
+    const card = document.createElement("article");
+    card.className = "image-card";
+
     const link = document.createElement("a");
-    link.className = "image-card";
+    link.className = "image-card-preview";
     link.href = item.full;
     link.dataset.lightbox = "";
     link.dataset.lightboxTitle = item.title || "Fotografía histórica";
+    link.dataset.lightboxDate = item.date || "";
+    link.dataset.lightboxIdentifier = item.object_id || "";
+    link.dataset.lightboxLicense = getLicense(item);
+    link.dataset.lightboxFund = getFund(item);
+    link.dataset.lightboxAuthor = getAuthor(item);
+    link.dataset.lightboxDetailUrl = item.detail_url || "";
     link.dataset.lightboxPreview = item.thumb;
 
     const image = document.createElement("img");
@@ -31,7 +62,18 @@
 
     body.append(title, meta);
     link.append(image, body);
-    return link;
+
+    const credit = document.createElement("p");
+    credit.className = "image-credit";
+    credit.append(
+      `${FOUNDATION} · Fondo ${getFund(item)} · ${getAuthor(item)} · ${getLicense(item)}`,
+    );
+    if (item.detail_url) {
+      appendOriginalLink(credit, item);
+    }
+
+    card.append(link, credit);
+    return card;
   };
 
   const render = (items) => {
