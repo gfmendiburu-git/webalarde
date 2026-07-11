@@ -42,10 +42,10 @@
     return badge;
   };
 
-  const createMeta = (label, value) => {
+  const createMeta = (value) => {
     const item = document.createElement("span");
     item.className = "cantinera-card-meta-item";
-    item.textContent = `${label}: ${value}`;
+    item.textContent = value;
     return item;
   };
 
@@ -74,9 +74,9 @@
       const meta = document.createElement("div");
       meta.className = "cantinera-card-meta";
       if (mode === "year") {
-        meta.append(createMeta("Compañía", entry.company));
+        meta.append(createMeta(entry.company));
       } else {
-        meta.append(createMeta("Año", entry.year));
+        meta.append(createMeta(entry.year));
       }
 
       const name = document.createElement("h4");
