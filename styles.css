@@ -294,7 +294,7 @@ a {
 }
 
 .page-hero {
-  padding: clamp(82px, 12vw, 150px) clamp(18px, 4vw, 56px) clamp(62px, 9vw, 100px);
+  padding: clamp(54px, 8vw, 92px) clamp(18px, 4vw, 56px) clamp(44px, 6vw, 72px);
   background:
     linear-gradient(120deg, rgba(176, 0, 32, 0.95), rgba(120, 0, 22, 0.92)),
     var(--accent);
@@ -305,12 +305,6 @@ a {
 .page-hero p {
   max-width: 980px;
   margin-inline: auto;
-}
-
-.page-hero .eyebrow {
-  max-width: 980px;
-  margin-inline: auto;
-  color: var(--white);
 }
 
 .page-hero h1 {
