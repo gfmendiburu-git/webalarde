@@ -447,6 +447,39 @@ a {
   font-weight: 750;
 }
 
+.document-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 22px 0 16px;
+}
+
+.document-list a {
+  display: grid;
+  gap: 6px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
+}
+
+.document-list a:hover {
+  border-color: rgba(176, 0, 32, 0.38);
+  color: var(--accent-dark);
+}
+
+.document-list span,
+.document-note {
+  color: var(--muted-ink);
+}
+
+.document-note {
+  font-size: 0.94rem;
+}
+
 .composition-article h3 {
   margin-top: 28px;
   color: var(--ink);
@@ -1263,6 +1296,7 @@ code {
   .section-heading,
   .content-columns,
   .history-layout,
+  .document-list,
   .feature-list,
   .unit-grid,
   .download-grid,
