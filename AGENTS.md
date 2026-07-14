@@ -21,3 +21,4 @@
 - Para materiales de terceros, conservar fuente, licencia y atribución. No incorporar imágenes externas al sitio sin revisar permisos y metadatos.
 - Mantener intactas las imágenes originales de archivo fuera del sitio publicado. Para GitHub Pages, publicar copias optimizadas y regenerables junto con sus metadatos.
 - Cuando se incorpore información procedente de documentos históricos, archivos municipales, prensa antigua, libros digitalizados u OCR, citar la fuente concreta junto al dato añadido.
+- Al procesar programas de fiestas, no convertir cada programa en una crónica anual de horarios, recorridos o actos municipales. Extraer solo datos relevantes para el Alarde: mando, composición, unidades, cantineras, música propia, actos rituales, cambios organizativos o evolución documentada. Omitir recorridos repetidos, conciertos, toros, concursos, trenes, horarios y actos generales salvo que expliquen directamente el Alarde.
