@@ -10520,12 +10520,18 @@
     {
       "year": 1996,
       "company": "Ama Shantalen",
-      "name": "Ainhoa Morondo",
+      "name": "Ainhoa Norondo",
       "source_url": "https://veteranosescoltadecaballeria.com/ainhoa-morondo-eleccion-cantinera-ama-shantalen-1996/",
       "source_title": "Ainhoa Morondo elección Cantinera Ama Shantalen 1996",
       "mentions": 3,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "Ainhoa Morondo",
+          "source_url": "https://veteranosescoltadecaballeria.com/ainhoa-morondo-eleccion-cantinera-ama-shantalen-1996/",
+          "source_title": "Ainhoa Morondo elección Cantinera Ama Shantalen 1996"
+        }
+      ]
     },
     {
       "year": 1996,
@@ -10540,7 +10546,7 @@
     {
       "year": 1996,
       "company": "Azken Portu",
-      "name": "Ainara Mauriz Sistiaga",
+      "name": "Ainara Mauri Sistiaga",
       "source_url": "https://veteranosescoltadecaballeria.com/ainara-mauriz-cantinera-azken-portu-bajo-el-sol-en-1996/",
       "source_title": "Ainara Mauriz Cantinera Azken Portu bajo el sol en 1996",
       "mentions": 3,
@@ -10554,19 +10560,13 @@
       "source_url": "https://veteranosescoltadecaballeria.com/ma-ramirez-elegida-cantinera-banda-de-musica-1996/",
       "source_title": "Mª Ramirez elegida Cantinera Banda de Música 1996",
       "mentions": 6,
-      "needs_review": true,
-      "alternatives": [
-        {
-          "name": "Gloria Larrañaga",
-          "source_url": "https://veteranosescoltadecaballeria.com/gloria-larranaga-cantinera-de-la-banda-del-alarde-de-irun-1996/",
-          "source_title": "Gloria Larrañaga Cantinera de la Banda del Alarde de Irún 1996"
-        }
-      ]
+      "needs_review": false,
+      "alternatives": []
     },
     {
       "year": 1996,
       "company": "Batería de Artillería",
-      "name": "Mónica Iguiñiz Gérica",
+      "name": "Mónica Iguiñiz Jerica",
       "source_url": "https://veteranosescoltadecaballeria.com/monica-iguiniz-cantinera-bateria-artilleria-dale-fuego-1996/",
       "source_title": "Mónica Iguiñiz Cantinera Batería Artillería «dale fuego» 1996",
       "mentions": 6,
@@ -10580,14 +10580,8 @@
       "source_url": "https://veteranosescoltadecaballeria.com/ainhoa-legarreta-cantinera-compania-behobia-atenta-1996/",
       "source_title": "Ainhoa Legarreta Cantinera Compañía Behobia atenta 1996",
       "mentions": 5,
-      "needs_review": true,
-      "alternatives": [
-        {
-          "name": "Irati Otamendi",
-          "source_url": "https://veteranosescoltadecaballeria.com/irati-otamendi-cantinera-compania-behobia-ensayos-1996/",
-          "source_title": "Irati Otamendi Cantinera Compañía Behobia ensayos 1996"
-        }
-      ]
+      "needs_review": false,
+      "alternatives": []
     },
     {
       "year": 1996,
@@ -10606,14 +10600,8 @@
       "source_url": "https://veteranosescoltadecaballeria.com/helena-paniagua-cantinera-compania-bidasoa-mirada-1996/",
       "source_title": "Helena Paniagua Cantinera Compañía Bidasoa mirada 1996",
       "mentions": 6,
-      "needs_review": true,
-      "alternatives": [
-        {
-          "name": "Helena Paniagua presentación",
-          "source_url": "https://veteranosescoltadecaballeria.com/helena-paniagua-presentacion-cantinera-bidasoa-19966/",
-          "source_title": "Helena Paniagua presentación Cantinera Bidasoa 1996"
-        }
-      ]
+      "needs_review": false,
+      "alternatives": []
     },
     {
       "year": 1996,
@@ -10648,7 +10636,7 @@
     {
       "year": 1996,
       "company": "Meaka",
-      "name": "Ana Aguirre Zubiarrain",
+      "name": "Ana Aguirre Zuriarrain",
       "source_url": "https://veteranosescoltadecaballeria.com/ana-aguirre-cantinera-compania-meaka-sonriendo-1996/",
       "source_title": "Ana Aguirre Cantinera Compañía Meaka sonriendo 1996",
       "mentions": 7,
