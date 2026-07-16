@@ -10786,22 +10786,34 @@
     {
       "year": 1997,
       "company": "Bidasoa",
-      "name": "Izaskun Aranburu Mitxelena",
+      "name": "Izaskun Aramburu Mitxelena",
       "source_url": "https://veteranosescoltadecaballeria.com/izaskun-aranburu-cantinera-compania-bidasoa-sonriendo-1997/",
       "source_title": "Izaskun Aranburu Cantinera Compañía Bidasoa sonriendo 1997",
       "mentions": 3,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "Izaskun Aranburu Mitxelena",
+          "source_url": "https://veteranosescoltadecaballeria.com/izaskun-aranburu-cantinera-compania-bidasoa-sonriendo-1997/",
+          "source_title": "Izaskun Aranburu Cantinera Compañía Bidasoa sonriendo 1997"
+        }
+      ]
     },
     {
       "year": 1997,
       "company": "Buenos Amigos",
-      "name": "Nuria Larrañaga Zubialde",
+      "name": "Nuria Zarrañaga Zubialde",
       "source_url": "https://veteranosescoltadecaballeria.com/nuria-larranaga-cantinera-buenos-amigos-saludando-1997/",
       "source_title": "Nuria Larrañaga Cantinera Buenos Amigos saludando 1997",
       "mentions": 3,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "Nuria Larrañaga Zubialde",
+          "source_url": "https://veteranosescoltadecaballeria.com/nuria-larranaga-cantinera-buenos-amigos-saludando-1997/",
+          "source_title": "Nuria Larrañaga Cantinera Buenos Amigos saludando 1997"
+        }
+      ]
     },
     {
       "year": 1997,
@@ -10826,12 +10838,18 @@
     {
       "year": 1997,
       "company": "Meaka",
-      "name": "Irene Serrano Irizar",
+      "name": "Irene Sagrado",
       "source_url": "https://veteranosescoltadecaballeria.com/irene-serrano-cantinera-compania-meaka-saludando-1997/",
       "source_title": "Irene Serrano Cantinera Compañía Meaka saludando 1997",
       "mentions": 4,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "Irene Serrano Irizar",
+          "source_url": "https://veteranosescoltadecaballeria.com/irene-serrano-cantinera-compania-meaka-saludando-1997/",
+          "source_title": "Irene Serrano Cantinera Compañía Meaka saludando 1997"
+        }
+      ]
     },
     {
       "year": 1997,
@@ -10846,12 +10864,18 @@
     {
       "year": 1997,
       "company": "Real Unión",
-      "name": "Ainara Oscoz Bergaretxe",
+      "name": "Ainara Ozcoz Bergaretxe",
       "source_url": "https://veteranosescoltadecaballeria.com/ainara-oscoz-cantinera-compania-real-union-b-n-en-1997/",
       "source_title": "Ainara Oscoz Cantinera Compañía Real Unión B/N en 1997",
       "mentions": 4,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "Ainara Oscoz Bergaretxe",
+          "source_url": "https://veteranosescoltadecaballeria.com/ainara-oscoz-cantinera-compania-real-union-b-n-en-1997/",
+          "source_title": "Ainara Oscoz Cantinera Compañía Real Unión B/N en 1997"
+        }
+      ]
     },
     {
       "year": 1997,
@@ -10896,12 +10920,18 @@
     {
       "year": 1997,
       "company": "Ventas",
-      "name": "Nerea Iriarte Aginaga",
+      "name": "Nerea Iriarte Aguinaga",
       "source_url": "https://veteranosescoltadecaballeria.com/nerea-iriarte-cantinera-compania-ventas-con-abanico-1997/",
       "source_title": "Nerea Iriarte Cantinera Compañía Ventas con abanico 1997",
       "mentions": 8,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "Nerea Iriarte Aginaga",
+          "source_url": "https://veteranosescoltadecaballeria.com/nerea-iriarte-cantinera-compania-ventas-con-abanico-1997/",
+          "source_title": "Nerea Iriarte Cantinera Compañía Ventas con abanico 1997"
+        }
+      ]
     },
     {
       "year": 1998,
