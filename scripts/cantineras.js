@@ -27,6 +27,14 @@
   };
 
   const sourceLink = (entry) => {
+    if (!entry.source_url) {
+      const source = document.createElement("span");
+      source.className = "cantinera-source-text";
+      source.textContent = "Fuente local";
+      source.title = entry.source_title || "Fuente documental pendiente de enlace publico";
+      return source;
+    }
+
     const link = document.createElement("a");
     link.href = entry.source_url;
     link.target = "_blank";

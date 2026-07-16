@@ -774,6 +774,11 @@ a {
   font-weight: 850;
 }
 
+.cantinera-source-text {
+  color: var(--muted);
+  font-weight: 850;
+}
+
 .cantineras-table {
   width: 100%;
   min-width: 620px;
