@@ -2,27 +2,38 @@
   "source": "https://veteranosescoltadecaballeria.com/category/alarde-irun/",
   "scope": "Alarde tradicional de San Marcial de Irun; se excluyen registros ajenos a ese alcance.",
   "companies": [
-    "Escolta de Caballería",
-    "Batería de Artillería",
-    "Banda de Música",
-    "Tamborrada",
     "Ama Shantalen",
     "Anaka",
     "Azken Portu",
+    "Banda de Música",
+    "Batería de Artillería",
     "Behobia",
     "Belaskoenea",
     "Bidasoa",
     "Buenos Amigos",
+    "Calle Mayor",
+    "Casino",
+    "Círculo Tradicionalista",
+    "El Roca",
+    "Escolta de Caballería",
+    "Estación",
+    "Fábrica de Vagones",
+    "Irungo Atsegiña",
     "Lapice",
     "Meaka",
+    "Mendibil",
     "Olaberria",
+    "Paseo Colón",
+    "Peña Irrintzi",
+    "Racing Club",
     "Real Unión",
+    "Renfe",
     "San Miguel",
     "Santiago",
+    "Sporting Club",
+    "Tamborrada",
     "Uranzu",
-    "Ventas",
-    "Renfe",
-    "Mendibil"
+    "Ventas"
   ],
   "entries": [
     {
@@ -166,6 +177,16 @@
       "alternatives": []
     },
     {
+      "year": 1909,
+      "company": "Racing Club",
+      "name": "Paula Tokiazabal",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
       "year": 1910,
       "company": "Behobia",
       "name": "Casilda Olazabal",
@@ -233,6 +254,16 @@
       "source_title": "La figura de la Cantinera de Tamborrada del Alarde de Irun",
       "mentions": 2,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1914,
+      "company": "Sporting Club",
+      "name": "Luisa Moso",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -356,6 +387,16 @@
       "alternatives": []
     },
     {
+      "year": 1921,
+      "company": "Estación",
+      "name": "Lola Urtizberea Oñativia",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
       "year": 1922,
       "company": "Lapice",
       "name": "Josefa Antonia Sein",
@@ -387,6 +428,16 @@
     },
     {
       "year": 1923,
+      "company": "Irungo Atsegiña",
+      "name": "Alejandra Emparan Aramendi",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1923,
       "company": "Real Unión",
       "name": "Amparo Amantegui Belaunzaran",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-amparo-amantegui-belauzaran/",
@@ -413,6 +464,16 @@
       "source_title": "La figura de la Cantinera de Anaka del alarde de Irun",
       "mentions": 1,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1924,
+      "company": "Fábrica de Vagones",
+      "name": "Emiliana Tejedor Dueñas",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -637,6 +698,16 @@
     },
     {
       "year": 1929,
+      "company": "Círculo Tradicionalista",
+      "name": "Margarita Vázquez",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1929,
       "company": "Escolta de Caballería",
       "name": "Carmen Fernandez Viyella",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-escolta-de-caballeria-del-alarde-de-irun-carmen-fernandez-viyella/",
@@ -673,6 +744,16 @@
       "source_title": "La figura de la Cantinera de la Compañía Real Unión del Alarde de Irun",
       "mentions": 1,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1930,
+      "company": "Calle Mayor",
+      "name": "Juana Olanda Martínez",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -777,6 +858,16 @@
     },
     {
       "year": 1931,
+      "company": "Casino",
+      "name": "Mª Luisa Arzac",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1931,
       "company": "Meaka",
       "name": "Teodora Amiano Lekuona",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-meaka-del-alarde-de-irun-teodora-amiano-lekuona/",
@@ -877,12 +968,52 @@
     },
     {
       "year": 1933,
+      "company": "Calle Mayor",
+      "name": "Encarnación Hernández",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1933,
+      "company": "Círculo Tradicionalista",
+      "name": "Mª Juncal Estomba",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1933,
+      "company": "El Roca",
+      "name": "Conchita Urbia",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1933,
       "company": "Lapice",
       "name": "Teopista García",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-de-la-compania-lapice-del-alarde-de-irun-teopista-garcia/",
       "source_title": "Cantinera de la Compañía Lapice del Alarde de Irún – Teopista García",
       "mentions": 1,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1933,
+      "company": "Peña Irrintzi",
+      "name": "Joaquina Álvarez Arregui",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -987,12 +1118,42 @@
     },
     {
       "year": 1935,
+      "company": "Calle Mayor",
+      "name": "María Luisa Zaporta",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1935,
+      "company": "Círculo Tradicionalista",
+      "name": "María Luz Niño",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1935,
       "company": "Escolta de Caballería",
       "name": "María Rosa Pedrós",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-escolta-de-caballeria-del-alarde-de-irun-maria-rosa-pedros/",
       "source_title": "La figura de la Cantinera de La Escolta de Caballería del Alarde de Irun",
       "mentions": 2,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1935,
+      "company": "Irungo Atsegiña",
+      "name": "Naty Barreda Gómez",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -1063,6 +1224,16 @@
       "source_title": "Cantinera Buenos Amigos Alarde de Irun-Mª Teresa Goyenechea Alberdi",
       "mentions": 1,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1936,
+      "company": "Irungo Atsegiña",
+      "name": "Encarnación Hernández Jiménez",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -1835,6 +2006,16 @@
     },
     {
       "year": 1946,
+      "company": "Casino",
+      "name": "Mª Carmen Eceizabarrena",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1946,
       "company": "Escolta de Caballería",
       "name": "Marilen Aguirreche Picabea",
       "source_url": "https://veteranosescoltadecaballeria.com/alarde-de-san-marcial-de-irun-cantinera-de-caballeria-8/",
@@ -2221,6 +2402,16 @@
     },
     {
       "year": 1949,
+      "company": "Fábrica de Vagones",
+      "name": "Juanita Vergara Salaberria",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1949,
       "company": "Lapice",
       "name": "Adela Bengoechea",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-lapice-del-alarde-de-irun-adela-bengoechea/",
@@ -2257,6 +2448,16 @@
       "source_title": "La figura de la Cantinera de la Compañía Real Unión del Alarde de Irun",
       "mentions": 1,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1949,
+      "company": "Renfe",
+      "name": "María Antonia Vergara",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -2772,6 +2973,16 @@
     {
       "year": 1952,
       "company": "Renfe",
+      "name": "Mary Caballero Álvarez",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1952,
+      "company": "Renfe",
       "name": "Rosario Caballero Alvarez ( Mary )",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-co-rosario-caballero-alvarez/",
       "source_title": "La figura de la Cantinera de la Compañía Renfe del Alarde de Irun",
@@ -3117,6 +3328,16 @@
     },
     {
       "year": 1954,
+      "company": "Paseo Colón",
+      "name": "Mª Antonia Amantegui Echezarreta",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1954,
       "company": "Real Unión",
       "name": "Gloria Amantegui",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-gloria-amantegui/",
@@ -3133,6 +3354,16 @@
       "source_title": "La figura de la Cantinera de la Compañía Renfe del Alarde de Irun",
       "mentions": 1,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1954,
+      "company": "Renfe",
+      "name": "Julita Sánchez Leiza",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -3283,6 +3514,16 @@
       "source_title": "Luisa Lacanda Cantinera Compañía Real Unión 1955",
       "mentions": 2,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1955,
+      "company": "Renfe",
+      "name": "Lucía Garballo Bonilla",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -3629,6 +3870,16 @@
       "source_title": "La figura de la Cantinera de la Compañía Real Unión del Alarde de Irun",
       "mentions": 1,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1957,
+      "company": "Renfe",
+      "name": "Julia Domínguez Álvarez",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -16623,6 +16874,9 @@
       "hondarribia": 7,
       "no_name": 776,
       "no_year": 24
-    }
+    },
+    "total_entries": 1596,
+    "last_manual_update": "2026-07-17",
+    "manual_update_note": "Añadidas cantineras de compañías desaparecidas desde Veteranos Escolta de Caballería, pendientes de contraste documental."
   }
 }
