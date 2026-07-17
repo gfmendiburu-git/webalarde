@@ -85,6 +85,7 @@ Este fichero no sustituye a las citas visibles en cada pagina. Su funcion es evi
 | Fuente | Procedencia | Estado | Integrado en | Notas | Commit |
 | --- | --- | --- | --- | --- | --- |
 | Web de Veteranos Escolta de Caballeria | `https://veteranosescoltadecaballeria.com/` | integrado | Cantineras | Se uso para construir y contrastar la relacion de cantineras, cuidando distinguir Irun de Hondarribia. No se incorporaron imagenes de la web por falta de permiso explicito. | varios |
+| “Compañías desaparecidas del Alarde de San Marcial de Irún”, Veteranos Escolta de Caballeria | `https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/` | integrado | Composicion, Cantineras | Relacion de companias desaparecidas o transformadas, anos de presencia y cantineras asociadas. Incorporado como fuente auxiliar con `needs_review` en cantineras para contraste posterior con programas, prensa y archivo. | `399afc5` |
 | “El Alarde del ferrocarril y el Alarde de San Marcial”, *El Diario Vasco*, 19 de junio de 2008 | `https://www.diariovasco.com/20080619/bidasoa/alarde-ferrocarril-alarde-marcial-20080619.html` | integrado | Composicion, fichas de companias | Relacion entre ferrocarril y Alarde: San Miguel/Primera Compania del Pueblo, Fabrica de Vagones, trabajadores trasladados a Aravaca que celebraron San Marcial entre 1928 y 1936, Deposito de Maquinas/RENFE, Satur Ibargoyen y ultima participacion en 1957. | `b7bb0c1` |
 
 ## Pendientes
