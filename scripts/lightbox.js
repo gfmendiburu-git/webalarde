@@ -34,14 +34,14 @@
   };
 
   const buildCaption = (link, label) => {
-    const hasKutxatekaMetadata = Boolean(
+    const hasStructuredMetadata = Boolean(
       link.dataset.lightboxIdentifier
         || link.dataset.lightboxFund
         || link.dataset.lightboxAuthor
         || link.dataset.lightboxDetailUrl,
     );
 
-    if (!hasKutxatekaMetadata) {
+    if (!hasStructuredMetadata) {
       const simple = document.createDocumentFragment();
       const text = document.createElement("p");
       text.textContent = label;
@@ -56,6 +56,8 @@
     const fund = normalize(link.dataset.lightboxFund, "no indicado");
     const author = normalize(link.dataset.lightboxAuthor, "autor no indicado");
     const detailUrl = normalize(link.dataset.lightboxDetailUrl);
+    const archive = normalize(link.dataset.lightboxArchive, "KUTXA FUNDAZIOA FOTOTEKA");
+    const source = normalize(link.dataset.lightboxSource, "kutxateka");
     const fragment = document.createDocumentFragment();
 
     const summary = document.createElement("p");
@@ -65,7 +67,11 @@
     summary.append(date ? `, ${date}. Identificador: ${identifier}.` : `. Identificador: ${identifier}.`);
 
     const credit = document.createElement("p");
-    credit.textContent = `${license} 2015 / KUTXA FUNDAZIOA FOTOTEKA / Fondo ${fund} / ${author}.`;
+    if (source === "archivo-irun") {
+      credit.textContent = `${license} / ${archive} / ${fund}.`;
+    } else {
+      credit.textContent = `${license} 2015 / KUTXA FUNDAZIOA FOTOTEKA / Fondo ${fund} / ${author}.`;
+    }
 
     fragment.append(summary, credit);
 
@@ -75,7 +81,9 @@
       originalLink.href = detailUrl;
       originalLink.target = "_blank";
       originalLink.rel = "noopener noreferrer";
-      originalLink.textContent = "Ver ficha original en Kutxateka.";
+      originalLink.textContent = source === "archivo-irun"
+        ? "Ver ficha original en el Archivo Municipal de Irun."
+        : "Ver ficha original en Kutxateka.";
       original.append(originalLink);
       fragment.append(original);
     }

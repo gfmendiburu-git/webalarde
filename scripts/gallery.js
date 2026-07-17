@@ -7,7 +7,6 @@
     return;
   }
 
-  const FOUNDATION = "Kutxa Fundazioa Fototeka";
   const LICENSE = "CC BY-NC 4.0";
 
   const normalize = (value, fallback) => {
@@ -18,6 +17,8 @@
   const getFund = (item) => normalize(item.studio || item.archive, "no indicado");
   const getAuthor = (item) => normalize(item.photographer, "autor no indicado");
   const getLicense = (item) => normalize(item.license, LICENSE);
+  const getArchive = (item) => normalize(item.archive, "Kutxa Fundazioa Fototeka");
+  const getOriginalLabel = (item) => item.source === "archivo-irun" ? "Ficha original" : "Ficha original";
 
   const appendOriginalLink = (container, item) => {
     container.append(" · ");
@@ -25,7 +26,7 @@
     original.href = item.detail_url;
     original.target = "_blank";
     original.rel = "noopener noreferrer";
-    original.textContent = "Ficha original";
+    original.textContent = getOriginalLabel(item);
     container.append(original);
   };
 
@@ -45,6 +46,8 @@
     link.dataset.lightboxAuthor = getAuthor(item);
     link.dataset.lightboxDetailUrl = item.detail_url || "";
     link.dataset.lightboxPreview = item.thumb;
+    link.dataset.lightboxArchive = getArchive(item);
+    link.dataset.lightboxSource = item.source || "kutxateka";
 
     const image = document.createElement("img");
     image.src = item.thumb;
@@ -56,9 +59,11 @@
 
     const credit = document.createElement("p");
     credit.className = "image-credit";
-    credit.append(
-      `${FOUNDATION} · Fondo ${getFund(item)} · ${getAuthor(item)} · ${getLicense(item)}`,
-    );
+    if (item.source === "archivo-irun") {
+      credit.append(`${getArchive(item)} · ${getFund(item)} · Ref. ${item.object_id} · ${getLicense(item)}`);
+    } else {
+      credit.append(`Kutxa Fundazioa Fototeka · Fondo ${getFund(item)} · ${getAuthor(item)} · ${getLicense(item)}`);
+    }
     if (item.detail_url) {
       appendOriginalLink(credit, item);
     }
@@ -79,7 +84,7 @@
     count.textContent = `${filtered.length} imágenes`;
   };
 
-  fetch("data/alarde-imagenes.json?v=2")
+  fetch("data/alarde-imagenes.json?v=3")
     .then((response) => response.json())
     .then((items) => {
       const years = [...new Set(items.map((item) => item.year || "sin-fecha"))].sort((a, b) => {

@@ -6,6 +6,7 @@
   const resultMeta = document.querySelector("#cantinera-result-meta");
   const resultBody = document.querySelector("#cantinera-results");
   const defaultPhoto = "assets/cantineras/cantinera-generica.webp";
+  const galleryPage = "cantinera-galeria.html";
 
   if (!modeInputs.length || !filterLabel || !filterSelect || !resultBody) {
     return;
@@ -57,7 +58,20 @@
     return item;
   };
 
-  const renderCards = (entries, mode) => {
+  const entryKey = (entry) => {
+    const normalizedName = entry.name
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim()
+      .replace(/\s+/g, " ");
+    return `${entry.year}|${entry.company}|${normalizedName}`;
+  };
+
+  const photoForEntry = (entry, photosById) => photosById.get(entryKey(entry));
+
+  const renderCards = (entries, mode, photosById) => {
     const grid = document.createElement("div");
     grid.className = "cantineras-card-grid";
 
@@ -68,13 +82,27 @@
       const figure = document.createElement("figure");
       figure.className = "cantinera-card-photo";
 
+      const photoData = photoForEntry(entry, photosById);
+      const profile = photoData?.profile;
       const image = document.createElement("img");
-      image.src = entry.photo || defaultPhoto;
-      image.alt = `Imagen genérica de cantinera para ${entry.name}`;
+      image.src = profile?.full || entry.photo || defaultPhoto;
+      image.alt = profile
+        ? `${entry.name}, ${entry.company}, ${entry.year}`
+        : `Imagen genérica de cantinera para ${entry.name}`;
       image.loading = "lazy";
       image.width = 600;
       image.height = 800;
-      figure.append(image);
+
+      if (photoData) {
+        const link = document.createElement("a");
+        link.className = "cantinera-photo-link";
+        link.href = `${galleryPage}?id=${encodeURIComponent(photoData.id)}`;
+        link.setAttribute("aria-label", `Ver galería de ${entry.name}`);
+        link.append(image);
+        figure.append(link);
+      } else {
+        figure.append(image);
+      }
 
       const content = document.createElement("div");
       content.className = "cantinera-card-content";
@@ -93,6 +121,12 @@
       const actions = document.createElement("div");
       actions.className = "cantinera-card-actions";
       actions.append(sourceLink(entry));
+      if (photoData) {
+        const galleryLink = document.createElement("a");
+        galleryLink.href = `${galleryPage}?id=${encodeURIComponent(photoData.id)}`;
+        galleryLink.textContent = `${photoData.photos.length} foto${photoData.photos.length === 1 ? "" : "s"}`;
+        actions.append(galleryLink);
+      }
       if (entry.needs_review) {
         actions.append(reviewBadge());
       }
@@ -117,7 +151,7 @@
     filterSelect.value = items.includes(value) ? value : items[items.length - 1];
   };
 
-  const render = (data) => {
+  const render = (data, photosById) => {
     const mode = currentMode();
 
     if (mode === "year") {
@@ -128,7 +162,7 @@
         .sort((a, b) => byCompany(a.company, b.company));
       resultTitle.textContent = `Cantineras de ${year}`;
       resultMeta.textContent = `${entries.length} registros localizados`;
-      resultBody.replaceChildren(renderCards(entries, mode));
+      resultBody.replaceChildren(renderCards(entries, mode, photosById));
       return;
     }
 
@@ -139,10 +173,10 @@
       .sort((a, b) => byYear(a.year, b.year));
     resultTitle.textContent = company;
     resultMeta.textContent = `${entries.length} años con registro localizado`;
-    resultBody.replaceChildren(renderCards(entries, mode));
+    resultBody.replaceChildren(renderCards(entries, mode, photosById));
   };
 
-  const updateMode = (data, years, companies) => {
+  const updateMode = (data, years, companies, photosById) => {
     const mode = currentMode();
     if (mode === "year") {
       filterLabel.textContent = "Año";
@@ -151,21 +185,24 @@
       filterLabel.textContent = "Compañía";
       setFilterOptions(companies, selected.company);
     }
-    render(data);
+    render(data, photosById);
   };
 
-  fetch("data/cantineras.json?v=1")
-    .then((response) => response.json())
-    .then((data) => {
+  Promise.all([
+    fetch("data/cantineras.json?v=2").then((response) => response.json()),
+    fetch("data/cantinera-fotos.json?v=1").then((response) => response.json()).catch(() => ({ entries: [] })),
+  ])
+    .then(([data, photoData]) => {
+      const photosById = new Map((photoData.entries || []).map((entry) => [entry.id, entry]));
       const years = [...new Set(data.entries.map((entry) => String(entry.year)))].sort(byYear);
       const companies = [...new Set(data.entries.map((entry) => entry.company))].sort(byCompany);
 
       selected.year = years[years.length - 1];
       selected.company = companies[0];
 
-      modeInputs.forEach((input) => input.addEventListener("change", () => updateMode(data, years, companies)));
-      filterSelect.addEventListener("change", () => render(data));
-      updateMode(data, years, companies);
+      modeInputs.forEach((input) => input.addEventListener("change", () => updateMode(data, years, companies, photosById)));
+      filterSelect.addEventListener("change", () => render(data, photosById));
+      updateMode(data, years, companies, photosById);
     })
     .catch(() => {
       resultTitle.textContent = "No se ha podido cargar el listado";

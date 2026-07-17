@@ -737,6 +737,19 @@ a {
   object-fit: cover;
 }
 
+.cantinera-photo-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.cantinera-photo-link:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: -3px;
+}
+
 .cantinera-card-content {
   display: grid;
   gap: 10px;
@@ -988,6 +1001,16 @@ h3 {
   margin: 0;
   color: var(--muted-ink);
   font-weight: 800;
+}
+
+.gallery-actions {
+  max-width: 1120px;
+  margin: 0 auto 22px;
+}
+
+.gallery-actions a {
+  color: var(--accent-dark);
+  font-weight: 850;
 }
 
 .image-gallery {

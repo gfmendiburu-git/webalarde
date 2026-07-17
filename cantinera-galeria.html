@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Galería de fotografías identificadas de cantineras del Alarde tradicional de San Marcial de Irun.">
+    <title>Galería de cantinera | Alarde de San Marcial</title>
+    <link rel="icon" href="assets/site-icon.svg" type="image/svg+xml">
+    <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="stylesheet" href="styles.css?v=18">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Inicio">
+        <img class="brand-mark" src="assets/logo-san-marcial-dark.svg" alt="" aria-hidden="true">
+        <span class="brand-copy">
+          <strong>Alarde de</strong>
+          <small>San Marcial</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <details class="nav-dropdown is-current">
+          <summary>El Alarde</summary>
+          <div class="nav-dropdown-menu">
+            <a href="historia.html">Historia</a>
+            <a href="recorrido.html">Recorrido</a>
+            <a href="companias.html">Composición del Alarde</a>
+            <a href="musica.html">La Música del Alarde</a>
+            <a aria-current="page" href="cantineras.html">Cantineras</a>
+            <a href="imagenes.html">El Alarde en Imágenes</a>
+          </div>
+        </details>
+        <a href="descargas.html">Descargas</a>
+        <a href="enlaces.html">Enlaces</a>
+        <a href="sobre-mi.html">Sobre mí</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <h1 id="cantinera-gallery-title">Galería de cantinera</h1>
+        <p id="cantinera-gallery-meta">Cargando fotografías identificadas...</p>
+      </section>
+
+      <section class="section">
+        <div class="gallery-actions">
+          <a href="cantineras.html">Volver a Cantineras</a>
+        </div>
+        <div id="cantinera-gallery" class="image-gallery" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Fotografías procedentes del Archivo Municipal de Irun. La identificación se basa en los
+        metadatos descriptivos de la Fototeca Municipal.
+      </p>
+    </footer>
+
+    <script src="scripts/cantinera-gallery.js?v=1" defer></script>
+    <script src="scripts/lightbox.js?v=9" defer></script>
+  </body>
+</html>
