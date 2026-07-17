@@ -1197,24 +1197,6 @@ h3 {
   text-decoration-color: rgba(255, 255, 255, 0.45);
 }
 
-.lightbox-download {
-  flex: 0 0 auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 38px;
-  padding: 0 14px;
-  border-radius: 7px;
-  background: var(--accent);
-  color: var(--white);
-  font-weight: 850;
-  text-decoration: none;
-}
-
-.lightbox-download:hover {
-  background: var(--accent-dark);
-}
-
 @media (prefers-reduced-motion: reduce) {
   .lightbox-backdrop,
   .lightbox-panel,

@@ -77,6 +77,16 @@ def is_authorized(row: dict[str, str]) -> bool:
     return False
 
 
+def is_relevant_for_input(row: dict[str, str], input_path: Path) -> bool:
+    description = normalize(row.get("descripcion", ""))
+    mentions_hondarribia = "hondarribia" in description or "fuenterrabia" in description
+    mentions_irun = "irun" in description or "san marcial" in description
+    if mentions_hondarribia and not mentions_irun:
+        return False
+
+    return True
+
+
 def large_image_url(url: str) -> str:
     parsed = urlparse(url)
     name = Path(parsed.path).name
@@ -204,12 +214,52 @@ def match_cantinera(item: dict[str, str], entries: list[dict[str, object]]) -> d
     return None
 
 
-def merge_gallery(existing_path: Path, new_items: list[dict[str, str]]) -> None:
+def merge_gallery(existing_path: Path, new_items: list[dict[str, str]], replace_archive: bool) -> list[dict[str, str]]:
     existing = json.loads(existing_path.read_text(encoding="utf-8")) if existing_path.exists() else []
     kept = [item for item in existing if item.get("source") != "archivo-irun"]
-    merged = kept + new_items
+    archive_items = {}
+    if not replace_archive:
+        archive_items = {
+            str(item.get("object_id")): item
+            for item in existing
+            if item.get("source") == "archivo-irun" and item.get("object_id")
+        }
+    for item in new_items:
+        archive_items[str(item["object_id"])] = item
+
+    merged = kept + list(archive_items.values())
     merged.sort(key=lambda item: (item.get("year") == "sin-fecha", item.get("year", ""), item.get("object_id", "")))
     existing_path.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return merged
+
+
+def build_cantinera_matches(
+    gallery_items: list[dict[str, str]], entries: list[dict[str, object]]
+) -> dict[str, dict[str, object]]:
+    matches: dict[str, dict[str, object]] = {}
+    archive_items = [item for item in gallery_items if item.get("source") == "archivo-irun"]
+    archive_items.sort(key=lambda item: (item.get("year") == "sin-fecha", item.get("year", ""), item.get("object_id", "")))
+
+    for item in archive_items:
+        cantinera = match_cantinera(item, entries)
+        if not cantinera:
+            continue
+
+        key = cantinera_key(cantinera)
+        matched = matches.setdefault(
+            key,
+            {
+                "id": key,
+                "year": cantinera["year"],
+                "company": cantinera["company"],
+                "name": cantinera["name"],
+                "profile": item,
+                "photos": [],
+            },
+        )
+        matched["photos"].append(item)
+
+    return matches
 
 
 def write_cantinera_photos(path: Path, matches: dict[str, dict[str, object]]) -> None:
@@ -220,25 +270,36 @@ def write_cantinera_photos(path: Path, matches: dict[str, dict[str, object]]) ->
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Genera galería web con fotos autorizadas de la Fototeca de Irun.")
-    parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
+    parser.add_argument("--input", type=Path, nargs="+", default=[DEFAULT_INPUT])
     parser.add_argument("--gallery-data", type=Path, default=DEFAULT_GALLERY_DATA)
     parser.add_argument("--cantineras-data", type=Path, default=DEFAULT_CANTINERAS_DATA)
     parser.add_argument("--cantinera-photos", type=Path, default=DEFAULT_CANTINERA_PHOTOS)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--cache", type=Path, default=DEFAULT_CACHE)
     parser.add_argument("--limit", type=int, default=0)
+    parser.add_argument("--replace-archive", action="store_true", help="Reemplaza el bloque de Archivo Irun por los CSV indicados.")
     return parser.parse_args()
 
 
 def main() -> int:
     args = parse_args()
-    rows = [row for row in csv.DictReader(args.input.open(encoding="utf-8", newline="")) if is_authorized(row)]
+    rows_by_reference: dict[str, dict[str, str]] = {}
+    for input_path in args.input:
+        with input_path.open(encoding="utf-8", newline="") as handle:
+            for row in csv.DictReader(handle):
+                if not is_authorized(row) or not is_relevant_for_input(row, input_path):
+                    continue
+                reference = row["referencia"]
+                current = rows_by_reference.get(reference)
+                if current is None or len(row.get("descripcion", "")) > len(current.get("descripcion", "")):
+                    rows_by_reference[reference] = row
+
+    rows = sorted(rows_by_reference.values(), key=lambda row: int(row["referencia"]))
     if args.limit:
         rows = rows[: args.limit]
 
     cantineras = json.loads(args.cantineras_data.read_text(encoding="utf-8"))["entries"]
     items: list[dict[str, str]] = []
-    matches: dict[str, dict[str, object]] = {}
 
     for index, row in enumerate(rows, start=1):
         reference = row["referencia"]
@@ -254,26 +315,11 @@ def main() -> int:
         item = item_from_row(row, paths, image_url)
         items.append(item)
 
-        cantinera = match_cantinera(item, cantineras)
-        if cantinera:
-            key = cantinera_key(cantinera)
-            matched = matches.setdefault(
-                key,
-                {
-                    "id": key,
-                    "year": cantinera["year"],
-                    "company": cantinera["company"],
-                    "name": cantinera["name"],
-                    "profile": item,
-                    "photos": [],
-                },
-            )
-            matched["photos"].append(item)
-
         if index % 100 == 0 or index == len(rows):
-            print(f"{index}/{len(rows)} fotografias procesadas; {len(matches)} cantineras con fotos", flush=True)
+            print(f"{index}/{len(rows)} fotografias procesadas", flush=True)
 
-    merge_gallery(args.gallery_data, items)
+    merged = merge_gallery(args.gallery_data, items, args.replace_archive)
+    matches = build_cantinera_matches(merged, cantineras)
     write_cantinera_photos(args.cantinera_photos, matches)
     print(f"Galeria: {args.gallery_data} (+{len(items)} Archivo Irun)")
     print(f"Fotos de cantineras: {args.cantinera_photos} ({len(matches)} cantineras)")

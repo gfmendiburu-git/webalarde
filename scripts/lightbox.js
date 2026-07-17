@@ -9,7 +9,6 @@
       <img class="lightbox-image" alt="">
       <div class="lightbox-footer">
         <div class="lightbox-caption"></div>
-        <a class="lightbox-download" href="#" download>Descargar</a>
       </div>
     </div>
   `;
@@ -17,7 +16,6 @@
 
   const image = dialog.querySelector(".lightbox-image");
   const caption = dialog.querySelector(".lightbox-caption");
-  const download = dialog.querySelector(".lightbox-download");
   let previousFocus = null;
   let loadToken = 0;
 
@@ -117,7 +115,6 @@
       image.src = link.href;
     }
     caption.replaceChildren(buildCaption(link, label));
-    download.href = link.href;
     dialog.hidden = false;
     document.body.classList.add("has-lightbox");
     requestAnimationFrame(() => {
