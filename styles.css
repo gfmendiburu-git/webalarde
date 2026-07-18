@@ -290,15 +290,15 @@ a {
 }
 
 .section {
-  padding: clamp(64px, 9vw, 118px) clamp(18px, 4vw, 56px);
+  padding: clamp(42px, 6vw, 78px) clamp(18px, 4vw, 56px);
 }
 
 .page-hero + .section {
-  padding-top: clamp(34px, 5vw, 58px);
+  padding-top: clamp(24px, 4vw, 38px);
 }
 
 .page-hero {
-  padding: clamp(54px, 8vw, 92px) clamp(18px, 4vw, 56px) clamp(44px, 6vw, 72px);
+  padding: clamp(40px, 6vw, 68px) clamp(18px, 4vw, 56px) clamp(32px, 5vw, 52px);
   background:
     linear-gradient(120deg, rgba(176, 0, 32, 0.95), rgba(120, 0, 22, 0.92)),
     var(--accent);
@@ -419,7 +419,7 @@ a {
 }
 
 .history-article .lead {
-  margin: 0 0 clamp(34px, 5vw, 56px);
+  margin: 0 0 clamp(22px, 3.5vw, 34px);
   color: var(--ink);
   font-size: clamp(1.2rem, 2vw, 1.48rem);
   font-weight: 650;
