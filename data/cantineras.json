@@ -62,8 +62,24 @@
       "name": "Josefa Antonia Arregui",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-banda-de-musica-del-alarde-de-irun-josefa-antonia-arregui/",
       "source_title": "Barril Cantinera Banda de Música Alarde de Irún – Josefa Antonia Arregui",
+      "mentions": 2,
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "Manuela Josefa Arregui Amantegui",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 3 - Numero 12.pdf",
+          "source_title": "Barril de Cantinera del año 1887, El Irunés, año 3, núm. 12, 1991, p. 48 del PDF"
+        }
+      ]
+    },
+    {
+      "year": 1888,
+      "company": "Banda de Música",
+      "name": "Manuela Josefa Arregui Amantegui",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 3 - Numero 12.pdf",
+      "source_title": "Barril de Cantinera del año 1887, El Irunés, año 3, núm. 12, 1991, p. 48 del PDF",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -16867,8 +16883,8 @@
     }
   ],
   "stats": {
-    "entries": 1572,
-    "needs_review": 93,
+    "entries": 1573,
+    "needs_review": 95,
     "rejected": {
       "no_company": 299,
       "hondarribia": 7,
@@ -16876,7 +16892,7 @@
       "no_year": 24
     },
     "total_entries": 1596,
-    "last_manual_update": "2026-07-17",
-    "manual_update_note": "Añadidas cantineras de compañías desaparecidas desde Veteranos Escolta de Caballería, pendientes de contraste documental."
+    "last_manual_update": "2026-07-18",
+    "manual_update_note": "Añadido contraste de El Irunés, año 3, núm. 12, sobre el barril de cantinera de 1887 y Manuela Josefa Arregui Amantegui; la entrada de 1887 queda marcada para revisión por variante nominal."
   }
 }
