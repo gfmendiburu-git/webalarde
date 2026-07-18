@@ -740,6 +740,31 @@ a {
   margin-inline: auto;
 }
 
+.cantineras-intro-section {
+  padding-bottom: clamp(26px, 4vw, 42px);
+}
+
+.cantineras-list-section {
+  padding-top: clamp(32px, 5vw, 52px);
+}
+
+.cantineras-list-heading {
+  display: block;
+  max-width: 860px;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.cantineras-list-heading h2 {
+  max-width: none;
+  margin-bottom: 12px;
+}
+
+.cantineras-list-heading p {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
 .browser-controls {
   display: flex;
   flex-wrap: wrap;
