@@ -344,6 +344,16 @@
     },
     {
       "year": 1919,
+      "company": "Tamborrada",
+      "name": "Mónica Artía Arocena",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 3 - Numero 13.pdf",
+      "source_title": "Mónica Artía Arocena con 14 años, El Irunés, año 3, núm. 13, 1991, pp. 34-35 del PDF",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1919,
       "company": "Ventas",
       "name": "Justa Manterola Telletxea",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-ventas-alarde-de-irun-justa-manterola-telletxea/",
@@ -378,6 +388,16 @@
       "name": "Otilia Briz",
       "source_url": "https://veteranosescoltadecaballeria.com/alarde-de-san-marcial-de-irun-cantinera-de-caballeria-3/",
       "source_title": "Alarde de San Marcial de Irun.Cantinera de Caballeria.",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1920,
+      "company": "Tamborrada",
+      "name": "Mónica Artía Arocena",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 3 - Numero 13.pdf",
+      "source_title": "Mónica Artía Arocena con 14 años, El Irunés, año 3, núm. 13, 1991, pp. 34-35 del PDF",
       "mentions": 1,
       "needs_review": false,
       "alternatives": []
@@ -16883,7 +16903,7 @@
     }
   ],
   "stats": {
-    "entries": 1573,
+    "entries": 1575,
     "needs_review": 95,
     "rejected": {
       "no_company": 299,
@@ -16891,8 +16911,8 @@
       "no_name": 776,
       "no_year": 24
     },
-    "total_entries": 1596,
+    "total_entries": 1598,
     "last_manual_update": "2026-07-18",
-    "manual_update_note": "Añadido contraste de El Irunés, año 3, núm. 12, sobre el barril de cantinera de 1887 y Manuela Josefa Arregui Amantegui; la entrada de 1887 queda marcada para revisión por variante nominal."
+    "manual_update_note": "Añadidas dos entradas de Mónica Artía Arocena como cantinera de la Tamborrada en 1919 y 1920 desde El Irunés, año 3, núm. 13."
   }
 }
