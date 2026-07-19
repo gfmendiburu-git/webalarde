@@ -509,6 +509,17 @@ a {
   margin-top: 0;
 }
 
+.unit-card h3 a {
+  color: inherit;
+  text-decoration-color: rgba(176, 0, 32, 0.35);
+  text-underline-offset: 0.16em;
+}
+
+.unit-card h3 a:hover,
+.unit-card h3 a:focus-visible {
+  color: var(--accent);
+}
+
 .unit-card p {
   margin-bottom: 0;
 }
