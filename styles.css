@@ -575,6 +575,10 @@ a {
   margin: 24px 0 34px;
 }
 
+.company-card-grid--names {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .company-card-grid .unit-card h3 a {
   color: inherit;
   text-decoration-color: rgba(176, 0, 32, 0.35);
@@ -587,8 +591,12 @@ a {
 }
 
 .company-card-grid--names .unit-card {
-  min-height: 96px;
+  aspect-ratio: 1 / 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .company-card-grid--names .unit-card h3 {
@@ -598,6 +606,7 @@ a {
 .company-card-grid--names .unit-card h3 a {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   min-height: 44px;
 }
 
@@ -1499,6 +1508,10 @@ code {
     grid-template-columns: 1fr;
   }
 
+  .company-card-grid--names {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .history-index {
     position: static;
   }
@@ -1537,6 +1550,10 @@ code {
 }
 
 @media (max-width: 560px) {
+  .company-card-grid--names {
+    grid-template-columns: 1fr;
+  }
+
   .brand {
     white-space: normal;
   }
