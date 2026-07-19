@@ -586,6 +586,21 @@ a {
   text-decoration-color: currentColor;
 }
 
+.company-card-grid--names .unit-card {
+  min-height: 96px;
+  justify-content: center;
+}
+
+.company-card-grid--names .unit-card h3 {
+  margin: 0;
+}
+
+.company-card-grid--names .unit-card h3 a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
 .source-groups {
   display: grid;
   gap: 18px;
