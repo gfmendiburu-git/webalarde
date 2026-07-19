@@ -571,45 +571,6 @@ a {
   text-decoration-color: currentColor;
 }
 
-.historical-company-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 22px 0 30px;
-  overflow-wrap: anywhere;
-}
-
-.historical-company-table th,
-.historical-company-table td {
-  padding: 14px 16px;
-  border-bottom: 1px solid var(--line);
-  text-align: left;
-  vertical-align: top;
-}
-
-.historical-company-table th {
-  background: var(--ink);
-  color: var(--white);
-  font-size: 0.82rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.historical-company-table td:first-child {
-  color: var(--ink);
-  font-weight: 850;
-}
-
-.historical-company-table a {
-  color: inherit;
-  text-decoration-color: rgba(176, 0, 32, 0.35);
-  text-underline-offset: 4px;
-}
-
-.historical-company-table a:hover {
-  color: var(--accent);
-  text-decoration-color: currentColor;
-}
-
 .company-link-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
