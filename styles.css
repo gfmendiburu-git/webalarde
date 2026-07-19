@@ -571,37 +571,42 @@ a {
   text-decoration-color: currentColor;
 }
 
-.company-link-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-  gap: 12px;
-  margin: 22px 0 28px;
+.company-card-grid {
+  margin: 24px 0 34px;
 }
 
-.company-link-grid a {
-  display: flex;
-  min-height: 54px;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 14px 16px;
+.company-card-grid .unit-card h3 a {
+  color: inherit;
+  text-decoration-color: rgba(176, 0, 32, 0.35);
+  text-underline-offset: 4px;
+}
+
+.company-card-grid .unit-card h3 a:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+
+.source-groups {
+  display: grid;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.source-group {
+  padding: 18px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--white);
+}
+
+.source-group h3 {
+  margin: 0 0 12px;
   color: var(--ink);
-  font-weight: 850;
-  text-decoration: none;
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.05);
+  font-size: 1rem;
 }
 
-.company-link-grid a::after {
-  content: ">";
-  color: var(--accent);
-}
-
-.company-link-grid a:hover {
-  border-color: rgba(176, 0, 32, 0.45);
-  color: var(--accent);
+.source-group .source-list {
+  margin: 0;
 }
 
 .company-hero .back-link {
