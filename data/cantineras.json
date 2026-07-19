@@ -5547,12 +5547,18 @@
     {
       "year": 1967,
       "company": "Real Unión",
-      "name": "Teresa Cuñado Olaizola",
-      "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-teresa-cunado-olaizola/",
-      "source_title": "La figura de la Cantinera de la Compañía Real Unión del Alarde de irun",
-      "mentions": 1,
-      "needs_review": false,
-      "alternatives": []
+      "name": "Maite Cuñado Olaizola",
+      "source_url": "",
+      "source_title": "Cantineras de la familia Olaizola de 1941 a 1994, El Irunés, año 7, núm. 32, septiembre de 1995, p. 57 del PDF",
+      "mentions": 2,
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "Teresa Cuñado Olaizola",
+          "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-teresa-cunado-olaizola/",
+          "source_title": "La figura de la Cantinera de la Compañía Real Unión del Alarde de irun"
+        }
+      ]
     },
     {
       "year": 1967,
