@@ -2028,6 +2028,26 @@
     },
     {
       "year": 1946,
+      "company": "Ama Shantalen",
+      "name": "María Angeles Otondo",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: María Angeles Otondo, Cantinera de la Compañía Ama Shantalen del Alarde (1946)",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": [],
+      "gallery_source_refs": [
+        {
+          "object_id": "1640",
+          "title": "María Angeles Otondo, Cantinera de la Compañía Ama Shantalen del Alarde (1946)",
+          "date": "1946 - 1946",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
+    },
+    {
+      "year": 1946,
       "company": "Anaka",
       "name": "María Teresa Larraza",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-anaka-del-alarde-de-irun-maria-teresa-larraza/",
@@ -2441,6 +2461,26 @@
       "mentions": 1,
       "needs_review": false,
       "alternatives": []
+    },
+    {
+      "year": 1949,
+      "company": "Bidasoa",
+      "name": "Josefa Múgica",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Josefa Múgica, Cantinera de la Compañía Bidasoa del Alarde (1949)",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": [],
+      "gallery_source_refs": [
+        {
+          "object_id": "1659",
+          "title": "Josefa Múgica, Cantinera de la Compañía Bidasoa del Alarde (1949)",
+          "date": "1949 - 1949",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
     },
     {
       "year": 1949,
@@ -3390,6 +3430,34 @@
     },
     {
       "year": 1954,
+      "company": "Olaberria",
+      "name": "Carmen Muguruza",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Carmen Muguruza, cantinera de la Compañía Olaberria en la calle Mayor (1954)",
+      "mentions": 2,
+      "needs_review": true,
+      "alternatives": [],
+      "gallery_source_refs": [
+        {
+          "object_id": "20922",
+          "title": "Carmen Muguruza, cantinera de la Compañía Olaberria en la calle Mayor (1954)",
+          "date": "1954 - 1954",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "20923",
+          "title": "Carmen Muguruza, cantinera de la Compañía Olaberria, a su paso por la plaza San...",
+          "date": "1954 - 1954",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
+    },
+    {
+      "year": 1954,
       "company": "Paseo Colón",
       "name": "Mª Antonia Amantegui Echezarreta",
       "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
@@ -3487,6 +3555,42 @@
       "mentions": 1,
       "needs_review": false,
       "alternatives": []
+    },
+    {
+      "year": 1955,
+      "company": "Anaka",
+      "name": "Juncal Zabala",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Juncal Zabala, cantinera de la Compañía Anaka del Alarde en 1955",
+      "mentions": 3,
+      "needs_review": true,
+      "alternatives": [],
+      "gallery_source_refs": [
+        {
+          "object_id": "26428",
+          "title": "Juncal Zabala, cantinera de la Compañía Anaka del Alarde en 1955",
+          "date": "1955 - 1955",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "26429",
+          "title": "Juncal Zabala, cantinera de la Compañía Anaka del Alarde en 1955",
+          "date": "1955 - 1955",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "26454",
+          "title": "Juncal Zabala, cantinera de la Compañía Anaka del Alarde en 1955",
+          "date": "1955 - 1955",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
     },
     {
       "year": 1955,
@@ -4155,6 +4259,50 @@
       "alternatives": []
     },
     {
+      "year": 1958,
+      "company": "Ventas",
+      "name": "Cristina Urtizberea",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Cristina Urtizberea, cantinera de la Compañía Ventas del Alarde en 1958",
+      "mentions": 4,
+      "needs_review": true,
+      "alternatives": [],
+      "gallery_source_refs": [
+        {
+          "object_id": "1709",
+          "title": "Cristina Urtizberea, cantinera de la Compañía Ventas del Alarde en 1958",
+          "date": "1958 - 1958",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "1718",
+          "title": "Cristina Urtizberea, Cantinera de la Compañía Ventas del Alarde (1958)",
+          "date": "1958 - 1958",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "1721",
+          "title": "Cristina Urtizberea cantinera de la Compañía Ventas del Alarde en 1958",
+          "date": "1958 - 1958",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "21702",
+          "title": "Cristina Urtizberea, cantinera de la Compañía Ventas del Alarde en los momentos...",
+          "date": "1958 - 1958",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
+    },
+    {
       "year": 1959,
       "company": "Ama Shantalen",
       "name": "Victoria Anta Muñoz",
@@ -4163,6 +4311,26 @@
       "mentions": 1,
       "needs_review": false,
       "alternatives": []
+    },
+    {
+      "year": 1959,
+      "company": "Anaka",
+      "name": "Saturnina Peña",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Saturnina Peña, Cantinera de la Compañía Anaka del Alarde en la Calle Mayor...",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": [],
+      "gallery_source_refs": [
+        {
+          "object_id": "21143",
+          "title": "Saturnina Peña, Cantinera de la Compañía Anaka del Alarde en la Calle Mayor...",
+          "date": "1959 - 1959",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
     },
     {
       "year": 1959,
@@ -4573,6 +4741,34 @@
       "mentions": 1,
       "needs_review": false,
       "alternatives": []
+    },
+    {
+      "year": 1961,
+      "company": "Meaka",
+      "name": "Maite Alsua",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Maite Alsua, cantinera de la Compañía Meaka del Alarde en la plaza San Juan...",
+      "mentions": 2,
+      "needs_review": true,
+      "alternatives": [],
+      "gallery_source_refs": [
+        {
+          "object_id": "21091",
+          "title": "Maite Alsua, cantinera de la Compañía Meaka del Alarde en la plaza San Juan...",
+          "date": "1961 - 1961",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "21092",
+          "title": "Maite Alsua, cantinera de la Compañía Meaka en la plaza San Juan Harria (1961)",
+          "date": "1961 - 1961",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
     },
     {
       "year": 1961,
@@ -5338,6 +5534,28 @@
     },
     {
       "year": 1966,
+      "company": "Banda de Música",
+      "name": "Felisa Crespo",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Felisa Crespo, cantinera de la Banda de Música del Alarde de Irun en 1966",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": [
+        "Feli Crespo"
+      ],
+      "gallery_source_refs": [
+        {
+          "object_id": "1580",
+          "title": "Felisa Crespo, cantinera de la Banda de Música del Alarde de Irun en 1966",
+          "date": "1966 - 1966",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
+    },
+    {
+      "year": 1966,
       "company": "Batería de Artillería",
       "name": "Matilde Barnechea",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-bateria-de-artilleria-del-alarde-de-irun-matilde-barnechea/",
@@ -5721,6 +5939,34 @@
       "mentions": 2,
       "needs_review": false,
       "alternatives": []
+    },
+    {
+      "year": 1968,
+      "company": "Lapice",
+      "name": "Pepa Blanco",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Pepa Blanco, Cantinera de la Compañía Lapice del Alarde (1968)",
+      "mentions": 2,
+      "needs_review": true,
+      "alternatives": [],
+      "gallery_source_refs": [
+        {
+          "object_id": "1962",
+          "title": "Pepa Blanco, Cantinera de la Compañía Lapice del Alarde (1968)",
+          "date": "1968 - 1968",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "1963",
+          "title": "Pepa Blanco, Cantinera de la Compañía Lapice del Alarde (1968)",
+          "date": "1968 - 1968",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
     },
     {
       "year": 1968,
@@ -6680,6 +6926,34 @@
     },
     {
       "year": 1974,
+      "company": "Bidasoa",
+      "name": "Mariví Egüés",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Retrato de Mariví Egüés, recién elegida Cantinera de Bidasoa (1974). Donación...",
+      "mentions": 2,
+      "needs_review": true,
+      "alternatives": [],
+      "gallery_source_refs": [
+        {
+          "object_id": "59253",
+          "title": "Retrato de Mariví Egüés, recién elegida Cantinera de Bidasoa (1974). Donación...",
+          "date": "1974 - 1974",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "59254",
+          "title": "Retrato de Mariví Egüés, recién elegida Cantinera de Bidasoa (1974). Donación...",
+          "date": "1974 - 1974",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
+    },
+    {
+      "year": 1974,
       "company": "Buenos Amigos",
       "name": "Juncal Basurko Landaberea",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-de-la-compania-buenos-amigos-juncal-basurko-landaberea/",
@@ -7050,6 +7324,36 @@
     },
     {
       "year": 1976,
+      "company": "Meaka",
+      "name": "Merche Lasa Altolaguirre",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Retrato de Merche Lasa Altolaguirre, recién elegida Cantinera de Meaka (1976)....",
+      "mentions": 2,
+      "needs_review": true,
+      "alternatives": [
+        "Mercedes Lasa"
+      ],
+      "gallery_source_refs": [
+        {
+          "object_id": "59193",
+          "title": "Retrato de Merche Lasa Altolaguirre, recién elegida Cantinera de Meaka (1976)....",
+          "date": "1976 - 1976",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "59194",
+          "title": "Retrato de Merche Lasa Altolaguirre, recién elegida Cantinera de Meaka (1976)....",
+          "date": "1976 - 1976",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
+    },
+    {
+      "year": 1976,
       "company": "Olaberria",
       "name": "María Teresa Alonso Achaga",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-olaberria-del-alarde-de-irun-maria-teresa-alonso-achaga/",
@@ -7087,6 +7391,36 @@
       "mentions": 1,
       "needs_review": false,
       "alternatives": []
+    },
+    {
+      "year": 1976,
+      "company": "Tamborrada",
+      "name": "Ramoni Recarte Zubeldia",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Retrato de Ramoni Recarte Zubeldia, recién elegida Cantinera de la Tamborrada...",
+      "mentions": 2,
+      "needs_review": true,
+      "alternatives": [
+        "Ramoni Recarte"
+      ],
+      "gallery_source_refs": [
+        {
+          "object_id": "59199",
+          "title": "Retrato de Ramoni Recarte Zubeldia, recién elegida Cantinera de la Tamborrada...",
+          "date": "1976 - 1976",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "59200",
+          "title": "Retrato de Ramoni Recarte Zubeldia, recién elegida Cantinera de la Tamborrada...",
+          "date": "1976 - 1976",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
     },
     {
       "year": 1976,
@@ -7197,6 +7531,36 @@
       "mentions": 1,
       "needs_review": false,
       "alternatives": []
+    },
+    {
+      "year": 1977,
+      "company": "Meaka",
+      "name": "Rosa Mari Jauregi Lasa",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Retrato de Rosa Mari Jauregi Lasa recién elegida cantinera de Meaka (1977)....",
+      "mentions": 2,
+      "needs_review": true,
+      "alternatives": [
+        "Rosa María Jauregui"
+      ],
+      "gallery_source_refs": [
+        {
+          "object_id": "59327",
+          "title": "Retrato de Rosa Mari Jauregi Lasa recién elegida cantinera de Meaka (1977)....",
+          "date": "1977 - 1977",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "59328",
+          "title": "Retrato de Rosa Mari Jauregi Lasa recién elegida cantinera de Meaka (1977)....",
+          "date": "1977 - 1977",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
     },
     {
       "year": 1977,
@@ -16935,16 +17299,16 @@
     }
   ],
   "stats": {
-    "entries": 1577,
-    "needs_review": 94,
+    "entries": 1614,
+    "needs_review": 134,
     "rejected": {
       "no_company": 299,
       "hondarribia": 7,
       "no_name": 776,
       "no_year": 24
     },
-    "total_entries": 1600,
+    "total_entries": 1614,
     "last_manual_update": "2026-07-20",
-    "manual_update_note": "Ajustadas variantes de Natividad Barreda González (Irungo Atsegiña, 1935) y Mercedes Iglesias Barreda (Real Unión, 1962) desde El Irunés, año 8, núm. 37."
+    "manual_update_note": "Incorporados 13 huecos de cantineras detectados en metadatos de la galería fotográfica interna, sin enlazar fotos ni fichas por revisión de permisos."
   }
 }
