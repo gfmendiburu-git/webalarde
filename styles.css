@@ -1469,6 +1469,8 @@ code {
     position: static;
     align-items: flex-start;
     flex-direction: column;
+    gap: 12px;
+    padding-block: 12px;
   }
 
   .site-nav {
@@ -1479,9 +1481,16 @@ code {
     padding-bottom: 4px;
   }
 
+  .nav-dropdown[open] {
+    width: 100%;
+  }
+
   .nav-dropdown-menu {
-    right: auto;
-    left: 0;
+    position: static;
+    width: 100%;
+    min-width: 0;
+    margin-top: 10px;
+    box-shadow: none;
   }
 
   .hero {
@@ -1554,11 +1563,31 @@ code {
   }
 
   .brand {
+    gap: 14px;
     white-space: normal;
   }
 
+  .brand-mark {
+    width: 36px;
+    height: 54px;
+  }
+
+  .brand-copy strong {
+    font-size: 0.86rem;
+  }
+
+  .brand-copy small {
+    font-size: 1rem;
+  }
+
   .site-nav {
-    gap: 16px;
+    column-gap: 14px;
+    row-gap: 8px;
+    font-size: 0.9rem;
+  }
+
+  .site-nav > * + *::before {
+    display: none;
   }
 
   .hero {
