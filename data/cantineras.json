@@ -123,11 +123,31 @@
       "alternatives": []
     },
     {
+      "year": 1903,
+      "company": "Escolta de Caballería",
+      "name": "Paulina Saura",
+      "source_url": "",
+      "source_title": "San Juan. El Alarde noruego",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": []
+    },
+    {
       "year": 1904,
       "company": "Banda de Música",
       "name": "Marichu Pocino",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-de-la-banda-del-alarde-de-irun-marichu-pocino/",
       "source_title": "Cantinera de la Banda del Alarde de Irun – Marichu Pocino",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1904,
+      "company": "Escolta de Caballería",
+      "name": "Paulina Saura",
+      "source_url": "",
+      "source_title": "San Juan. El Alarde noruego",
       "mentions": 1,
       "needs_review": false,
       "alternatives": []
@@ -10813,18 +10833,12 @@
     {
       "year": 1996,
       "company": "Ama Shantalen",
-      "name": "Ainhoa Norondo",
+      "name": "Ainhoa Morondo",
       "source_url": "https://veteranosescoltadecaballeria.com/ainhoa-morondo-eleccion-cantinera-ama-shantalen-1996/",
       "source_title": "Ainhoa Morondo elección Cantinera Ama Shantalen 1996",
-      "mentions": 3,
-      "needs_review": true,
-      "alternatives": [
-        {
-          "name": "Ainhoa Morondo",
-          "source_url": "https://veteranosescoltadecaballeria.com/ainhoa-morondo-eleccion-cantinera-ama-shantalen-1996/",
-          "source_title": "Ainhoa Morondo elección Cantinera Ama Shantalen 1996"
-        }
-      ]
+      "mentions": 4,
+      "needs_review": false,
+      "alternatives": []
     },
     {
       "year": 1996,
@@ -16909,16 +16923,16 @@
     }
   ],
   "stats": {
-    "entries": 1575,
-    "needs_review": 95,
+    "entries": 1577,
+    "needs_review": 94,
     "rejected": {
       "no_company": 299,
       "hondarribia": 7,
       "no_name": 776,
       "no_year": 24
     },
-    "total_entries": 1598,
-    "last_manual_update": "2026-07-18",
-    "manual_update_note": "Añadidas dos entradas de Mónica Artía Arocena como cantinera de la Tamborrada en 1919 y 1920 desde El Irunés, año 3, núm. 13."
+    "total_entries": 1600,
+    "last_manual_update": "2026-07-20",
+    "manual_update_note": "Corregida Ainhoa Morondo en Ama Shantalen 1996 y añadidas Paulina Saura en Escolta de Caballería 1903 y 1904 desde El Irunés, año 8, núm. 36."
   }
 }
