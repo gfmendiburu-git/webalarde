@@ -1228,13 +1228,18 @@
       "name": "Natividad Barreda González",
       "source_url": "",
       "source_title": "Cantineras irunesas",
-      "mentions": 2,
+      "mentions": 3,
       "needs_review": true,
       "alternatives": [
         {
           "name": "Naty Barreda Gómez",
           "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
           "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún"
+        },
+        {
+          "name": "Natividad Barrera",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Diario Vasco/El Diario Vasco - 29-06-1935.pdf",
+          "source_title": "Pies graficos de cantineras, El Diario Vasco, 29 de junio de 1935, p. 7"
         }
       ]
     },
@@ -1250,13 +1255,29 @@
     },
     {
       "year": 1935,
+      "company": "Peña Irrintzi",
+      "name": "María Juncal Fuertes",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Diario Vasco/El Diario Vasco - 29-06-1935.pdf",
+      "source_title": "Pies graficos de cantineras, El Diario Vasco, 29 de junio de 1935, p. 7",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1935,
       "company": "Real Unión",
       "name": "Carmen Gal Belmar",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-carmen-gal-belmar/",
       "source_title": "La figura de la Cantinera de la Compañía Real Unión del Alarde de Irun",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Carmen Gal",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Diario Vasco/El Diario Vasco - 29-06-1935.pdf",
+          "source_title": "Pies graficos de cantineras, El Diario Vasco, 29 de junio de 1935, p. 7"
+        }
+      ]
     },
     {
       "year": 1935,
@@ -1264,9 +1285,15 @@
       "name": "Paquita Erauskin Aguirre",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-alarde-de-irun-paquita-erauskin-aguirre/",
       "source_title": "Cantinera Compañía Santiago Alarde de Irún – Paquita Erauskin Aguirre",
-      "mentions": 1,
-      "needs_review": false,
-      "alternatives": []
+      "mentions": 2,
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "Paquita Errazquin",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Diario Vasco/El Diario Vasco - 29-06-1935.pdf",
+          "source_title": "Pies graficos de cantineras, El Diario Vasco, 29 de junio de 1935, p. 7"
+        }
+      ]
     },
     {
       "year": 1935,
@@ -1274,9 +1301,15 @@
       "name": "Miren Atutxa Urtizberea",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-tamborrada-del-alarde-de-irun-miren-atutxa-urtizberea/",
       "source_title": "La figura de la Cantinera de la Tamborrada del Alarde de Irun",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Mirentxu Atucha",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Diario Vasco/El Diario Vasco - 29-06-1935.pdf",
+          "source_title": "Pies graficos de cantineras, El Diario Vasco, 29 de junio de 1935, p. 7"
+        }
+      ]
     },
     {
       "year": 1936,
@@ -3725,21 +3758,21 @@
     {
       "year": 1955,
       "company": "Renfe",
-      "name": "Lucía Garballo Bonilla",
-      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
-      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
-      "mentions": 1,
-      "needs_review": true,
-      "alternatives": []
-    },
-    {
-      "year": 1955,
-      "company": "Renfe",
       "name": "Lucia Garbayo Bonilla",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-compania-renfe-del-alarde-de-san-marcial-de-irun-lucia-garbayo-bonilla/",
       "source_title": "La figura de la Compañía Renfe del Alarde de San Marcial de Irun",
       "mentions": 1,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1955,
+      "company": "Renfe",
+      "name": "Lucía Garballo Bonilla",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
