@@ -89,7 +89,7 @@ def main():
                 "name": chosen["name"],
                 "source_url": "",
                 "source_title": f"Metadatos de la galería fotográfica interna: {titles[0]}",
-                "mentions": len(chosen["sources"]),
+                "mentions": len(refs),
                 "needs_review": True,
                 "alternatives": [record["name"] for record in records if record["name"] != chosen["name"]],
                 "gallery_source_refs": refs,

@@ -35,6 +35,7 @@ COMPANY_ALIASES = {
     "real union": "Real Unión",
     "san miguel": "San Miguel",
     "santiago": "Santiago",
+    "irun sporting club": "Sporting Club",
     "tamborrada": "Tamborrada",
     "uranzu": "Uranzu",
     "urdanibia": "Urdanibia",
@@ -104,6 +105,7 @@ def clean_name(raw):
 
 
 def extract_company(text):
+    text = re.split(r"\bfondo\b", text, maxsplit=1, flags=re.I)[0]
     text = re.split(r"\b(en la|en el|en los|en las|a su paso|durante|accediendo|posando)\b", text, maxsplit=1, flags=re.I)[0]
     text = re.sub(r"\(.*?\)", "", text)
     ntext = norm(text)
@@ -120,9 +122,9 @@ def parse_title(title):
     candidates = []
     patterns = [
         r"^(?P<name>.+?)\s+reci[eé]n elegida cantinera de\s+(?P<company>.+?)(?:\s+del\b|,|\.|$)",
-        r"^(?P<name>.+?)\s*,?\s*cantinera de\s+(?P<company>.+?)(?:\s+del\b|,|\.|$)",
+        r"^(?P<name>.+?)\s*,?\s*cantinera d(?:e|el|e la|e los|e las)\s+(?P<company>.+?)(?:\s+del\b|,|\.|$)",
         r"^(?P<name>.+?)\s+cantinera\s+(?P<company>.+?)(?:\s+20\d{2}|,|\.|$)",
-        r"^(?P<name>.+?)\.\s*cantinera de\s+(?P<company>.+?)(?:\s+del\b|,|\.|$)",
+        r"^(?P<name>.+?)\.\s*cantinera d(?:e|el|e la|e los|e las)\s+(?P<company>.+?)(?:\s+del\b|,|\.|$)",
     ]
     for pattern in patterns:
         match = re.search(pattern, title, flags=re.I)

@@ -303,6 +303,26 @@
       "alternatives": []
     },
     {
+      "year": 1915,
+      "company": "Sporting Club",
+      "name": "Luisa Moso",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Luisa Moso, Cantinera del Irun Sporting Club. Fondo Ricardo Campo",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": [],
+      "gallery_source_refs": [
+        {
+          "object_id": "53136",
+          "title": "Luisa Moso, Cantinera del Irun Sporting Club. Fondo Ricardo Campo",
+          "date": "1915 - 1915",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
+    },
+    {
       "year": 1918,
       "company": "San Miguel",
       "name": "Lola Urtizberea Oñatibia",
@@ -17299,16 +17319,16 @@
     }
   ],
   "stats": {
-    "entries": 1614,
-    "needs_review": 134,
+    "entries": 1615,
+    "needs_review": 135,
     "rejected": {
       "no_company": 299,
       "hondarribia": 7,
       "no_name": 776,
       "no_year": 24
     },
-    "total_entries": 1614,
+    "total_entries": 1615,
     "last_manual_update": "2026-07-20",
-    "manual_update_note": "Incorporados 13 huecos de cantineras detectados en metadatos de la galería fotográfica interna, sin enlazar fotos ni fichas por revisión de permisos."
+    "manual_update_note": "Incorporado 1 hueco de cantinera detectado en metadatos de la galería fotográfica interna: Luisa Moso, Sporting Club, 1915; sin enlazar foto ni ficha por revisión de permisos."
   }
 }
