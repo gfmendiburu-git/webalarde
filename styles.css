@@ -576,7 +576,7 @@ a {
 }
 
 .company-card-grid--names {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .company-card-grid .unit-card h3 a {
@@ -591,8 +591,7 @@ a {
 }
 
 .company-card-grid--names .unit-card {
-  aspect-ratio: 1 / 1;
-  min-height: 0;
+  min-height: 92px;
   display: flex;
   align-items: center;
   justify-content: center;
