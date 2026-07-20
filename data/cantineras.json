@@ -3084,6 +3084,26 @@
     },
     {
       "year": 1952,
+      "company": "Olaberria",
+      "name": "Rosario Aramburu",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: La Compañía Olaberria del Alarde con su cantinera, Rosario Aramburu, en la...",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": [],
+      "gallery_source_refs": [
+        {
+          "object_id": "11450",
+          "title": "La Compañía Olaberria del Alarde con su cantinera, Rosario Aramburu, en la...",
+          "date": "1952 - 1952",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
+    },
+    {
+      "year": 1952,
       "company": "Real Unión",
       "name": "Elena Anabitarte",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-elena-anabitarte/",
@@ -9261,6 +9281,50 @@
       "mentions": 1,
       "needs_review": false,
       "alternatives": []
+    },
+    {
+      "year": 1986,
+      "company": "Mendibil",
+      "name": "Cristina Apecechea Celaya",
+      "source_url": "",
+      "source_title": "Metadatos de la galería fotográfica interna: Cristina Apecechea Celaya, Cantinera de la Compañía Mendibil del Alarde (1986)",
+      "mentions": 4,
+      "needs_review": true,
+      "alternatives": [],
+      "gallery_source_refs": [
+        {
+          "object_id": "24383",
+          "title": "Cristina Apecechea Celaya, Cantinera de la Compañía Mendibil del Alarde (1986)",
+          "date": "1986 - 1986",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "59121",
+          "title": "Retrato de Cristina Apecechea Celaya, recién elegida Cantinera de Mendibil...",
+          "date": "1986 - 1986",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "59122",
+          "title": "Retrato de Cristina Apecechea Celaya, recién elegida Cantinera de Mendibil...",
+          "date": "1986 - 1986",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        },
+        {
+          "object_id": "59123",
+          "title": "Retrato de Cristina Apecechea Celaya, recién elegida Cantinera de Mendibil...",
+          "date": "1986 - 1986",
+          "source": "archivo-irun",
+          "archive": "Archivo Municipal de Irun",
+          "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
+        }
+      ]
     },
     {
       "year": 1986,
@@ -17319,16 +17383,16 @@
     }
   ],
   "stats": {
-    "entries": 1615,
-    "needs_review": 135,
+    "entries": 1617,
+    "needs_review": 137,
     "rejected": {
       "no_company": 299,
       "hondarribia": 7,
       "no_name": 776,
       "no_year": 24
     },
-    "total_entries": 1615,
+    "total_entries": 1617,
     "last_manual_update": "2026-07-20",
-    "manual_update_note": "Incorporado 1 hueco de cantinera detectado en metadatos de la galería fotográfica interna: Luisa Moso, Sporting Club, 1915; sin enlazar foto ni ficha por revisión de permisos."
+    "manual_update_note": "Incorporados 2 huecos adicionales detectados en metadatos de la galería fotográfica interna: Rosario Aramburu, Olaberria, 1952; y Cristina Apecechea Celaya, Mendibil, 1986. Se mantiene sin enlazar fotos ni fichas por revisión de permisos."
   }
 }

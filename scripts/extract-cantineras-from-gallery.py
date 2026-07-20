@@ -26,9 +26,13 @@ COMPANY_ALIASES = {
     "buenos amigos": "Buenos Amigos",
     "caballeria": "Escolta de Caballería",
     "calle mayor": "Calle Mayor",
+    "casino": "Casino",
+    "circulo tradicionalista": "Círculo Tradicionalista",
     "lapice": "Lapice",
+    "lapize": "Lapice",
     "larretxipi": "Larretxipi",
     "meaka": "Meaka",
+    "mendibil": "Mendibil",
     "olaberria": "Olaberria",
     "racing": "Racing Club",
     "racing club": "Racing Club",
@@ -36,6 +40,9 @@ COMPANY_ALIASES = {
     "san miguel": "San Miguel",
     "santiago": "Santiago",
     "irun sporting club": "Sporting Club",
+    "sporting club": "Sporting Club",
+    "renfe": "Renfe",
+    "santa elena": "Ama Shantalen",
     "tamborrada": "Tamborrada",
     "uranzu": "Uranzu",
     "urdanibia": "Urdanibia",
@@ -89,6 +96,12 @@ def clean_name(raw):
     raw = raw.strip(" .,:;-\"'“”¿?()[]")
     raw = re.sub(r"^(retrato de|la cantinera|las cantineras)\s+", "", raw, flags=re.I)
     raw = re.sub(r",?\s+con\s+.*$", "", raw, flags=re.I)
+    raw = re.sub(
+        r"\s+(en la|en el|en los|en las|a su paso|accediendo|durante|posando|entrando|abandonando|tras|junto|y otros|y demás|y demas|e integrantes|y miembros)\b.*$",
+        "",
+        raw,
+        flags=re.I,
+    )
     if norm(raw).startswith(BAD_NAME_PREFIXES):
         return ""
     raw = re.sub(r"\b(reci[eé]n elegida|elegida|saludando|sonriendo|recibiendo.*)$", "", raw, flags=re.I)
@@ -96,6 +109,8 @@ def clean_name(raw):
     raw = re.sub(r"\s+", " ", raw).strip(" .,:;-\"'“”¿?()[]")
     nraw = norm(raw)
     if not raw or nraw in STOP_NAMES or nraw.startswith(BAD_NAME_PREFIXES):
+        return ""
+    if nraw.startswith(("en la ", "en el ", "en los ", "en las ", "a su paso ")):
         return ""
     if " y " in nraw:
         return ""
@@ -123,6 +138,11 @@ def parse_title(title):
     patterns = [
         r"^(?P<name>.+?)\s+reci[eé]n elegida cantinera de\s+(?P<company>.+?)(?:\s+del\b|,|\.|$)",
         r"^(?P<name>.+?)\s*,?\s*cantinera d(?:e|el|e la|e los|e las)\s+(?P<company>.+?)(?:\s+del\b|,|\.|$)",
+        r"^(?P<company>.+?)\s+(?:del alarde\s+)?(?:con|y)\s+su\s+cantinera,?\s+(?P<name>.+?)(?:,|\.|$)",
+        r"^(?P<company>.+?)\s+(?:del alarde\s+)?,?\s*siendo su cantinera\s+(?P<name>.+?)(?:,|\.|$)",
+        r"^la cantinera d(?:e|el|e la|e los|e las)\s+(?P<company>.+?),?\s+(?P<name>.+?)(?:,|\.|$)",
+        r"^la cantinera\s+(?P<name>.+?)\s+(?:y|e)\s+.*?\s+d(?:e|el|e la|e los|e las)\s+(?P<company>.+?)(?:,|\.|$)",
+        r"^(?P<name>.+?)\s*,?\s*cantinera,?\s+(?:y|e|junto con)\s+.*?\s+d(?:e|el|e la|e los|e las)\s+(?P<company>.+?)(?:,|\.|$)",
         r"^(?P<name>.+?)\s+cantinera\s+(?P<company>.+?)(?:\s+20\d{2}|,|\.|$)",
         r"^(?P<name>.+?)\.\s*cantinera d(?:e|el|e la|e los|e las)\s+(?P<company>.+?)(?:\s+del\b|,|\.|$)",
     ]
