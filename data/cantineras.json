@@ -1205,12 +1205,18 @@
     {
       "year": 1935,
       "company": "Irungo Atsegiña",
-      "name": "Naty Barreda Gómez",
-      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
-      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
-      "mentions": 1,
+      "name": "Natividad Barreda González",
+      "source_url": "",
+      "source_title": "Cantineras irunesas",
+      "mentions": 2,
       "needs_review": true,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Naty Barreda Gómez",
+          "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+          "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún"
+        }
+      ]
     },
     {
       "year": 1935,
@@ -4747,12 +4753,18 @@
     {
       "year": 1962,
       "company": "Real Unión",
-      "name": "Mertxe Iglesias Barreda",
-      "source_url": "https://veteranosescoltadecaballeria.com/la-cantinera-de-la-compania-real-union-del-alarde-de-irun-mertxe/",
-      "source_title": "La Cantinera de la Compañía Real Unión del Alarde de Irun",
-      "mentions": 2,
+      "name": "Mercedes Iglesias Barreda",
+      "source_url": "",
+      "source_title": "Cantineras irunesas",
+      "mentions": 3,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Mertxe Iglesias Barreda",
+          "source_url": "https://veteranosescoltadecaballeria.com/la-cantinera-de-la-compania-real-union-del-alarde-de-irun-mertxe/",
+          "source_title": "La Cantinera de la Compañía Real Unión del Alarde de Irun"
+        }
+      ]
     },
     {
       "year": 1962,
@@ -16933,6 +16945,6 @@
     },
     "total_entries": 1600,
     "last_manual_update": "2026-07-20",
-    "manual_update_note": "Corregida Ainhoa Morondo en Ama Shantalen 1996 y añadidas Paulina Saura en Escolta de Caballería 1903 y 1904 desde El Irunés, año 8, núm. 36."
+    "manual_update_note": "Ajustadas variantes de Natividad Barreda González (Irungo Atsegiña, 1935) y Mercedes Iglesias Barreda (Real Unión, 1962) desde El Irunés, año 8, núm. 37."
   }
 }
