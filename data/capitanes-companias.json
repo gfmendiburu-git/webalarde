@@ -1,0 +1,466 @@
+{
+  "source": "Registro interno de capitanes documentados por compania. Cada entrada debe conservar fuente concreta.",
+  "scope": "Alarde de San Marcial de Irun. Se incluyen companias vigentes, historicas y unidades con capitan cuando la fuente lo documenta.",
+  "entries": [
+    {
+      "company_slug": "ama-shantalen",
+      "company": "Ama Shantalen",
+      "name": "Teodoro Lizan",
+      "from": 1959,
+      "to": 1967,
+      "source": "Bidasoan. Extra San Marcial, Irun, 2007, pp. 58-59",
+      "notes": "Mandos vinculados a Larretxipi."
+    },
+    {
+      "company_slug": "ama-shantalen",
+      "company": "Ama Shantalen",
+      "name": "Juan Jose Alcorta",
+      "from": 1976,
+      "to": 1978,
+      "source": "Bidasoan. Extra San Marcial, Irun, 2007, pp. 58-59",
+      "notes": "Mandos vinculados a Larretxipi."
+    },
+    {
+      "company_slug": "ama-shantalen",
+      "company": "Ama Shantalen",
+      "name": "Alfonso Rodriguez Loidi",
+      "from": 1999,
+      "to": 2006,
+      "source": "Bidasoan. Extra San Marcial, Irun, 2007, pp. 58-59",
+      "notes": "Antes figura como alferez en 1982-1983 y teniente desde 1984."
+    },
+    {
+      "company_slug": "ama-shantalen",
+      "company": "Ama Shantalen",
+      "name": "Jose Maria Onativia",
+      "from": 2007,
+      "to": 2007,
+      "source": "Bidasoan. Extra San Marcial, Irun, 2007, pp. 58-59",
+      "notes": "La fuente lo cita como teniente desde 1999 y capitan para 2007."
+    },
+    {
+      "company_slug": "anaka",
+      "company": "Anaka",
+      "name": "Esteban Arruabarrena",
+      "from": 1946,
+      "to": 1947,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+    },
+    {
+      "company_slug": "anaka",
+      "company": "Anaka",
+      "name": "Jose Antonio Elizalde",
+      "from": 1968,
+      "to": 1968,
+      "source": "Bidasoan. Extra San Marcial, Irun, 2006, pp. 30-31",
+      "notes": "Citado en el recuerdo de los Sanmarciales de 1968."
+    },
+    {
+      "company_slug": "artilleria",
+      "company": "Bateria de Artilleria",
+      "name": "Perfecto Aparicio",
+      "from": 1946,
+      "to": 1946,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13"
+    },
+    {
+      "company_slug": "artilleria",
+      "company": "Bateria de Artilleria",
+      "name": "Perfecto Crespo",
+      "from": 1947,
+      "to": 1947,
+      "source": "El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+    },
+    {
+      "company_slug": "artilleria",
+      "company": "Bateria de Artilleria",
+      "name": "Aurelio Urtizberea",
+      "from": 1949,
+      "to": 1949,
+      "source": "Archivo Municipal de Irun, Fototeca, ref. 21411",
+      "notes": "Identificado en titulo de fotografia.",
+      "source_url": "https://www.irun.org/archivo/fototeca_ficha.asp?texto=alarde+irun&ref=&ano=&offset=&referencia=21411"
+    },
+    {
+      "company_slug": "artilleria",
+      "company": "Bateria de Artilleria",
+      "name": "Jose Maria Arina",
+      "from": 1957,
+      "to": 1961,
+      "source": "Archivo Municipal de Irun, Fototeca, refs. 21250, 21251, 12989 y 21067",
+      "notes": "La fototeca lo documenta como capitan de Artilleria en 1957, 1958 y 1961.",
+      "source_url": "https://www.irun.org/archivo/fototeca_ficha.asp?texto=alarde+irun&ref=&ano=&offset=&referencia=21250"
+    },
+    {
+      "company_slug": "azken-portu",
+      "company": "Azken Portu",
+      "name": "Sebastian Urkia Iturrioz",
+      "from": 1980,
+      "to": 1987,
+      "source": "Bidasoan. Extra San Marcial, Irun, 1987",
+      "notes": "La fuente indica que en 1987 cumplia ocho anos al frente de la compania."
+    },
+    {
+      "company_slug": "behobia",
+      "company": "Behobia",
+      "name": "Lucio Arocena",
+      "from": 1939,
+      "to": 1939,
+      "source": "Carlos Aguirreche Durquety, Bidasoan. Extra San Marcial, Irun, 1992, pp. 58-59"
+    },
+    {
+      "company_slug": "behobia",
+      "company": "Behobia",
+      "name": "Jose Olazabal",
+      "from": 1946,
+      "to": 1947,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+    },
+    {
+      "company_slug": "belaskoenea",
+      "company": "Belaskoenea",
+      "name": "Miguel Ruiz",
+      "from": 1998,
+      "to": 1998,
+      "source": "Bidasoan. Extra San Marcial, Irun, 1998",
+      "notes": "Relacion de mandos de 1998."
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "Jose Antonio Ugarte Mendia",
+      "from": 1946,
+      "to": 1946,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13",
+      "status": "needs_review",
+      "notes": "Lectura normalizada desde OCR dudoso: 'Ugaricmeiidia'."
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "Jose Maria Echegaray",
+      "from": 1947,
+      "to": 1947,
+      "source": "El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+    },
+    {
+      "company_slug": "buenos-amigos",
+      "company": "Buenos Amigos",
+      "name": "Jose Luis Echeveste Galparsoro",
+      "from": 1934,
+      "to": 1947,
+      "source": "Bidasoan. Extra San Marcial, Irun, 1984, p. 56; El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6",
+      "notes": "Primer capitan de la compania segun Bidasoan; documentado tambien en 1946 y 1947."
+    },
+    {
+      "company_slug": "caballeria",
+      "company": "Escolta de Caballeria",
+      "name": "Ramon Alvarez",
+      "from": 1946,
+      "to": 1946,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13"
+    },
+    {
+      "company_slug": "caballeria",
+      "company": "Escolta de Caballeria",
+      "name": "Angel Velasco",
+      "from": 1947,
+      "to": 1947,
+      "source": "El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+    },
+    {
+      "company_slug": "caballeria",
+      "company": "Escolta de Caballeria",
+      "name": "Ramon Requejo",
+      "from": 1980,
+      "to": 1980,
+      "source": "Archivo Municipal de Irun, Fototeca, ref. 39468",
+      "notes": "Identificado en titulo de fotografia.",
+      "source_url": "https://www.irun.org/archivo/fototeca_ficha.asp?texto=alarde+irun&ref=&ano=&offset=&referencia=39468"
+    },
+    {
+      "company_slug": "casino-de-irun",
+      "company": "Casino de Irun",
+      "name": "Jose Eceizabarrena",
+      "from": 1946,
+      "to": 1946,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13"
+    },
+    {
+      "company_slug": "deposito-de-maquinas-renfe",
+      "company": "Deposito de Maquinas / RENFE",
+      "name": "Satur Ibargoyen Vea-Murguia",
+      "from": 1949,
+      "to": 1957,
+      "source": "El Diario Vasco, 19 de junio de 2008",
+      "notes": "La fuente lo identifica como capitan de la compania ferroviaria; 1957 es la ultima participacion documentada de la compania."
+    },
+    {
+      "company_slug": "irungo-atsegina",
+      "company": "Irungo Atsegina",
+      "name": "Noel Danjou",
+      "from": 1935,
+      "to": 1935,
+      "source": "El Irunes, año 8, num. 37, septiembre de 1996, p. 48 del PDF"
+    },
+    {
+      "company_slug": "lapice",
+      "company": "Lapice",
+      "name": "Felix Susperregui",
+      "from": 1942,
+      "to": 1942,
+      "source": "El Irunes, año 3, num. 14, 1991, p. 13 del PDF"
+    },
+    {
+      "company_slug": "lapice",
+      "company": "Lapice",
+      "name": "Francisco Rodriguez",
+      "from": 1946,
+      "to": 1947,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+    },
+    {
+      "company_slug": "lapice",
+      "company": "Lapice",
+      "name": "Shanti Mendez",
+      "from": null,
+      "to": null,
+      "source": "Bidasoan. Extra San Marcial, Irun, 1999, pp. 39-40",
+      "notes": "Capitan de Lapice en los anos duros de posguerra; anos concretos pendientes."
+    },
+    {
+      "company_slug": "lapice",
+      "company": "Lapice",
+      "name": "Jose Julian Martiarena",
+      "from": 1989,
+      "to": 1991,
+      "source": "El Irunes, año 1, num. 3, 1989, p. 18; El Irunes, año 3, num. 14, 1991, p. 13 del PDF"
+    },
+    {
+      "company_slug": "meaka",
+      "company": "Meaka",
+      "name": "Francisco Iriarte",
+      "from": 1946,
+      "to": 1946,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13"
+    },
+    {
+      "company_slug": "meaka",
+      "company": "Meaka",
+      "name": "Ignacio Bengoechea",
+      "from": 1947,
+      "to": 1947,
+      "source": "El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+    },
+    {
+      "company_slug": "olaberria",
+      "company": "Olaberria",
+      "name": "Gregorio Manterola",
+      "from": 1946,
+      "to": 1947,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+    },
+    {
+      "company_slug": "olaberria",
+      "company": "Olaberria",
+      "name": "Jose Alzaga Zubialde",
+      "from": 1963,
+      "to": 1996,
+      "source": "El Irunes, año 8, num. 35, junio de 1996",
+      "notes": "La fuente indica 50 anos en Olaberria, 6 como teniente y 33 como capitan."
+    },
+    {
+      "company_slug": "real-union",
+      "company": "Real Union",
+      "name": "Pepe Eceizabarrena",
+      "from": 1922,
+      "to": 1922,
+      "source": "El Irunes, año 2, num. 9, 1990",
+      "notes": "Recordado por Mercedes Emparan Aramendi en su testimonio como cantinera de 1922."
+    },
+    {
+      "company_slug": "real-union",
+      "company": "Real Union",
+      "name": "Vicente Salas",
+      "from": 1946,
+      "to": 1962,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6; Archivo Municipal de Irun, Fototeca, refs. 13042, 13043, 13044 y 21635; El Irunes, año 2, num. 9, 1990",
+      "notes": "Documentado como capitan en 1946, 1947, 1953, 1954 y 1962.",
+      "source_url": "https://www.irun.org/archivo/fototeca_ficha.asp?texto=alarde+irun&ref=&ano=&offset=&referencia=21635"
+    },
+    {
+      "company_slug": "san-miguel",
+      "company": "San Miguel",
+      "name": "Miguel Abad Fernandez",
+      "from": 1920,
+      "to": 1920,
+      "source": "Archivo Municipal de Irun, Fototeca, ref. 50081",
+      "notes": "Identificado en titulo de fotografia.",
+      "source_url": "https://www.irun.org/archivo/fototeca_ficha.asp?texto=alarde+irun&ref=&ano=&offset=&referencia=50081"
+    },
+    {
+      "company_slug": "san-miguel",
+      "company": "San Miguel",
+      "name": "Manuel Merino",
+      "from": 1946,
+      "to": 1947,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+    },
+    {
+      "company_slug": "san-miguel",
+      "company": "San Miguel",
+      "name": "Cipriano Reguero Pascual",
+      "from": 1950,
+      "to": 1953,
+      "source": "Archivo Municipal de Irun, Fototeca, ref. 50079",
+      "notes": "Identificado en titulo de fotografia.",
+      "source_url": "https://www.irun.org/archivo/fototeca_ficha.asp?texto=alarde+irun&ref=&ano=&offset=&referencia=50079"
+    },
+    {
+      "company_slug": "san-miguel",
+      "company": "San Miguel",
+      "name": "Luciano Lopez Espana",
+      "from": 1973,
+      "to": 1979,
+      "source": "Archivo Municipal de Irun, Fototeca, refs. 50080 y 52712",
+      "notes": "Identificado en titulos de fotografia.",
+      "source_url": "https://www.irun.org/archivo/fototeca_ficha.asp?texto=alarde+irun&ref=&ano=&offset=&referencia=50080"
+    },
+    {
+      "company_slug": "san-miguel",
+      "company": "San Miguel",
+      "name": "Ramon Boda",
+      "from": 1989,
+      "to": 1989,
+      "source": "El Irunes, año 1, num. 3, 1989, p. 18"
+    },
+    {
+      "company_slug": "santa-elena",
+      "company": "Santa Elena",
+      "name": "Jose Maria Otondo",
+      "from": 1946,
+      "to": 1947,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+    },
+    {
+      "company_slug": "santiago",
+      "company": "Santiago",
+      "name": "Pedro Enjuto",
+      "from": 1930,
+      "to": 1930,
+      "source": "Bidasoan. Extra San Marcial, Irun, 1997, pp. 28-29"
+    },
+    {
+      "company_slug": "santiago",
+      "company": "Santiago",
+      "name": "Fermin Lecuona",
+      "from": 1946,
+      "to": 1947,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+    },
+    {
+      "company_slug": "santiago",
+      "company": "Santiago",
+      "name": "Francisco Rekarte Manterola",
+      "from": null,
+      "to": null,
+      "source": "El Irunes, año 4, num. 15, 1991, p. 66 del PDF",
+      "notes": "La fuente lo recuerda como capitan durante muchos anos."
+    },
+    {
+      "company_slug": "santiago",
+      "company": "Santiago",
+      "name": "Salvador Blanco",
+      "from": 1989,
+      "to": 1989,
+      "source": "El Irunes, año 1, num. 3, 1989, p. 18; El Irunes, año 4, num. 15, 1991, p. 66 del PDF",
+      "notes": "Sustituyo a Patxi Rekarte; documentado al frente en 1989."
+    },
+    {
+      "company_slug": "santiago",
+      "company": "Santiago",
+      "name": "Eduardo Uruñuela",
+      "from": null,
+      "to": null,
+      "source": "El Irunes, año 4, num. 16, 1992, p. 71 del PDF",
+      "notes": "Citado entre los capitanes recordados de Santiago."
+    },
+    {
+      "company_slug": "uranzu",
+      "company": "Uranzu",
+      "name": "Che Monserrat",
+      "from": 1922,
+      "to": 1922,
+      "source": "Ficha interna de la compania Uranzu; pendiente de asociar a fuente primaria concreta"
+    },
+    {
+      "company_slug": "uranzu",
+      "company": "Uranzu",
+      "name": "Alejo Sunsundegui",
+      "from": null,
+      "to": null,
+      "source": "El Irunes, año 5, num. 23, 1993, p. 33 del PDF",
+      "notes": "Recordado por Sebastian Arbelaiz entre los capitanes conocidos."
+    },
+    {
+      "company_slug": "uranzu",
+      "company": "Uranzu",
+      "name": "Ignacio Aragon",
+      "from": 1946,
+      "to": 1947,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+    },
+    {
+      "company_slug": "uranzu",
+      "company": "Uranzu",
+      "name": "Jose Maria Alustiza",
+      "from": 1947,
+      "to": 1997,
+      "source": "Bidasoan. Extra San Marcial, Irun, 1997, p. 23",
+      "notes": "La fuente lo homenajea por cincuenta anos como capitan; convive con la cita de Ignacio Aragon en la relacion de 1947."
+    },
+    {
+      "company_slug": "ventas",
+      "company": "Ventas",
+      "name": "Satur Ibargoien",
+      "from": 1924,
+      "to": 1924,
+      "source": "El Irunes, año 6, num. 27, junio-julio de 1994, p. 22 del PDF",
+      "notes": "Capitan titular en 1924, aunque no mando por luto."
+    },
+    {
+      "company_slug": "ventas",
+      "company": "Ventas",
+      "name": "Eugenio Iparraguirre Izagirre",
+      "from": 1924,
+      "to": 1924,
+      "source": "El Irunes, año 6, num. 27, junio-julio de 1994, p. 22 del PDF",
+      "notes": "Mando la compania en una unica ocasion por luto del capitan titular."
+    },
+    {
+      "company_slug": "ventas",
+      "company": "Ventas",
+      "name": "Francisco Martiarena",
+      "from": 1946,
+      "to": 1946,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13"
+    },
+    {
+      "company_slug": "ventas",
+      "company": "Ventas",
+      "name": "Tomas Ibargoyen",
+      "from": 1947,
+      "to": 1947,
+      "source": "El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+    },
+    {
+      "company_slug": "ventas",
+      "company": "Ventas",
+      "name": "Jose Antonio Sarasola Lizarraga",
+      "from": 1993,
+      "to": 1993,
+      "source": "El Irunes, año 5, num. 21, 1993",
+      "notes": "Recordado como capitan en necrologica."
+    }
+  ]
+}

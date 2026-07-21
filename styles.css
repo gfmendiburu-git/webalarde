@@ -671,6 +671,45 @@ a {
   padding-left: 1.2rem;
 }
 
+.company-captains {
+  margin: 30px 0;
+}
+
+.captains-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.captain-entry {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.captain-entry h3 {
+  margin: 4px 0 10px;
+  font-size: 1.05rem;
+}
+
+.captain-entry p {
+  margin: 0 0 10px;
+}
+
+.captain-entry p:last-child {
+  margin-bottom: 0;
+}
+
+.captain-years,
+.captain-status {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
 .company-note {
   padding: 16px 18px;
   border-left: 4px solid var(--accent);
