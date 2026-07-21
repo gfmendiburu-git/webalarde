@@ -22,7 +22,16 @@
     return link;
   };
 
-  fetch("../data/capitanes-companias.json?v=1")
+  const headingBySlug = {
+    hacheros: "Cabos documentados",
+    tamborrada: "Tambores Mayores documentados",
+    banda: "Directores documentados",
+    general: "Generales documentados",
+    "estado-mayor": "Mandos documentados",
+    comandante: "Comandantes documentados",
+  };
+
+  fetch("../data/capitanes-companias.json?v=2")
     .then((response) => response.json())
     .then((data) => {
       const entries = (data.entries || [])
@@ -39,7 +48,7 @@
       section.className = "company-captains";
 
       const heading = document.createElement("h2");
-      heading.textContent = "Capitanes documentados";
+      heading.textContent = headingBySlug[slug] || "Capitanes documentados";
       section.append(heading);
 
       const list = document.createElement("div");
