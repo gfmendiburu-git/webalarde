@@ -908,6 +908,16 @@ a {
   padding: 18px;
 }
 
+.cantineras-empty {
+  margin: 0;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  color: var(--muted-ink);
+  font-weight: 700;
+}
+
 .cantineras-card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));

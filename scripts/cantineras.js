@@ -139,7 +139,21 @@
     return grid;
   };
 
-  const setFilterOptions = (items, value) => {
+  const renderEmptyCompany = (company) => {
+    const message = document.createElement("p");
+    message.className = "cantineras-empty";
+    message.textContent = `No se han encontrado datos de cantineras para ${company}.`;
+    return message;
+  };
+
+  const companyMatches = (entry, company) => {
+    if (!company) {
+      return false;
+    }
+    return entry.company === company.name || (company.aliases || []).includes(entry.company);
+  };
+
+  const setFilterOptions = (items, value, fallbackValue) => {
     const fragment = document.createDocumentFragment();
     items.forEach((item) => {
       const option = document.createElement("option");
@@ -148,10 +162,11 @@
       fragment.append(option);
     });
     filterSelect.replaceChildren(fragment);
-    filterSelect.value = items.includes(value) ? value : items[items.length - 1];
+    filterSelect.disabled = items.length === 0;
+    filterSelect.value = items.includes(value) ? value : fallbackValue || items[items.length - 1] || "";
   };
 
-  const render = (data, photosById) => {
+  const render = (data, companies, photosById) => {
     const mode = currentMode();
 
     if (mode === "year") {
@@ -166,12 +181,18 @@
       return;
     }
 
-    const company = filterSelect.value;
-    selected.company = company;
+    const companyName = filterSelect.value;
+    const company = companies.find((item) => item.name === companyName) || { name: companyName, aliases: [] };
+    selected.company = companyName;
     const entries = data.entries
-      .filter((entry) => entry.company === company)
+      .filter((entry) => companyMatches(entry, company))
       .sort((a, b) => byYear(a.year, b.year));
-    resultTitle.textContent = company;
+    resultTitle.textContent = company.name;
+    if (!entries.length) {
+      resultMeta.textContent = "Sin registros documentados";
+      resultBody.replaceChildren(renderEmptyCompany(company.name));
+      return;
+    }
     resultMeta.textContent = `${entries.length} años con registro localizado`;
     resultBody.replaceChildren(renderCards(entries, mode, photosById));
   };
@@ -183,25 +204,48 @@
       setFilterOptions(years, selected.year);
     } else {
       filterLabel.textContent = "Compañía";
-      setFilterOptions(companies, selected.company);
+      const companyNames = companies.map((company) => company.name);
+      setFilterOptions(companyNames, selected.company, companyNames[0]);
     }
-    render(data, photosById);
+    render(data, companies, photosById);
+  };
+
+  const normalizeCompanies = (sourceCompanies, entries) => {
+    const companies = new Map();
+    (sourceCompanies.entries || []).forEach((company) => {
+      if (company.name) {
+        companies.set(company.name, {
+          name: company.name,
+          aliases: company.aliases || [],
+        });
+      }
+    });
+
+    entries.forEach((entry) => {
+      const exists = [...companies.values()].some((company) => companyMatches(entry, company));
+      if (!exists) {
+        companies.set(entry.company, { name: entry.company, aliases: [] });
+      }
+    });
+
+    return [...companies.values()].sort((a, b) => byCompany(a.name, b.name));
   };
 
   Promise.all([
     fetch("data/cantineras.json?v=3").then((response) => response.json()),
     fetch("data/cantinera-fotos.json?v=1").then((response) => response.json()).catch(() => ({ entries: [] })),
+    fetch("data/companias-cantineras.json?v=1").then((response) => response.json()).catch(() => ({ entries: [] })),
   ])
-    .then(([data, photoData]) => {
+    .then(([data, photoData, sourceCompanies]) => {
       const photosById = new Map((photoData.entries || []).map((entry) => [entry.id, entry]));
       const years = [...new Set(data.entries.map((entry) => String(entry.year)))].sort(byYear);
-      const companies = [...new Set(data.entries.map((entry) => entry.company))].sort(byCompany);
+      const companies = normalizeCompanies(sourceCompanies, data.entries);
 
       selected.year = years[years.length - 1];
-      selected.company = companies[0];
+      selected.company = companies[0]?.name || "";
 
       modeInputs.forEach((input) => input.addEventListener("change", () => updateMode(data, years, companies, photosById)));
-      filterSelect.addEventListener("change", () => render(data, photosById));
+      filterSelect.addEventListener("change", () => render(data, companies, photosById));
       updateMode(data, years, companies, photosById);
     })
     .catch(() => {
