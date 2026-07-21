@@ -266,8 +266,8 @@
       "name": "Jose Alzaga Zubialde",
       "from": 1963,
       "to": 1996,
-      "source": "El Irunes, año 8, num. 35, junio de 1996",
-      "notes": "La fuente indica 50 anos en Olaberria, 6 como teniente y 33 como capitan."
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6; El Irunes, año 8, num. 35, junio de 1996",
+      "notes": "Documentado como capitan en 1967. El Irunes indica 50 anos en Olaberria, 6 como teniente y 33 como capitan."
     },
     {
       "company_slug": "real-union",
@@ -283,9 +283,9 @@
       "company": "Real Union",
       "name": "Vicente Salas",
       "from": 1946,
-      "to": 1962,
-      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6; Archivo Municipal de Irun, Fototeca, refs. 13042, 13043, 13044 y 21635; El Irunes, año 2, num. 9, 1990",
-      "notes": "Documentado como capitan en 1946, 1947, 1953, 1954 y 1962.",
+      "to": 1967,
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6; El Bidasoa, Irun, 25 de junio de 1967, p. 6; Archivo Municipal de Irun, Fototeca, refs. 13042, 13043, 13044 y 21635; El Irunes, año 2, num. 9, 1990",
+      "notes": "Documentado como capitan en 1946, 1947, 1953, 1954, 1962 y 1967. La relacion de 1967 lo cita como Vicente Salas Pournot.",
       "source_url": "https://www.irun.org/archivo/fototeca_ficha.asp?texto=alarde+irun&ref=&ano=&offset=&referencia=21635"
     },
     {
@@ -416,8 +416,8 @@
       "name": "Jose Maria Alustiza",
       "from": 1947,
       "to": 1997,
-      "source": "Bidasoan. Extra San Marcial, Irun, 1997, p. 23",
-      "notes": "La fuente lo homenajea por cincuenta anos como capitan; convive con la cita de Ignacio Aragon en la relacion de 1947."
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6; Bidasoan. Extra San Marcial, Irun, 1997, p. 23",
+      "notes": "Documentado como capitan en 1967. Bidasoan lo homenajea por cincuenta anos como capitan; convive con la cita de Ignacio Aragon en la relacion de 1947. La relacion de 1967 lo cita como Jose Maria Alustiza Ansa."
     },
     {
       "company_slug": "ventas",
@@ -461,6 +461,124 @@
       "to": 1993,
       "source": "El Irunes, año 5, num. 21, 1993",
       "notes": "Recordado como capitan en necrologica."
+    },
+    {
+      "company_slug": "caballeria",
+      "company": "Escolta de Caballeria",
+      "name": "Andres Chapartegui Irastorza",
+      "from": 1967,
+      "to": 1967,
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6"
+    },
+    {
+      "company_slug": "behobia",
+      "company": "Behobia",
+      "name": "Manuel Martinez Rodriguez",
+      "from": 1967,
+      "to": 1967,
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6"
+    },
+    {
+      "company_slug": "ventas",
+      "company": "Ventas",
+      "name": "Jose Maria Garmendia Ugarte",
+      "from": 1967,
+      "to": 1967,
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6"
+    },
+    {
+      "company_slug": "meaka",
+      "company": "Meaka",
+      "name": "Ignacio Bengoechea Elosegui",
+      "from": 1967,
+      "to": 1967,
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6"
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "Juan Daniel Echeverria Chartre",
+      "from": 1967,
+      "to": 1967,
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6"
+    },
+    {
+      "company_slug": "san-miguel",
+      "company": "San Miguel",
+      "name": "Luciano Lopez Egaña",
+      "from": 1967,
+      "to": 1967,
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6",
+      "notes": "La relacion lo cita al frente de San Miguel, primera del pueblo."
+    },
+    {
+      "company_slug": "santa-elena",
+      "company": "Santa Elena",
+      "name": "Juan Jose Aldaco Miquelarena",
+      "from": 1967,
+      "to": 1967,
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6",
+      "notes": "La relacion lo cita al frente de Santa Elena, segunda del pueblo."
+    },
+    {
+      "company_slug": "anaka",
+      "company": "Anaka",
+      "name": "Jose Antonio Elizalde Ausan",
+      "from": 1967,
+      "to": 1967,
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6"
+    },
+    {
+      "company_slug": "buenos-amigos",
+      "company": "Buenos Amigos",
+      "name": "Antonio Aizpurua Iguiñiz",
+      "from": 1967,
+      "to": 1967,
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6",
+      "notes": "La relacion lo cita al frente de Buenos Amigos, tercera del pueblo."
+    },
+    {
+      "company_slug": "santiago",
+      "company": "Santiago",
+      "name": "Fermin Lecuona Gainza",
+      "from": 1967,
+      "to": 1967,
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6",
+      "notes": "La relacion lo cita al frente de Santiago, quinta del pueblo."
+    },
+    {
+      "company_slug": "lapice",
+      "company": "Lapice",
+      "name": "Santiago Mendez Gonzalez",
+      "from": 1967,
+      "to": 1967,
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6"
+    },
+    {
+      "company_slug": "artilleria",
+      "company": "Bateria de Artilleria",
+      "name": "Jose Maria Arina Sabada",
+      "from": 1967,
+      "to": 1967,
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6"
+    },
+    {
+      "company_slug": "pueblo",
+      "company": "Pueblo",
+      "name": "Manuel Pedros",
+      "from": 1893,
+      "to": 1893,
+      "source": "El Bidasoa, Irun, 28 de junio de 1947, p. 14",
+      "notes": "Citado retrospectivamente como predecesor de Jenaro Gal en la Compania del Pueblo antes de ser nombrado Comandante de las fuerzas del Alarde."
+    },
+    {
+      "company_slug": "pueblo",
+      "company": "Pueblo",
+      "name": "Jenaro Gal",
+      "from": 1893,
+      "to": 1895,
+      "source": "El Bidasoa, Irun, 28 de junio de 1947, p. 14",
+      "notes": "El propio autor recuerda su nombramiento como capitan de la Compania del Pueblo el 24 de mayo de 1893 y alude a los anos 1894 y 1895 como etapa de su mando."
     }
   ]
 }
