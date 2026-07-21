@@ -1484,6 +1484,16 @@ code {
   background: var(--white);
 }
 
+.page-grid a::after {
+  content: "";
+  display: block;
+  width: 58px;
+  height: 3px;
+  margin: 16px 22px 0;
+  border-radius: 999px;
+  background: var(--accent);
+}
+
 .link-grid .link-card-logo {
   object-fit: contain;
   padding: 18px;
@@ -1492,7 +1502,7 @@ code {
 
 .link-grid strong {
   display: block;
-  padding: 20px 22px 0;
+  padding: 14px 22px 0;
   font-size: 1.1rem;
   line-height: 1.2;
 }
