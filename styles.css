@@ -258,35 +258,8 @@ a {
 }
 
 .intro-band {
+  min-height: clamp(8px, 1.2vw, 15px);
   background: var(--accent);
-  color: var(--white);
-  padding: 22px clamp(18px, 4vw, 56px);
-}
-
-.intro-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
-  max-width: 1120px;
-  margin: 0 auto;
-}
-
-.intro-grid article {
-  padding: 8px 0;
-}
-
-.meta-label {
-  display: block;
-  color: rgba(255, 255, 255, 0.68);
-  font-size: 0.76rem;
-  font-weight: 750;
-  text-transform: uppercase;
-}
-
-.intro-grid strong {
-  display: block;
-  margin-top: 2px;
-  font-size: 1.06rem;
 }
 
 .section {
@@ -1591,7 +1564,6 @@ code {
     margin-bottom: 48px;
   }
 
-  .intro-grid,
   .section-heading,
   .content-columns,
   .history-layout,
