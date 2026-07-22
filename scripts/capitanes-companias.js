@@ -31,7 +31,7 @@
     comandante: "Comandantes documentados",
   };
 
-  fetch("../data/capitanes-companias.json?v=2")
+  fetch("../data/capitanes-companias.json?v=3")
     .then((response) => response.json())
     .then((data) => {
       const entries = (data.entries || [])
@@ -66,6 +66,13 @@
         const name = document.createElement("h3");
         name.textContent = entry.name;
         card.append(name);
+
+        if (entry.role) {
+          const role = document.createElement("p");
+          role.className = "captain-role";
+          role.textContent = entry.role;
+          card.append(role);
+        }
 
         if (entry.status === "needs_review") {
           const status = document.createElement("p");

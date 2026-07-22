@@ -710,6 +710,12 @@ a {
   text-transform: uppercase;
 }
 
+.captain-role {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
 .company-note {
   padding: 16px 18px;
   border-left: 4px solid var(--accent);

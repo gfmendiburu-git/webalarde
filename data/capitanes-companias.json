@@ -137,6 +137,16 @@
       "notes": "Hijo de Manuel Figuerido, citado como violinista y director de la Banda Municipal desde 1908; la fuente lo plantea también como posible autor del Joló."
     },
     {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "José Antonio Canoura Etxebeste",
+      "role": "Director de Banda",
+      "from": 1985,
+      "to": 1986,
+      "source": "Xain Dua, “Tife, en los alardes de Hondarribia e Irun”, Bidasoan, Irun, septiembre de 1985, p. 46; “Breve diálogo con José Antonio Apalategui”, Bidasoan, Irun, marzo de 1986, p. 7",
+      "notes": "Documentado al frente de la Banda en el ensayo conjunto con Tamborrada de 1985 y confirmado como director para el Alarde de 1986."
+    },
+    {
       "company_slug": "behobia",
       "company": "Behobia",
       "name": "Lucio Arocena",
@@ -256,6 +266,16 @@
       "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13"
     },
     {
+      "company_slug": "comandante",
+      "company": "Comandante del Batallon",
+      "name": "Ramón Requejo Retegui",
+      "role": "Comandante",
+      "from": 1986,
+      "to": 1986,
+      "source": "“Breve diálogo con José Antonio Apalategui”, Bidasoan, Irun, marzo de 1986, p. 7",
+      "notes": "José Antonio Apalategui lo confirma como Comandante para el Alarde de 1986."
+    },
+    {
       "company_slug": "deposito-de-maquinas-renfe",
       "company": "Deposito de Maquinas / RENFE",
       "name": "Satur Ibargoyen Vea-Murguia",
@@ -263,6 +283,46 @@
       "to": 1957,
       "source": "El Diario Vasco, 19 de junio de 2008",
       "notes": "La fuente lo identifica como capitan de la compania ferroviaria; 1957 es la ultima participacion documentada de la compania."
+    },
+    {
+      "company_slug": "estado-mayor",
+      "company": "Estado Mayor",
+      "name": "Javier Vergara",
+      "role": "Ayudante de Infantería",
+      "from": 1986,
+      "to": 1986,
+      "source": "“Breve diálogo con José Antonio Apalategui”, Bidasoan, Irun, marzo de 1986, p. 7",
+      "notes": "Citado entre los ayudantes confirmados por José Antonio Apalategui para el Alarde de 1986."
+    },
+    {
+      "company_slug": "estado-mayor",
+      "company": "Estado Mayor",
+      "name": "Ricardo Costa",
+      "role": "Ayudante de Caballería",
+      "from": 1986,
+      "to": 1986,
+      "source": "“Breve diálogo con José Antonio Apalategui”, Bidasoan, Irun, marzo de 1986, p. 7",
+      "notes": "Citado entre los ayudantes confirmados por José Antonio Apalategui para el Alarde de 1986."
+    },
+    {
+      "company_slug": "estado-mayor",
+      "company": "Estado Mayor",
+      "name": "Salvador Sanz",
+      "role": "Ayudante de Artillería",
+      "from": 1986,
+      "to": 1986,
+      "source": "“Breve diálogo con José Antonio Apalategui”, Bidasoan, Irun, marzo de 1986, p. 7",
+      "notes": "Citado entre los ayudantes confirmados por José Antonio Apalategui para el Alarde de 1986."
+    },
+    {
+      "company_slug": "general",
+      "company": "General",
+      "name": "Eduvigio Tife Aseguinolaza",
+      "role": "Cornetin de ordenes",
+      "from": null,
+      "to": null,
+      "source": "Xain Dua, “Tife, en los alardes de Hondarribia e Irun”, Bidasoan, Irun, septiembre de 1985, p. 46",
+      "notes": "El propio Tife recuerda haber sido Cornetín de Irun durante los trece años de generalato de Francisco Rodríguez Saura y haber dado paso después a Juan Lekuona. Años exactos pendientes de contraste."
     },
     {
       "company_slug": "irungo-atsegina",
@@ -573,6 +633,16 @@
       "role": "Tambor Mayor",
       "source": "Uranzu, Irun, 27 de junio de 1925, p. 2 del PDF",
       "notes": "Recordado en 1925 entre quienes dirigieron la Tamborrada al frente de pífanos y tambores; la fuente no concreta años."
+    },
+    {
+      "company_slug": "tamborrada",
+      "company": "Tamborrada",
+      "name": "Federico Echeveste Arruti",
+      "role": "Tambor Mayor",
+      "from": 1985,
+      "to": 1986,
+      "source": "Xain Dua, “Tife, en los alardes de Hondarribia e Irun”, Bidasoan, Irun, septiembre de 1985, p. 46; “Breve diálogo con José Antonio Apalategui”, Bidasoan, Irun, marzo de 1986, p. 7",
+      "notes": "Documentado al frente de la Tamborrada en el ensayo conjunto con la Banda de 1985 y confirmado como Tambor Mayor para el Alarde de 1986."
     },
     {
       "company_slug": "uranzu",
