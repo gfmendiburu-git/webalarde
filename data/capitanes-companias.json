@@ -317,12 +317,62 @@
     {
       "company_slug": "general",
       "company": "General",
+      "name": "Ricardo Rodríguez Rodríguez",
+      "role": "General",
+      "from": 1953,
+      "to": 1961,
+      "source": "“J. R. Costa: Seis años inolvidables... / R. Rodríguez: Volver con mi tambor...”, Programa de fiestas de San Pedro y San Marcial, Irun, 1986, p. 3 del PDF",
+      "notes": "El propio Ricardito recuerda en 1986 que mandó el Batallón de 1953 a 1961 y que pidió el relevo en enero de 1962 para volver a la Tamborrada."
+    },
+    {
+      "company_slug": "general",
+      "company": "General",
+      "name": "José Ramón Costa Amantegui",
+      "role": "General",
+      "from": 1962,
+      "to": 1968,
+      "source": "Ricardo Rodríguez Martínez, “El Alarde hace 25 años”, Programa de fiestas de San Pedro y San Marcial, Irun, 1987, p. 4 del PDF",
+      "notes": "Designado General por unanimidad tras la renuncia de Ricardo Rodríguez; la fuente recuerda su debut de 1962 y su etapa hasta 1968."
+    },
+    {
+      "company_slug": "general",
+      "company": "General",
+      "name": "Francisco Rodríguez Saura",
+      "role": "General",
+      "from": 1969,
+      "to": 1978,
+      "source": "Entrevista a Francisco Rodríguez Saura, “Patxo”, Programa de fiestas de San Pedro y San Marcial, Irun, 1978, p. 9 del PDF",
+      "notes": "La entrevista indica que en 1978 cumplía su décimo año como General; antes había sido txilibitu, soldado y capitán de Lapice."
+    },
+    {
+      "company_slug": "general",
+      "company": "General",
       "name": "Eduvigio Tife Aseguinolaza",
       "role": "Cornetin de ordenes",
       "from": null,
       "to": null,
       "source": "Xain Dua, “Tife, en los alardes de Hondarribia e Irun”, Bidasoan, Irun, septiembre de 1985, p. 46",
       "notes": "El propio Tife recuerda haber sido Cornetín de Irun durante los trece años de generalato de Francisco Rodríguez Saura y haber dado paso después a Juan Lekuona. Años exactos pendientes de contraste."
+    },
+    {
+      "company_slug": "hacheros",
+      "company": "Escuadra de Hacheros",
+      "name": "Josetxo Etxezarreta",
+      "role": "Cabo de Hacheros",
+      "from": null,
+      "to": null,
+      "source": "Ricardo Rodríguez Martínez, “El Alarde hace 25 años”, Programa de fiestas de San Pedro y San Marcial, Irun, 1987, p. 4 del PDF",
+      "notes": "Recordado como cabo anterior a Juanito Icardo; la fuente no concreta años."
+    },
+    {
+      "company_slug": "hacheros",
+      "company": "Escuadra de Hacheros",
+      "name": "Juanito Icardo",
+      "role": "Cabo de Hacheros",
+      "from": 1962,
+      "to": 1962,
+      "source": "Ricardo Rodríguez Martínez, “El Alarde hace 25 años”, Programa de fiestas de San Pedro y San Marcial, Irun, 1987, p. 4 del PDF",
+      "notes": "Citado al mando de los Hacheros en el recuerdo del Alarde de 1962, sustituyendo a Josetxo Etxezarreta."
     },
     {
       "company_slug": "irungo-atsegina",
@@ -583,6 +633,16 @@
       "to": null,
       "source": "El Irunes, año 4, num. 15, 1991, p. 66 del PDF",
       "notes": "La fuente lo recuerda como capitan durante muchos anos."
+    },
+    {
+      "company_slug": "tamborrada",
+      "company": "Tamborrada",
+      "name": "José Sánchez-Vílchez",
+      "role": "Tambor Mayor",
+      "from": 1962,
+      "to": 1962,
+      "source": "Ricardo Rodríguez Martínez, “El Alarde hace 25 años”, Programa de fiestas de San Pedro y San Marcial, Irun, 1987, p. 4 del PDF",
+      "notes": "Citado como Pepito Sánchez-Vílchez, Tambor Mayor bajo cuyas órdenes volvió a desfilar Ricardo Rodríguez tras dejar el generalato."
     },
     {
       "company_slug": "tamborrada",
