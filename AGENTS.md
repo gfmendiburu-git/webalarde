@@ -15,6 +15,7 @@
 - Separar el contenido por páginas cuando una sección tenga entidad propia.
 - Reutilizar estilos compartidos en `styles.css` y evitar duplicación innecesaria.
 - Mantener textos informativos, neutrales y fáciles de contrastar con fuentes oficiales.
+- Redactar las páginas de contenido con estilo narrativo y lectura natural, integrando los datos dentro del relato en lugar de acumular bloques sueltos de información. Cuando haya que citar, usar llamadas numeradas y notas al pie al final de la página, evitando interrumpir cada párrafo con textos largos de fuente.
 - El alcance editorial del sitio es el Alarde tradicional de San Marcial de Irun. No incorporar ni desarrollar contenidos del alarde público; cuando sea imprescindible contextualizar el conflicto contemporáneo, hacerlo de forma breve, factual y sin convertirlo en eje de la página.
 - Comprobar el estado de Git antes de commitear y publicar cambios con mensajes de commit claros.
 - No depender de symlinks para publicar archivos en GitHub Pages. Si las descargas viven fuera del repositorio, sincronizarlas antes con `scripts/sync-downloads.sh`.

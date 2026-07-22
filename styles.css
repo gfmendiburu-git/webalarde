@@ -429,13 +429,15 @@ a {
   font-weight: 750;
 }
 
-.history-article sup a {
+.history-article sup a,
+.company-page sup a {
   color: var(--accent);
   font-weight: 800;
   text-decoration: none;
 }
 
-.history-article sup a:hover {
+.history-article sup a:hover,
+.company-page sup a:hover {
   text-decoration: underline;
 }
 
