@@ -35,6 +35,11 @@ a {
   color: inherit;
 }
 
+.anchor-offset {
+  display: block;
+  scroll-margin-top: 96px;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -422,6 +427,41 @@ a {
   color: var(--accent-dark);
   font-size: 0.88rem;
   font-weight: 750;
+}
+
+.history-article sup a {
+  color: var(--accent);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.history-article sup a:hover {
+  text-decoration: underline;
+}
+
+.footnotes {
+  margin-top: clamp(36px, 6vw, 64px);
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+  font-size: 0.92rem;
+}
+
+.footnotes h2 {
+  margin-bottom: 16px;
+}
+
+.footnotes li + li {
+  margin-top: 10px;
+}
+
+.footnotes a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footnotes a:hover {
+  text-decoration: underline;
 }
 
 .document-list {
