@@ -4730,9 +4730,16 @@
       "name": "Belen Txapartegi Irastorza",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-ventas-alarde-de-irun-belen-txapartegi-irastorza/",
       "source_title": "Cantinera Compañía Ventas Alarde de Irún – Belen Txapartegi Irastorza",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "María Belén Chapartegui",
+          "source_url": "local:/home/gaizka/Descargas/1960-Recorte-de-prensa-1.jpg",
+          "source_title": "Recorte de prensa local sobre Teodoro Chapartegui y sus hijas cantineras, 1960",
+          "notes": "Variante de grafía y nombre compuesto documentada en recorte: María Belén, hija de Teodoro Chapartegui, cantinera de Ventas en 1960."
+        }
+      ]
     },
     {
       "year": 1961,
