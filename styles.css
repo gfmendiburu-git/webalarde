@@ -1300,6 +1300,10 @@ h3 {
   background: var(--soft);
 }
 
+#cantinera-gallery .image-card img {
+  object-position: center 28%;
+}
+
 .image-credit {
   margin: 0;
   padding: 12px 14px 14px;
