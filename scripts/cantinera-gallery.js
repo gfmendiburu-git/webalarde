@@ -56,9 +56,13 @@
 
     const credit = document.createElement("p");
     credit.className = "image-credit";
-    credit.append(
-      `${normalize(item.archive, "Archivo Municipal de Irun")} · ${normalize(item.studio, "fondo no indicado")} · Ref. ${item.object_id} · ${normalize(item.license, "uso no comercial autorizado")}`,
-    );
+    if (item.source === "document-recorte") {
+      credit.append(item.attribution || `${normalize(item.archive, "Documentación histórica local")} · ${normalize(item.studio, "fuente no indicada")}`);
+    } else {
+      credit.append(
+        `${normalize(item.archive, "Archivo Municipal de Irun")} · ${normalize(item.studio, "fondo no indicado")} · Ref. ${item.object_id} · ${normalize(item.license, "uso no comercial autorizado")}`,
+      );
+    }
     appendOriginalLink(credit, item);
 
     card.append(link, credit);

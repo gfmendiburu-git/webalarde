@@ -61,6 +61,8 @@
     credit.className = "image-credit";
     if (item.source === "archivo-irun") {
       credit.append(`${getArchive(item)} · ${getFund(item)} · Ref. ${item.object_id} · ${getLicense(item)}`);
+    } else if (item.source === "document-recorte") {
+      credit.append(item.attribution || `${getArchive(item)} · ${getFund(item)} · ${getLicense(item)}`);
     } else {
       credit.append(`Kutxa Fundazioa Fototeka · Fondo ${getFund(item)} · ${getAuthor(item)} · ${getLicense(item)}`);
     }

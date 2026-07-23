@@ -75,6 +75,17 @@ Referencias legales de base:
 6. Si se publica, crear copia optimizada en `assets/` y registrar atribucion visible o cercana.
 7. Mantener el original intacto en `Descargas`; no modificarlo ni moverlo.
 
+## Herramientas del proyecto
+
+- Extraccion automatica de imagenes embebidas en PDFs o archivos graficos ya separados:
+  `python3 scripts/extract-document-image-candidates.py --folder "Nombre de carpeta"`.
+- Recorte manual de una pagina o lamina cuando la foto esta dentro de una pagina escaneada:
+  `python3 scripts/crop-document-image.py documento.pdf --page 1 --crop x,y,w,h --title "Titulo" --year 1919 --rights-status usable-con-cautela --attribution "Fuente completa"`.
+- Publicacion de candidatos ya revisados:
+  `python3 scripts/publish-document-image-candidates.py`.
+
+La publicacion exige que el candidato tenga `review_status: "aprobado-publicar"` y `publishable_by_policy: true`. Si el recorte identifica una cantinera con nombre, ano y compania, el campo `cantinera_matches` permite enlazarlo tambien desde la pagina de Cantineras.
+
 ## Plantilla de registro
 
 | ID | Documento | Pagina | Imagen | Fecha | Autor/fondo | Procedencia | Estado | Atribucion propuesta | Notas |
