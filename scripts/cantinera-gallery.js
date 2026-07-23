@@ -23,8 +23,10 @@
     returnParams.set("company", company);
   }
 
-  if (backLink && returnParams.toString()) {
-    backLink.href = `cantineras.html?${returnParams.toString()}`;
+  if (backLink) {
+    backLink.href = returnParams.toString()
+      ? `cantineras.html?${returnParams.toString()}#listado-historico`
+      : "cantineras.html#listado-historico";
   }
 
   const normalize = (value, fallback) => {

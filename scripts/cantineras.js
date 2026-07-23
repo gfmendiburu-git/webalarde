@@ -42,7 +42,7 @@
 
   const updateAddress = () => {
     const params = currentListParams();
-    window.history.replaceState(null, "", `${window.location.pathname}?${params.toString()}`);
+    window.history.replaceState(null, "", `${window.location.pathname}?${params.toString()}#listado-historico`);
   };
 
   const galleryHref = (photoData) => {
