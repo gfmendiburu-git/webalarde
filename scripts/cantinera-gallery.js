@@ -69,7 +69,7 @@
     return card;
   };
 
-  fetch("data/cantinera-fotos.json?v=1")
+  fetch("data/cantinera-fotos.json?v=2")
     .then((response) => response.json())
     .then((data) => {
       const entry = (data.entries || []).find((item) => item.id === id);
