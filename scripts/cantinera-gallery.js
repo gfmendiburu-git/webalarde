@@ -67,7 +67,7 @@
     link.dataset.lightboxPreview = item.thumb;
 
     const image = document.createElement("img");
-    image.src = item.thumb;
+    image.src = item.full || item.thumb;
     image.alt = item.title || "Fotografía de cantinera del Alarde de San Marcial";
     image.loading = "lazy";
     image.decoding = "async";

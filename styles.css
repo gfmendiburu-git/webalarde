@@ -1301,7 +1301,10 @@ h3 {
 }
 
 #cantinera-gallery .image-card img {
-  object-position: center 28%;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
 }
 
 .image-credit {
