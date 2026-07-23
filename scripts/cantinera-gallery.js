@@ -2,6 +2,7 @@
   const title = document.querySelector("#cantinera-gallery-title");
   const meta = document.querySelector("#cantinera-gallery-meta");
   const gallery = document.querySelector("#cantinera-gallery");
+  const backLink = document.querySelector(".gallery-actions a[href='cantineras.html']");
 
   if (!title || !meta || !gallery) {
     return;
@@ -9,6 +10,22 @@
 
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id") || "";
+  const returnParams = new URLSearchParams();
+  const view = params.get("view");
+  const year = params.get("year");
+  const company = params.get("company");
+
+  if (view === "year" && year) {
+    returnParams.set("view", "year");
+    returnParams.set("year", year);
+  } else if (view === "company" && company) {
+    returnParams.set("view", "company");
+    returnParams.set("company", company);
+  }
+
+  if (backLink && returnParams.toString()) {
+    backLink.href = `cantineras.html?${returnParams.toString()}`;
+  }
 
   const normalize = (value, fallback) => {
     const normalized = String(value || "").replace(/\s+/g, " ").trim();
@@ -69,7 +86,7 @@
     return card;
   };
 
-  fetch("data/cantinera-fotos.json?v=2")
+  fetch("data/cantinera-fotos.json?v=3")
     .then((response) => response.json())
     .then((data) => {
       const entry = (data.entries || []).find((item) => item.id === id);

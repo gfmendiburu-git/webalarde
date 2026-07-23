@@ -7,6 +7,7 @@
   const resultBody = document.querySelector("#cantinera-results");
   const defaultPhoto = "assets/cantineras/cantinera-generica.webp";
   const galleryPage = "cantinera-galeria.html";
+  const initialParams = new URLSearchParams(window.location.search);
 
   if (!modeInputs.length || !filterLabel || !filterSelect || !resultBody) {
     return;
@@ -25,6 +26,29 @@
   const selected = {
     year: "",
     company: "",
+  };
+
+  const currentListParams = () => {
+    const params = new URLSearchParams();
+    const mode = currentMode();
+    params.set("view", mode);
+    if (mode === "year") {
+      params.set("year", filterSelect.value);
+    } else {
+      params.set("company", filterSelect.value);
+    }
+    return params;
+  };
+
+  const updateAddress = () => {
+    const params = currentListParams();
+    window.history.replaceState(null, "", `${window.location.pathname}?${params.toString()}`);
+  };
+
+  const galleryHref = (photoData) => {
+    const params = currentListParams();
+    params.set("id", photoData.id);
+    return `${galleryPage}?${params.toString()}`;
   };
 
   const sourceLink = (entry) => {
@@ -96,7 +120,7 @@
       if (photoData) {
         const link = document.createElement("a");
         link.className = "cantinera-photo-link";
-        link.href = `${galleryPage}?id=${encodeURIComponent(photoData.id)}`;
+        link.href = galleryHref(photoData);
         link.setAttribute("aria-label", `Ver galería de ${entry.name}`);
         link.append(image);
         figure.append(link);
@@ -123,7 +147,7 @@
       actions.append(sourceLink(entry));
       if (photoData) {
         const galleryLink = document.createElement("a");
-        galleryLink.href = `${galleryPage}?id=${encodeURIComponent(photoData.id)}`;
+        galleryLink.href = galleryHref(photoData);
         galleryLink.textContent = `${photoData.photos.length} foto${photoData.photos.length === 1 ? "" : "s"}`;
         actions.append(galleryLink);
       }
@@ -178,6 +202,7 @@
       resultTitle.textContent = `Cantineras de ${year}`;
       resultMeta.textContent = `${entries.length} registros localizados`;
       resultBody.replaceChildren(renderCards(entries, mode, photosById));
+      updateAddress();
       return;
     }
 
@@ -191,10 +216,12 @@
     if (!entries.length) {
       resultMeta.textContent = "Sin registros documentados";
       resultBody.replaceChildren(renderEmptyCompany(company.name));
+      updateAddress();
       return;
     }
     resultMeta.textContent = `${entries.length} años con registro localizado`;
     resultBody.replaceChildren(renderCards(entries, mode, photosById));
+    updateAddress();
   };
 
   const updateMode = (data, years, companies, photosById) => {
@@ -233,16 +260,23 @@
 
   Promise.all([
     fetch("data/cantineras.json?v=3").then((response) => response.json()),
-    fetch("data/cantinera-fotos.json?v=2").then((response) => response.json()).catch(() => ({ entries: [] })),
+    fetch("data/cantinera-fotos.json?v=3").then((response) => response.json()).catch(() => ({ entries: [] })),
     fetch("data/companias-cantineras.json?v=1").then((response) => response.json()).catch(() => ({ entries: [] })),
   ])
     .then(([data, photoData, sourceCompanies]) => {
       const photosById = new Map((photoData.entries || []).map((entry) => [entry.id, entry]));
       const years = [...new Set(data.entries.map((entry) => String(entry.year)))].sort(byYear);
       const companies = normalizeCompanies(sourceCompanies, data.entries);
+      const companyNames = companies.map((company) => company.name);
+      const initialMode = initialParams.get("view") === "company" ? "company" : "year";
+      const initialYear = initialParams.get("year") || "";
+      const initialCompany = initialParams.get("company") || "";
 
-      selected.year = years[years.length - 1];
-      selected.company = companies[0]?.name || "";
+      selected.year = years.includes(initialYear) ? initialYear : years[years.length - 1];
+      selected.company = companyNames.includes(initialCompany) ? initialCompany : companies[0]?.name || "";
+      modeInputs.forEach((input) => {
+        input.checked = input.value === initialMode;
+      });
 
       modeInputs.forEach((input) => input.addEventListener("change", () => updateMode(data, years, companies, photosById)));
       filterSelect.addEventListener("change", () => render(data, companies, photosById));
