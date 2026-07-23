@@ -20,6 +20,7 @@
 - Comprobar el estado de Git antes de commitear y publicar cambios con mensajes de commit claros.
 - No depender de symlinks para publicar archivos en GitHub Pages. Si las descargas viven fuera del repositorio, sincronizarlas antes con `scripts/sync-downloads.sh`.
 - Para materiales de terceros, conservar fuente, licencia y atribución. No incorporar imágenes externas al sitio sin revisar permisos y metadatos.
+- Antes de publicar recortes de imágenes procedentes de documentación descargada, revisar `docs/derechos-imagenes.md` y registrar fuente, página, autor/fondo si consta, estado de derechos y atribución propuesta.
 - Mantener intactas las imágenes originales de archivo fuera del sitio publicado. Para GitHub Pages, publicar copias optimizadas y regenerables junto con sus metadatos.
 - Cuando se incorpore información procedente de documentos históricos, archivos municipales, prensa antigua, libros digitalizados u OCR, citar la fuente concreta junto al dato añadido.
 - Cuando una página acumule muchas fuentes consultadas, agrupar la bibliografía por publicación, archivo, normativa o sitio web para que la lista sea legible sin perder trazabilidad.
