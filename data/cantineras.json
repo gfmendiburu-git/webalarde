@@ -7966,7 +7966,13 @@
       "source_title": "La figura de la Cantinera de la Compañía Ama Shantalen del Alarde de Irun",
       "mentions": 1,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Milagros Sorzabalbere",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1976,
@@ -7975,8 +7981,14 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-anaka-del-alarde-de-irun-maria-juncal-elizalde/",
       "source_title": "La figura de la Cantinera de Anaka del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "María Juncal Elizalde Ugartamendia",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1976,
@@ -7985,8 +7997,14 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-banda-de-musica-del-alarde-de-irun-leticia-campo-rodriguez/",
       "source_title": "Cantinera Banda de Música del Alarde de Irun – Leticia Campo Rodriguez",
       "mentions": 1,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "Leticia Campo Rodríguez-Sierra",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1976,
@@ -7995,8 +8013,14 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-bateria-de-artilleria-del-alarde-de-irun-lourdes-amunarriz/",
       "source_title": "La figura de la Cantinera de la Batería de Artillería del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "María Lourdes Amunarriz Uruñuela",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1976,
@@ -8006,7 +8030,13 @@
       "source_title": "Cantinera Compañía Behobia Juncal Oyarzabal Lasa 1976",
       "mentions": 1,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Juncal Oyarzabal Lasa",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1976,
@@ -8025,8 +8055,14 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-buenos-amigos-ma-jesus-izquierdo-olazabal/",
       "source_title": "Cantinera Compañía Buenos Amigos – Mª Jesus Izquierdo Olazabal",
       "mentions": 1,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "María Jesús Izquierdo Olazabal",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1976,
@@ -8035,8 +8071,14 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-escolta-de-caballeria-del-general-del-alarde-de-irun-maribel-garcia-vazquez/",
       "source_title": "La figura de la Cantinera de la Escolta de Caballería del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "Maribel García Vázquez",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1976,
@@ -8045,8 +8087,14 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-lapice-alarde-de-irun-ma-antonia-iguiniz-manterola/",
       "source_title": "Cantinera Compañía Lapice Alarde de Irún – Mª Antonia Iguiñiz Manterola",
       "mentions": 1,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "María Antonia Iguiñiz Manterola",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1976,
@@ -8057,7 +8105,12 @@
       "mentions": 2,
       "needs_review": true,
       "alternatives": [
-        "Mercedes Lasa"
+        "Mercedes Lasa",
+        {
+          "name": "Merche Lasa Artolaguirre",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
       ],
       "gallery_source_refs": [
         {
@@ -8085,8 +8138,14 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-olaberria-del-alarde-de-irun-maria-teresa-alonso-achaga/",
       "source_title": "La figura de la Cantinera de la Compañía Olaberria del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "María Teresa Alonso",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1976,
@@ -8095,8 +8154,14 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-ma-jose-andrade-sanchez/",
       "source_title": "La figura de la Cantinera de la Compañía Real Unión del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "María José Andrade Sánchez",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1976,
@@ -8106,7 +8171,13 @@
       "source_title": "La figura de la Cantinera de la Compañía San Miguel del Alarde de Irun",
       "mentions": 1,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Carmen Polo Lopetegui",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1976,
@@ -8115,8 +8186,14 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-de-la-compania-santiago-alarde-de-irun-juncal-erro-irigoyen/",
       "source_title": "Cantinera de la Compañía Santiago Alarde de Irún – Juncal Erro Irigoyen",
       "mentions": 1,
-      "needs_review": false,
-      "alternatives": []
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "María Begoña Larralde Arburu",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1976,
@@ -8156,7 +8233,13 @@
       "source_title": "Cantinera Compañía Uranzu del Alarde de Irún – Begoña Dárceles Olaizola",
       "mentions": 1,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Begoña Dárceles Olaizola",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1976,
@@ -8166,7 +8249,13 @@
       "source_title": "Cantinera Compañía Ventas Alarde de Irún – Milagros Azpiazu Lasa",
       "mentions": 1,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Milagros Azpiazu Lasa",
+          "source_url": "",
+          "source_title": "El Irunés, año 10, núm. 44, 1998; lista “Cantineras Alarde de San Marcial 1976”, p. 28 del PDF."
+        }
+      ]
     },
     {
       "year": 1977,
