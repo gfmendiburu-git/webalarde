@@ -103,6 +103,17 @@
     },
     {
       "year": 1901,
+      "company": "Escolta de Caballería",
+      "name": "Paulina Saura",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
+      "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 254 del libro",
+      "mentions": 1,
+      "needs_review": false,
+      "notes": "Arrizabalaga indica que la Escolta de Caballería contó con cantinera desde 1901, año en que el Ayuntamiento adquirió un barrilito para la unidad; cita a Paulina Saura como primera mujer que tomó parte en el Alarde a lomos de una montura y como madre de Patxo Rodríguez.",
+      "alternatives": []
+    },
+    {
+      "year": 1901,
       "company": "Meaka",
       "name": "Ramona Eguiazabal",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-meaka-del-alarde-de-irun-ramona-eguiazabal/",
@@ -17725,7 +17736,7 @@
     }
   ],
   "stats": {
-    "entries": 1642,
+    "entries": 1643,
     "needs_review": 162,
     "rejected": {
       "no_company": 299,
@@ -17733,9 +17744,9 @@
       "no_name": 776,
       "no_year": 24
     },
-    "total_entries": 1642,
+    "total_entries": 1643,
     "last_manual_update": "2026-07-24",
     "manual_update_note": "Incorporados datos de cantineras extraidos por OCR de los recortes escaneados del libro de Sagrario Arrizabalaga Marin; las entradas procedentes de OCR quedan marcadas como needs_review cuando requieren contraste.",
-    "manual_sagrario_recortes_added": 23
+    "manual_sagrario_recortes_added": 24
   }
 }
