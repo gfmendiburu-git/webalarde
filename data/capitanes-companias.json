@@ -4911,6 +4911,183 @@
       "source": "El Irunés, año 9, núm. 40, 1997",
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
       "notes": "Ana Mari Zapirain lo recuerda como cabo de Buenos Amigos en 1992, p. 26 del PDF."
+    },
+    {
+      "company_slug": "general",
+      "company": "General",
+      "name": "Beñardo Urtizberea",
+      "role": "General",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "Confirmado en la relación de mandos del Alarde tradicional de 1998."
+    },
+    {
+      "company_slug": "comandante",
+      "company": "Comandante del Batallon",
+      "name": "Javier Iriarte",
+      "role": "Comandante",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "Confirmado en la relación de mandos del Alarde tradicional de 1998; el segundo apellido no figura en esta relación.",
+      "status": "needs_review"
+    },
+    {
+      "company_slug": "estado-mayor",
+      "company": "Estado Mayor",
+      "name": "Paco Altuna",
+      "role": "Ayudante del Estado Mayor",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "La fuente lo cita dentro de Estado Mayor en la relación de mandos del Alarde tradicional de 1998.",
+      "status": "needs_review"
+    },
+    {
+      "company_slug": "estado-mayor",
+      "company": "Estado Mayor",
+      "name": "José Carlos Iribarren",
+      "role": "Ayudante de Caballería",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "La fuente lo cita en Caballería dentro del bloque de Estado Mayor del Alarde tradicional de 1998.",
+      "status": "needs_review"
+    },
+    {
+      "company_slug": "estado-mayor",
+      "company": "Estado Mayor",
+      "name": "Satur Ibargoyen",
+      "role": "Ayudante de Infantería",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "La fuente lo cita en Infantería dentro del bloque de Estado Mayor del Alarde tradicional de 1998.",
+      "status": "needs_review"
+    },
+    {
+      "company_slug": "estado-mayor",
+      "company": "Estado Mayor",
+      "name": "Eugenio Retuerto",
+      "role": "Ayudante de Artillería",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "La fuente lo cita en Artillería dentro del bloque de Estado Mayor del Alarde tradicional de 1998.",
+      "status": "needs_review"
+    },
+    {
+      "company_slug": "hacheros",
+      "company": "Escuadra de Hacheros",
+      "name": "Jon Ponte",
+      "role": "Cabo de Hacheros",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "Confirmado en la relación de mandos del Alarde tradicional de 1998."
+    },
+    {
+      "company_slug": "tamborrada",
+      "company": "Tamborrada",
+      "name": "Ignacio Mancisidor",
+      "role": "Tambor Mayor",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "Confirmado en la relación de mandos del Alarde tradicional de 1998."
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "Juanjo Iturrioz",
+      "role": "Director de Banda",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "Confirmado en la relación de mandos del Alarde tradicional de 1998."
+    },
+    {
+      "company_slug": "caballeria",
+      "company": "Escolta de Caballería",
+      "name": "Fernando de León",
+      "role": "Capitán",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "Confirmado en la relación de mandos del Alarde tradicional de 1998."
+    },
+    {
+      "company_slug": "behobia",
+      "company": "Behobia",
+      "name": "José Larraza",
+      "role": "Capitán",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "Confirmado en la relación de mandos del Alarde tradicional de 1998."
+    },
+    {
+      "company_slug": "ventas",
+      "company": "Ventas",
+      "name": "Ramón Alzaga",
+      "role": "Capitán",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "Confirmado en la relación de mandos del Alarde tradicional de 1998."
+    },
+    {
+      "company_slug": "meaka",
+      "company": "Meaka",
+      "name": "José Luis Alberro",
+      "role": "Capitán",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "Confirmado en la relación de mandos del Alarde tradicional de 1998."
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "L. I. Iturria",
+      "role": "Capitán",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "La fuente OCR se lee como “L. I. Iturria” o variante similar; pendiente de contraste nominal.",
+      "status": "needs_review"
+    },
+    {
+      "company_slug": "san-miguel",
+      "company": "San Miguel",
+      "name": "José M. Martínez",
+      "role": "Capitán",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "La fuente abrevia el segundo nombre o apellido como “José M. Martínez”.",
+      "status": "needs_review"
+    },
+    {
+      "company_slug": "olaberria",
+      "company": "Olaberria",
+      "name": "José Alzaga",
+      "role": "Capitán",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "Confirmado en la relación de mandos del Alarde tradicional de 1998."
+    },
+    {
+      "company_slug": "anaka",
+      "company": "Anaka",
+      "name": "José Ignacio Elizalde",
+      "role": "Capitán",
+      "from": 1998,
+      "to": 1998,
+      "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
+      "notes": "Confirmado en la relación de mandos del Alarde tradicional de 1998."
     }
   ]
 }
