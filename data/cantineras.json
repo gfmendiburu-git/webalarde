@@ -538,9 +538,15 @@
       "name": "Mercedes Emparan Aramendi",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-mercedes-emparan-aramendi/",
       "source_title": "La figura de la Cantinera de la Compañía Real Unión del Alarde de Irun",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Mercedes Emparan Aramendi",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
+          "source_title": "El Irunés, año 9, núm. 40, 1997; Semblanza de Mercedes Emparan Aramendi por el 75 aniversario de su salida como cantinera de la Primera Compañía del Pueblo / Real Unión en el IV Centenario, p. 27 del PDF."
+        }
+      ]
     },
     {
       "year": 1922,
@@ -11125,7 +11131,7 @@
       "name": "Ana María Zapirain Calzada",
       "source_url": "https://veteranosescoltadecaballeria.com/ana-ma-zapirain-elegida-cantinera-compania-buenos-amigos-1992/",
       "source_title": "Ana Mª Zapirain elegida Cantinera Compañía Buenos Amigos 1992",
-      "mentions": 3,
+      "mentions": 4,
       "needs_review": false,
       "alternatives": [
         {
@@ -11137,6 +11143,11 @@
           "name": "Ana María Zapirain Calzada",
           "source_url": "",
           "source_title": "Relación de mandos y cantineras del Alarde de San Marcial 1992, Bidasoan. Extra San Marcial, Irun, 1992, pp. 12-13"
+        },
+        {
+          "name": "Ana María Zapirain Calzada",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
+          "source_title": "El Irunés, año 9, núm. 40, 1997; Ana Mari Zapirain recuerda su salida como cantinera de Buenos Amigos en 1992, con Eusebio Aguirre como capitán y Josetxo Ceberio como teniente, p. 26 del PDF."
         }
       ]
     },
@@ -12183,13 +12194,18 @@
       "name": "Izaskun Aramburu Mitxelena",
       "source_url": "https://veteranosescoltadecaballeria.com/izaskun-aranburu-cantinera-compania-bidasoa-sonriendo-1997/",
       "source_title": "Izaskun Aranburu Cantinera Compañía Bidasoa sonriendo 1997",
-      "mentions": 3,
+      "mentions": 4,
       "needs_review": true,
       "alternatives": [
         {
           "name": "Izaskun Aranburu Mitxelena",
           "source_url": "https://veteranosescoltadecaballeria.com/izaskun-aranburu-cantinera-compania-bidasoa-sonriendo-1997/",
           "source_title": "Izaskun Aranburu Cantinera Compañía Bidasoa sonriendo 1997"
+        },
+        {
+          "name": "Izaskun Aramburu Mitxelena",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
+          "source_title": "El Irunés, año 9, núm. 40, 1997; Crónica de la elección de Izaskun Aramburu Mitxelena como cantinera de Bidasoa para 1997, p. 31 del PDF."
         }
       ]
     },
@@ -12307,9 +12323,15 @@
       "name": "Mª Paz Martín Oronoz",
       "source_url": "https://veteranosescoltadecaballeria.com/ma-paz-martin-eleccion-de-la-cantinera-uranzu-1997/",
       "source_title": "Mª Paz Martín elección de la Cantinera Uranzu 1997",
-      "mentions": 2,
+      "mentions": 3,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Mª Paz Martín Oronoz",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
+          "source_title": "El Irunés, año 9, núm. 40, 1997; Crónica de la elección de María Paz Martín Oronoz como cantinera de Uranzu para 1997, p. 31 del PDF."
+        }
+      ]
     },
     {
       "year": 1997,

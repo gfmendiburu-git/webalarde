@@ -4308,8 +4308,8 @@
       "name": "Jose Maria Alustiza",
       "from": 1947,
       "to": 1997,
-      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6; Bidasoan. Extra San Marcial, Irun, 1997, p. 23",
-      "notes": "Documentado como capitan en 1967. Bidasoan lo homenajea por cincuenta anos como capitan; convive con la cita de Ignacio Aragon en la relacion de 1947. La relacion de 1967 lo cita como Jose Maria Alustiza Ansa."
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6; Bidasoan. Extra San Marcial, Irun, 1997, p. 23; El Irunés, año 9, núm. 40, 1997, pp. 31-32 del PDF",
+      "notes": "Documentado como capitan en 1967. Bidasoan lo homenajea por cincuenta anos como capitan; convive con la cita de Ignacio Aragon en la relacion de 1947. La relacion de 1967 lo cita como Jose Maria Alustiza Ansa. El Irunés precisa que antes había sido teniente y soldado en la misma unidad."
     },
     {
       "company_slug": "uranzu",
@@ -4812,6 +4812,105 @@
       "source": "Capitanes de la Compañía Ventas del Alarde de San Marcial de Irún",
       "source_url": "https://veteranosescoltadecaballeria.com/capitanes-de-la-compania-ventas-del-alarde-de-san-marcial-de-irun/",
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "Domingo Berruete Garmendia",
+      "role": "Capitán",
+      "from": 1997,
+      "to": 1997,
+      "source": "El Irunés, año 9, núm. 40, 1997",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
+      "notes": "Organización de la Compañía Bidasoa para 1997, p. 31 del PDF."
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "José Antonio Etxeberria Lekuona",
+      "role": "Teniente-Abanderado",
+      "from": 1997,
+      "to": 1997,
+      "source": "El Irunés, año 9, núm. 40, 1997",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
+      "notes": "Organización de la Compañía Bidasoa para 1997, p. 31 del PDF."
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "Martín Santos Ancisar",
+      "role": "Teniente segundo",
+      "from": 1997,
+      "to": 1997,
+      "source": "El Irunés, año 9, núm. 40, 1997",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
+      "notes": "Organización de la Compañía Bidasoa para 1997, p. 31 del PDF."
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "José Luis Iturria Aizpiolea",
+      "role": "Alférez",
+      "from": 1997,
+      "to": 1997,
+      "source": "El Irunés, año 9, núm. 40, 1997",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
+      "notes": "Organización de la Compañía Bidasoa para 1997, p. 31 del PDF."
+    },
+    {
+      "company_slug": "uranzu",
+      "company": "Uranzu",
+      "name": "Martín Ramírez",
+      "role": "Teniente",
+      "from": 1997,
+      "to": 1997,
+      "source": "El Irunés, año 9, núm. 40, 1997",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
+      "notes": "Colaborador citado junto al capitán José Mari Alústiza en 1997, p. 31 del PDF."
+    },
+    {
+      "company_slug": "uranzu",
+      "company": "Uranzu",
+      "name": "André Borda",
+      "role": "Alférez",
+      "from": 1997,
+      "to": 1997,
+      "source": "El Irunés, año 9, núm. 40, 1997",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
+      "notes": "Colaborador citado junto al capitán José Mari Alústiza en 1997, p. 31 del PDF."
+    },
+    {
+      "company_slug": "buenos-amigos",
+      "company": "Buenos Amigos",
+      "name": "Josetxo Ceberio",
+      "role": "Teniente",
+      "from": 1992,
+      "to": 1992,
+      "source": "El Irunés, año 9, núm. 40, 1997",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
+      "notes": "Ana Mari Zapirain lo recuerda como teniente de Buenos Amigos en 1992, p. 26 del PDF."
+    },
+    {
+      "company_slug": "buenos-amigos",
+      "company": "Buenos Amigos",
+      "name": "José Antonio Senosiain",
+      "role": "Sargento",
+      "from": 1992,
+      "to": 1992,
+      "source": "El Irunés, año 9, núm. 40, 1997",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
+      "notes": "Ana Mari Zapirain lo recuerda como sargento de Buenos Amigos en 1992, p. 26 del PDF."
+    },
+    {
+      "company_slug": "buenos-amigos",
+      "company": "Buenos Amigos",
+      "name": "Enrique Zapirain",
+      "role": "Cabo",
+      "from": 1992,
+      "to": 1992,
+      "source": "El Irunés, año 9, núm. 40, 1997",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 40.pdf",
+      "notes": "Ana Mari Zapirain lo recuerda como cabo de Buenos Amigos en 1992, p. 26 del PDF."
     }
   ]
 }
