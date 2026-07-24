@@ -995,6 +995,15 @@ a {
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
 }
 
+.cantinera-card.is-missing {
+  border-style: dashed;
+  box-shadow: none;
+}
+
+.cantinera-card.is-missing .cantinera-card-photo {
+  opacity: 0.42;
+}
+
 .cantinera-card-photo {
   margin: 0;
   aspect-ratio: 3 / 4;
