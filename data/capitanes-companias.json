@@ -1500,7 +1500,9 @@
       "name": "Jose Eceizabarrena",
       "from": 1946,
       "to": 1946,
-      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13"
+      "source": "El Irunés, año 11, núm. 52, julio-agosto de 1999, p. 9 del PDF",
+      "role": "Capitán",
+      "notes": "Identificado como capitán en el pie de una fotografía de la Compañía del Casino de Irun en el Alarde de 1946; el texto recuerda además a José Eceizabarrena como uno de los capitanes de la compañía."
     },
     {
       "company_slug": "comandante",
@@ -5088,6 +5090,17 @@
       "to": 1998,
       "source": "El Irunés, año 10, núm. 48, 1998, p. 10 del PDF",
       "notes": "Confirmado en la relación de mandos del Alarde tradicional de 1998."
+    },
+    {
+      "company_slug": "casino-de-irun",
+      "company": "Casino de Irun",
+      "name": "Juan Zamalloa",
+      "role": "Capitán",
+      "from": null,
+      "to": null,
+      "source": "El Irunés, año 11, núm. 52, julio-agosto de 1999, p. 9 del PDF",
+      "notes": "El texto recuerda a Juan Zamalloa como uno de los capitanes que tuvo la Compañía del Casino de Irun; en la fotografía de 1946 figura como teniente. Año exacto de capitanía pendiente de contraste.",
+      "status": "needs_review"
     }
   ]
 }
