@@ -735,6 +735,94 @@
     {
       "company_slug": "banda",
       "company": "Banda de Música",
+      "name": "Martín Lecanda",
+      "role": "Director de Banda",
+      "from": 1942,
+      "to": 1942,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Directores y cantineras de la Banda 1942-1950, p. 429 del libro (PDF Recortes, p. 20)",
+      "source_url": "",
+      "notes": ""
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "Domingo Azpiazu",
+      "role": "Director de Banda",
+      "from": 1943,
+      "to": 1943,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Directores y cantineras de la Banda 1942-1950, p. 429 del libro (PDF Recortes, p. 20)",
+      "source_url": "",
+      "notes": ""
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "Teodoro Murua",
+      "role": "Director de Banda",
+      "from": 1944,
+      "to": 1944,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Directores y cantineras de la Banda 1942-1950, p. 429 del libro (PDF Recortes, p. 20)",
+      "source_url": "",
+      "notes": ""
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "Teodoro Murua",
+      "role": "Director de Banda",
+      "from": 1945,
+      "to": 1946,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Directores y cantineras de la Banda 1942-1950, p. 429 del libro (PDF Recortes, p. 20)",
+      "source_url": "",
+      "notes": ""
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "Teodoro Murua",
+      "role": "Director de Banda",
+      "from": 1947,
+      "to": 1947,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Directores y cantineras de la Banda 1942-1950, p. 429 del libro (PDF Recortes, p. 20)",
+      "source_url": "",
+      "notes": ""
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "Teodoro Murua",
+      "role": "Director de Banda",
+      "from": 1948,
+      "to": 1948,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Directores y cantineras de la Banda 1942-1950, p. 429 del libro (PDF Recortes, p. 20)",
+      "source_url": "",
+      "notes": ""
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "Teodoro Murua",
+      "role": "Director de Banda",
+      "from": 1949,
+      "to": 1949,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Directores y cantineras de la Banda 1942-1950, p. 429 del libro (PDF Recortes, p. 20)",
+      "source_url": "",
+      "notes": ""
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "Teodoro Murua",
+      "role": "Director de Banda",
+      "from": 1950,
+      "to": 1950,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Directores y cantineras de la Banda 1942-1950, p. 429 del libro (PDF Recortes, p. 20)",
+      "source_url": "",
+      "notes": ""
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
       "name": "José Antonio Canoura Etxebeste",
       "role": "Director de Banda",
       "from": 1985,
@@ -1509,9 +1597,9 @@
       "role": "Comandante",
       "from": 1919,
       "to": 1919,
-      "source": "Comandantes del Alarde de San Marcial de Irún",
+      "source": "Comandantes del Alarde de San Marcial de Irún; Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, tabla de comandantes 1919-1930, p. 268 del libro (PDF Recortes, p. 14)",
       "source_url": "https://veteranosescoltadecaballeria.com/comandantes-del-alarde-de-san-marcial-de-irun/",
-      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
+      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible. Nombrado tras renuncia de Francisco Mirón por luto familiar."
     },
     {
       "company_slug": "comandante",
@@ -1520,7 +1608,7 @@
       "role": "Comandante",
       "from": 1920,
       "to": 1920,
-      "source": "Comandantes del Alarde de San Marcial de Irún",
+      "source": "Comandantes del Alarde de San Marcial de Irún; Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, tabla de comandantes 1919-1930, p. 268 del libro (PDF Recortes, p. 14)",
       "source_url": "https://veteranosescoltadecaballeria.com/comandantes-del-alarde-de-san-marcial-de-irun/",
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
     },
@@ -1531,7 +1619,7 @@
       "role": "Comandante",
       "from": 1921,
       "to": 1921,
-      "source": "Comandantes del Alarde de San Marcial de Irún",
+      "source": "Comandantes del Alarde de San Marcial de Irún; Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, tabla de comandantes 1919-1930, p. 268 del libro (PDF Recortes, p. 14)",
       "source_url": "https://veteranosescoltadecaballeria.com/comandantes-del-alarde-de-san-marcial-de-irun/",
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
     },
@@ -1542,7 +1630,7 @@
       "role": "Comandante",
       "from": 1923,
       "to": 1923,
-      "source": "Comandantes del Alarde de San Marcial de Irún",
+      "source": "Comandantes del Alarde de San Marcial de Irún; Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, tabla de comandantes 1919-1930, p. 268 del libro (PDF Recortes, p. 14)",
       "source_url": "https://veteranosescoltadecaballeria.com/comandantes-del-alarde-de-san-marcial-de-irun/",
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
     },
@@ -1553,9 +1641,9 @@
       "role": "Comandante",
       "from": 1923,
       "to": 1924,
-      "source": "Comandantes del Alarde de San Marcial de Irún",
+      "source": "Comandantes del Alarde de San Marcial de Irún; Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, tabla de comandantes 1919-1930, p. 268 del libro (PDF Recortes, p. 14)",
       "source_url": "https://veteranosescoltadecaballeria.com/comandantes-del-alarde-de-san-marcial-de-irun/",
-      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
+      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible. La tabla de Sagrario Arrizabalaga lo documenta especificamente en 1924."
     },
     {
       "company_slug": "comandante",
@@ -1564,7 +1652,7 @@
       "role": "Comandante",
       "from": 1925,
       "to": 1928,
-      "source": "Comandantes del Alarde de San Marcial de Irún",
+      "source": "Comandantes del Alarde de San Marcial de Irún; Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, tabla de comandantes 1919-1930, p. 268 del libro (PDF Recortes, p. 14)",
       "source_url": "https://veteranosescoltadecaballeria.com/comandantes-del-alarde-de-san-marcial-de-irun/",
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
     },
@@ -1575,7 +1663,7 @@
       "role": "Comandante",
       "from": 1929,
       "to": 1931,
-      "source": "Comandantes del Alarde de San Marcial de Irún",
+      "source": "Comandantes del Alarde de San Marcial de Irún; Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, tabla de comandantes 1919-1930, p. 268 del libro (PDF Recortes, p. 14)",
       "source_url": "https://veteranosescoltadecaballeria.com/comandantes-del-alarde-de-san-marcial-de-irun/",
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
     },
@@ -1884,35 +1972,57 @@
     {
       "company_slug": "general",
       "company": "General",
-      "name": "Lino Rodriguez de Urreiztieta (Barón de Oña)",
+      "name": "Eduvigio Tife Aseguinolaza",
+      "role": "Cornetin de ordenes",
+      "from": null,
+      "to": null,
+      "source": "Xain Dua, “Tife, en los alardes de Hondarribia e Irun”, Bidasoan, Irun, septiembre de 1985, p. 46",
+      "notes": "El propio Tife recuerda haber sido Cornetín de Irun durante los trece años de generalato de Francisco Rodríguez Saura y haber dado paso después a Juan Lekuona. Años exactos pendientes de contraste."
+    },
+    {
+      "company_slug": "general",
+      "company": "General",
+      "name": "Lino Rodríguez, barón de Oña",
       "role": "General",
       "from": 1880,
       "to": 1880,
-      "source": "Generales del Alarde de San Marcial de Irun, desde el año 1880",
-      "source_url": "https://veteranosescoltadecaballeria.com/generales-del-alarde-de-san-marcial-de-irun/",
-      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
+      "source_url": "",
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos."
     },
     {
       "company_slug": "general",
       "company": "General",
-      "name": "Roman Sainz de Vicuña",
+      "name": "Román Sáenz de Vicuña",
       "role": "General",
       "from": 1881,
       "to": 1881,
-      "source": "Generales del Alarde de San Marcial de Irun, desde el año 1880",
-      "source_url": "https://veteranosescoltadecaballeria.com/generales-del-alarde-de-san-marcial-de-irun/",
-      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
+      "source_url": "",
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos. Era teniente de alcalde."
     },
     {
       "company_slug": "general",
       "company": "General",
-      "name": "Pedro Baraibar Sein",
+      "name": "Desconocido",
       "role": "General",
       "from": 1882,
-      "to": 1887,
-      "source": "Generales del Alarde de San Marcial de Irun, desde el año 1880",
-      "source_url": "https://veteranosescoltadecaballeria.com/generales-del-alarde-de-san-marcial-de-irun/",
-      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
+      "to": 1882,
+      "needs_review": true,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
+      "source_url": "",
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos."
+    },
+    {
+      "company_slug": "general",
+      "company": "General",
+      "name": "Pedro Baraibar",
+      "role": "General",
+      "from": 1883,
+      "to": 1885,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
+      "source_url": "",
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos."
     },
     {
       "company_slug": "general",
@@ -1921,53 +2031,110 @@
       "role": "General",
       "from": 1886,
       "to": 1886,
-      "source": "Generales del Alarde de San Marcial de Irun, desde el año 1880",
-      "source_url": "https://veteranosescoltadecaballeria.com/generales-del-alarde-de-san-marcial-de-irun/",
-      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
+      "source_url": "",
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos."
     },
     {
       "company_slug": "general",
       "company": "General",
-      "name": "Juan Arana y Altuna",
+      "name": "Pedro Baraibar",
+      "role": "General",
+      "from": 1887,
+      "to": 1887,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
+      "source_url": "",
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos."
+    },
+    {
+      "company_slug": "general",
+      "company": "General",
+      "name": "Santiago Gal",
+      "role": "General",
+      "from": 1888,
+      "to": 1888,
+      "needs_review": true,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
+      "source_url": "",
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos."
+    },
+    {
+      "company_slug": "general",
+      "company": "General",
+      "name": "Juan Arana",
       "role": "General",
       "from": 1889,
       "to": 1889,
-      "source": "Generales del Alarde de San Marcial de Irun, desde el año 1880",
-      "source_url": "https://veteranosescoltadecaballeria.com/generales-del-alarde-de-san-marcial-de-irun/",
-      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
+      "source_url": "",
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos."
     },
     {
       "company_slug": "general",
       "company": "General",
-      "name": "Pedro Baraibar Sein",
+      "name": "Pedro Baraibar",
       "role": "General",
       "from": 1890,
-      "to": 1894,
-      "source": "Generales del Alarde de San Marcial de Irun, desde el año 1880",
-      "source_url": "https://veteranosescoltadecaballeria.com/generales-del-alarde-de-san-marcial-de-irun/",
-      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
+      "to": 1893,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
+      "source_url": "",
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos."
     },
     {
       "company_slug": "general",
       "company": "General",
-      "name": "Manuel Pedros San Juan",
+      "name": "José Indart",
+      "role": "General",
+      "from": 1894,
+      "to": 1895,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
+      "source_url": "",
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos."
+    },
+    {
+      "company_slug": "general",
+      "company": "General",
+      "name": "Manuel Pedrós",
       "role": "General",
       "from": 1896,
       "to": 1897,
-      "source": "Generales del Alarde de San Marcial de Irun, desde el año 1880",
-      "source_url": "https://veteranosescoltadecaballeria.com/generales-del-alarde-de-san-marcial-de-irun/",
-      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
+      "source_url": "",
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos."
     },
     {
       "company_slug": "general",
       "company": "General",
-      "name": "Manuel Pedros San Juan",
+      "name": "No hubo Alarde",
+      "role": "General",
+      "from": 1898,
+      "to": 1898,
+      "needs_review": true,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
+      "source_url": "",
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos."
+    },
+    {
+      "company_slug": "general",
+      "company": "General",
+      "name": "Manuel Pedrós",
       "role": "General",
       "from": 1899,
+      "to": 1899,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
+      "source_url": "",
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos."
+    },
+    {
+      "company_slug": "general",
+      "company": "General",
+      "name": "Manuel Pedrós San Juan",
+      "role": "General",
+      "from": 1900,
       "to": 1902,
       "source": "Generales del Alarde de San Marcial de Irun, desde el año 1880",
       "source_url": "https://veteranosescoltadecaballeria.com/generales-del-alarde-de-san-marcial-de-irun/",
-      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
+      "notes": "Se conserva para cubrir el tramo 1900-1902 no incluido en la tabla 1880-1899 de Sagrario Arrizabalaga."
     },
     {
       "company_slug": "general",
@@ -2298,14 +2465,25 @@
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
     },
     {
-      "company_slug": "general",
-      "company": "General",
-      "name": "Eduvigio Tife Aseguinolaza",
-      "role": "Cornetin de ordenes",
+      "company_slug": "hacheros",
+      "company": "Escuadra de Hacheros",
+      "name": "Josetxo Etxezarreta",
+      "role": "Cabo de Hacheros",
       "from": null,
       "to": null,
-      "source": "Xain Dua, “Tife, en los alardes de Hondarribia e Irun”, Bidasoan, Irun, septiembre de 1985, p. 46",
-      "notes": "El propio Tife recuerda haber sido Cornetín de Irun durante los trece años de generalato de Francisco Rodríguez Saura y haber dado paso después a Juan Lekuona. Años exactos pendientes de contraste."
+      "source": "Ricardo Rodríguez Martínez, “El Alarde hace 25 años”, Programa de fiestas de San Pedro y San Marcial, Irun, 1987, p. 4 del PDF",
+      "notes": "Recordado como cabo anterior a Juanito Icardo; la fuente no concreta años."
+    },
+    {
+      "company_slug": "hacheros",
+      "company": "Escuadra de Hacheros",
+      "name": "José Echezarreta",
+      "role": "Cabo de Hacheros",
+      "from": 1961,
+      "to": 1961,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Hacheros 1961-1969, pp. 435-437 del libro (PDF Recortes, pp. 26-28)",
+      "source_url": "",
+      "notes": "Tabla de la Escuadra de Hacheros; OCR revisado sobre páginas escaneadas."
     },
     {
       "company_slug": "hacheros",
@@ -2320,12 +2498,24 @@
     {
       "company_slug": "hacheros",
       "company": "Escuadra de Hacheros",
-      "name": "Josetxo Etxezarreta",
+      "name": "Juan Icardo",
       "role": "Cabo de Hacheros",
-      "from": null,
-      "to": null,
-      "source": "Ricardo Rodríguez Martínez, “El Alarde hace 25 años”, Programa de fiestas de San Pedro y San Marcial, Irun, 1987, p. 4 del PDF",
-      "notes": "Recordado como cabo anterior a Juanito Icardo; la fuente no concreta años."
+      "from": 1962,
+      "to": 1963,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Hacheros 1961-1969, pp. 435-437 del libro (PDF Recortes, pp. 26-28)",
+      "source_url": "",
+      "notes": "Tabla de la Escuadra de Hacheros; OCR revisado sobre páginas escaneadas."
+    },
+    {
+      "company_slug": "hacheros",
+      "company": "Escuadra de Hacheros",
+      "name": "José Echezarreta",
+      "role": "Cabo de Hacheros",
+      "from": 1964,
+      "to": 1969,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Hacheros 1961-1969, pp. 435-437 del libro (PDF Recortes, pp. 26-28)",
+      "source_url": "",
+      "notes": "Tabla de la Escuadra de Hacheros; OCR revisado sobre páginas escaneadas."
     },
     {
       "company_slug": "irungo-atsegina",
@@ -2334,6 +2524,15 @@
       "from": 1935,
       "to": 1935,
       "source": "El Irunes, año 8, num. 37, septiembre de 1996, p. 48 del PDF"
+    },
+    {
+      "company_slug": "lapice",
+      "company": "Lapice",
+      "name": "Shanti Mendez",
+      "from": null,
+      "to": null,
+      "source": "Bidasoan. Extra San Marcial, Irun, 1999, pp. 39-40",
+      "notes": "Capitan de Lapice en los anos duros de posguerra; anos concretos pendientes."
     },
     {
       "company_slug": "lapice",
@@ -2575,15 +2774,6 @@
       "source": "Capitanes de la Compañía Lapice del Alarde de San Marcial de Irún",
       "source_url": "https://veteranosescoltadecaballeria.com/capitanes-de-la-compania-lapice-del-alarde-de-san-marcial-de-irun/",
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
-    },
-    {
-      "company_slug": "lapice",
-      "company": "Lapice",
-      "name": "Shanti Mendez",
-      "from": null,
-      "to": null,
-      "source": "Bidasoan. Extra San Marcial, Irun, 1999, pp. 39-40",
-      "notes": "Capitan de Lapice en los anos duros de posguerra; anos concretos pendientes."
     },
     {
       "company_slug": "meaka",
@@ -3418,6 +3608,24 @@
     {
       "company_slug": "santiago",
       "company": "Santiago",
+      "name": "Eduardo Uruñuela",
+      "from": null,
+      "to": null,
+      "source": "El Irunes, año 4, num. 16, 1992, p. 71 del PDF",
+      "notes": "Citado entre los capitanes recordados de Santiago."
+    },
+    {
+      "company_slug": "santiago",
+      "company": "Santiago",
+      "name": "Francisco Rekarte Manterola",
+      "from": null,
+      "to": null,
+      "source": "El Irunes, año 4, num. 15, 1991, p. 66 del PDF",
+      "notes": "La fuente lo recuerda como capitan durante muchos anos."
+    },
+    {
+      "company_slug": "santiago",
+      "company": "Santiago",
       "name": "Pedro Enjuto",
       "from": 1930,
       "to": 1930,
@@ -3637,22 +3845,44 @@
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
     },
     {
-      "company_slug": "santiago",
-      "company": "Santiago",
-      "name": "Eduardo Uruñuela",
-      "from": null,
-      "to": null,
-      "source": "El Irunes, año 4, num. 16, 1992, p. 71 del PDF",
-      "notes": "Citado entre los capitanes recordados de Santiago."
+      "company_slug": "tamborrada",
+      "company": "Tamborrada",
+      "name": "Antonio Cabanilles",
+      "role": "Tambor Mayor",
+      "source": "Uranzu, Irun, 27 de junio de 1925, p. 2 del PDF",
+      "notes": "Recordado en 1925 entre los antiguos Tambores Mayores populares de la Tamborrada; la fuente no concreta años."
     },
     {
-      "company_slug": "santiago",
-      "company": "Santiago",
-      "name": "Francisco Rekarte Manterola",
-      "from": null,
-      "to": null,
-      "source": "El Irunes, año 4, num. 15, 1991, p. 66 del PDF",
-      "notes": "La fuente lo recuerda como capitan durante muchos anos."
+      "company_slug": "tamborrada",
+      "company": "Tamborrada",
+      "name": "César Carredano",
+      "role": "Tambor Mayor",
+      "source": "Uranzu, Irun, 27 de junio de 1925, p. 2 del PDF",
+      "notes": "Recordado en 1925 entre quienes dirigieron la Tamborrada al frente de pífanos y tambores; la fuente no concreta años."
+    },
+    {
+      "company_slug": "tamborrada",
+      "company": "Tamborrada",
+      "name": "Pepe Bellido",
+      "role": "Tambor Mayor",
+      "source": "Pepe Bellido, “Apología sentimental del tambor”, El Eco de Irun, número extraordinario de San Marcial, Irun, 29 de junio de 1910, p. 6 del PDF; Uranzu, Irun, 27 de junio de 1925, p. 2 del PDF",
+      "notes": "En 1910 afirmó haber sido Tambor Mayor del Alarde muchas veces. Recordado en 1925 entre quienes dirigieron la Tamborrada al frente de pífanos y tambores; las fuentes no concretan años."
+    },
+    {
+      "company_slug": "tamborrada",
+      "company": "Tamborrada",
+      "name": "Vicente Zaragüeta",
+      "role": "Tambor Mayor",
+      "source": "Uranzu, Irun, 27 de junio de 1925, p. 2 del PDF",
+      "notes": "Recordado en 1925 entre quienes dirigieron la Tamborrada al frente de pífanos y tambores; la fuente no concreta años."
+    },
+    {
+      "company_slug": "tamborrada",
+      "company": "Tamborrada",
+      "name": "Wenceslao San Juan",
+      "role": "Tambor Mayor",
+      "source": "Uranzu, Irun, 27 de junio de 1925, p. 2 del PDF",
+      "notes": "Recordado en 1925 entre quienes dirigieron la Tamborrada al frente de pífanos y tambores; la fuente no concreta años."
     },
     {
       "company_slug": "tamborrada",
@@ -3868,7 +4098,7 @@
       "role": "Tambor Mayor",
       "from": 1976,
       "to": 1984,
-      "source": "Los Tambores Mayores de la Tamborrada del Alarde de Irún",
+      "source": "Los Tambores Mayores de la Tamborrada del Alarde de Irún; Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Tambores Mayores y cantineras 1980-1995, pp. 552 y 554 del libro (PDF Recortes, pp. 40 y 42)",
       "source_url": "https://veteranosescoltadecaballeria.com/los-tambores-mayores-de-la-tamborrada-del-alarde-de-irun/",
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
     },
@@ -3879,7 +4109,7 @@
       "role": "Tambor Mayor",
       "from": 1985,
       "to": 1986,
-      "source": "Xain Dua, “Tife, en los alardes de Hondarribia e Irun”, Bidasoan, Irun, septiembre de 1985, p. 46; “Breve diálogo con José Antonio Apalategui”, Bidasoan, Irun, marzo de 1986, p. 7",
+      "source": "Xain Dua, “Tife, en los alardes de Hondarribia e Irun”, Bidasoan, Irun, septiembre de 1985, p. 46; “Breve diálogo con José Antonio Apalategui”, Bidasoan, Irun, marzo de 1986, p. 7; Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Tambores Mayores y cantineras 1980-1995, pp. 552 y 554 del libro (PDF Recortes, pp. 40 y 42)",
       "notes": "Documentado al frente de la Tamborrada en el ensayo conjunto con la Banda de 1985 y confirmado como Tambor Mayor para el Alarde de 1986."
     },
     {
@@ -3889,7 +4119,7 @@
       "role": "Tambor Mayor",
       "from": 1985,
       "to": 1992,
-      "source": "Los Tambores Mayores de la Tamborrada del Alarde de Irún",
+      "source": "Los Tambores Mayores de la Tamborrada del Alarde de Irún; Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Tambores Mayores y cantineras 1980-1995, pp. 552 y 554 del libro (PDF Recortes, pp. 40 y 42)",
       "source_url": "https://veteranosescoltadecaballeria.com/los-tambores-mayores-de-la-tamborrada-del-alarde-de-irun/",
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
     },
@@ -3900,7 +4130,7 @@
       "role": "Tambor Mayor",
       "from": 1993,
       "to": 1996,
-      "source": "Los Tambores Mayores de la Tamborrada del Alarde de Irún",
+      "source": "Los Tambores Mayores de la Tamborrada del Alarde de Irún; Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, Tambores Mayores y cantineras 1980-1995, pp. 552 y 554 del libro (PDF Recortes, pp. 40 y 42)",
       "source_url": "https://veteranosescoltadecaballeria.com/los-tambores-mayores-de-la-tamborrada-del-alarde-de-irun/",
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
     },
@@ -3949,44 +4179,13 @@
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
     },
     {
-      "company_slug": "tamborrada",
-      "company": "Tamborrada",
-      "name": "Antonio Cabanilles",
-      "role": "Tambor Mayor",
-      "source": "Uranzu, Irun, 27 de junio de 1925, p. 2 del PDF",
-      "notes": "Recordado en 1925 entre los antiguos Tambores Mayores populares de la Tamborrada; la fuente no concreta años."
-    },
-    {
-      "company_slug": "tamborrada",
-      "company": "Tamborrada",
-      "name": "César Carredano",
-      "role": "Tambor Mayor",
-      "source": "Uranzu, Irun, 27 de junio de 1925, p. 2 del PDF",
-      "notes": "Recordado en 1925 entre quienes dirigieron la Tamborrada al frente de pífanos y tambores; la fuente no concreta años."
-    },
-    {
-      "company_slug": "tamborrada",
-      "company": "Tamborrada",
-      "name": "Pepe Bellido",
-      "role": "Tambor Mayor",
-      "source": "Pepe Bellido, “Apología sentimental del tambor”, El Eco de Irun, número extraordinario de San Marcial, Irun, 29 de junio de 1910, p. 6 del PDF; Uranzu, Irun, 27 de junio de 1925, p. 2 del PDF",
-      "notes": "En 1910 afirmó haber sido Tambor Mayor del Alarde muchas veces. Recordado en 1925 entre quienes dirigieron la Tamborrada al frente de pífanos y tambores; las fuentes no concretan años."
-    },
-    {
-      "company_slug": "tamborrada",
-      "company": "Tamborrada",
-      "name": "Vicente Zaragüeta",
-      "role": "Tambor Mayor",
-      "source": "Uranzu, Irun, 27 de junio de 1925, p. 2 del PDF",
-      "notes": "Recordado en 1925 entre quienes dirigieron la Tamborrada al frente de pífanos y tambores; la fuente no concreta años."
-    },
-    {
-      "company_slug": "tamborrada",
-      "company": "Tamborrada",
-      "name": "Wenceslao San Juan",
-      "role": "Tambor Mayor",
-      "source": "Uranzu, Irun, 27 de junio de 1925, p. 2 del PDF",
-      "notes": "Recordado en 1925 entre quienes dirigieron la Tamborrada al frente de pífanos y tambores; la fuente no concreta años."
+      "company_slug": "uranzu",
+      "company": "Uranzu",
+      "name": "Alejo Sunsundegui",
+      "from": null,
+      "to": null,
+      "source": "El Irunes, año 5, num. 23, 1993, p. 33 del PDF",
+      "notes": "Recordado por Sebastian Arbelaiz entre los capitanes conocidos."
     },
     {
       "company_slug": "uranzu",
@@ -4265,15 +4464,6 @@
       "source": "Capitanes de la Compañía Uranzu del Alarde de San Marcial de Irún",
       "source_url": "https://veteranosescoltadecaballeria.com/capitanes-de-la-compania-uranzu-del-alarde-de-san-marcial-de-irun/",
       "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
-    },
-    {
-      "company_slug": "uranzu",
-      "company": "Uranzu",
-      "name": "Alejo Sunsundegui",
-      "from": null,
-      "to": null,
-      "source": "El Irunes, año 5, num. 23, 1993, p. 33 del PDF",
-      "notes": "Recordado por Sebastian Arbelaiz entre los capitanes conocidos."
     },
     {
       "company_slug": "ventas",
