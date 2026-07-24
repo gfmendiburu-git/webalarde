@@ -29,7 +29,7 @@ Al revisar una fuente, comprobar siempre:
 | --- | ---: | --- | --- | --- |
 | `Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes` | 1 PDF | relectura minuciosa iniciada | alta | Ya aparecieron datos omitidos: primera cantinera de Caballeria, participacion de companias y variantes como Roca-San Miguel. Conviene terminar una segunda pasada pagina a pagina. |
 | `Programas de fiestas` | 265 PDF | revision parcial global | alta | Gran volumen. Extraer solo datos del Alarde, evitando convertir cada programa en cronica de horarios. Especial atencion a mandos, cantineras, composicion y anos de participacion. |
-| `El Irunes` | 75 PDF | revisado hasta varios numeros, no todos con el mismo nivel | alta | Fuente muy rica en entrevistas, curiosidades, mandos, musica, cantineras y memoria de companias. Hay que asegurar que los 75 numeros tengan salida documentada. |
+| `El Irunes` | 75 PDF | revisado hasta varios numeros, no todos con el mismo nivel; num. 39 OCR completo registrado | alta | Fuente muy rica en entrevistas, curiosidades, mandos, musica, cantineras y memoria de companias. Hay que asegurar que los 75 numeros tengan salida documentada. El num. 39 se proceso completo por OCR y no aporto dato nuevo integrable. |
 | `Bidasoan` | 101 PDF | revision mixta: especiales bien tratados, trimestrales en primera pasada | alta | Contiene articulos de Irun y Hondarribia. Requiere filtro cuidadoso para no mezclar alardes y para rescatar detalles pequenos. |
 | `El Bidasoa` | 99 PDF | revision parcial por busqueda textual | alta | Periodico local con mucho contenido potencial. Conviene relectura por numeros clave y no solo por coincidencias OCR. |
 | `Uranzu` | 13 PDF | revision parcial | alta | Ya aporto datos de musica, mandos y curiosidades. Revisar de nuevo buscando mandos internos y cantineras. |
@@ -47,16 +47,16 @@ Al revisar una fuente, comprobar siempre:
 | `Easo` | 2 PDF | revision parcial | baja | Revisar solo si se buscan imagenes/pies o detalles del ano 1932. |
 | `Unidad` | 1 PDF | revision parcial | baja | Revisado por festival benefico de 1937; mantener como contraste. |
 | `Urumea` | 1 PDF | revision parcial | baja | Revisado por mencion antigua; reabrir si se reconstruyen alardes del XIX. |
-| `Novedades revista semanal ilustrada` | 6 PDF | sin registro en fuentes | alta | Puede contener imagenes anteriores a 1936 y pies utiles. Revisar derechos, pies y contexto antes de publicar recortes. |
-| `Album grafico descriptivo del Pais Vascongado...` | 1 JPG | sin registro en fuentes | media | Revisar si contiene imagen o pie relacionado con Irun/San Marcial. |
-| `El buen combate semanario catolico` | 1 PDF | sin registro en fuentes | media | Revisar si contiene dato directo del Alarde. |
-| `Txistulari` | 1 PDF | sin registro en fuentes | media | Revisar solo para musica propia del Alarde. |
-| `Ordenanzas` | 1 PDF | sin registro por carpeta | media | La ordenanza de 2016 esta integrada desde otra ruta; comprobar si este PDF duplica o aporta otra version. |
+| `Novedades revista semanal ilustrada` | 6 PDF | revision textual integrada | media | Revisados los seis PDF con texto embebido. Integrados pies y contexto de 1910, 1913, 1914 y 1915. Pendiente solo decidir, con derechos y calidad, si se extraen imagenes como recortes. |
+| `Album grafico descriptivo del Pais Vascongado...` | 1 JPG | revision visual integrada | baja | Integrada la lamina “La fiesta de San Marcial en la ciudad de Irun” como testimonio grafico de ca. 1914-1915. Pendiente solo decidir si se publica imagen o recortes. |
+| `El buen combate semanario catolico` | 1 PDF | revision textual integrada | baja | Integrados dos textos culturales de 1910 sobre tradicion, hacheros y sentido pacifico/local del Alarde. |
+| `Txistulari` | 1 PDF | revision textual integrada | baja | Integrado el articulo “Alarde de Irun” por su lectura de frontera, paz festiva, anecdota de 1895 y detalles de uniformidad. |
+| `Ordenanzas` | 1 PDF | registrado como duplicado | baja | Comprobado que duplica la ordenanza de 2016 ya integrada; no se duplica contenido. |
 
 ## Proxima tanda recomendada
 
 1. Terminar Sagrario Arrizabalaga pagina a pagina, porque ya ha demostrado contener datos que no salian por busqueda simple.
-2. Auditar `Novedades`, `Txistulari`, `El buen combate`, `Album grafico...` y `Ordenanzas`, porque no figuran en el registro.
-3. Reabrir `El Irunes` completo, marcando cada numero con resultado individual.
-4. Releer `Bidasoan` y `El Bidasoa` por tandas, separando Irun de Hondarribia y capturando curiosidades.
-5. Reprocesar `Programas de fiestas` por decadas, registrando solo cambios y datos del Alarde.
+2. Reabrir `El Irunes` completo, marcando cada numero con resultado individual.
+3. Releer `Bidasoan` y `El Bidasoa` por tandas, separando Irun de Hondarribia y capturando curiosidades.
+4. Reprocesar `Programas de fiestas` por decadas, registrando solo cambios y datos del Alarde.
+5. Aplicar OCR a los PDF sin texto util por tandas, empezando por fuentes locales y numeros extraordinarios de San Marcial.
