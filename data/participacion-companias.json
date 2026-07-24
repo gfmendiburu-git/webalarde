@@ -1,0 +1,405 @@
+{
+  "description": "Años de participación documentada de unidades y compañías del Alarde de San Marcial de Irun. No se recogen cifras de componentes; solo años y tipo de evidencia.",
+  "entries": [
+    {
+      "company_slug": "ventas",
+      "records": [
+        {
+          "years": "1920, 1921, 1922 y 1923",
+          "evidence": "Aparece en los listados municipales de reparto de dietas de 1920-1923.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, pp. 289-291 del libro."
+        },
+        {
+          "years": "1931, 1932, 1933 y 1934",
+          "evidence": "Aparece en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "meaka",
+      "records": [
+        {
+          "years": "1920, 1921, 1922 y 1923",
+          "evidence": "Aparece como Meaca en los listados municipales de reparto de dietas de 1920-1923.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, pp. 289-291 del libro."
+        },
+        {
+          "years": "1931, 1932, 1933 y 1934",
+          "evidence": "Aparece como Meaca en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "behobia",
+      "records": [
+        {
+          "years": "1920, 1921, 1922 y 1923",
+          "evidence": "Aparece en los listados municipales de reparto de dietas; en 1920 y 1921 figuran dos compañías de Behobia, y la autora destaca que en 1921 y 1922 fue la que más efectivos humanos aportó.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, pp. 289-291 del libro."
+        },
+        {
+          "years": "1931, 1932, 1933 y 1934",
+          "evidence": "Aparece en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "bidasoa",
+      "records": [
+        {
+          "years": "1920, 1921, 1922 y 1923",
+          "evidence": "Aparece en los listados municipales de reparto de dietas de 1920-1923.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, pp. 289-291 del libro."
+        },
+        {
+          "years": "1931, 1932, 1933 y 1934",
+          "evidence": "Aparece en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "olaberria",
+      "records": [
+        {
+          "years": "1920, 1921, 1922 y 1923",
+          "evidence": "Aparece en los listados municipales de reparto de dietas de 1920-1923.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, pp. 289-291 del libro."
+        },
+        {
+          "years": "1931, 1932, 1933 y 1934",
+          "evidence": "Aparece en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "lapice",
+      "records": [
+        {
+          "years": "1920, 1921, 1922 y 1923",
+          "evidence": "Aparece en los listados municipales de reparto de dietas de 1920-1923.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, pp. 289-291 del libro."
+        },
+        {
+          "years": "1931, 1932, 1933 y 1934",
+          "evidence": "Aparece en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "anaka",
+      "records": [
+        {
+          "years": "1919 y 1923",
+          "evidence": "La autora señala que Anaka participó en 1919, pero no volvió a integrarse hasta 1923.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 291 del libro."
+        },
+        {
+          "years": "1931, 1932, 1933 y 1934",
+          "evidence": "Aparece en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "real-union",
+      "records": [
+        {
+          "years": "1919, 1920, 1921 y 1922",
+          "evidence": "La tabla recoge Compañía del Pueblo “Unión” en 1920 y Real Unión en 1921; la nota de la autora identifica esa línea con Real Unión y precisa que había participado por primera vez en 1919.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, pp. 289-290 del libro."
+        },
+        {
+          "years": "1931, 1932 y 1933",
+          "evidence": "La tabla de 1931-1934 recoge “Unión Club”; la propia autora advierte que aparece como “Pueblo”, pero por el cupo similar de integrantes con años siguientes lo interpreta como esta compañía.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "san-miguel",
+      "records": [
+        {
+          "years": "1920 y 1923",
+          "evidence": "Aparece en los listados municipales de reparto de dietas.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, pp. 289-291 del libro."
+        },
+        {
+          "years": "1931, 1932, 1933 y 1934",
+          "evidence": "La tabla de 1931-1934 recoge una línea leída como “De Roca” o San Miguel.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "santa-elena",
+      "records": [
+        {
+          "years": "1919, 1920, 1921 y 1923",
+          "evidence": "Aparece en los listados de reparto de dietas; además, se conserva una solicitud del 12 de mayo de 1919 en la que Ángel Martín declara tener reunida una compañía de infantería en Santa Elena y pide autorización para participar.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, pp. 289-291 del libro."
+        },
+        {
+          "years": "1931, 1932, 1933 y 1934",
+          "evidence": "Aparece en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "circulo-tradicionalista",
+      "records": [
+        {
+          "years": "1921",
+          "evidence": "Aparece como Círculo Tradicionalista en los listados municipales de reparto de dietas.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 290 del libro."
+        },
+        {
+          "years": "1931, 1932, 1933 y 1934",
+          "evidence": "Aparece en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "estacion",
+      "records": [
+        {
+          "years": "1921",
+          "evidence": "Aparece como Estación en los listados municipales de reparto de dietas.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 290 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "pueblo",
+      "records": [
+        {
+          "years": "1921, 1922 y 1923",
+          "evidence": "Los listados recogen denominaciones del Pueblo como “Del Pueblo”, 1ª a 8ª Compañía del Pueblo y 6ª Compañía del Pueblo “Arregui”.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, pp. 290-291 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "calle-mayor",
+      "records": [
+        {
+          "years": "1921",
+          "evidence": "Aparece como Calle Mayor en los listados municipales de reparto de dietas.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 290 del libro."
+        },
+        {
+          "years": "1931, 1932, 1933 y 1934",
+          "evidence": "Aparece en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "santiago",
+      "records": [
+        {
+          "years": "1930",
+          "evidence": "La autora precisa que Santiago fue una de las tres nuevas compañías que se sumaron finalmente al Batallón en 1930.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 293 del libro."
+        },
+        {
+          "years": "1931, 1932, 1933 y 1934",
+          "evidence": "Aparece como Calle Santiago en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "urdanibia",
+      "records": [
+        {
+          "years": "1930",
+          "evidence": "La autora precisa que Urdanibia fue una de las tres nuevas compañías que se sumaron finalmente al Batallón en 1930.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 293 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "octava-del-pueblo",
+      "records": [
+        {
+          "years": "1923, 1931, 1932, 1933 y 1934",
+          "evidence": "Paseo Colón aparece en los listados de 1923 y en la tabla de compañías de Infantería de 1931-1934. Se conserva aquí junto a Octava del Pueblo por la relación cronológica pendiente de contraste entre ambas denominaciones.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, pp. 291 y 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "uranzu",
+      "records": [
+        {
+          "years": "1923, 1931, 1932, 1933 y 1934",
+          "evidence": "Aparece en los listados de 1923 y en la tabla de compañías de Infantería de 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, pp. 291 y 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "ferroviarios",
+      "records": [
+        {
+          "years": "1923",
+          "evidence": "Aparece como Ferroviarios en los listados municipales de reparto de dietas.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 291 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "fabrica-de-vagones",
+      "records": [
+        {
+          "years": "1923",
+          "evidence": "Aparece como “Fábrica de Wagones” en los listados municipales de reparto de dietas.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 291 del libro."
+        },
+        {
+          "years": "1924",
+          "evidence": "Participación documentada por cantinera: Emiliana Tejedor.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 293 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "fuenterrabia",
+      "records": [
+        {
+          "years": "1923",
+          "evidence": "Aparece como Fuenterrabía en los listados municipales de reparto de dietas.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 291 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "el-roca",
+      "records": [
+        {
+          "years": "1931, 1932, 1933 y 1934",
+          "evidence": "La tabla recoge una línea leída como “De Roca” o San Miguel; se conserva como participación documentada con cautela por la relación dudosa entre ambas denominaciones.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        },
+        {
+          "years": "1933",
+          "evidence": "Participación documentada por cantinera: Concha Urquia en la línea Roca-San Miguel.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 212 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "casino-de-irun",
+      "records": [
+        {
+          "years": "1931",
+          "evidence": "Aparece en la tabla de compañías de Infantería del periodo 1931-1934; en los años siguientes de esa tabla figura con guion, por lo que no se documenta ahí su desfile en 1932-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "pena-irrintzi",
+      "records": [
+        {
+          "years": "1932, 1933 y 1934",
+          "evidence": "Aparece como Irrintzi en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        },
+        {
+          "years": "1933",
+          "evidence": "Participación documentada por cantinera: Joaquina Álvarez Arregui.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 212 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "eguzkiza",
+      "records": [
+        {
+          "years": "1932 y 1933",
+          "evidence": "Aparece en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "batzoki",
+      "records": [
+        {
+          "years": "1932 y 1933",
+          "evidence": "Aparece en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "artaleku",
+      "records": [
+        {
+          "years": "1933",
+          "evidence": "Aparece en la tabla de compañías de Infantería del periodo 1931-1934.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "buenos-amigos",
+      "records": [
+        {
+          "years": "1935",
+          "evidence": "Sagrario Arrizabalaga cita la incorporación de Buenos Amigos al Batallón y reproduce la noticia local de que la juventud cultural de Los Buenos Amigos enarbolaría por primera vez su bandera en el Alarde.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        },
+        {
+          "years": "1935, 1936 y 1939",
+          "evidence": "Participación documentada por cantineras: Ramona Sainz, Teresa Goyenechea e Isabel Icardo.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 212 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "irungo-atsegina",
+      "records": [
+        {
+          "years": "1935",
+          "evidence": "Sagrario Arrizabalaga señala que en 1935 surgieron nuevas compañías como Irungo Atsegiña.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 317 del libro."
+        },
+        {
+          "years": "1935",
+          "evidence": "Participación documentada por cantinera: Natividad Barreda.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 212 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "artilleria",
+      "records": [
+        {
+          "years": "1931 y 1932",
+          "evidence": "Participación documentada por cantineras: Gloria Varela y Nemesia Zozaya.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 212 del libro."
+        }
+      ]
+    },
+    {
+      "company_slug": "tamborrada",
+      "records": [
+        {
+          "years": "1931, 1932, 1933, 1934, 1935 y 1936",
+          "evidence": "Participación documentada por cantineras en la tabla de 1931-1936.",
+          "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 212 del libro."
+        }
+      ]
+    }
+  ]
+}

@@ -22,6 +22,61 @@
     return link;
   };
 
+  const insertBeforeNote = (section) => {
+    const note = article.querySelector(".company-note");
+    if (note) {
+      article.insertBefore(section, note);
+    } else {
+      article.append(section);
+    }
+  };
+
+  fetch("../data/participacion-companias.json?v=1")
+    .then((response) => response.json())
+    .then((data) => {
+      const company = (data.entries || []).find((entry) => entry.company_slug === slug);
+      if (!company || !company.records || !company.records.length) return;
+
+      const section = document.createElement("section");
+      section.className = "company-participation";
+
+      const heading = document.createElement("h2");
+      heading.textContent = "Participación documentada";
+      section.append(heading);
+
+      const list = document.createElement("div");
+      list.className = "participation-list";
+
+      company.records.forEach((record) => {
+        const card = document.createElement("article");
+        card.className = "participation-entry";
+
+        const years = document.createElement("p");
+        years.className = "participation-years";
+        years.textContent = record.years;
+        card.append(years);
+
+        if (record.evidence) {
+          const evidence = document.createElement("p");
+          evidence.textContent = record.evidence;
+          card.append(evidence);
+        }
+
+        if (record.source) {
+          const source = document.createElement("p");
+          source.className = "source-note";
+          source.textContent = `Fuente: ${record.source}`;
+          card.append(source);
+        }
+
+        list.append(card);
+      });
+
+      section.append(list);
+      insertBeforeNote(section);
+    })
+    .catch(() => {});
+
   const headingBySlug = {
     hacheros: "Cabos documentados",
     tamborrada: "Tambores Mayores documentados",
@@ -100,12 +155,7 @@
 
       section.append(list);
 
-      const note = article.querySelector(".company-note");
-      if (note) {
-        article.insertBefore(section, note);
-      } else {
-        article.append(section);
-      }
+      insertBeforeNote(section);
     })
     .catch(() => {});
 })();
