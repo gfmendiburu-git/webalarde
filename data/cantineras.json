@@ -1131,9 +1131,15 @@
       "name": "Marcela Inciarte",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-del-alarde-de-irun-marcela-inciarte/",
       "source_title": "Cantinera Compañía Santiago del Alarde de Irún – Marcela Inciarte",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Martxeli Iriarte",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1930,
@@ -1745,13 +1751,18 @@
       "name": "Paquita Erauskin Aguirre",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-alarde-de-irun-paquita-erauskin-aguirre/",
       "source_title": "Cantinera Compañía Santiago Alarde de Irún – Paquita Erauskin Aguirre",
-      "mentions": 2,
+      "mentions": 3,
       "needs_review": true,
       "alternatives": [
         {
           "name": "Paquita Errazquin",
           "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Diario Vasco/El Diario Vasco - 29-06-1935.pdf",
           "source_title": "Pies graficos de cantineras, El Diario Vasco, 29 de junio de 1935, p. 7"
+        },
+        {
+          "name": "Pakita Erauskin",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
         }
       ]
     },
@@ -2133,9 +2144,15 @@
       "name": "Paquita Landart Ugarte",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-alarde-de-irun-paquita-landart-ugarte/",
       "source_title": "Cantinera Compañía Santiago Alarde de Irún – Paquita Landart Ugarte",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Landart",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1941,
@@ -2638,9 +2655,15 @@
       "name": "Manuela Martín",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-del-alarde-de-irun-manuela-martin/",
       "source_title": "Cantinera Compañía Santiago del Alarde de Irún – Manuela Martín",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Manoli Martín",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1945,
@@ -3774,9 +3797,15 @@
       "name": "Mª Paz Behobide Montero",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-alarde-de-irun-ma-paz-behobide-montero/",
       "source_title": "Cantinera Compañía Santiago Alarde de Irún – Mª Paz Behobide Montero",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Mª Paz Behobide",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1952,
@@ -4910,9 +4939,15 @@
       "name": "Ascensión Galarza",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-del-alarde-de-irun-ascension-galarza/",
       "source_title": "Cantinera Compañía Santiago del Alarde de Irún – Ascensión Galarza",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Ascensión Galarza",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1958,
@@ -5114,9 +5149,15 @@
       "name": "Rosario Lecuona",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-del-alarde-de-irun-rosario-lecuona/",
       "source_title": "Cantinera Compañía Santiago del Alarde de Irún – Rosario Lecuona",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Charo Lecuona",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1959,
@@ -5479,9 +5520,15 @@
       "name": "Carmen Atienza",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-alarde-de-irun-carmen-atienza/",
       "source_title": "Cantinera Compañía Santiago Alarde de Irún – Carmen Atienza",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Mari Carmen Atienza",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1961,
@@ -5981,9 +6028,15 @@
       "name": "Mª Dolores Alsua",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-del-alarde-de-irun-ma-dolores-alsua/",
       "source_title": "Cantinera Compañía Santiago del Alarde de Irún – Mª Dolores Alsua",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Loli Alsua",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1964,
@@ -9761,9 +9814,15 @@
       "name": "Mertxe Garmendia Olaizola",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-alarde-de-irun-mertxe-garmendia-olaizola/",
       "source_title": "Cantinera Compañía Santiago Alarde de Irún – Mertxe Garmendia Olaizola",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Merche Garmendia",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1985,
@@ -9985,9 +10044,15 @@
       "name": "Edurne Martín Urrestarazu",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-alarde-de-irun-edurne-martin-urrestarazu/",
       "source_title": "Cantinera Compañía Santiago Alarde de Irún – Edurne Martín Urrestarazu",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Edurne Martín",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1986,
@@ -10175,9 +10240,15 @@
       "name": "Encarnación San Juan Rozas",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-alarde-irun-encarnacion-san-juan-rozas/",
       "source_title": "Cantinera Compañía Santiago Alarde Irún – Encarnación San Juan Rozas",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Encarni San Juan",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1987,
@@ -10741,9 +10812,15 @@
       "name": "Karmentxu Gomez Pombar",
       "source_url": "https://veteranosescoltadecaballeria.com/karmentxu-gomez-elegida-cantinera-compania-santiago-1990/",
       "source_title": "Karmentxu Gomez elegida Cantinera Compañía Santiago 1990",
-      "mentions": 2,
+      "mentions": 3,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Carmentxu Gómez",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1990,
@@ -10947,13 +11024,18 @@
       "name": "Jone Miren Perez Azaldegui",
       "source_url": "https://veteranosescoltadecaballeria.com/miren-perez-elegida-cantinera-compania-santiago-1991/",
       "source_title": "Miren Perez elegida Cantinera Compañía Santiago 1991",
-      "mentions": 2,
+      "mentions": 3,
       "needs_review": true,
       "alternatives": [
         {
           "name": "Jone Pérez Azaldegi",
           "source_url": "https://veteranosescoltadecaballeria.com/jone-perez-cantinera-compania-santiago-1991/",
           "source_title": "Jone Pérez Cantinera de la Compañía Santiago 1991"
+        },
+        {
+          "name": "Yone Pérez",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
         }
       ]
     },
@@ -11278,13 +11360,18 @@
       "name": "Larraitz Uruñuela Aizpurua",
       "source_url": "https://veteranosescoltadecaballeria.com/larraitz-urunuela-elegida-cantinera-compania-santiago-1992/",
       "source_title": "Larraitz Uruñuela elegida Cantinera Compañía Santiago 1992",
-      "mentions": 2,
+      "mentions": 3,
       "needs_review": false,
       "alternatives": [
         {
           "name": "Larraitz Uruñuela Aizpurua",
           "source_url": "",
           "source_title": "Relación de mandos y cantineras del Alarde de San Marcial 1992, Bidasoan. Extra San Marcial, Irun, 1992, pp. 12-13"
+        },
+        {
+          "name": "Larraitz Uruñuela",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
         }
       ]
     },
@@ -11502,9 +11589,15 @@
       "name": "Arantxa Etxebeste Vargas",
       "source_url": "https://veteranosescoltadecaballeria.com/arantxa-etxebeste-cantinera-santiago-en-la-merienda-1993/",
       "source_title": "Arantxa Etxebeste Cantinera Santiago en la merienda 1993",
-      "mentions": 3,
+      "mentions": 4,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Arantxa Etxebeste",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1993,
@@ -11698,9 +11791,15 @@
       "name": "Yolanda Prieto Bidasoro",
       "source_url": "https://veteranosescoltadecaballeria.com/yolanda-prieto-cantinera-compania-santiago-en-san-juan-1994/",
       "source_title": "Yolanda Prieto Cantinera Compañía Santiago en San Juan 1994",
-      "mentions": 3,
+      "mentions": 4,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Yolanda Prieto",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1994,
@@ -11888,9 +11987,15 @@
       "name": "Josune Diaz Esnaola",
       "source_url": "https://veteranosescoltadecaballeria.com/josune-diaz-elegida-cantinera-de-la-compania-santiago-1995/",
       "source_title": "Josune Diaz elegida Cantinera de la Compañía Santiago 1995",
-      "mentions": 2,
+      "mentions": 3,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Yosune Díez",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1995,
@@ -12084,9 +12189,15 @@
       "name": "Ainhoa Oca Alzaga",
       "source_url": "https://veteranosescoltadecaballeria.com/ainhoa-oca-elegida-cantinera-compania-santiago-1996/",
       "source_title": "Ainhoa Oca elegida Cantinera Compañía Santiago 1996",
-      "mentions": 2,
+      "mentions": 3,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Ainhoa Oca",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1996,
@@ -12303,9 +12414,15 @@
       "name": "Virginia Barreto Céspedes",
       "source_url": "https://veteranosescoltadecaballeria.com/virginia-barreto-cantinera-santiago-desfilando-1997/",
       "source_title": "Virginia Barreto Cantinera Santiago desfilando 1997",
-      "mentions": 3,
+      "mentions": 4,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Virginia Barreto",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+          "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        }
+      ]
     },
     {
       "year": 1997,
@@ -18028,6 +18145,16 @@
       "source_title": "Sara Martinez elegida Cantinera Compañía Ventas 2026",
       "mentions": 1,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1943,
+      "company": "Santiago",
+      "name": "Mari Paz Fernández",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+      "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF.",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     }
   ],
