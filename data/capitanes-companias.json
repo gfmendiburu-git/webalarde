@@ -735,6 +735,17 @@
     {
       "company_slug": "banda",
       "company": "Banda de Música",
+      "name": "Teodoro Murua",
+      "role": "Director de Banda",
+      "from": 1939,
+      "to": 1939,
+      "source": "“Incomprensible y desorientadora información en el programa oficial de las fiestas de Irun 1990”, El Irunés, año 2, núm. 9, 1990, pp. 14-15 del PDF",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 2 - Numero 9.pdf",
+      "notes": "La fuente reproduce el programa de circunstancias de 1939 y cita la Diana de Villarrobledo por la Banda de Música de Irun dirigida por Teodoro Murua."
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
       "name": "Martín Lecanda",
       "role": "Director de Banda",
       "from": 1942,
@@ -1739,6 +1750,17 @@
       "company": "Comandante del Batallon",
       "name": "Antonio Arregui",
       "role": "Comandante",
+      "from": 1939,
+      "to": 1939,
+      "source": "“Incomprensible y desorientadora información en el programa oficial de las fiestas de Irun 1990”, El Irunés, año 2, núm. 9, 1990, pp. 14-15 del PDF",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 2 - Numero 9.pdf",
+      "notes": "La fuente reproduce el programa de circunstancias de 1939 y cita la concentración del Alarde en Urdanibia a las órdenes del Comandante Antonio Arregui. Contrastar con listados que atribuyen 1939 a Hipólito Echepare Marticorena."
+    },
+    {
+      "company_slug": "comandante",
+      "company": "Comandante del Batallon",
+      "name": "Antonio Arregui",
+      "role": "Comandante",
       "from": 1940,
       "to": 1942,
       "source": "Comandantes del Alarde de San Marcial de Irún",
@@ -2331,9 +2353,9 @@
       "role": "General",
       "from": 1939,
       "to": 1946,
-      "source": "Generales del Alarde de San Marcial de Irun, desde el año 1880",
+      "source": "Generales del Alarde de San Marcial de Irun, desde el año 1880; “Incomprensible y desorientadora información en el programa oficial de las fiestas de Irun 1990”, El Irunés, año 2, núm. 9, 1990, pp. 14-15 del PDF",
       "source_url": "https://veteranosescoltadecaballeria.com/generales-del-alarde-de-san-marcial-de-irun/",
-      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible. Contraste primario añadido: El Diario Vasco, 29 de junio de 1943, p. 4 del PDF de Euskariana, publica la relación de mandos del Alarde de 1943."
+      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería. Contraste primario añadido: El Diario Vasco, 29 de junio de 1943, p. 4 del PDF de Euskariana, publica la relación de mandos del Alarde de 1943; El Irunés, año 2, núm. 9, reproduce el programa de circunstancias de 1939 y cita a Eusebio Pedrós tomando el mando en San Juan."
     },
     {
       "company_slug": "general",
