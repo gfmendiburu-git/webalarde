@@ -29,7 +29,7 @@ Nota de actualizacion: la segunda pasada de `El Irunes` queda cerrada para los 7
 
 | Carpeta | Volumen | Estado actual | Prioridad | Motivo |
 | --- | ---: | --- | --- | --- |
-| `Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes` | 1 PDF | relectura minuciosa iniciada | alta | Ya aparecieron datos omitidos: primera cantinera de Caballeria, participacion de companias y variantes como Roca-San Miguel. Conviene terminar una segunda pasada pagina a pagina. |
+| `Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes` | 1 PDF | segunda pasada minuciosa cerrada | alta | Revisadas sus 103 paginas mediante OCR y contraste manual de paginas clave. Integrados o reforzados datos sobre espacio urbano, generales, comandantes, Estado Mayor, Caballeria, Meaka, Pueblo, Real Union, Buenos Amigos, participacion de companias, cantineras y los bloques de 1976 y 1997. Las cifras de componentes no se han volcado por criterio editorial; los mandos y nombres con lectura OCR dudosa quedan solo si tienen contraste suficiente o marcados como revisables. |
 | `Programas de fiestas` | 265 PDF | revision parcial global | alta | Gran volumen. Extraer solo datos del Alarde, evitando convertir cada programa en cronica de horarios. Especial atencion a mandos, cantineras, composicion y anos de participacion. |
 | `El Irunes` | 75 PDF | segunda pasada minuciosa cerrada | alta | Fuente muy rica en entrevistas, curiosidades, mandos, musica, cantineras y memoria de companias. Los 75 numeros tienen salida documentada en `docs/fuentes-examinadas.md`; mantener relecturas puntuales solo si aparece una duda concreta. La primera explotacion ya habia integrado los datos sustanciales de cada numero. La segunda pasada confirmo que, desde el num. 21 al 75, no quedaban datos nuevos seguros que incorporar sin duplicar contenido o sin salirse del alcance editorial. |
 | `Bidasoan` | 101 PDF | revision mixta: especiales bien tratados, trimestrales en primera pasada | alta | Contiene articulos de Irun y Hondarribia. Requiere filtro cuidadoso para no mezclar alardes y para rescatar detalles pequenos. |
@@ -57,7 +57,6 @@ Nota de actualizacion: la segunda pasada de `El Irunes` queda cerrada para los 7
 
 ## Proxima tanda recomendada
 
-1. Terminar Sagrario Arrizabalaga pagina a pagina, porque ya ha demostrado contener datos que no salian por busqueda simple.
-2. Releer `Bidasoan` y `El Bidasoa` por tandas, separando Irun de Hondarribia y capturando curiosidades.
-3. Reprocesar `Programas de fiestas` por decadas, registrando solo cambios y datos del Alarde.
-4. Aplicar OCR a los PDF sin texto util por tandas, empezando por fuentes locales y numeros extraordinarios de San Marcial.
+1. Releer `Bidasoan` y `El Bidasoa` por tandas, separando Irun de Hondarribia y capturando curiosidades.
+2. Reprocesar `Programas de fiestas` por decadas, registrando solo cambios y datos del Alarde.
+3. Aplicar OCR a los PDF sin texto util por tandas, empezando por fuentes locales y numeros extraordinarios de San Marcial.

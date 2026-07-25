@@ -6081,6 +6081,66 @@
       "source": "El Irunés, año 3, núm. 13, 1991, pp. 24-25 del PDF",
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 3 - Numero 13.pdf",
       "notes": "Relación de mandos y cantineras del Alarde de San Marcial de 1991."
+    },
+    {
+      "company_slug": "pueblo",
+      "company": "Pueblo",
+      "name": "Genaro Gal",
+      "role": "Capitán",
+      "from": 1893,
+      "to": 1893,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, memoria de Genaro Gal sobre la 1ª Compañía del Pueblo de 1893, p. 202 del libro",
+      "notes": "Nombrado capitán por Manuel Pedrós al pasar este a Comandante. La fuente conserva también a Cosme Susperregui y Eusebio Sors como sargentos y a José Don como cabo."
+    },
+    {
+      "company_slug": "pueblo",
+      "company": "Pueblo",
+      "name": "Cosme Susperregui",
+      "role": "Sargento",
+      "from": 1893,
+      "to": 1893,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, memoria de Genaro Gal sobre la 1ª Compañía del Pueblo de 1893, p. 202 del libro",
+      "notes": "Sargento citado en la memoria de Genaro Gal."
+    },
+    {
+      "company_slug": "pueblo",
+      "company": "Pueblo",
+      "name": "Eusebio Sors",
+      "role": "Sargento",
+      "from": 1893,
+      "to": 1893,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, memoria de Genaro Gal sobre la 1ª Compañía del Pueblo de 1893, p. 202 del libro",
+      "notes": "Sargento citado en la memoria de Genaro Gal."
+    },
+    {
+      "company_slug": "pueblo",
+      "company": "Pueblo",
+      "name": "José Don",
+      "role": "Cabo",
+      "from": 1893,
+      "to": 1893,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, memoria de Genaro Gal sobre la 1ª Compañía del Pueblo de 1893, p. 202 del libro",
+      "notes": "Cabo conservado por Genaro Gal al organizar la 1ª Compañía del Pueblo."
+    },
+    {
+      "company_slug": "real-union",
+      "company": "Real Unión",
+      "name": "J. Elizalde",
+      "role": "Capitán",
+      "from": 1919,
+      "to": 1919,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, nota sobre la Compañía del Pueblo 'Unión', pp. 289-291 del libro",
+      "notes": "La fuente presenta la unidad como Compañía del Pueblo 'Unión', antecedente documental del Real Unión."
+    },
+    {
+      "company_slug": "real-union",
+      "company": "Real Unión",
+      "name": "Castor Tellechea",
+      "role": "Teniente",
+      "from": 1919,
+      "to": 1919,
+      "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, nota sobre la Compañía del Pueblo 'Unión', pp. 289-291 del libro",
+      "notes": "La fuente presenta la unidad como Compañía del Pueblo 'Unión', antecedente documental del Real Unión."
     }
   ]
 }
