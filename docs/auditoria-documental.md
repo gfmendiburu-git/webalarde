@@ -25,6 +25,8 @@ Al revisar una fuente, comprobar siempre:
 
 ## Estado por carpetas
 
+Nota de actualizacion: en la segunda pasada de `El Irunes` ya constan revisados de forma minuciosa los numeros 1-16. El num. 16 no aporto integracion nueva porque los datos sustanciales ya estaban incorporados en la primera pasada y el resto era repetitivo, programatico, no propio del Alarde o no suficientemente factual.
+
 | Carpeta | Volumen | Estado actual | Prioridad | Motivo |
 | --- | ---: | --- | --- | --- |
 | `Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes` | 1 PDF | relectura minuciosa iniciada | alta | Ya aparecieron datos omitidos: primera cantinera de Caballeria, participacion de companias y variantes como Roca-San Miguel. Conviene terminar una segunda pasada pagina a pagina. |
