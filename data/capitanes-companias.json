@@ -5213,7 +5213,29 @@
       "from": 1952,
       "to": 1952,
       "source": "“Hace medio siglo. Mandos del Alarde de 1952”, El Irunés, año 14, núm. 71, junio de 2002, p. 9 del PDF",
-      "notes": "La fuente usa la denominación Gastadores y cita a J. Antonio Ponte como cabo."
+      "notes": "La fuente usa la denominación Gastadores y cita a J. Antonio Ponte como cabo. Matiz posterior: Antonio Aramburu, en El Irunés, año 1, núm. 3, 1989, p. 45 del PDF, aclara que aunque conste oficialmente, Ponte no llegó a formar como cabo de la escuadra."
+    },
+    {
+      "company_slug": "hacheros",
+      "company": "Escuadra de Hacheros",
+      "name": "Martín Tellechea",
+      "role": "Cabo de Hacheros",
+      "from": 1939,
+      "to": 1952,
+      "source": "Antonio Aramburu, “Una anécdota de la escuadra de hacheros”, El Irunés, año 1, núm. 3, 1989, p. 45 del PDF.",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 1 - Numero 3.pdf",
+      "notes": "La fuente indica que desde la recuperación del Alarde en 1939 figuró al frente de la escuadra. En 1949 justificó su ausencia y fue sustituido por Emilio Berroa; en 1952 mantuvo de hecho el mando aunque algunas relaciones impresas citaran oficialmente a José Antonio Ponte."
+    },
+    {
+      "company_slug": "hacheros",
+      "company": "Escuadra de Hacheros",
+      "name": "Emilio Berroa Aristimuño",
+      "role": "Cabo de Hacheros",
+      "from": 1949,
+      "to": 1949,
+      "source": "Antonio Aramburu, “Una anécdota de la escuadra de hacheros”, El Irunés, año 1, núm. 3, 1989, p. 45 del PDF.",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 1 - Numero 3.pdf",
+      "notes": "Sustituyó a Martín Tellechea por acuerdo unánime de la escuadra en 1949, al ser citado como hachero más antiguo disponible."
     },
     {
       "company_slug": "banda",
