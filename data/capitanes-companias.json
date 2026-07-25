@@ -5194,6 +5194,126 @@
       "to": 2001,
       "source": "El Irunés, año 13, núm. 65, julio-agosto de 2001, p. 7 del PDF",
       "notes": "Citado en los preparativos y primera de las descargas en la plaza San Juan junto al General Beñardo Urtizberea y el Comandante Javier Iriarte."
+    },
+    {
+      "company_slug": "caballeria",
+      "company": "Escolta de Caballería",
+      "name": "Miguel Cortijo",
+      "role": "Capitán",
+      "from": 1952,
+      "to": 1952,
+      "source": "“Hace medio siglo. Mandos del Alarde de 1952”, El Irunés, año 14, núm. 71, junio de 2002, p. 9 del PDF",
+      "notes": "La relación de 1952 lo cita como capitán de Caballería, con María José Barbeira como cantinera."
+    },
+    {
+      "company_slug": "hacheros",
+      "company": "Escuadra de Hacheros",
+      "name": "J. Antonio Ponte",
+      "role": "Cabo de Gastadores",
+      "from": 1952,
+      "to": 1952,
+      "source": "“Hace medio siglo. Mandos del Alarde de 1952”, El Irunés, año 14, núm. 71, junio de 2002, p. 9 del PDF",
+      "notes": "La fuente usa la denominación Gastadores y cita a J. Antonio Ponte como cabo."
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "Teodoro Murua",
+      "role": "Director de Banda",
+      "from": 1952,
+      "to": 1952,
+      "source": "“Hace medio siglo. Mandos del Alarde de 1952”, El Irunés, año 14, núm. 71, junio de 2002, p. 9 del PDF",
+      "notes": "La relación de 1952 lo cita como director de la Banda, con Mercedes Agesta como cantinera."
+    },
+    {
+      "company_slug": "behobia",
+      "company": "Behobia",
+      "name": "José Olazábal",
+      "role": "Capitán",
+      "from": 1952,
+      "to": 1952,
+      "source": "“Hace medio siglo. Mandos del Alarde de 1952”, El Irunés, año 14, núm. 71, junio de 2002, p. 9 del PDF",
+      "notes": "La relación de 1952 lo cita como capitán de Behobia, con Pedro Arocena como teniente y María Juncal Berrospe como cantinera."
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "Félix Bengoechea",
+      "role": "Capitán",
+      "from": 1952,
+      "to": 1952,
+      "source": "“Hace medio siglo. Mandos del Alarde de 1952”, El Irunés, año 14, núm. 71, junio de 2002, p. 9 del PDF",
+      "notes": "La relación de 1952 lo cita como capitán de Bidasoa, con Jerónimo López como teniente y Pilar Múgica como cantinera."
+    },
+    {
+      "company_slug": "meaka",
+      "company": "Meaka",
+      "name": "Ignacio Bengoechea",
+      "role": "Capitán",
+      "from": 1952,
+      "to": 1952,
+      "source": "“Hace medio siglo. Mandos del Alarde de 1952”, El Irunés, año 14, núm. 71, junio de 2002, p. 9 del PDF",
+      "notes": "La relación de 1952 lo cita como capitán de Meaka y a Andrés Aramburu como teniente. Contrasta con listados secundarios que sitúan a Andrés Aramburu como capitán ese mismo año."
+    },
+    {
+      "company_slug": "santa-elena",
+      "company": "Santa Elena",
+      "name": "Juan Campos",
+      "role": "Capitán",
+      "from": 1952,
+      "to": 1952,
+      "source": "“Hace medio siglo. Mandos del Alarde de 1952”, El Irunés, año 14, núm. 71, junio de 2002, p. 9 del PDF",
+      "notes": "La fuente la denomina Séptima Compañía del Pueblo, Santa Elena, y cita a Teodoro Lizari como teniente y María Luisa Niño como cantinera."
+    },
+    {
+      "company_slug": "anaka",
+      "company": "Anaka",
+      "name": "Julián Amantegui",
+      "role": "Capitán",
+      "from": 1952,
+      "to": 1952,
+      "source": "“Hace medio siglo. Mandos del Alarde de 1952”, El Irunés, año 14, núm. 71, junio de 2002, p. 9 del PDF",
+      "notes": "La relación de 1952 lo cita como capitán de Anaka, con José A. Elizalde como teniente y Sini Alberdi Peña como cantinera."
+    },
+    {
+      "company_slug": "deposito-de-maquinas-renfe",
+      "company": "Depósito de Máquinas / RENFE",
+      "name": "Saturnino Ibargoyen",
+      "role": "Capitán",
+      "from": 1952,
+      "to": 1952,
+      "source": "“Hace medio siglo. Mandos del Alarde de 1952”, El Irunés, año 14, núm. 71, junio de 2002, p. 9 del PDF",
+      "notes": "La fuente la denomina Séptima del Pueblo, Depósito de Máquinas, y cita a Mauricio Echebeste como teniente y María Rosario Caballero como cantinera."
+    },
+    {
+      "company_slug": "artilleria",
+      "company": "Batería de Artillería",
+      "name": "Aurelio Lopetegui",
+      "role": "Capitán",
+      "from": 1952,
+      "to": 1952,
+      "source": "“Hace medio siglo. Mandos del Alarde de 1952”, El Irunés, año 14, núm. 71, junio de 2002, p. 9 del PDF",
+      "notes": "La relación de 1952 lo cita como capitán de Artillería, con Pedro Aguirre como teniente y María Jesús Alzaga como cantinera."
+    },
+    {
+      "company_slug": "buenos-amigos",
+      "company": "Buenos Amigos",
+      "name": "José Aguirreche",
+      "role": "Capitán",
+      "from": 1968,
+      "to": 1968,
+      "source": "“El Alarde de San Marcial y sus protagonistas”, El Irunés, año 14, núm. 71, junio de 2002, p. 12 del PDF",
+      "notes": "La semblanza de Javier Iriarte recuerda que en 1968 el capitán fue José Aguirreche por luto del capitán habitual, Antonio Aizpurua, y que la cantinera fue Mª Juncal Barandiarán."
+    },
+    {
+      "company_slug": "buenos-amigos",
+      "company": "Buenos Amigos",
+      "name": "Javier Iriarte Ugarte",
+      "role": "Teniente segundo",
+      "from": 1979,
+      "to": 1979,
+      "source": "“El Alarde de San Marcial y sus protagonistas”, El Irunés, año 14, núm. 71, junio de 2002, p. 12 del PDF",
+      "notes": "La semblanza indica que el capitán Eusebio Aguirre lo nombró teniente segundo en 1979."
     }
   ]
 }

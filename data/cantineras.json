@@ -13497,7 +13497,7 @@
     {
       "year": 2002,
       "company": "Escolta de Caballería",
-      "name": "Uxoa Martínez",
+      "name": "Uxoa Martínez Pérez",
       "source_url": "https://veteranosescoltadecaballeria.com/uxoa-martinez-cantinera-de-caballeria-sonriendo-2002/",
       "source_title": "Uxoa Martínez Cantinera de Caballería sonriendo 2002",
       "mentions": 7,
@@ -13511,12 +13511,13 @@
       "source_url": "https://veteranosescoltadecaballeria.com/susana-bartolome-cantinera-de-compania-lapice-en-san-juan-2002/",
       "source_title": "Susana Bartolome Cantinera de Compañía Lapice en San Juan 2002",
       "mentions": 8,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [
         {
           "name": "Ohiana Bartolomé Cid",
           "source_url": "https://veteranosescoltadecaballeria.com/ohiana-bartolome-cantinera-compania-lapice-esperando-en-2002/",
-          "source_title": "Ohiana Bartolomé Cantinera Compañía Lapice esperando en 2002"
+          "source_title": "Ohiana Bartolomé Cantinera Compañía Lapice esperando en 2002",
+          "note": "El Irunés, año 14, núm. 71, junio de 2002, p. 22 del PDF, confirma como cantinera de Lapice a Susana Bartolomé Cid."
         }
       ]
     },
@@ -13573,7 +13574,7 @@
     {
       "year": 2002,
       "company": "Tamborrada",
-      "name": "Mª Cortijo Laguardia",
+      "name": "María Cortijo Laguardia",
       "source_url": "https://veteranosescoltadecaballeria.com/ma-cortijo-cantinera-tamborrada-ofrenda-floral-2002/",
       "source_title": "Mª Cortijo Cantinera Tamborrada ofrenda floral 2002",
       "mentions": 8,
