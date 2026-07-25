@@ -5104,6 +5104,26 @@
       "notes": "El artículo cita al capitán José Ignacio Elizalde, conocido como Piti, junto al teniente José Antonio Zapirain y el alférez Iñaki Arrubabarrena durante el ensayo de la compañía."
     },
     {
+      "company_slug": "anaka",
+      "company": "Anaka",
+      "name": "José Antonio Zapirain",
+      "role": "Teniente",
+      "from": 2000,
+      "to": 2000,
+      "source": "Esther Rodríguez Ramos, \"Historia de la Compañía de Anaka, Alarde de San Marcial\", El Irunés, año 12, núm. 59, julio de 2000, pp. 17-18 del PDF",
+      "notes": "Citado junto al capitán José Ignacio Elizalde y el alférez Iñaki Arrubabarrena en la compañía de Anaka del año 2000."
+    },
+    {
+      "company_slug": "anaka",
+      "company": "Anaka",
+      "name": "Iñaki Arrubabarrena",
+      "role": "Alférez",
+      "from": 2000,
+      "to": 2000,
+      "source": "Esther Rodríguez Ramos, \"Historia de la Compañía de Anaka, Alarde de San Marcial\", El Irunés, año 12, núm. 59, julio de 2000, pp. 17-18 del PDF",
+      "notes": "Citado junto al capitán José Ignacio Elizalde y el teniente José Antonio Zapirain en la compañía de Anaka del año 2000."
+    },
+    {
       "company_slug": "casino-de-irun",
       "company": "Casino de Irun",
       "name": "Juan Zamalloa",

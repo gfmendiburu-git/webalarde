@@ -6967,6 +6967,22 @@
     },
     {
       "year": 1970,
+      "company": "Anaka",
+      "name": "Rosa Cía Manterola",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 12 - Numero 59.pdf",
+      "source_title": "Esther Rodríguez Ramos, Historia de la Compañía de Anaka, Alarde de San Marcial, El Irunés, año 12, núm. 59, julio de 2000, p. 19 del PDF",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "Rosa María Cía Manterola",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 5 - Numero 23.pdf",
+          "source_title": "Madre e hija. Rosa María Cía y Marina Arretxe, cantineras del barrio Anaka, El Irunés, año 5, núm. 23, 1993, p. 47 del PDF"
+        }
+      ]
+    },
+    {
+      "year": 1970,
       "company": "Banda de Música",
       "name": "Mª Pilar Ruiz de Sola",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-banda-de-musica-alarde-de-irun-ma-pilar-ruiz-de-sola/",
@@ -7293,6 +7309,16 @@
       "source_title": "La figura de la Cantinera de la Compañía Ama Shantalen del Alarde de Irun",
       "mentions": 1,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1972,
+      "company": "Anaka",
+      "name": "Gabi Bereciartúa",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 12 - Numero 59.pdf",
+      "source_title": "Esther Rodríguez Ramos, Historia de la Compañía de Anaka, Alarde de San Marcial, El Irunés, año 12, núm. 59, julio de 2000, p. 19 del PDF",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -18259,7 +18285,7 @@
     }
   ],
   "stats": {
-    "entries": 1671,
+    "entries": 1673,
     "needs_review": 174,
     "rejected": {
       "no_company": 299,
@@ -18267,9 +18293,9 @@
       "no_name": 776,
       "no_year": 24
     },
-    "total_entries": 1671,
+    "total_entries": 1673,
     "last_manual_update": "2026-07-25",
-    "manual_update_note": "Añadida la mención documentada de Mertxe Altolaguirre desde el número 55 de El Irunés; las menciones sin año permanecen solo como notas en ficha.",
+    "manual_update_note": "Añadidos registros documentales de Rosa Cía Manterola (1970) y Gabi Bereciartúa (1972), cantineras de Anaka citadas en El Irunés número 59.",
     "manual_sagrario_recortes_added": 50
   }
 }
