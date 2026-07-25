@@ -2124,9 +2124,16 @@
       "name": "Conchita Gaztelumendi",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-buenos-amigos-del-alarde-de-irun-conchita-gaztelumendi/",
       "source_title": "Cantinera Buenos Amigos del Alarde de Irun-Conchita Gaztelumendi",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Conchita Gaztelumendi",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 14 - Numero 75.pdf",
+          "source_title": "Juan Antonio Lecuona, “Figuras populares del Bidasoa: Elena Etxegoyen Gaztelumendi”, El Irunés, año 14, núm. 75, diciembre de 2002, pp. 15-17 del PDF."
+        }
+      ],
+      "notes": "El Irunés núm. 75 la cita como madre de María Elena Etxegoyen y cantinera de Buenos Amigos en 1941."
     },
     {
       "year": 1941,
@@ -9343,8 +9350,14 @@
           "name": "Elena Echegoyen",
           "source_url": "https://veteranosescoltadecaballeria.com/cantinera-de-caballeria/",
           "source_title": "Cantinera de la Escolta de Caballería – Elena Echegoyen"
+        },
+        {
+          "name": "María Elena Etxegoyen Gaztelumendi",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 14 - Numero 75.pdf",
+          "source_title": "Juan Antonio Lecuona, “Figuras populares del Bidasoa: Elena Etxegoyen Gaztelumendi”, El Irunés, año 14, núm. 75, diciembre de 2002, pp. 15-17 del PDF."
         }
-      ]
+      ],
+      "notes": "El Irunés núm. 75 confirma su desfile como cantinera de la Escolta de Caballería en 1982 y añade que fue miembro de la Junta del Alarde durante dos años."
     },
     {
       "year": 1982,
