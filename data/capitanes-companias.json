@@ -93,6 +93,16 @@
     {
       "company_slug": "ama-shantalen",
       "company": "Ama Shantalen",
+      "name": "Patxin Oyarbide",
+      "role": "Teniente",
+      "from": 1942,
+      "to": 1942,
+      "source": "El Irunés, año 3, núm. 11, 1991, p. 48 del PDF",
+      "notes": "Pie de foto de 1942: D. Carlos Molinero, Comandante del Alarde, siendo General D. Eusebio Pedros; cita a Patxin Oyarbide como teniente de Ama Shantalen."
+    },
+    {
+      "company_slug": "ama-shantalen",
+      "company": "Ama Shantalen",
       "name": "José María Otondo",
       "role": "Capitán",
       "from": 1946,
