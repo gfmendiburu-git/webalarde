@@ -18283,20 +18283,80 @@
       "mentions": 1,
       "needs_review": false,
       "alternatives": []
+    },
+    {
+      "year": 1981,
+      "company": "Real Unión",
+      "name": "Beatriz Larrinaga",
+      "source_url": "",
+      "source_title": "Reunión de las excantineras del Real Unión, El Irunés, año 14, núm. 72, julio de 2002, p. 19 del PDF",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1983,
+      "company": "Real Unión",
+      "name": "Nekane Urkiola",
+      "source_url": "",
+      "source_title": "Reunión de las excantineras del Real Unión, El Irunés, año 14, núm. 72, julio de 2002, p. 19 del PDF",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1985,
+      "company": "Real Unión",
+      "name": "Amaia Irastorza",
+      "source_url": "",
+      "source_title": "Reunión de las excantineras del Real Unión, El Irunés, año 14, núm. 72, julio de 2002, p. 19 del PDF",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1987,
+      "company": "Real Unión",
+      "name": "Idoia Olasagasti",
+      "source_url": "",
+      "source_title": "Reunión de las excantineras del Real Unión, El Irunés, año 14, núm. 72, julio de 2002, p. 19 del PDF",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1988,
+      "company": "Real Unión",
+      "name": "Juncal Iraundegui",
+      "source_url": "",
+      "source_title": "Reunión de las excantineras del Real Unión, El Irunés, año 14, núm. 72, julio de 2002, p. 19 del PDF",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1990,
+      "company": "Real Unión",
+      "name": "Maite Oribe",
+      "source_url": "",
+      "source_title": "Reunión de las excantineras del Real Unión, El Irunés, año 14, núm. 72, julio de 2002, p. 19 del PDF",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
     }
   ],
   "stats": {
-    "entries": 1673,
-    "needs_review": 174,
+    "entries": 1679,
+    "needs_review": 180,
     "rejected": {
       "no_company": 299,
       "hondarribia": 7,
       "no_name": 776,
       "no_year": 24
     },
-    "total_entries": 1673,
+    "total_entries": 1679,
     "last_manual_update": "2026-07-25",
-    "manual_update_note": "Añadidos registros documentales de Rosa Cía Manterola (1970) y Gabi Bereciartúa (1972), cantineras de Anaka citadas en El Irunés número 59.",
+    "manual_update_note": "Añadidos registros documentales de Beatriz Larrinaga (1981), Nekane Urkiola (1983), Amaia Irastorza (1985), Idoia Olasagasti (1987), Juncal Iraundegui (1988) y Maite Oribe (1990), cantineras del Real Unión citadas en El Irunés número 72.",
     "manual_sagrario_recortes_added": 50
   }
 }

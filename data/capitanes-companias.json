@@ -5314,6 +5314,116 @@
       "to": 1979,
       "source": "“El Alarde de San Marcial y sus protagonistas”, El Irunés, año 14, núm. 71, junio de 2002, p. 12 del PDF",
       "notes": "La semblanza indica que el capitán Eusebio Aguirre lo nombró teniente segundo en 1979."
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "Juan José Iturrioz",
+      "role": "Director de Banda",
+      "from": 2002,
+      "to": 2002,
+      "source": "“Nombres completos de las compañías y unidades, sus mandos y año en que salieron como tales por primera vez”, El Irunés, año 14, núm. 72, julio de 2002, p. 7 del PDF",
+      "notes": "La relación de 2002 lo cita como director de la Banda de Música desde 1997."
+    },
+    {
+      "company_slug": "behobia",
+      "company": "Behobia",
+      "name": "Fernando Ribera",
+      "role": "Capitán",
+      "from": 2002,
+      "to": 2002,
+      "source": "“Nombres completos de las compañías y unidades, sus mandos y año en que salieron como tales por primera vez”, El Irunés, año 14, núm. 72, julio de 2002, p. 7 del PDF",
+      "notes": "La relación de 2002 usa la grafía Fernando Ribera desde 2001; otras fuentes recientes del mismo periodo lo citan como Fernando Rivera."
+    },
+    {
+      "company_slug": "meaka",
+      "company": "Meaka",
+      "name": "José Luis Alberto",
+      "role": "Capitán",
+      "from": 2002,
+      "to": 2002,
+      "source": "“Nombres completos de las compañías y unidades, sus mandos y año en que salieron como tales por primera vez”, El Irunés, año 14, núm. 72, julio de 2002, p. 7 del PDF",
+      "notes": "La relación de 2002 lo cita como capitán de Meaka desde 1996."
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "Antxon Rekarte",
+      "role": "Capitán",
+      "from": 2002,
+      "to": 2002,
+      "source": "“Nombres completos de las compañías y unidades, sus mandos y año en que salieron como tales por primera vez”, El Irunés, año 14, núm. 72, julio de 2002, p. 7 del PDF",
+      "notes": "La relación de 2002 lo cita como capitán de Bidasoa desde ese año."
+    },
+    {
+      "company_slug": "san-miguel",
+      "company": "San Miguel",
+      "name": "José Mª Martínez",
+      "role": "Capitán",
+      "from": 2002,
+      "to": 2002,
+      "source": "“Nombres completos de las compañías y unidades, sus mandos y año en que salieron como tales por primera vez”, El Irunés, año 14, núm. 72, julio de 2002, p. 7 del PDF",
+      "notes": "La relación de 2002 lo cita como capitán de San Miguel desde 1992."
+    },
+    {
+      "company_slug": "olaberria",
+      "company": "Olaberria",
+      "name": "José Mª Satrústegui",
+      "role": "Capitán",
+      "from": 2002,
+      "to": 2002,
+      "source": "“Nombres completos de las compañías y unidades, sus mandos y año en que salieron como tales por primera vez”, El Irunés, año 14, núm. 72, julio de 2002, p. 7 del PDF",
+      "notes": "La relación de 2002 lo cita como capitán de Olaberria desde 2001."
+    },
+    {
+      "company_slug": "anaka",
+      "company": "Anaka",
+      "name": "José Ignacio Elizalde",
+      "role": "Capitán",
+      "from": 2002,
+      "to": 2002,
+      "source": "“Nombres completos de las compañías y unidades, sus mandos y año en que salieron como tales por primera vez”, El Irunés, año 14, núm. 72, julio de 2002, p. 7 del PDF",
+      "notes": "La relación de 2002 lo cita como capitán de Anaka desde 1991."
+    },
+    {
+      "company_slug": "buenos-amigos",
+      "company": "Buenos Amigos",
+      "name": "Xavier Zuazu",
+      "role": "Capitán",
+      "from": 2002,
+      "to": 2002,
+      "source": "“Nombres completos de las compañías y unidades, sus mandos y año en que salieron como tales por primera vez”, El Irunés, año 14, núm. 72, julio de 2002, p. 7 del PDF",
+      "notes": "La relación de 2002 lo cita como capitán de Buenos Amigos desde ese año."
+    },
+    {
+      "company_slug": "azken-portu",
+      "company": "Azken Portu",
+      "name": "Ernesto Quiroga",
+      "role": "Capitán",
+      "from": 2002,
+      "to": 2002,
+      "source": "“Nombres completos de las compañías y unidades, sus mandos y año en que salieron como tales por primera vez”, El Irunés, año 14, núm. 72, julio de 2002, p. 7 del PDF",
+      "notes": "La relación de 2002 lo cita como capitán de Azken Portu desde 1996."
+    },
+    {
+      "company_slug": "belaskoenea",
+      "company": "Belaskoenea",
+      "name": "Miguel Ruiz",
+      "role": "Capitán",
+      "from": 2002,
+      "to": 2002,
+      "source": "“Nombres completos de las compañías y unidades, sus mandos y año en que salieron como tales por primera vez”, El Irunés, año 14, núm. 72, julio de 2002, p. 7 del PDF",
+      "notes": "La relación de 2002 lo cita como capitán de Belaskoenea desde 1998."
+    },
+    {
+      "company_slug": "artilleria",
+      "company": "Batería de Artillería",
+      "name": "José Ramón Otaegui",
+      "role": "Capitán",
+      "from": 2002,
+      "to": 2002,
+      "source": "“Nombres completos de las compañías y unidades, sus mandos y año en que salieron como tales por primera vez”, El Irunés, año 14, núm. 72, julio de 2002, p. 7 del PDF",
+      "notes": "La relación de 2002 lo cita como capitán de Artillería desde 1997."
     }
   ]
 }
