@@ -3678,9 +3678,16 @@
       "name": "Mercedes Agesta Aizpiolea",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-banda-del-alarde-de-irun-mercedes-agesta-aizpiolea/",
       "source_title": "Cantinera Banda del Alarde de Irun – Mercedes Agesta Aizpiolea",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "Merche Agesta",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 14 - Numero 74.pdf",
+          "source_title": "Juan Antonio Lecuona, “Irun y el Bidasoa hace medio siglo 1952-2002”, El Irunés, año 14, núm. 74, octubre-noviembre de 2002, pp. 67-68 del PDF."
+        }
+      ],
+      "notes": "El Irunés núm. 74 la cita como Merche Agesta, cantinera de la Banda de Música del Alarde de San Marcial."
     },
     {
       "year": 1952,
@@ -3728,9 +3735,16 @@
       "name": "María José Barbeira Alvarez",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-escolta-de-caballeria-del-alarde-de-irun-maria-jose-barbeira-alvarez/",
       "source_title": "La figura de la Cantinera de la Escolta de Caballería del Alarde de Irun",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": []
+      "alternatives": [
+        {
+          "name": "María José Barbeira",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 14 - Numero 74.pdf",
+          "source_title": "Juan Antonio Lecuona, “Irun y el Bidasoa hace medio siglo 1952-2002”, El Irunés, año 14, núm. 74, octubre-noviembre de 2002, pp. 67-68 del PDF."
+        }
+      ],
+      "notes": "El Irunés núm. 74 la cita como María José Barbeira y precisa que su elección para la Caballería se dio a conocer el 17 de mayo de 1952."
     },
     {
       "year": 1952,
@@ -3755,12 +3769,18 @@
     {
       "year": 1952,
       "company": "Olaberria",
-      "name": "Rosario Aramburu",
+      "name": "María del Rosario Aramburu Errazkin",
       "source_url": "",
       "source_title": "Metadatos de la galería fotográfica interna: La Compañía Olaberria del Alarde con su cantinera, Rosario Aramburu, en la...",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": true,
-      "alternatives": [],
+      "alternatives": [
+        {
+          "name": "María del Rosario Aranburu Errazkin",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 14 - Numero 74.pdf",
+          "source_title": "Juan Antonio Lecuona, “Irun y el Bidasoa hace medio siglo 1952-2002”, El Irunés, año 14, núm. 74, octubre-noviembre de 2002, pp. 67-68 del PDF."
+        }
+      ],
       "gallery_source_refs": [
         {
           "object_id": "11450",
@@ -3770,7 +3790,8 @@
           "archive": "Archivo Municipal de Irun",
           "license": "Uso no comercial autorizado por el Archivo Municipal de Irun"
         }
-      ]
+      ],
+      "notes": "El Irunés núm. 74 indica que fue reelegida cantinera de Olaberria en 1952; la grafía del apellido oscila entre Aramburu/Aranburu y Errazquin/Errazkin según fuente."
     },
     {
       "year": 1952,
@@ -3778,9 +3799,16 @@
       "name": "Elena Anabitarte",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-elena-anabitarte/",
       "source_title": "La figura de la Cantinera de la Compañía Real Unión del Alarde de Irun",
-      "mentions": 1,
-      "needs_review": false,
-      "alternatives": []
+      "mentions": 2,
+      "needs_review": true,
+      "alternatives": [
+        {
+          "name": "Marilen Anabitarte Etxeandia Gal",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 14 - Numero 74.pdf",
+          "source_title": "Juan Antonio Lecuona, “Irun y el Bidasoa hace medio siglo 1952-2002”, El Irunés, año 14, núm. 74, octubre-noviembre de 2002, pp. 67-68 del PDF."
+        }
+      ],
+      "notes": "El Irunés núm. 74 la cita como Marilen Anabitarte Etxeandia Gal, nieta de Salvador Etxeandia, y vincula la compañía al Real Unión Club como primera compañía del pueblo. Existe discrepancia con la fuente impresa de El Irunés núm. 74, que lee “Marilen Anabitarte Etxeandia Gal”; conviene contrastar si se trata de variante, apodo o registro distinto."
     },
     {
       "year": 1952,
@@ -3818,15 +3846,21 @@
       "name": "Mª Paz Behobide Montero",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-alarde-de-irun-ma-paz-behobide-montero/",
       "source_title": "Cantinera Compañía Santiago Alarde de Irún – Mª Paz Behobide Montero",
-      "mentions": 2,
+      "mentions": 3,
       "needs_review": false,
       "alternatives": [
         {
           "name": "Mª Paz Behobide",
           "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
           "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF."
+        },
+        {
+          "name": "María Paz Behobide",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 14 - Numero 74.pdf",
+          "source_title": "Juan Antonio Lecuona, “Irun y el Bidasoa hace medio siglo 1952-2002”, El Irunés, año 14, núm. 74, octubre-noviembre de 2002, pp. 67-68 del PDF."
         }
-      ]
+      ],
+      "notes": "El Irunés núm. 74 la cita como María Paz Behobide y sitúa como capitán de Santiago a Fermín Lecuona."
     },
     {
       "year": 1952,

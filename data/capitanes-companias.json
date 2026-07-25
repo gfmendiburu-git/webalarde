@@ -5424,6 +5424,28 @@
       "to": 2002,
       "source": "“Nombres completos de las compañías y unidades, sus mandos y año en que salieron como tales por primera vez”, El Irunés, año 14, núm. 72, julio de 2002, p. 7 del PDF",
       "notes": "La relación de 2002 lo cita como capitán de Artillería desde 1997."
+    },
+    {
+      "company_slug": "santiago",
+      "company": "Santiago",
+      "name": "Fermín Lecuona",
+      "role": "Capitán",
+      "from": 1952,
+      "to": 1952,
+      "source": "Juan Antonio Lecuona, “Irun y el Bidasoa hace medio siglo 1952-2002”, El Irunés, año 14, núm. 74, octubre-noviembre de 2002, pp. 67-68 del PDF.",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 14 - Numero 74.pdf",
+      "notes": "El Irunés lo cita como veterano irunés y capitán de la Compañía Santiago en el contexto de las elecciones de cantineras de 1952."
+    },
+    {
+      "company_slug": "real-union",
+      "company": "Real Unión",
+      "name": "Vicente Salas Poumot",
+      "role": "Capitán",
+      "from": 1952,
+      "to": 1952,
+      "source": "Juan Antonio Lecuona, “Irun y el Bidasoa hace medio siglo 1952-2002”, El Irunés, año 14, núm. 74, octubre-noviembre de 2002, pp. 67-68 del PDF.",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 14 - Numero 74.pdf",
+      "notes": "El Irunés lo cita como capitán del Real Unión Club, definido en esa crónica como primera compañía del pueblo, en el contexto de las elecciones de cantineras de 1952."
     }
   ]
 }
