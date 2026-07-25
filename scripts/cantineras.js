@@ -362,7 +362,7 @@
     fetch("data/cantineras.json?v=6").then((response) => response.json()),
     fetch("data/cantinera-fotos.json?v=3").then((response) => response.json()).catch(() => ({ entries: [] })),
     fetch("data/companias-cantineras.json?v=1").then((response) => response.json()).catch(() => ({ entries: [] })),
-    fetch("data/capitanes-companias.json?v=8").then((response) => response.json()).catch(() => ({ entries: [] })),
+    fetch("data/capitanes-companias.json?v=9").then((response) => response.json()).catch(() => ({ entries: [] })),
   ])
     .then(([data, photoData, sourceCompanies, captainData]) => {
       const photosById = new Map((photoData.entries || []).map((entry) => [entry.id, entry]));
