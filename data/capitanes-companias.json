@@ -5133,6 +5133,46 @@
       "source": "El Irunés, año 11, núm. 52, julio-agosto de 1999, p. 9 del PDF",
       "notes": "El texto recuerda a Juan Zamalloa como uno de los capitanes que tuvo la Compañía del Casino de Irun; en la fotografía de 1946 figura como teniente. Año exacto de capitanía pendiente de contraste.",
       "status": "needs_review"
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "José Luis Iturria",
+      "role": "Capitán",
+      "from": 2001,
+      "to": 2001,
+      "source": "El Irunés, año 13, núm. 65, julio-agosto de 2001, p. 5 del PDF",
+      "notes": "Pie fotografico de la primera descarga de la jornada frente al caserio Alunda."
+    },
+    {
+      "company_slug": "behobia",
+      "company": "Behobia",
+      "name": "Fernando Rivera",
+      "role": "Capitán",
+      "from": 2001,
+      "to": 2001,
+      "source": "El Irunés, año 13, núm. 65, julio-agosto de 2001, p. 5 del PDF",
+      "notes": "Pie fotografico de la Compañía de Behobia a la salida del barrio."
+    },
+    {
+      "company_slug": "hacheros",
+      "company": "Escuadra de Hacheros",
+      "name": "Carlos Galdós",
+      "role": "Cabo de Hacheros",
+      "from": 2001,
+      "to": 2001,
+      "source": "El Irunés, año 13, núm. 65, julio-agosto de 2001, p. 6 del PDF",
+      "notes": "Pie fotografico de la Arrancada del Alarde desde la Alameda de Urdanibia."
+    },
+    {
+      "company_slug": "general",
+      "company": "General",
+      "name": "Juan Lekuona Galardi",
+      "role": "Cornetin de ordenes",
+      "from": 2001,
+      "to": 2001,
+      "source": "El Irunés, año 13, núm. 65, julio-agosto de 2001, p. 7 del PDF",
+      "notes": "Citado en los preparativos y primera de las descargas en la plaza San Juan junto al General Beñardo Urtizberea y el Comandante Javier Iriarte."
     }
   ]
 }
