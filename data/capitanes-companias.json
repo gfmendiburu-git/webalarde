@@ -825,10 +825,31 @@
       "company": "Banda de Música",
       "name": "José Antonio Canoura Etxebeste",
       "role": "Director de Banda",
+      "from": 1976,
+      "to": 1976,
+      "source": "Corchea, \"A los 25 años de su creación (1976), superación constante de la Banda de Música de Irun\", El Irunés, año 13, núm. 66, septiembre de 2001, p. 54 del PDF",
+      "notes": "Figura como director en la junta directiva fundadora de la Agrupación Cultural Banda de Música Ciudad de Irun, creada el 16 de febrero de 1976."
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "José Antonio Canoura Etxebeste",
+      "role": "Director de Banda",
       "from": 1985,
       "to": 1986,
       "source": "Xain Dua, “Tife, en los alardes de Hondarribia e Irun”, Bidasoan, Irun, septiembre de 1985, p. 46; “Breve diálogo con José Antonio Apalategui”, Bidasoan, Irun, marzo de 1986, p. 7",
       "notes": "Documentado al frente de la Banda en el ensayo conjunto con Tamborrada de 1985 y confirmado como director para el Alarde de 1986."
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "René Zugarramurdi Altolaguirre",
+      "role": "Director de Banda",
+      "from": null,
+      "to": null,
+      "source": "Corchea, \"A los 25 años de su creación (1976), superación constante de la Banda de Música de Irun\", El Irunés, año 13, núm. 66, septiembre de 2001, p. 54 del PDF",
+      "notes": "El artículo lo cita como uno de los grandes directores de la etapa posterior a la creación de la Agrupación Cultural Banda de Música de Irun y como instrumentista vinculado al Alarde anual de San Marcial. Año exacto pendiente de contraste.",
+      "status": "needs_review"
     },
     {
       "company_slug": "behobia",
