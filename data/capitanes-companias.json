@@ -103,6 +103,15 @@
     {
       "company_slug": "ama-shantalen",
       "company": "Ama Shantalen",
+      "name": "Patxi Lartigue Zamora",
+      "role": "Teniente",
+      "source": "El Irunés, año 3, núm. 14, 1991, p. 24 del PDF",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 3 - Numero 14.pdf",
+      "notes": "Obituario publicado en 1991: lo recuerda como destacado organizador y componente de Ama Shantalen, donde figuró como teniente y soldado. La fuente no concreta años de desempeño."
+    },
+    {
+      "company_slug": "ama-shantalen",
+      "company": "Ama Shantalen",
       "name": "José María Otondo",
       "role": "Capitán",
       "from": 1946,

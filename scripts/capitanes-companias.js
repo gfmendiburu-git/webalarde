@@ -86,7 +86,7 @@
     comandante: "Comandantes documentados",
   };
 
-  fetch("../data/capitanes-companias.json?v=9")
+  fetch("../data/capitanes-companias.json?v=10")
     .then((response) => response.json())
     .then((data) => {
       const entries = (data.entries || [])
