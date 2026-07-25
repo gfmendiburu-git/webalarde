@@ -611,9 +611,9 @@
     {
       "year": 1924,
       "company": "Lapice",
-      "name": "María Zapirain Aguirre",
-      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
-      "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, nombres de cantineras conocidos 1919-1930, p. 293 del libro",
+      "name": "Maritxu Zapirain Aguirre",
+      "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-lapice-del-alarde-de-irun-maritxu-zapirain-aguirre/",
+      "source_title": "Cantinera Compañía Lapice del Alarde de Irún – Maritxu Zapirain Aguirre",
       "mentions": 1,
       "needs_review": false,
       "alternatives": []
@@ -621,9 +621,9 @@
     {
       "year": 1924,
       "company": "Lapice",
-      "name": "Maritxu Zapirain Aguirre",
-      "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-lapice-del-alarde-de-irun-maritxu-zapirain-aguirre/",
-      "source_title": "Cantinera Compañía Lapice del Alarde de Irún – Maritxu Zapirain Aguirre",
+      "name": "María Zapirain Aguirre",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
+      "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, nombres de cantineras conocidos 1919-1930, p. 293 del libro",
       "mentions": 1,
       "needs_review": false,
       "alternatives": []
@@ -1591,21 +1591,21 @@
     {
       "year": 1935,
       "company": "Behobia",
-      "name": "Ángela Alzaga",
-      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
-      "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, tablas de cantineras conocidas (PDF Recortes, pp. 12 y 15)",
-      "mentions": 1,
-      "needs_review": true,
-      "alternatives": []
-    },
-    {
-      "year": 1935,
-      "company": "Behobia",
       "name": "Micaela Gaiztarro Larrasa",
       "source_url": "https://veteranosescoltadecaballeria.com/cantineras-compania-behobia-alarde-de-irun-micaela-gaiztarro-larrasa/",
       "source_title": "Cantineras Compañía Behobia Alarde de Irún – Micaela Gaiztarro Larrasa",
       "mentions": 1,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1935,
+      "company": "Behobia",
+      "name": "Ángela Alzaga",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
+      "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, tablas de cantineras conocidas (PDF Recortes, pp. 12 y 15)",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -2411,6 +2411,16 @@
     },
     {
       "year": 1943,
+      "company": "Santiago",
+      "name": "Mari Paz Fernández",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
+      "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF.",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": []
+    },
+    {
+      "year": 1943,
       "company": "Tamborrada",
       "name": "Piedad Tellechea Larzabal",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-a-del-alarde-tamborrade-irun-piedad-tellechea-larzabal/",
@@ -3029,6 +3039,17 @@
       "source_title": "Cantinera Compañía Lapice del Alarde de Irún – Ramona Ibargoyen",
       "mentions": 1,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1948,
+      "company": "Meaka",
+      "name": "Mertxe Altolaguirre",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 12 - Numero 55.pdf",
+      "source_title": "Josetxo Alzaga, indiscutible figura del Alarde 2.000, El Irunés, año 12, núm. 55, enero-febrero de 2000, p. 9 del PDF",
+      "mentions": 1,
+      "needs_review": true,
+      "notes": "Pie fotografico: “Mertxe Altolaguirre, cantinera de Meaka en 1948, sargento Juan Lasa”. Puede requerir contraste del nombre completo.",
       "alternatives": []
     },
     {
@@ -4380,21 +4401,21 @@
     {
       "year": 1955,
       "company": "Renfe",
-      "name": "Lucía Garballo Bonilla",
-      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
-      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
-      "mentions": 1,
-      "needs_review": true,
-      "alternatives": []
-    },
-    {
-      "year": 1955,
-      "company": "Renfe",
       "name": "Lucia Garbayo Bonilla",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-compania-renfe-del-alarde-de-san-marcial-de-irun-lucia-garbayo-bonilla/",
       "source_title": "La figura de la Compañía Renfe del Alarde de San Marcial de Irun",
       "mentions": 1,
       "needs_review": false,
+      "alternatives": []
+    },
+    {
+      "year": 1955,
+      "company": "Renfe",
+      "name": "Lucía Garballo Bonilla",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": []
     },
     {
@@ -18235,30 +18256,20 @@
       "mentions": 1,
       "needs_review": false,
       "alternatives": []
-    },
-    {
-      "year": 1943,
-      "company": "Santiago",
-      "name": "Mari Paz Fernández",
-      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 9 - Numero 41.pdf",
-      "source_title": "El Irunés, año 9, núm. 41, 1997; comida anual de cantineras de la Compañía Santiago, pp. 30-33 del PDF.",
-      "mentions": 1,
-      "needs_review": true,
-      "alternatives": []
     }
   ],
   "stats": {
-    "entries": 1669,
-    "needs_review": 163,
+    "entries": 1671,
+    "needs_review": 174,
     "rejected": {
       "no_company": 299,
       "hondarribia": 7,
       "no_name": 776,
       "no_year": 24
     },
-    "total_entries": 1669,
-    "last_manual_update": "2026-07-24",
-    "manual_update_note": "Completados datos de participación y cantineras a partir de tablas y texto suelto de Sagrario Arrizabalaga Marin; las cifras de componentes no se publican.",
+    "total_entries": 1671,
+    "last_manual_update": "2026-07-25",
+    "manual_update_note": "Añadida la mención documentada de Mertxe Altolaguirre desde el número 55 de El Irunés; las menciones sin año permanecen solo como notas en ficha.",
     "manual_sagrario_recortes_added": 50
   }
 }

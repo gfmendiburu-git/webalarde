@@ -3099,10 +3099,12 @@
       "company_slug": "olaberria",
       "company": "Olaberria",
       "name": "Jose Alzaga Zubialde",
-      "from": 1963,
-      "to": 1996,
-      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6; El Irunes, año 8, num. 35, junio de 1996",
-      "notes": "Documentado como capitan en 1967. El Irunes indica 50 anos en Olaberria, 6 como teniente y 33 como capitan."
+      "from": 1964,
+      "to": 2000,
+      "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6; El Irunés, año 8, núm. 35, junio de 1996; El Irunés, año 12, núm. 55, enero-febrero de 2000, p. 9 del PDF",
+      "notes": "Documentado como capitan en 1967. El Irunés de 1996 indicaba 50 años en Olaberria, 6 como teniente y 33 como capitán; el número 55 precisa su presencia de 1947 a 2000 y la sucesión de Gregorio Manterola en 1964.",
+      "role": "Capitán",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 12 - Numero 55.pdf"
     },
     {
       "company_slug": "olaberria",
