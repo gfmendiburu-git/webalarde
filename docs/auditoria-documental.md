@@ -25,7 +25,7 @@ Al revisar una fuente, comprobar siempre:
 
 ## Estado por carpetas
 
-Nota de actualizacion: en la segunda pasada de `El Irunes` ya constan revisados de forma minuciosa los numeros 1-18. El num. 16 no aporto integracion nueva porque los datos sustanciales ya estaban incorporados en la primera pasada y el resto era repetitivo, programatico, no propio del Alarde o no suficientemente factual. El num. 17 reforzo las fichas de Hacheros y Uranzu con detalles de 1992. El num. 18, centrado casi por completo en Hondarribia, solo reforzo Hacheros con la propuesta de Juanjo Garcia sobre acceso y relevo generacional.
+Nota de actualizacion: en la segunda pasada de `El Irunes` ya constan revisados de forma minuciosa los numeros 1-19. El num. 16 no aporto integracion nueva porque los datos sustanciales ya estaban incorporados en la primera pasada y el resto era repetitivo, programatico, no propio del Alarde o no suficientemente factual. El num. 17 reforzo las fichas de Hacheros y Uranzu con detalles de 1992. El num. 18, centrado casi por completo en Hondarribia, solo reforzo Hacheros con la propuesta de Juanjo Garcia sobre acceso y relevo generacional. El num. 19 no aporto integracion nueva: sus dos datos utiles, el desdoblamiento tecnico de la Banda y la cita de Mugica sobre Fuenterrabia en el Alarde de Irun, ya estaban incorporados.
 
 | Carpeta | Volumen | Estado actual | Prioridad | Motivo |
 | --- | ---: | --- | --- | --- |
