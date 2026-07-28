@@ -67,6 +67,8 @@
     const credit = document.createElement("p");
     if (source === "archivo-irun") {
       credit.textContent = `${license} / ${archive} / ${fund}.`;
+    } else if (source === "tamborrada-alarde-irun") {
+      credit.textContent = `${license} / ${archive} / ${fund}.`;
     } else {
       credit.textContent = `${license} 2015 / KUTXA FUNDAZIOA FOTOTEKA / Fondo ${fund} / ${author}.`;
     }
@@ -79,9 +81,13 @@
       originalLink.href = detailUrl;
       originalLink.target = "_blank";
       originalLink.rel = "noopener noreferrer";
-      originalLink.textContent = source === "archivo-irun"
-        ? "Ver ficha original en el Archivo Municipal de Irun."
-        : "Ver ficha original en Kutxateka.";
+      if (source === "archivo-irun") {
+        originalLink.textContent = "Ver ficha original en el Archivo Municipal de Irun.";
+      } else if (source === "tamborrada-alarde-irun") {
+        originalLink.textContent = "Ver página original en tamborradaalardeirun.com.";
+      } else {
+        originalLink.textContent = "Ver ficha original en Kutxateka.";
+      }
       original.append(originalLink);
       fragment.append(original);
     }

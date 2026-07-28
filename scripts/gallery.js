@@ -18,7 +18,7 @@
   const getAuthor = (item) => normalize(item.photographer, "autor no indicado");
   const getLicense = (item) => normalize(item.license, LICENSE);
   const getArchive = (item) => normalize(item.archive, "Kutxa Fundazioa Fototeka");
-  const getOriginalLabel = (item) => item.source === "archivo-irun" ? "Ficha original" : "Ficha original";
+  const getOriginalLabel = (item) => item.source === "tamborrada-alarde-irun" ? "Página fuente" : "Ficha original";
 
   const appendOriginalLink = (container, item) => {
     container.append(" · ");
@@ -63,6 +63,8 @@
       credit.append(`${getArchive(item)} · ${getFund(item)} · Ref. ${item.object_id} · ${getLicense(item)}`);
     } else if (item.source === "document-recorte") {
       credit.append(item.attribution || `${getArchive(item)} · ${getFund(item)} · ${getLicense(item)}`);
+    } else if (item.source === "tamborrada-alarde-irun") {
+      credit.append(item.attribution || `${getArchive(item)} · ${getLicense(item)}`);
     } else {
       credit.append(`Kutxa Fundazioa Fototeka · Fondo ${getFund(item)} · ${getAuthor(item)} · ${getLicense(item)}`);
     }
@@ -86,7 +88,7 @@
     count.textContent = `${filtered.length} imágenes`;
   };
 
-  fetch("data/alarde-imagenes.json?v=3")
+  fetch("data/alarde-imagenes.json?v=4")
     .then((response) => response.json())
     .then((items) => {
       const years = [...new Set(items.map((item) => item.year || "sin-fecha"))].sort((a, b) => {

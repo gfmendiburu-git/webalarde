@@ -364,7 +364,7 @@
 
   Promise.all([
     fetch("data/cantineras.json?v=7").then((response) => response.json()),
-    fetch("data/cantinera-fotos.json?v=4").then((response) => response.json()).catch(() => ({ entries: [] })),
+    fetch("data/cantinera-fotos.json?v=5").then((response) => response.json()).catch(() => ({ entries: [] })),
     fetch("data/companias-cantineras.json?v=1").then((response) => response.json()).catch(() => ({ entries: [] })),
     fetch("data/capitanes-companias.json?v=10").then((response) => response.json()).catch(() => ({ entries: [] })),
   ])

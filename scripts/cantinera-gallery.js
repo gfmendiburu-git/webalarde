@@ -47,7 +47,7 @@
     original.href = item.detail_url;
     original.target = "_blank";
     original.rel = "noopener noreferrer";
-    original.textContent = "Ficha original";
+    original.textContent = item.source === "tamborrada-alarde-irun" ? "Página fuente" : "Ficha original";
     container.append(original);
   };
 
@@ -81,6 +81,8 @@
     credit.className = "image-credit";
     if (item.source === "document-recorte") {
       credit.append(item.attribution || `${normalize(item.archive, "Documentación histórica local")} · ${normalize(item.studio, "fuente no indicada")}`);
+    } else if (item.source === "tamborrada-alarde-irun") {
+      credit.append(item.attribution || `${normalize(item.archive, "Tamborrada del Alarde de Irun")} · ${normalize(item.license, "uso autorizado")}`);
     } else {
       credit.append(
         `${normalize(item.archive, "Archivo Municipal de Irun")} · ${normalize(item.studio, "fondo no indicado")} · Ref. ${item.object_id} · ${normalize(item.license, "uso no comercial autorizado")}`,
@@ -92,7 +94,7 @@
     return card;
   };
 
-  fetch("data/cantinera-fotos.json?v=3")
+  fetch("data/cantinera-fotos.json?v=5")
     .then((response) => response.json())
     .then((data) => {
       const entry = (data.entries || []).find((item) => item.id === id);
