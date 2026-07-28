@@ -11072,18 +11072,6 @@
     },
     {
       "year": 1981,
-      "company": "Real Unión",
-      "name": "Beatriz Larrinaga",
-      "source_url": "",
-      "source_title": "Reunión de las excantineras del Real Unión, El Irunés, año 14, núm. 72, julio de 2002, p. 19 del PDF",
-      "mentions": 1,
-      "needs_review": true,
-      "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
-    },
-    {
-      "year": 1981,
       "company": "San Miguel",
       "name": "Marisol Botanz Jimenez",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-san-miguel-del-alarde-de-irun-marisol-botanz-jimenez/",
@@ -11559,18 +11547,6 @@
     },
     {
       "year": 1983,
-      "company": "Real Unión",
-      "name": "Nekane Urkiola",
-      "source_url": "",
-      "source_title": "Reunión de las excantineras del Real Unión, El Irunés, año 14, núm. 72, julio de 2002, p. 19 del PDF",
-      "mentions": 1,
-      "needs_review": true,
-      "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
-    },
-    {
-      "year": 1983,
       "company": "San Miguel",
       "name": "Teresa Etxeberria",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-san-miguel-del-alarde-de-irun-teresa-etxeberria/",
@@ -12030,18 +12006,6 @@
       "alternatives": [],
       "confirmed": true,
       "pending_confirmation": false
-    },
-    {
-      "year": 1985,
-      "company": "Real Unión",
-      "name": "Amaia Irastorza",
-      "source_url": "",
-      "source_title": "Reunión de las excantineras del Real Unión, El Irunés, año 14, núm. 72, julio de 2002, p. 19 del PDF",
-      "mentions": 1,
-      "needs_review": true,
-      "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
     },
     {
       "year": 1985,
@@ -12519,18 +12483,6 @@
     },
     {
       "year": 1987,
-      "company": "Real Unión",
-      "name": "Idoia Olasagasti",
-      "source_url": "",
-      "source_title": "Reunión de las excantineras del Real Unión, El Irunés, año 14, núm. 72, julio de 2002, p. 19 del PDF",
-      "mentions": 1,
-      "needs_review": true,
-      "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
-    },
-    {
-      "year": 1987,
       "company": "San Miguel",
       "name": "Sonia Garrido",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-san-miguel-del-alarde-de-irun-sonia-garrido/",
@@ -12762,18 +12714,6 @@
       "alternatives": [],
       "confirmed": true,
       "pending_confirmation": false
-    },
-    {
-      "year": 1988,
-      "company": "Real Unión",
-      "name": "Juncal Iraundegui",
-      "source_url": "",
-      "source_title": "Reunión de las excantineras del Real Unión, El Irunés, año 14, núm. 72, julio de 2002, p. 19 del PDF",
-      "mentions": 1,
-      "needs_review": true,
-      "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
     },
     {
       "year": 1988,
@@ -13476,18 +13416,6 @@
       "alternatives": [],
       "confirmed": true,
       "pending_confirmation": false
-    },
-    {
-      "year": 1991,
-      "company": "Real Unión",
-      "name": "Natalia Solbes Uranga",
-      "source_url": "https://veteranosescoltadecaballeria.com/natalia-solbes-cantyinera-de-la-compania-real-union-1991/",
-      "source_title": "Natalia Solbes Cantinera de la Compañía Real Unión 1991",
-      "mentions": 1,
-      "needs_review": false,
-      "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
     },
     {
       "year": 1991,
@@ -21690,19 +21618,19 @@
     }
   ],
   "stats": {
-    "entries": 1717,
-    "needs_review": 169,
+    "entries": 1711,
+    "needs_review": 163,
     "rejected": {
       "no_company": 299,
       "hondarribia": 7,
       "no_name": 776,
       "no_year": 24
     },
-    "total_entries": 1717,
+    "total_entries": 1711,
     "last_manual_update": "2026-07-28",
-    "manual_update_note": "Eliminados pendientes duplicados cuando ya existe una cantinera confirmada para el mismo año y compañía; exportado nuevo Excel de pendientes.",
+    "manual_update_note": "Eliminados registros de Real Unión en años con cantinera confirmada de Mendibil, por tratarse de la misma compañía con distinto nombre; exportado nuevo Excel de pendientes.",
     "manual_sagrario_recortes_added": 50,
     "confirmed": 1632,
-    "pending_confirmation": 85
+    "pending_confirmation": 79
   }
 }
