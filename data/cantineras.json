@@ -1488,18 +1488,6 @@
     },
     {
       "year": 1931,
-      "company": "Casino",
-      "name": "María Luisa Arzac",
-      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
-      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
-      "mentions": 1,
-      "needs_review": true,
-      "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
-    },
-    {
-      "year": 1931,
       "company": "Escolta de Caballería",
       "name": "María Pilar Pedrós Ribera",
       "source_url": "",
@@ -21702,19 +21690,19 @@
     }
   ],
   "stats": {
-    "entries": 1718,
-    "needs_review": 170,
+    "entries": 1717,
+    "needs_review": 169,
     "rejected": {
       "no_company": 299,
       "hondarribia": 7,
       "no_name": 776,
       "no_year": 24
     },
-    "total_entries": 1718,
+    "total_entries": 1717,
     "last_manual_update": "2026-07-28",
-    "manual_update_note": "Cruzado con /home/gaizka/Descargas/CANTINERAS.xlsx; las entradas no confirmadas se conservan y se marcan visualmente como pendientes de confirmar.",
+    "manual_update_note": "Eliminados pendientes duplicados cuando ya existe una cantinera confirmada para el mismo año y compañía; exportado nuevo Excel de pendientes.",
     "manual_sagrario_recortes_added": 50,
     "confirmed": 1632,
-    "pending_confirmation": 86
+    "pending_confirmation": 85
   }
 }
