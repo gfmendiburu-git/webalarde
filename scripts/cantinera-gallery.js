@@ -34,6 +34,10 @@
     return normalized || fallback;
   };
 
+  const displayName = (entry) => entry.pending_confirmation
+    ? `${entry.name} (Pdte. de confirmar)`
+    : entry.name;
+
   const appendOriginalLink = (container, item) => {
     if (!item.detail_url) {
       return;
@@ -100,7 +104,7 @@
         return;
       }
 
-      title.textContent = entry.name;
+      title.textContent = displayName(entry);
       meta.textContent = `${entry.company} · ${entry.year} · ${entry.photos.length} foto${entry.photos.length === 1 ? "" : "s"} identificada${entry.photos.length === 1 ? "" : "s"}`;
 
       const fragment = document.createDocumentFragment();

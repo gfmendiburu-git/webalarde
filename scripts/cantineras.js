@@ -100,6 +100,10 @@
     return item;
   };
 
+  const displayName = (entry) => entry.pending_confirmation
+    ? `${entry.name} (Pdte. de confirmar)`
+    : entry.name;
+
   const entryKey = (entry) => {
     const normalizedName = normalizeText(entry.name);
     return `${entry.year}|${entry.company}|${normalizedName}`;
@@ -205,10 +209,10 @@
       const image = document.createElement("img");
       image.src = entry.no_data ? defaultPhoto : profile?.full || entry.photo || defaultPhoto;
       image.alt = profile
-        ? `${entry.name}, ${entry.company}, ${entry.year}`
+        ? `${displayName(entry)}, ${entry.company}, ${entry.year}`
         : entry.no_data
           ? `Sin datos de cantinera para ${entry.company}, ${entry.year}`
-          : `Imagen genérica de cantinera para ${entry.name}`;
+          : `Imagen genérica de cantinera para ${displayName(entry)}`;
       image.loading = "lazy";
       image.width = 600;
       image.height = 800;
@@ -217,7 +221,7 @@
         const link = document.createElement("a");
         link.className = "cantinera-photo-link";
         link.href = galleryHref(photoData);
-        link.setAttribute("aria-label", `Ver galería de ${entry.name}`);
+        link.setAttribute("aria-label", `Ver galería de ${displayName(entry)}`);
         link.append(image);
         figure.append(link);
       } else {
@@ -236,7 +240,7 @@
       }
 
       const name = document.createElement("h4");
-      name.textContent = entry.name;
+      name.textContent = displayName(entry);
 
       const actions = document.createElement("div");
       actions.className = "cantinera-card-actions";
@@ -359,8 +363,8 @@
   };
 
   Promise.all([
-    fetch("data/cantineras.json?v=6").then((response) => response.json()),
-    fetch("data/cantinera-fotos.json?v=3").then((response) => response.json()).catch(() => ({ entries: [] })),
+    fetch("data/cantineras.json?v=7").then((response) => response.json()),
+    fetch("data/cantinera-fotos.json?v=4").then((response) => response.json()).catch(() => ({ entries: [] })),
     fetch("data/companias-cantineras.json?v=1").then((response) => response.json()).catch(() => ({ entries: [] })),
     fetch("data/capitanes-companias.json?v=10").then((response) => response.json()).catch(() => ({ entries: [] })),
   ])
