@@ -5152,9 +5152,15 @@
       "name": "María del Carmen Isasa",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-anaka-del-alarde-de-irun-maria-del-carmen-isua/",
       "source_title": "La figura de la Cantinera de Anaka del Alarde de Irun",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": [],
+      "alternatives": [
+        {
+          "name": "Mª del Carmen Isasa Peña",
+          "source_title": "Pie gráfico de cantineras, El Diario Vasco, 29 de junio de 1954, p. 8",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Diario Vasco/29-06-1954.pdf"
+        }
+      ],
       "confirmed": true,
       "pending_confirmation": false
     },
@@ -5176,9 +5182,15 @@
       "name": "Amalia Zabalegui",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-bateria-de-artilleria-del-alarde-de-irun-amalia-zabalegui/",
       "source_title": "Alarde de San Marcial, origen y evolución, p. 418",
-      "mentions": 1,
+      "mentions": 2,
       "needs_review": false,
-      "alternatives": [],
+      "alternatives": [
+        {
+          "name": "Amelia Zabalegui",
+          "source_title": "Pie gráfico de cantineras, El Diario Vasco, 29 de junio de 1954, p. 8",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Diario Vasco/29-06-1954.pdf"
+        }
+      ],
       "confirmed": true,
       "pending_confirmation": false
     },
@@ -5278,11 +5290,17 @@
       "name": "María Antonia Amantegui Echezarreta",
       "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
       "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
-      "mentions": 1,
-      "needs_review": true,
-      "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "mentions": 2,
+      "needs_review": false,
+      "alternatives": [
+        {
+          "name": "Mª Antonia Amantegui",
+          "source_title": "Pie gráfico de cantineras, El Diario Vasco, 29 de junio de 1954, p. 8",
+          "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Diario Vasco/29-06-1954.pdf"
+        }
+      ],
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1954,
