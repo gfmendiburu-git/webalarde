@@ -3487,13 +3487,13 @@
       "year": 1946,
       "company": "Casino",
       "name": "María Carmen Eceizabarrena",
-      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
-      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "source_url": "",
+      "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial, origen y evolución, p. 380",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1946,
