@@ -729,7 +729,7 @@ a {
 
 .document-figure {
   max-width: 360px;
-  margin: 32px 0;
+  margin: 32px auto;
 }
 
 .document-figure a {
