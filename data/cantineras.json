@@ -46,7 +46,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-meaka-del-alarde-de-irun-natalia-eizaguirre-alzaga/",
       "source_title": "La figura de la Cantinera de la Compañía Meaka del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -58,7 +58,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-banda-del-alarde-de-irun-josefa-antonia-aramburu/",
       "source_title": "Cantinera Banda del Alarde de Irun – Josefa Antonia Aramburu",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -100,7 +100,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-de-la-compania-ventas-joxepa-anttoni-manterola-egiazabal/",
       "source_title": "Cantinera de la Compañía Ventas – Joxepa Anttoni Manterola Egiazabal",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -111,12 +111,11 @@
       "name": "Marchela Mendizábal",
       "source_url": "",
       "source_title": "“Cosas de mi pueblo”, Uranzu, Irun, 4 de julio de 1926, p. 3 del PDF",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true,
-      "notes": "Recuerdo retrospectivo publicado en 1926 sobre la Compañía del Pueblo de 1900.",
-      "status": "needs_review"
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1901,
@@ -128,8 +127,7 @@
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
-      "pending_confirmation": false,
-      "notes": "Arrizabalaga indica que la Escolta de Caballería contó con cantinera desde 1901, año en que el Ayuntamiento adquirió un barrilito para la unidad; cita a Paulina Saura como primera mujer que tomó parte en el Alarde a lomos de una montura y como madre de Patxo Rodríguez."
+      "pending_confirmation": false
     },
     {
       "year": 1901,
@@ -138,7 +136,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-meaka-del-alarde-de-irun-ramona-eguiazabal/",
       "source_title": "La figura de la Cantinera de la Compañía Meaka del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -162,7 +160,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-bateria-de-artilleria-teresa-armada-olazabal/",
       "source_title": "La figura de la Cantinera de la Batería de Artillería del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -210,7 +208,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-bateria-de-artilleria-del-alarde-de-irun-juanita-sanchez/",
       "source_title": "La figura de la Cantinera de la Batería de Artillería del Alarde de Irun",
       "mentions": 2,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -221,6 +219,7 @@
       "name": "Paulina Saura",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -233,7 +232,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-lapice-alarde-de-irun-agustina-manterola-ibargoyen/",
       "source_title": "Cantinera Compañía Lapice Alarde de Irún – Agustina Manterola Ibargoyen",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -245,7 +244,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-ventas-josefa-antonia-martiarena-arretxe/",
       "source_title": "Cantinera Compañía Ventas – Josefa Antonia Martiarena Arretxe",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -257,7 +256,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-bateria-de-artilleria-del-alarde-de-irun-joaquina-olazabal/",
       "source_title": "La figura de la Cantinera de la Batería de Artillería del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -269,7 +268,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-meaka-del-alarde-de-irun-pepita-arana-galardi/",
       "source_title": "La figura de la Cantinera de la Compañía Meaka del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -281,7 +280,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-ventas-marcela-iturralde-carrera/",
       "source_title": "Cantinera Compañía Ventas – Marcela Iturralde Carrera",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -291,24 +290,12 @@
       "company": "Racing Club",
       "name": "Paula Tokiazabal",
       "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
-      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
-      "mentions": 1,
-      "needs_review": true,
-      "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
-    },
-    {
-      "year": 1909,
-      "company": "Tamborrada",
-      "name": "Paula Tokiazabal",
-      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
       "source_title": "El alarde de San Marcial, origen y evolución, p. 258",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1910,
@@ -317,7 +304,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-behobia-del-alarde-de-irun-casilda-olazabal/",
       "source_title": "Cantinera Compañía Behobia del Alarde de Irún – Casilda Olazabal",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -329,7 +316,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-meaka-del-alarde-de-irun-josefa-lekuona-etxeberria/",
       "source_title": "La figura de la Cantinera de la Compañía Meaka del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -341,7 +328,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-ventas-alarde-de-irun-meltxora-martiarena-arretxe/",
       "source_title": "Cantinera Compañía Ventas Alarde de Irun – Meltxora Martiarena Arretxe",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -353,7 +340,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-lapice-del-alarde-de-irun-dionisia-sein-otegui/",
       "source_title": "Cantinera Compañía Lapice del Alarde de Irún – Dionisia Sein Otegui",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -365,7 +352,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-meaka-del-alarde-de-irun-josefa-lekuona-zubialde/",
       "source_title": "La figura de la Cantinera de la Compañía Meaka del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -376,7 +363,8 @@
       "name": "Teresa Armada",
       "source_url": "",
       "source_title": "",
-      "needs_review": false,
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -388,7 +376,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/alarde-de-san-marcial-de-irun-compania-lapice/",
       "source_title": "Alarde de San Marcial de Irun.Compañia Lapice.",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -442,7 +430,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/alarde-de-san-marcial-de-irun-cantinera-de-san-miguel/",
       "source_title": "Alarde de San Marcial. Cantinera de San Miguel. Lola Urtizberea",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -466,7 +454,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/alarde-de-san-marcial-de-irun-cantinera-de-caballeria-2/",
       "source_title": "Alarde de San Marcial de Irun. Cantinera de Caballeria.",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -526,7 +514,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-ventas-alarde-de-irun-justa-manterola-telletxea/",
       "source_title": "Cantinera Compañía Ventas Alarde de Irún – Justa Manterola Telletxea",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -562,7 +550,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/alarde-de-san-marcial-de-irun-cantinera-de-caballeria-3/",
       "source_title": "Alarde de San Marcial de Irun.Cantinera de Caballeria.",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -612,7 +600,6 @@
       "mentions": 1,
       "needs_review": true,
       "alternatives": [],
-      "notes": "La fuente presenta a Manolo Cristóbal como fundador de Uranzu en 1920 y cita a su hermana Maritxu como cantinera. Revisar el año exacto porque otras fuentes sitúan el primer desfile efectivo de Uranzu en 1922.",
       "confirmed": false,
       "pending_confirmation": true
     },
@@ -635,7 +622,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-escolta-de-caballeria-del-alarde-de-irun-irene-altuna-echegoyen/",
       "source_title": "La figura de la Cantinera de la Escolta de Caballería del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -670,6 +657,7 @@
       "name": "Mónica Artía Arocena",
       "source_url": "",
       "source_title": "Alarde de San Marcial, origen y evolución p. 304",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -682,7 +670,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-lapice-del-alarde-de-irun-josefa-antonia-sein/",
       "source_title": "Cantinera Compañía Lapice del Alarde de Irún – Josefa Antonia Sein",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -747,6 +735,7 @@
       "name": "Josefa Cubero Linazasoro",
       "source_url": "",
       "source_title": "Alarde de San Marcial, origen y evolución, p. 304",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -759,7 +748,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-de-la-compania-ventas-del-alarde-de-irun-sin-nombre/",
       "source_title": "Cantinera de la Compañía Ventas del Alarde de Irún – sin nombre",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -782,6 +771,7 @@
       "name": "Concepción Gascón Gozategui",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -830,7 +820,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-ventas-del-alarde-de-irun-eulalia-arruabarrena/",
       "source_title": "Cantinera Compañía Ventas del Alarde de Irún – Eulalia Arruabarrena",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -914,7 +904,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-san-miguel-del-alarde-de-irun-maria-luisa-diez/",
       "source_title": "La figura de la Cantinera de la Compañía San Miguel del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -926,7 +916,7 @@
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
       "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, nombres de cantineras conocidos 1919-1930, p. 293 del libro",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1046,7 +1036,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-casimira-urtizberea/",
       "source_title": "Alarde de San Marcial, origen y evolución p. 293",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1058,7 +1048,7 @@
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
       "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, nombres de cantineras conocidos 1919-1930, p. 293 del libro",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1142,7 +1132,7 @@
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
       "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, nombres de cantineras conocidos 1919-1930, p. 293 del libro",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1153,6 +1143,7 @@
       "name": "Victoriana Acero Querejeta",
       "source_url": "",
       "source_title": "Alarde de San Marcial, origen y evolución p. 304",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -1273,7 +1264,7 @@
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
       "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, nombres de cantineras conocidos 1919-1930, p. 293 del libro",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1284,6 +1275,7 @@
       "name": "Sofía Iguiñiz Mikelajauregui",
       "source_url": "https://www.anaka1881.com/cantineras",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -1319,7 +1311,8 @@
       "name": "Irene Altuna Echegoyen",
       "source_url": "",
       "source_title": "",
-      "needs_review": false,
+      "mentions": 1,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1379,7 +1372,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-del-alarde-de-irun-marcela-inciarte/",
       "source_title": "Cantinera Compañía Santiago del Alarde de Irún – Marcela Inciarte",
       "mentions": 2,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [
         {
           "name": "Martxeli Iriarte",
@@ -1409,7 +1402,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-uranzu-del-alarde-de-irun-vicenta-usandizaga/",
       "source_title": "Cantinera Compañía Uranzu del Alarde de Irún – Vicenta Usandizaga",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1421,7 +1414,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-de-compania-ventas-del-alarde-de-irun-josefa-zurigain-artola/",
       "source_title": "Cantinera de Compañía Ventas del Alarde de Irún – Josefa Zurigain Artola",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1469,7 +1462,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-bidasoa-del-alarde-de-irun-pilar-eguiluz/",
       "source_title": "La figura de la Cantinera de la Compañía Bidasoa del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1477,9 +1470,9 @@
     {
       "year": 1931,
       "company": "Casino",
-      "name": "Asunción Rodriguez Martinez/Manuela Legarre",
+      "name": "Maria Luisa Arzac",
       "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
-      "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, p. 315 del libro",
+      "source_title": "La voz de Guipuzcoa 18/06/1931",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -1491,7 +1484,8 @@
       "company": "Escolta de Caballería",
       "name": "María Pilar Pedrós Ribera",
       "source_url": "",
-      "source_title": "",
+      "source_title": "La voz de Guipuzcoa 18/06/1931",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -1536,9 +1530,9 @@
     {
       "year": 1931,
       "company": "Real Unión",
-      "name": "Ignacia Urtizberea",
+      "name": "Asunción Rodriguez",
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
-      "source_title": "Alarde de San Marcial, origen y evolución p. 312",
+      "source_title": "La voz de Guipuzcoa 18/06/1931",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -1564,7 +1558,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-ventas-alarde-irun-joxepa-anttoni-martiarena-beloki/",
       "source_title": "Cantinera Compañía Ventas Alarde Irún – Joxepa Anttoni Martiarena Beloki",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1575,6 +1569,7 @@
       "name": "Modesta Zapirain Estomba",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -1623,7 +1618,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-mercedes-emparan-aramendi-2/",
       "source_title": "La figura de la Cantinera de la Compañía Real Unión del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1635,7 +1630,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-san-miguel-del-alarde-de-irun-ano-1932/",
       "source_title": "La figura de la Cantinera de Compañía San Miguel Pilar Rodríguez 1932",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1716,8 +1711,7 @@
         }
       ],
       "confirmed": true,
-      "pending_confirmation": false,
-      "notes": "Sagrario Arrizabalaga recoge Concha Urquia para Roca-San Miguel en 1933; se conserva como variante frente a Conchita Urbia."
+      "pending_confirmation": false
     },
     {
       "year": 1933,
@@ -1749,6 +1743,7 @@
       "name": "Maritxu Zabala Muguruza",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -1785,7 +1780,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-alarde-de-irun-paquita-michelena-iguiniz/",
       "source_title": "Cantinera Compañía Santiago Alarde de Irún – Paquita Michelena Iguiñiz",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1821,7 +1816,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-buenos-amigos-alarde-de-irun-ramonita-sainz/",
       "source_title": "Cantinera Compañía Buenos Amigos Alarde de Irun- Ramonita Sainz",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1856,6 +1851,7 @@
       "name": "Maritxu Zabala Muguruza",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -1880,7 +1876,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-ventas-alarde-de-irun-pepita-eizagirre-iparraguirre/",
       "source_title": "Cantinera Compañía Ventas Alarde de Irún – Pepita Eizagirre Iparraguirre",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1904,7 +1900,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-bateria-de-artilleria-del-alarde-de-irun-5/",
       "source_title": "La figura de la Cantinera de la Batería de Artillería del Alarde de Irun 1935",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1916,7 +1912,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantineras-compania-behobia-alarde-de-irun-micaela-gaiztarro-larrasa/",
       "source_title": "Cantineras Compañía Behobia Alarde de Irún – Micaela Gaiztarro Larrasa",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -1928,7 +1924,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-bidasoa-del-alarde-de-irun-angelina-alzaga/",
       "source_title": "La figura de la Cantinera de la Compañía Bidasoa del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -2106,7 +2102,7 @@
       "company": "Ama Shantalen",
       "name": "Pilar Estomba",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-ama-shantalen-del-alarde-de-irun-pilar-estomba/",
-      "source_title": "Alarde de San Marcial, origen y evolución p. 312",
+      "source_title": "La voz de Guipuzcoa 26/06/1936",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -2142,7 +2138,7 @@
       "company": "Buenos Amigos",
       "name": "María Teresa Goyenechea Alberdi",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-buenos-amigos-alarde-de-irun-ma-teresa-goyenechea-alberdi/",
-      "source_title": "Cantinera Buenos Amigos Alarde de Irun-Mª Teresa Goyenechea Alberdi",
+      "source_title": "La voz de Guipuzcoa 26/06/1936",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -2163,34 +2159,58 @@
     },
     {
       "year": 1936,
-      "company": "Irungo Atsegiña",
-      "name": "Encarnación Hernández Jiménez",
-      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
-      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
+      "company": "Círculo Tradicionalista",
+      "name": "Marichu Niño",
+      "source_url": "",
+      "source_title": "La voz de Guipuzcoa 26/06/1936",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1936,
+      "company": "Escolta de Caballería",
+      "name": "María Rosa Pedrós",
+      "source_url": "",
+      "source_title": "La voz de Guipuzcoa 26/06/1936",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1936,
+      "company": "Irungo Atsegiña",
+      "name": "Carmen Aguinagalde",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "La voz de Guipuzcoa 26/06/1936",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1936,
       "company": "Lapice",
       "name": "Isidora Rojo",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-de-la-compania-lapice-del-alarde-de-irun-isidora-rojo/",
-      "source_title": "Cantinera de la Compañía Lapice del Alarde de Irún – Isidora Rojo",
+      "source_title": "La voz de Guipuzcoa 26/06/1936",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1936,
       "company": "Meaka",
       "name": "Dominica Iriarte Rekarte",
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
-      "source_title": "Alarde de San Marcial, origen y evolución p. 312",
+      "source_title": "La voz de Guipuzcoa 26/06/1936",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -2211,10 +2231,22 @@
     },
     {
       "year": 1936,
+      "company": "Paseo Colón",
+      "name": "Margarita Alvarez",
+      "source_url": "",
+      "source_title": "La voz de Guipuzcoa 26/06/1936",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1936,
       "company": "Real Unión",
       "name": "Paquita Perez",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-san-marcial-de-irun-paquita-perez/",
-      "source_title": "Alarde de San Marcial, origen y evolución p. 312",
+      "source_title": "La voz de Guipuzcoa 26/06/1936",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -2228,7 +2260,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-san-miguel-del-alarde-de-irun-aurora-reguero/",
       "source_title": "La figura de la Cantinera de la Compañía San Miguel del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -2252,7 +2284,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-del-alarde-de-irun-pilar-fernandez/",
       "source_title": "Cantinera Compañía Santiago del Alarde de Irún – Pilar Fernandez",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -2260,9 +2292,9 @@
     {
       "year": 1936,
       "company": "Tamborrada",
-      "name": "Miren Aristizabal Recarte",
+      "name": "Mercedes Aristizabal Recarte",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-tamborrada-del-alarde-de-irun-miren-aristizaba-recarte/",
-      "source_title": "La figura de la Cantinera de la Tamborrada del Alarde de Irun",
+      "source_title": "La voz de Guipuzcoa 26/06/1936",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -2276,7 +2308,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-bidasoa-del-alarde-de-irun-sofia-larrion/",
       "source_title": "La figura de la Cantinera de la Compañía Bidasoa del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -2312,7 +2344,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-meaka-del-alarde-de-irun-ramoni-aramburu-peluaga/",
       "source_title": "La figura de la Cantinera de la Compañía Meaka del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -2323,6 +2355,7 @@
       "name": "Maria Urtizberea Toledo",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -2347,7 +2380,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-ventas-alarde-de-irun-contxita-txapartegi-irastorza/",
       "source_title": "Cantinera Compañía Ventas Alarde de Irún – Contxita Txapartegi Irastorza",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -2383,7 +2416,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-de-buenos-amigos-del-alarde-de-irun-carmen-irizar-goitia/",
       "source_title": "Cantinera de Buenos Amigos del Alarde de Irun-Carmen Irizar Goitia",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -2394,6 +2427,7 @@
       "name": "Conchita Olaguibel Pedrós",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -2406,7 +2440,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-meaka-del-alarde-de-irun-pepita-amiano-lekuona/",
       "source_title": "La figura de la Cantinera de la Compañía Meaka del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -2428,12 +2462,12 @@
       "company": "San Miguel",
       "name": "María Luisa Abad Garcia",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-san-miguel-del-alarde-de-irun-ma-luisa-abad-garcia/",
-      "source_title": "La figura de la Cantinera de la Compañía San Miguel del Alarde de Irun",
+      "source_title": "Página de la Cia. San Miguel, apartado Historia",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1940,
@@ -2465,6 +2499,7 @@
       "name": "Maritxu Zapirain",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -2495,7 +2530,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-bidasoa-del-alarde-de-irun-pilar-gajate/",
       "source_title": "La figura de la Cantinera de la Compañía Bidasoa del Alarde de Irun",
       "mentions": 1,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
@@ -2507,7 +2542,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-buenos-amigos-del-alarde-de-irun-conchita-gaztelumendi/",
       "source_title": "Cantinera Buenos Amigos del Alarde de Irun-Conchita Gaztelumendi",
       "mentions": 2,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [
         {
           "name": "Conchita Gaztelumendi",
@@ -2516,8 +2551,7 @@
         }
       ],
       "confirmed": false,
-      "pending_confirmation": true,
-      "notes": "El Irunés núm. 75 la cita como madre de María Elena Etxegoyen y cantinera de Buenos Amigos en 1941."
+      "pending_confirmation": true
     },
     {
       "year": 1941,
@@ -2525,6 +2559,7 @@
       "name": "Conchita Olaguibel Pedrós",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -2536,6 +2571,7 @@
       "name": "Carmen Errazquin Aranburu",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -2546,12 +2582,12 @@
       "company": "San Miguel",
       "name": "María Dolores Lopez Rubio",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-san-miguel-del-alarde-de-irun-ma-dolores-lopez-rubio/",
-      "source_title": "La figura de la Cantinera de la Compañía San Miguel del Alarde de Irun",
+      "source_title": "Página de la Cia. San Miguel, apartado Historia",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1941,
@@ -2560,7 +2596,7 @@
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-santiago-alarde-de-irun-paquita-landart-ugarte/",
       "source_title": "Cantinera Compañía Santiago Alarde de Irún – Paquita Landart Ugarte",
       "mentions": 2,
-      "needs_review": false,
+      "needs_review": true,
       "alternatives": [
         {
           "name": "Landart",
@@ -2601,6 +2637,7 @@
       "name": "Maritxu Zapirain",
       "source_url": "",
       "source_title": "El diario vasco 30/06/1942",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -2624,6 +2661,7 @@
       "name": "Juanita Arrieta Berro",
       "source_url": "",
       "source_title": "El diario vasco 30/06/1942",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -2731,6 +2769,7 @@
       "name": "Mercedes Recarte",
       "source_url": "",
       "source_title": "El diario vasco 30/06/1942",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -2760,6 +2799,7 @@
       "name": "Gumersinda Blanco",
       "source_url": "",
       "source_title": "El diario vasco 30/06/1942",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -2855,6 +2895,7 @@
       "name": "Antonia Garmendia",
       "source_url": "",
       "source_title": "Diario Vasco 29/06/1943",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -2884,6 +2925,7 @@
       "name": "Marina Bergareche Arenzana",
       "source_url": "",
       "source_title": "Diario Vasco 29/06/1943",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -2913,6 +2955,7 @@
       "name": "Carmen Alzuri",
       "source_url": "",
       "source_title": "Diario Vasco 29/06/1943",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -2924,6 +2967,7 @@
       "name": "Maritxu Eizaguirre Manterola",
       "source_url": "",
       "source_title": "Diario Vasco 29/06/1943",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3001,6 +3045,7 @@
       "name": "Paquita Chapartegui",
       "source_url": "",
       "source_title": "Diario Vasco 29/06/1943",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3024,6 +3069,7 @@
       "name": "Luisa Erice",
       "source_url": "",
       "source_title": "El diario vasco 01/07/1944",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3083,6 +3129,7 @@
       "name": "Marina Bergareche Arenzana",
       "source_url": "",
       "source_title": "El diario vasco 01/07/1944",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3118,6 +3165,7 @@
       "name": "Mercedes Oruezabal Martiarena",
       "source_url": "",
       "source_title": "El diario vasco 01/07/1944",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3141,6 +3189,7 @@
       "name": "Valentina Iguiñiz",
       "source_url": "",
       "source_title": "El diario vasco 01/07/1944",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3242,6 +3291,7 @@
       "name": "María Teresa Echeverria",
       "source_url": "",
       "source_title": "El diario vasco 30/06/1945",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3253,6 +3303,7 @@
       "name": "Ignacia Recarte",
       "source_url": "",
       "source_title": "El diario vasco 30/06/1945",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3312,6 +3363,7 @@
       "name": "Josefa Aramburu Olaciregui",
       "source_url": "",
       "source_title": "El diario vasco 30/06/1945",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3431,6 +3483,7 @@
       "name": "María Juncal Navas Gorostarzu",
       "source_url": "",
       "source_title": "Alarde de San Marcial, origen y evolución, p. 369",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3442,6 +3495,7 @@
       "name": "Nuntxi Alvarez Lopez",
       "source_url": "",
       "source_title": "Alarde de San Marcial, origen y evolución, p. 383",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3537,6 +3591,7 @@
       "name": "Josefa Aramburu Olaciregui",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3596,6 +3651,7 @@
       "name": "Mercedes Aguirre",
       "source_url": "",
       "source_title": "El alarde de San Marcial, origen y evolución, p. 609",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3631,6 +3687,7 @@
       "name": "María Teresa Larraza",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3666,6 +3723,7 @@
       "name": "Cele Zugasti",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3677,6 +3735,7 @@
       "name": "Escolástica Múgica",
       "source_url": "",
       "source_title": "El alarde de San Marcial, origen y evolución, p. 587",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3742,6 +3801,7 @@
       "name": "Segunda Oruezabal Martiarena",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3789,6 +3849,7 @@
       "name": "Lola Barquín",
       "source_url": "",
       "source_title": "El alarde de San Marcial, origen y evolución, p. 609",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3812,6 +3873,7 @@
       "name": "Marina Goyenechea",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3895,6 +3957,7 @@
       "name": "Ana María Semper Pedrós",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -3922,8 +3985,7 @@
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
-      "pending_confirmation": false,
-      "notes": "Pie fotografico: “Mertxe Altolaguirre, cantinera de Meaka en 1948, sargento Juan Lasa”. Puede requerir contraste del nombre completo."
+      "pending_confirmation": false
     },
     {
       "year": 1948,
@@ -3943,6 +4005,18 @@
       "name": "Carmen Garcia Rementeria",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-carmen-garcia-rementeria/",
       "source_title": "La figura de la Cantinera de la Compañía Real Unión del Alarde de Irun",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1948,
+      "company": "Renfe",
+      "name": "Juanita Vergara Salaberria",
+      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
+      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -3979,6 +4053,7 @@
       "name": "Milagros Gómez",
       "source_url": "",
       "source_title": "El alarde de San Marcial, origen y evolución, p. 609",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -4097,18 +4172,6 @@
       "alternatives": [],
       "confirmed": true,
       "pending_confirmation": false
-    },
-    {
-      "year": 1949,
-      "company": "Fábrica de Vagones",
-      "name": "Juanita Vergara Salaberria",
-      "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
-      "source_title": "Compañías desaparecidas del Alarde de San Marcial de Irún",
-      "mentions": 1,
-      "needs_review": true,
-      "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
     },
     {
       "year": 1949,
@@ -4356,6 +4419,7 @@
       "name": "Ramona Azanza",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -4701,8 +4765,7 @@
         }
       ],
       "confirmed": true,
-      "pending_confirmation": false,
-      "notes": "El Irunés núm. 74 la cita como Merche Agesta, cantinera de la Banda de Música del Alarde de San Marcial."
+      "pending_confirmation": false
     },
     {
       "year": 1952,
@@ -4768,8 +4831,7 @@
         }
       ],
       "confirmed": true,
-      "pending_confirmation": false,
-      "notes": "El Irunés núm. 74 la cita como María José Barbeira y precisa que su elección para la Caballería se dio a conocer el 17 de mayo de 1952."
+      "pending_confirmation": false
     },
     {
       "year": 1952,
@@ -4811,8 +4873,7 @@
         }
       ],
       "confirmed": true,
-      "pending_confirmation": false,
-      "notes": "El Irunés núm. 74 indica que fue reelegida cantinera de Olaberria en 1952; la grafía del apellido oscila entre Aramburu/Aranburu y Errazquin/Errazkin según fuente."
+      "pending_confirmation": false
     },
     {
       "year": 1952,
@@ -4830,8 +4891,7 @@
         }
       ],
       "confirmed": true,
-      "pending_confirmation": false,
-      "notes": "El Irunés núm. 74 la cita como Marilen Anabitarte Etxeandia Gal, nieta de Salvador Etxeandia, y vincula la compañía al Real Unión Club como primera compañía del pueblo. Existe discrepancia con la fuente impresa de El Irunés núm. 74, que lee “Marilen Anabitarte Etxeandia Gal”; conviene contrastar si se trata de variante, apodo o registro distinto."
+      "pending_confirmation": false
     },
     {
       "year": 1952,
@@ -4873,8 +4933,7 @@
         }
       ],
       "confirmed": true,
-      "pending_confirmation": false,
-      "notes": "El Irunés núm. 74 la cita como María Paz Behobide y sitúa como capitán de Santiago a Fermín Lecuona."
+      "pending_confirmation": false
     },
     {
       "year": 1952,
@@ -5518,6 +5577,7 @@
       "name": "María Juncal Susperregui Arruabarrena",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -5589,6 +5649,7 @@
       "name": "Leoncina Ercilla",
       "source_url": "",
       "source_title": "El alarde de San Marcial, origen y evolución, p. 609",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -5738,6 +5799,7 @@
       "name": "Mercedes Zabala Oliden",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -6235,6 +6297,7 @@
       "name": "María Jesús Lopetegui",
       "source_url": "",
       "source_title": "El alarde de San Marcial, origen y evolución, p. 609",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -7032,6 +7095,7 @@
       "name": "María del Carmen Lekuona",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -7241,6 +7305,7 @@
       "name": "Maria Milagros Gainza Errazquin",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -8068,6 +8133,7 @@
       "name": "María Pilar Eguilegor Errazquin",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -8283,6 +8349,7 @@
       "name": "Magdalena Susperregui Manterola",
       "source_url": "",
       "source_title": "",
+      "mentions": 1,
       "needs_review": false,
       "alternatives": [],
       "confirmed": true,
@@ -11278,8 +11345,7 @@
         }
       ],
       "confirmed": true,
-      "pending_confirmation": false,
-      "notes": "El Irunés núm. 75 confirma su desfile como cantinera de la Escolta de Caballería en 1982 y añade que fue miembro de la Junta del Alarde durante dos años."
+      "pending_confirmation": false
     },
     {
       "year": 1982,
@@ -21636,19 +21702,18 @@
     }
   ],
   "stats": {
-    "entries": 1711,
-    "needs_review": 163,
     "rejected": {
       "no_company": 299,
       "hondarribia": 7,
       "no_name": 776,
       "no_year": 24
     },
-    "total_entries": 1711,
-    "last_manual_update": "2026-07-28",
-    "manual_update_note": "Eliminados registros de Real Unión en años con cantinera confirmada de Mendibil, por tratarse de la misma compañía con distinto nombre; exportado nuevo Excel de pendientes.",
+    "last_manual_update": "2026-07-29",
+    "manual_update_note": "Importado Excel CANTINERAS_actualizado.xlsx: altas, bajas, correcciones, confirmaciones y regla de que toda cantinera pendiente queda marcada para revisar.",
     "manual_sagrario_recortes_added": 50,
-    "confirmed": 1632,
-    "pending_confirmation": 79
+    "total_entries": 1713,
+    "confirmed_entries": 1644,
+    "pending_confirmation_entries": 69,
+    "needs_review_entries": 69
   }
 }
