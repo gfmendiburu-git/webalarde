@@ -727,6 +727,31 @@ a {
   padding-left: 1.2rem;
 }
 
+.document-figure {
+  margin: 32px 0;
+}
+
+.document-figure a {
+  display: block;
+}
+
+.document-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.document-figure figcaption {
+  max-width: 760px;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
 .company-captains,
 .company-participation {
   margin: 30px 0;

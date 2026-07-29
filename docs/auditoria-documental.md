@@ -43,7 +43,7 @@ Nota de actualizacion: la segunda pasada de `El Irunes` queda cerrada para los 7
 | `Ecos del Jaizkibel` | 5 PDF conservados + manifest | revision filtrada | media | Ya se descartaron muchos falsos positivos. Revisar los conservados con detalle. |
 | `El Bidasoa Mexicano` | 12 PDF | revision parcial | media | Interesante para diaspora sanmarcialera; no mezclar con cantineras no pertenecientes al Alarde de Irun. |
 | `Recortes del periodico Egin` | 8 TIF + manifest | revision filtrada | media | Util para etapa contemporanea; mantener enfoque breve y factual. |
-| `La Libertad` | 2 PDF | revision parcial | baja | Ya integrada, pero revisar lecturas dudosas como Pridenea. |
+| `La Libertad` | 2 PDF | revision parcial | baja | Ya integrada. La lectura Pridenea queda anotada como dudosa tras respuesta del Archivo Municipal de Irun: no consta en C-2-127 y podria corresponder a la segunda compania de Bidasoa. |
 | `La informacion - Diario independiente` | 3 PDF | revision parcial | baja | Ya integrada para 1918-1920. Revisar solo si se buscan nombres concretos. |
 | `La frontera semanario republicano` | 2 PDF | revision parcial | baja | Ya integrada parcialmente. |
 | `Easo` | 2 PDF | revision parcial | baja | Revisar solo si se buscan imagenes/pies o detalles del ano 1932. |
