@@ -2414,12 +2414,12 @@
       "company": "Buenos Amigos",
       "name": "Carmen Irizar Goitia",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-de-buenos-amigos-del-alarde-de-irun-carmen-irizar-goitia/",
-      "source_title": "Cantinera de Buenos Amigos del Alarde de Irun-Carmen Irizar Goitia",
+      "source_title": "Recorte prensa desconocida, pagina web de Facebook de la cia. buenos amigos",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1940,
@@ -2540,9 +2540,9 @@
       "company": "Buenos Amigos",
       "name": "Conchita Gaztelumendi",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-buenos-amigos-del-alarde-de-irun-conchita-gaztelumendi/",
-      "source_title": "Cantinera Buenos Amigos del Alarde de Irun-Conchita Gaztelumendi",
+      "source_title": "Foto del 50 aniversario de la cia. que se celebró en el año 1984. Facebook Buenos Amigos",
       "mentions": 2,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [
         {
           "name": "Conchita Gaztelumendi",
@@ -2550,8 +2550,8 @@
           "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 14 - Numero 75.pdf"
         }
       ],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1941,

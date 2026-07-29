@@ -798,8 +798,8 @@
           "thumb": "assets/alarde-imagenes/irun/thumbs/irun-50008.webp"
         }
       ],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "id": "1940|Tamborrada|margarita olaizola echegaray",
@@ -888,8 +888,8 @@
           "thumb": "assets/alarde-imagenes/irun/thumbs/irun-50009.webp"
         }
       ],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "id": "1941|Tamborrada|maritxu adarraga errazquin",
