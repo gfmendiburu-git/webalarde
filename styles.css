@@ -728,20 +728,30 @@ a {
 }
 
 .document-figure {
+  max-width: 360px;
   margin: 32px 0;
 }
 
 .document-figure a {
   display: block;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--white);
 }
 
 .document-figure img {
   display: block;
   width: 100%;
+  aspect-ratio: 4 / 3;
   height: auto;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--white);
+  object-fit: cover;
+  object-position: 50% 30%;
+  transition: transform 180ms ease;
+}
+
+.document-figure a:hover img {
+  transform: scale(1.03);
 }
 
 .document-figure figcaption {
