@@ -61,7 +61,7 @@
     return `${galleryPage}?${params.toString()}`;
   };
 
-  const sourceLink = (entry) => {
+  const sourceText = (entry) => {
     if (entry.no_data) {
       const source = document.createElement("span");
       source.className = "cantinera-source-text";
@@ -73,17 +73,16 @@
     if (!entry.source_url) {
       const source = document.createElement("span");
       source.className = "cantinera-source-text";
-      source.textContent = "Fuente local";
+      source.textContent = entry.source_title ? `Fuente: ${entry.source_title}` : "Fuente documental pendiente";
       source.title = entry.source_title || "Fuente documental pendiente de enlace publico";
       return source;
     }
 
-    const link = document.createElement("a");
-    link.href = entry.source_url;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.textContent = "Fuente";
-    return link;
+    const source = document.createElement("span");
+    source.className = "cantinera-source-text";
+    source.textContent = `Fuente: ${entry.source_title || entry.source_url}`;
+    source.title = entry.source_url;
+    return source;
   };
 
   const reviewBadge = () => {
@@ -244,7 +243,7 @@
 
       const actions = document.createElement("div");
       actions.className = "cantinera-card-actions";
-      actions.append(sourceLink(entry));
+      actions.append(sourceText(entry));
       if (photoData && !entry.no_data) {
         const galleryLink = document.createElement("a");
         galleryLink.href = galleryHref(photoData);
@@ -363,7 +362,7 @@
   };
 
   Promise.all([
-    fetch("data/cantineras.json?v=7").then((response) => response.json()),
+    fetch("data/cantineras.json?v=8").then((response) => response.json()),
     fetch("data/cantinera-fotos.json?v=5").then((response) => response.json()).catch(() => ({ entries: [] })),
     fetch("data/companias-cantineras.json?v=1").then((response) => response.json()).catch(() => ({ entries: [] })),
     fetch("data/capitanes-companias.json?v=10").then((response) => response.json()).catch(() => ({ entries: [] })),

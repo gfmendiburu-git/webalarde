@@ -1166,7 +1166,19 @@
       "company": "Batería de Artillería",
       "name": "Lucia Martín",
       "source_url": "",
-      "source_title": "Pagina web Artilleria",
+      "source_title": "El Pais Vasco 01/07/1928",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1928,
+      "company": "Behobia",
+      "name": "Felisa Violete",
+      "source_url": "",
+      "source_title": "El Pais Vasco 01/07/1928",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -1176,9 +1188,9 @@
     {
       "year": 1928,
       "company": "Bidasoa",
-      "name": "Natividad Arruabarrena",
+      "name": "Juliana Arbelaiz",
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
-      "source_title": "Alarde de San Marcial, origen y evolución p. 293",
+      "source_title": "El Pais Vasco 01/07/1928",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -1211,10 +1223,34 @@
     },
     {
       "year": 1928,
+      "company": "Paseo Colón",
+      "name": "Marichu Badiola",
+      "source_url": "",
+      "source_title": "El Pais Vasco 01/07/1928",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1928,
+      "company": "Quinta Compañia del Pueblo",
+      "name": "Mercedes Leijo",
+      "source_url": "",
+      "source_title": "El Pais Vasco 01/07/1928",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1928,
       "company": "Real Unión",
       "name": "Margot Larrechea Urtizberea",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-margot-larrechea-urtizberea/",
-      "source_title": "Alarde de San Marcial, origen y evolución p. 293",
+      "source_title": "Alarde de San Marcial, origen y evolución p. 293/El Pais Vasco 01/07/1928",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -1239,6 +1275,30 @@
       "name": "Victoriana Acero Querejeta",
       "source_url": "",
       "source_title": "Alarde de San Marcial, origen y evolución p. 304",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1928,
+      "company": "Uranzu",
+      "name": "Mercedes Valdes",
+      "source_url": "",
+      "source_title": "El Pais Vasco 01/07/1928",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1928,
+      "company": "Ventas",
+      "name": "P. Ceberio",
+      "source_url": "",
+      "source_title": "El Pais Vasco 01/07/1928",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -21810,10 +21870,14 @@
     }
   ],
   "stats": {
-    "total_entries": 1722,
-    "confirmed_entries": 1666,
+    "total_entries": 1727,
+    "confirmed_entries": 1671,
     "pending_confirmation_entries": 56,
     "needs_review_entries": 56,
-    "manual_update_note": "Actualizada fuente de Azken Portu desde la web del Alarde de Irun; toda cantinera pendiente queda marcada para revisar."
+    "manual_update_note": "Actualizada fuente de Azken Portu desde la web del Alarde de Irun; toda cantinera pendiente queda marcada para revisar.",
+    "entries": 1727,
+    "confirmed": 1671,
+    "pending_confirmation": 56,
+    "needs_review": 56
   }
 }

@@ -1108,7 +1108,8 @@ a {
 .cantinera-card-actions {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   gap: 10px;
   min-height: 28px;
 }
@@ -1119,8 +1120,11 @@ a {
 }
 
 .cantinera-source-text {
+  flex: 1 1 100%;
   color: var(--muted);
-  font-weight: 850;
+  font-size: 0.72rem;
+  font-weight: 750;
+  line-height: 1.35;
 }
 
 .cantineras-table {
