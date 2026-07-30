@@ -727,6 +727,19 @@ a {
   padding-left: 1.2rem;
 }
 
+.company-history {
+  display: grid;
+  gap: 14px;
+  margin: 18px 0 24px;
+}
+
+.company-history p {
+  margin: 0;
+  color: var(--muted-ink);
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+
 .document-figure {
   max-width: 360px;
   margin: 32px auto;
