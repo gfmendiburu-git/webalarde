@@ -52,11 +52,35 @@
       "pending_confirmation": true
     },
     {
+      "year": 1884,
+      "company": "Meaka",
+      "name": "Natalia Eizaguirre Alzaga",
+      "source_url": "",
+      "source_title": "",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": [],
+      "confirmed": false,
+      "pending_confirmation": true
+    },
+    {
       "year": 1885,
       "company": "Banda de Música",
       "name": "Josefa Antonia Aramburu Iparraguirre",
       "source_url": "https://veteranosescoltadecaballeria.com/cantinera-banda-del-alarde-de-irun-josefa-antonia-aramburu/",
       "source_title": "Cantinera Banda del Alarde de Irun – Josefa Antonia Aramburu",
+      "mentions": 1,
+      "needs_review": true,
+      "alternatives": [],
+      "confirmed": false,
+      "pending_confirmation": true
+    },
+    {
+      "year": 1885,
+      "company": "Meaka",
+      "name": "Natalia Eizaguirre Alzaga",
+      "source_url": "",
+      "source_title": "",
       "mentions": 1,
       "needs_review": true,
       "alternatives": [],
@@ -158,12 +182,12 @@
       "company": "Batería de Artillería",
       "name": "Teresa Armada Olazabal",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-bateria-de-artilleria-teresa-armada-olazabal/",
-      "source_title": "La figura de la Cantinera de la Batería de Artillería del Alarde de Irun",
+      "source_title": "Pagina web Artilleria",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1903,
@@ -191,6 +215,18 @@
     },
     {
       "year": 1904,
+      "company": "Batería de Artillería",
+      "name": "Teresa Armada Olazabal",
+      "source_url": "",
+      "source_title": "Pagina web Artilleria",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1904,
       "company": "Escolta de Caballería",
       "name": "Paulina Saura",
       "source_url": "",
@@ -206,12 +242,12 @@
       "company": "Batería de Artillería",
       "name": "Juanita Sanchez",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-bateria-de-artilleria-del-alarde-de-irun-juanita-sanchez/",
-      "source_title": "La figura de la Cantinera de la Batería de Artillería del Alarde de Irun",
+      "source_title": "Pagina web Artilleria",
       "mentions": 2,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1905,
@@ -251,15 +287,27 @@
     },
     {
       "year": 1907,
+      "company": "Azken Portu",
+      "name": "Francisca Olazabal",
+      "source_url": "",
+      "source_title": "",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1907,
       "company": "Batería de Artillería",
       "name": "Joaquina Olazabal",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-bateria-de-artilleria-del-alarde-de-irun-joaquina-olazabal/",
-      "source_title": "La figura de la Cantinera de la Batería de Artillería del Alarde de Irun",
+      "source_title": "Pagina web Artilleria",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1907,
@@ -299,15 +347,15 @@
     },
     {
       "year": 1910,
-      "company": "Behobia",
+      "company": "Azken Portu",
       "name": "Casilda Olazabal",
-      "source_url": "https://veteranosescoltadecaballeria.com/cantinera-compania-behobia-del-alarde-de-irun-casilda-olazabal/",
-      "source_title": "Cantinera Compañía Behobia del Alarde de Irún – Casilda Olazabal",
+      "source_url": "",
+      "source_title": "",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
       "confirmed": false,
-      "pending_confirmation": true
+      "pending_confirmation": false
     },
     {
       "year": 1910,
@@ -395,6 +443,30 @@
     },
     {
       "year": 1914,
+      "company": "Batería de Artillería",
+      "name": "Gloria Varela",
+      "source_url": "",
+      "source_title": "Pagina web Artilleria",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1914,
+      "company": "Lapice",
+      "name": "Dionisia Sein Otegui",
+      "source_url": "",
+      "source_title": "Facebook Rafa Merino",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1914,
       "company": "Sporting Club",
       "name": "Luisa Moso",
       "source_url": "https://veteranosescoltadecaballeria.com/companias-desaparecidas-del-alarde-de-san-marcial-de-irun/",
@@ -404,6 +476,18 @@
       "alternatives": [],
       "confirmed": false,
       "pending_confirmation": true
+    },
+    {
+      "year": 1915,
+      "company": "Batería de Artillería",
+      "name": "Gloria Varela",
+      "source_url": "",
+      "source_title": "Pagina web Artilleria",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1915,
@@ -598,10 +682,10 @@
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Irunes/Año 2 - Numero 6.pdf",
       "source_title": "Larrechipi, “Manolo Cristóbal Errandonea, el veratarra que mandó un Cuerpo de Ejército”, El Irunés, año 2, núm. 6, 1990, p. 20 del PDF",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1921,
@@ -916,10 +1000,10 @@
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
       "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, nombres de cantineras conocidos 1919-1930, p. 293 del libro",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1926,
@@ -1036,10 +1120,10 @@
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-real-union-del-alarde-de-irun-casimira-urtizberea/",
       "source_title": "Alarde de San Marcial, origen y evolución p. 293",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1927,
@@ -1048,10 +1132,10 @@
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
       "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, nombres de cantineras conocidos 1919-1930, p. 293 del libro",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1927,
@@ -1071,6 +1155,18 @@
       "name": "Casilda Tellechea Ugarte",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-la-compania-ama-shantalen-del-alarde-de-irun-casilda-tellechea-ugarte/",
       "source_title": "Alarde de San Marcial, origen y evolución p. 293",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1928,
+      "company": "Batería de Artillería",
+      "name": "Lucia Martín",
+      "source_url": "",
+      "source_title": "Pagina web Artilleria",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -1132,10 +1228,10 @@
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
       "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, nombres de cantineras conocidos 1919-1930, p. 293 del libro",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1928,
@@ -1264,10 +1360,10 @@
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
       "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, nombres de cantineras conocidos 1919-1930, p. 293 del libro",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1930,
@@ -1601,6 +1697,18 @@
     },
     {
       "year": 1932,
+      "company": "Meaka",
+      "name": "Teodora Amiano Lekuona",
+      "source_url": "",
+      "source_title": "Alarde de San Marcial, origen y evolución p. 312",
+      "mentions": 1,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false
+    },
+    {
+      "year": 1932,
       "company": "Olaberria",
       "name": "María Urtizberea Toledo",
       "source_url": "https://veteranosescoltadecaballeria.com/la-figura-de-la-cantinera-de-olaberria-del-alarde-de-irun-maria-urtizberea-toledo/",
@@ -1768,10 +1876,10 @@
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
       "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, tablas de cantineras conocidas (PDF Recortes, pp. 12 y 15)",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1933,
@@ -2038,10 +2146,10 @@
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/El Diario Vasco/El Diario Vasco - 29-06-1935.pdf",
       "source_title": "Pies graficos de cantineras, El Diario Vasco, 29 de junio de 1935, p. 7",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1935,
@@ -2272,10 +2380,10 @@
       "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
       "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, tablas de cantineras conocidas (PDF Recortes, pp. 12 y 15)",
       "mentions": 1,
-      "needs_review": true,
+      "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
-      "pending_confirmation": true
+      "confirmed": true,
+      "pending_confirmation": false
     },
     {
       "year": 1936,
@@ -21702,18 +21810,10 @@
     }
   ],
   "stats": {
-    "rejected": {
-      "no_company": 299,
-      "hondarribia": 7,
-      "no_name": 776,
-      "no_year": 24
-    },
-    "last_manual_update": "2026-07-29",
-    "manual_update_note": "Importado Excel CANTINERAS_actualizado.xlsx: altas, bajas, correcciones, confirmaciones y regla de que toda cantinera pendiente queda marcada para revisar.",
-    "manual_sagrario_recortes_added": 50,
-    "total_entries": 1713,
-    "confirmed_entries": 1644,
-    "pending_confirmation_entries": 69,
-    "needs_review_entries": 69
+    "total_entries": 1722,
+    "confirmed_entries": 1665,
+    "pending_confirmation_entries": 56,
+    "needs_review_entries": 56,
+    "manual_update_note": "Importado Excel CANTINERAS_actualizado.xlsx: altas, bajas, correcciones, confirmaciones y regla de que toda cantinera pendiente queda marcada para revisar."
   }
 }
