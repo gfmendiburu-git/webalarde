@@ -725,6 +725,17 @@
     {
       "company_slug": "azken-portu",
       "company": "Azken Portu",
+      "name": "Francisco Aguirre Recarte",
+      "role": "Capitán",
+      "from": 1923,
+      "to": 1923,
+      "source": "“Compañía Azken Portu”, web del Alarde de Irun",
+      "source_url": "https://www.alardedeirun.com/companias/azken-portu/",
+      "notes": "Dato transmitido por José Miguel Ochoteco, citado como nieto del antiguo capitán. La fuente indica que habría ejercido hasta 1923 y que después la compañía quedó sin relevo conocido; pendiente de contraste con documentación primaria."
+    },
+    {
+      "company_slug": "azken-portu",
+      "company": "Azken Portu",
       "name": "Sebastian Urkia Iturrioz",
       "from": 1980,
       "to": 1987,

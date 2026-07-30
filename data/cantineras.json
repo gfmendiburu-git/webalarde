@@ -289,8 +289,8 @@
       "year": 1907,
       "company": "Azken Portu",
       "name": "Francisca Olazabal",
-      "source_url": "",
-      "source_title": "",
+      "source_url": "https://www.alardedeirun.com/companias/azken-portu/",
+      "source_title": "“Compañía Azken Portu”, web del Alarde de Irun",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
@@ -349,12 +349,12 @@
       "year": 1910,
       "company": "Azken Portu",
       "name": "Casilda Olazabal",
-      "source_url": "",
-      "source_title": "",
+      "source_url": "https://www.alardedeirun.com/companias/azken-portu/",
+      "source_title": "“Compañía Azken Portu”, web del Alarde de Irun",
       "mentions": 1,
       "needs_review": false,
       "alternatives": [],
-      "confirmed": false,
+      "confirmed": true,
       "pending_confirmation": false
     },
     {
@@ -21811,9 +21811,9 @@
   ],
   "stats": {
     "total_entries": 1722,
-    "confirmed_entries": 1665,
+    "confirmed_entries": 1666,
     "pending_confirmation_entries": 56,
     "needs_review_entries": 56,
-    "manual_update_note": "Importado Excel CANTINERAS_actualizado.xlsx: altas, bajas, correcciones, confirmaciones y regla de que toda cantinera pendiente queda marcada para revisar."
+    "manual_update_note": "Actualizada fuente de Azken Portu desde la web del Alarde de Irun; toda cantinera pendiente queda marcada para revisar."
   }
 }
