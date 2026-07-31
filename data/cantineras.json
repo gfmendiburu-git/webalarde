@@ -1259,18 +1259,6 @@
     },
     {
       "year": 1928,
-      "company": "Santa Elena",
-      "name": "Casilda Tellechea",
-      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Alarde de San Marcial origen y evolucion - Sagrario Arrizabalaga Marin - Recortes/Recortes.pdf",
-      "source_title": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, nombres de cantineras conocidos 1919-1930, p. 293 del libro",
-      "mentions": 1,
-      "needs_review": false,
-      "alternatives": [],
-      "confirmed": true,
-      "pending_confirmation": false
-    },
-    {
-      "year": 1928,
       "company": "Tamborrada",
       "name": "Victoriana Acero Querejeta",
       "source_url": "",
@@ -21870,13 +21858,13 @@
     }
   ],
   "stats": {
-    "total_entries": 1727,
-    "confirmed_entries": 1671,
+    "total_entries": 1726,
+    "confirmed_entries": 1670,
     "pending_confirmation_entries": 56,
     "needs_review_entries": 56,
     "manual_update_note": "Actualizada fuente de Azken Portu desde la web del Alarde de Irun; toda cantinera pendiente queda marcada para revisar.",
-    "entries": 1727,
-    "confirmed": 1671,
+    "entries": 1726,
+    "confirmed": 1670,
     "pending_confirmation": 56,
     "needs_review": 56
   }

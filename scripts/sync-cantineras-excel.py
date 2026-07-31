@@ -162,15 +162,19 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--excel", type=Path, default=DEFAULT_EXCEL)
     parser.add_argument("--json", type=Path, default=DEFAULT_JSON)
+    parser.add_argument("--export-only", action="store_true", help="Regenerate the Excel file from JSON without importing it first.")
     return parser.parse_args()
 
 
 def main() -> int:
     args = parse_args()
-    rows = read_excel(args.excel)
     data = json.loads(args.json.read_text(encoding="utf-8"))
-    data, stats = sync_data(data, rows)
-    args.json.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if args.export_only:
+        stats = {"added": 0, "changed": 0, "entries": len(data.get("entries", []))}
+    else:
+        rows = read_excel(args.excel)
+        data, stats = sync_data(data, rows)
+        args.json.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     export_excel(data, args.excel)
     print(f"{stats['entries']} registros sincronizados")
     print(f"{stats['added']} altas; {stats['changed']} cambios")
