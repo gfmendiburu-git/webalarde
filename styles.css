@@ -745,6 +745,19 @@ a {
   margin: 32px auto;
 }
 
+.document-figure-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 360px));
+  justify-content: center;
+  gap: 22px;
+  margin: 32px auto;
+}
+
+.document-figure-grid .document-figure {
+  width: 100%;
+  margin: 0;
+}
+
 .document-figure a {
   display: block;
   overflow: hidden;
@@ -770,6 +783,12 @@ a {
   color: var(--muted);
   font-size: 0.78rem;
   line-height: 1.45;
+}
+
+@media (max-width: 720px) {
+  .document-figure-grid {
+    grid-template-columns: minmax(0, 360px);
+  }
 }
 
 .company-captains,
