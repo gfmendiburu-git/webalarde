@@ -2198,7 +2198,7 @@
       "to": 1899,
       "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, p. 201 del libro (PDF Recortes, p. 2)",
       "source_url": "",
-      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos."
+      "notes": "Dato contrastado con tabla de generales del libro de Sagrario Arrizabalaga Marín; reemplaza o matiza listados secundarios previos cuando había rangos imprecisos. Contraste primario añadido: El Correo de Guipúzcoa, 1 de julio de 1899, p. 2, lo presenta mandando las fuerzas como General, con Estado Mayor y capitanes ayudantes."
     },
     {
       "company_slug": "general",
@@ -2352,7 +2352,7 @@
       "to": 1934,
       "source": "Generales del Alarde de San Marcial de Irun, desde el año 1880",
       "source_url": "https://veteranosescoltadecaballeria.com/generales-del-alarde-de-san-marcial-de-irun/",
-      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible."
+      "notes": "Dato procedente de listado web de Veteranos Escolta de Caballería; pendiente de contraste con fuente primaria cuando sea posible. Contraste primario añadido: El Pueblo Vasco, 1 de julio de 1933, p. 3, lo identifica como general en la revista del Alarde de 1933."
     },
     {
       "company_slug": "general",
@@ -6383,6 +6383,66 @@
       "to": 1924,
       "source": "El Pueblo Vasco, San Sebastián, 1 de julio de 1924, p. 7",
       "notes": "La crónica de la jornada indica que en 1924 actuó de comandante Luis Rodríguez, hermano del alcalde Ricardo Rodríguez."
+    },
+    {
+      "company_slug": "estado-mayor",
+      "company": "Estado Mayor",
+      "name": "Alfredo Pérez",
+      "role": "Ayudante del General",
+      "from": 1899,
+      "to": 1899,
+      "source": "El Correo de Guipúzcoa, San Sebastián, 1 de julio de 1899, p. 2",
+      "notes": "Citado como capitán ayudante dentro del Estado Mayor de Manuel Pedrós."
+    },
+    {
+      "company_slug": "estado-mayor",
+      "company": "Estado Mayor",
+      "name": "Antonio Cavanilles",
+      "role": "Ayudante del General",
+      "from": 1899,
+      "to": 1899,
+      "source": "El Correo de Guipúzcoa, San Sebastián, 1 de julio de 1899, p. 2",
+      "notes": "Citado como capitán ayudante dentro del Estado Mayor de Manuel Pedrós."
+    },
+    {
+      "company_slug": "artilleria",
+      "company": "Batería de Artillería",
+      "name": "José Pedrós",
+      "role": "Capitán de Artillería",
+      "from": 1899,
+      "to": 1899,
+      "source": "El Correo de Guipúzcoa, San Sebastián, 1 de julio de 1899, p. 2",
+      "notes": "La crónica describe una pieza de artillería rodada al mando del capitán de Artillería José Pedrós."
+    },
+    {
+      "company_slug": "artilleria",
+      "company": "Batería de Artillería",
+      "name": "Emilio Lapia",
+      "role": "Sargento de Artillería",
+      "from": 1899,
+      "to": 1899,
+      "source": "El Correo de Guipúzcoa, San Sebastián, 1 de julio de 1899, p. 2",
+      "notes": "Citado junto al capitán José Pedrós en el mando de la pieza de Artillería rodada."
+    },
+    {
+      "company_slug": "caballeria",
+      "company": "Escolta de Caballería",
+      "name": "Eusebio Pedrós",
+      "role": "Cabo de Caballería",
+      "from": 1899,
+      "to": 1899,
+      "source": "El Correo de Guipúzcoa, San Sebastián, 1 de julio de 1899, p. 2",
+      "notes": "La escolta de Caballería aparece al mando del cabo Eusebio Pedrós."
+    },
+    {
+      "company_slug": "bandera",
+      "company": "Bandera",
+      "name": "Miguel Nogueras",
+      "role": "Portador de la bandera",
+      "from": 1899,
+      "to": 1899,
+      "source": "El Correo de Guipúzcoa, San Sebastián, 1 de julio de 1899, p. 2",
+      "notes": "La crónica indica que la bandera del batallón era la del Ayuntamiento de Irun y que la llevaba el concejal carlista Miguel Nogueras."
     }
   ]
 }
