@@ -6153,6 +6153,136 @@
       "to": 1919,
       "source": "Sagrario Arrizabalaga Marín, Alarde de San Marcial: origen y evolución, recortes escaneados, nota sobre la Compañía del Pueblo 'Unión', pp. 289-291 del libro",
       "notes": "La fuente presenta la unidad como Compañía del Pueblo 'Unión', antecedente documental del Real Unión."
+    },
+    {
+      "company_slug": "behobia",
+      "company": "Behobia",
+      "name": "José Gazábal",
+      "role": "Capitán",
+      "from": 1928,
+      "to": 1928,
+      "source": "El País Vasco, 1 de julio de 1928, p. 8",
+      "notes": "La crónica relaciona a Behobia como compañía mandada por José Gazábal y con Felisa Violete como cantinera."
+    },
+    {
+      "company_slug": "ventas",
+      "company": "Ventas",
+      "name": "Tomás Ibargoyen",
+      "role": "Capitán",
+      "from": 1928,
+      "to": 1928,
+      "source": "El País Vasco, 1 de julio de 1928, p. 8",
+      "notes": "La crónica relaciona a Ventas como compañía mandada por Tomás Ibargoyen; cita además a Mozo como sargento y a P. Ceberio como cantinera."
+    },
+    {
+      "company_slug": "real-union",
+      "company": "Real Unión",
+      "name": "J. J. Michelena",
+      "role": "Capitán",
+      "from": 1928,
+      "to": 1928,
+      "source": "El País Vasco, 1 de julio de 1928, p. 8",
+      "notes": "La crónica relaciona al Real Unión como compañía mandada por J. J. Michelena y con la señorita Larrechea como cantinera. Contrasta con el listado secundario de Veteranos Escolta de Caballería, que atribuye 1928 a Maximino Regueiro."
+    },
+    {
+      "company_slug": "meaka",
+      "company": "Meaka",
+      "name": "Jacinto Aramburu",
+      "role": "Capitán",
+      "from": 1928,
+      "to": 1928,
+      "source": "El País Vasco, 1 de julio de 1928, p. 8",
+      "notes": "La crónica relaciona a Meaka como compañía mandada por Jacinto Aramburu."
+    },
+    {
+      "company_slug": "meaka",
+      "company": "Meaka",
+      "name": "F. Eguiazábal",
+      "role": "Teniente",
+      "from": 1928,
+      "to": 1928,
+      "source": "El País Vasco, 1 de julio de 1928, p. 8",
+      "notes": "La crónica cita a F. Eguiazábal como teniente de Meaka; inicial y apellido leídos sobre imagen de baja calidad."
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "José Alzaga",
+      "role": "Capitán",
+      "from": 1928,
+      "to": 1928,
+      "source": "El País Vasco, 1 de julio de 1928, p. 8",
+      "notes": "La crónica relaciona a Bidasoa como compañía mandada por José Alzaga y con Juliana Arbelaiz como cantinera."
+    },
+    {
+      "company_slug": "octava-del-pueblo",
+      "company": "Paseo Colón",
+      "name": "José Alzaga",
+      "role": "Capitán",
+      "from": 1928,
+      "to": 1928,
+      "source": "El País Vasco, 1 de julio de 1928, p. 8",
+      "notes": "La crónica cita una Compañía Paseo mandada por José Alzaga y con Marichu Badiola como cantinera; queda vinculada provisionalmente a la ficha Paseo Colón / Octava del Pueblo."
+    },
+    {
+      "company_slug": "olaberria",
+      "company": "Olaberria",
+      "name": "José Zapirain",
+      "role": "Capitán",
+      "from": 1928,
+      "to": 1928,
+      "source": "El País Vasco, 1 de julio de 1928, p. 8",
+      "notes": "La crónica relaciona a Olaberria con el capitán José Zapirain."
+    },
+    {
+      "company_slug": "ama-shantalen",
+      "company": "Ama Shantalen",
+      "name": "Santiago Lopidi",
+      "role": "Capitán",
+      "from": 1928,
+      "to": 1928,
+      "source": "El País Vasco, 1 de julio de 1928, p. 8",
+      "notes": "La crónica usa la denominación Santa Elena para la compañía y cita como capitán a Santiago Lopidi."
+    },
+    {
+      "company_slug": "pueblo",
+      "company": "Cuarta compañía del Pueblo",
+      "name": "Ignacio Goñi",
+      "role": "Capitán",
+      "from": 1928,
+      "to": 1928,
+      "source": "El País Vasco, 1 de julio de 1928, p. 8",
+      "notes": "La crónica distingue una cuarta compañía del Pueblo mandada por Ignacio Goñi."
+    },
+    {
+      "company_slug": "pueblo",
+      "company": "Quinta compañía del Pueblo",
+      "name": "Antonio Arregui",
+      "role": "Capitán",
+      "from": 1928,
+      "to": 1928,
+      "source": "El País Vasco, 1 de julio de 1928, p. 8",
+      "notes": "La crónica distingue una quinta compañía del Pueblo mandada por Antonio Arregui; cita también a Pepito Echeveste como teniente y a Mercedes Leijo como cantinera."
+    },
+    {
+      "company_slug": "uranzu",
+      "company": "Uranzu",
+      "name": "Pablo Monserrat",
+      "role": "Capitán",
+      "from": 1928,
+      "to": 1928,
+      "source": "El País Vasco, 1 de julio de 1928, p. 8",
+      "notes": "La crónica relaciona a Uranzu como compañía mandada por Pablo Monserrat y con Mercedes Valdés como cantinera."
+    },
+    {
+      "company_slug": "artilleria",
+      "company": "Batería de Artillería",
+      "name": "Ángel Martín",
+      "role": "Capitán",
+      "from": 1928,
+      "to": 1928,
+      "source": "El País Vasco, 1 de julio de 1928, p. 8",
+      "notes": "La crónica relaciona la sección de Artillería como mandada por Ángel Martín y con Lucía Martín como cantinera."
     }
   ]
 }
