@@ -6283,6 +6283,106 @@
       "to": 1928,
       "source": "El País Vasco, 1 de julio de 1928, p. 8",
       "notes": "La crónica relaciona la sección de Artillería como mandada por Ángel Martín y con Lucía Martín como cantinera."
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "José María Olazabal",
+      "role": "Capitán",
+      "from": 1889,
+      "to": 1889,
+      "source": "El Guipuzcoano, San Sebastián, 1 de julio de 1889, p. 2",
+      "notes": "La crónica enumera siete compañías y dice que las mandaban respectivamente los nombres citados; se registra como mando de compañía con cautela por tratarse de una fuente periodística y por las grafías antiguas."
+    },
+    {
+      "company_slug": "ventas",
+      "company": "Ventas",
+      "name": "José Arana",
+      "role": "Capitán",
+      "from": 1889,
+      "to": 1889,
+      "source": "El Guipuzcoano, San Sebastián, 1 de julio de 1889, p. 2",
+      "notes": "La crónica enumera siete compañías y dice que las mandaban respectivamente los nombres citados; se registra como mando de compañía con cautela por tratarse de una fuente periodística y por las grafías antiguas."
+    },
+    {
+      "company_slug": "calle",
+      "company": "Calle",
+      "name": "Manuel Pedrós",
+      "role": "Capitán",
+      "from": 1889,
+      "to": 1889,
+      "source": "El Guipuzcoano, San Sebastián, 1 de julio de 1889, p. 2",
+      "notes": "La crónica enumera siete compañías y dice que las mandaban respectivamente los nombres citados; se registra como mando de compañía con cautela por tratarse de una fuente periodística y por las grafías antiguas."
+    },
+    {
+      "company_slug": "pridenoa",
+      "company": "Pridenoa",
+      "name": "Francisco Aramburo",
+      "role": "Capitán",
+      "from": 1889,
+      "to": 1889,
+      "source": "El Guipuzcoano, San Sebastián, 1 de julio de 1889, p. 2",
+      "notes": "La crónica enumera siete compañías y dice que las mandaban respectivamente los nombres citados; se registra como mando de compañía con cautela por tratarse de una fuente periodística y por las grafías antiguas."
+    },
+    {
+      "company_slug": "meaka",
+      "company": "Meaka",
+      "name": "José Parra",
+      "role": "Capitán",
+      "from": 1889,
+      "to": 1889,
+      "source": "El Guipuzcoano, San Sebastián, 1 de julio de 1889, p. 2",
+      "notes": "La crónica enumera siete compañías y dice que las mandaban respectivamente los nombres citados; se registra como mando de compañía con cautela por tratarse de una fuente periodística y por las grafías antiguas."
+    },
+    {
+      "company_slug": "anaka",
+      "company": "Anaka",
+      "name": "José Antonio Arruabarrena",
+      "role": "Capitán",
+      "from": 1889,
+      "to": 1889,
+      "source": "El Guipuzcoano, San Sebastián, 1 de julio de 1889, p. 2",
+      "notes": "La crónica enumera siete compañías y dice que las mandaban respectivamente los nombres citados; se registra como mando de compañía con cautela por tratarse de una fuente periodística y por las grafías antiguas."
+    },
+    {
+      "company_slug": "veteranos",
+      "company": "Veteranos",
+      "name": "Manuel Vicuña",
+      "role": "Capitán",
+      "from": 1889,
+      "to": 1889,
+      "source": "El Guipuzcoano, San Sebastián, 1 de julio de 1889, p. 2",
+      "notes": "La crónica enumera siete compañías y dice que las mandaban respectivamente los nombres citados; se registra como mando de compañía con cautela por tratarse de una fuente periodística y por las grafías antiguas."
+    },
+    {
+      "company_slug": "artilleria",
+      "company": "Batería de Artillería",
+      "name": "Santiago Gal",
+      "role": "Mando de Artillería",
+      "from": 1889,
+      "to": 1889,
+      "source": "El Guipuzcoano, San Sebastián, 1 de julio de 1889, p. 2",
+      "notes": "La crónica indica que la sección de Artillería la mandaba Santiago Gal."
+    },
+    {
+      "company_slug": "caballeria",
+      "company": "Escolta de Caballería",
+      "name": "Manuel A. Barcellos",
+      "role": "Mando de Caballería",
+      "from": 1889,
+      "to": 1889,
+      "source": "El Guipuzcoano, San Sebastián, 1 de julio de 1889, p. 2",
+      "notes": "La crónica indica que la Caballería estaba a cargo de Manuel A. Barcellos; se conserva la lectura del apellido con cautela."
+    },
+    {
+      "company_slug": "comandante",
+      "company": "Comandante del Batallón",
+      "name": "Luis Rodríguez",
+      "role": "Comandante",
+      "from": 1924,
+      "to": 1924,
+      "source": "El Pueblo Vasco, San Sebastián, 1 de julio de 1924, p. 7",
+      "notes": "La crónica de la jornada indica que en 1924 actuó de comandante Luis Rodríguez, hermano del alcalde Ricardo Rodríguez."
     }
   ]
 }
