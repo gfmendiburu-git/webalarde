@@ -31,7 +31,7 @@
     }
   };
 
-  fetch("../data/participacion-companias.json?v=1")
+  fetch("../data/participacion-companias.json?v=2")
     .then((response) => response.json())
     .then((data) => {
       const company = (data.entries || []).find((entry) => entry.company_slug === slug);
@@ -86,7 +86,7 @@
     comandante: "Comandantes documentados",
   };
 
-  fetch("../data/capitanes-companias.json?v=10")
+  fetch("../data/capitanes-companias.json?v=11")
     .then((response) => response.json())
     .then((data) => {
       const entries = (data.entries || [])

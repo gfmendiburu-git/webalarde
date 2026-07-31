@@ -3666,21 +3666,22 @@
       "source": "El Irunes, año 1, num. 3, 1989, p. 18"
     },
     {
-      "company_slug": "santa-elena",
-      "company": "Santa Elena",
+      "company_slug": "ama-shantalen",
+      "company": "Ama Shantalen",
       "name": "Jose Maria Otondo",
       "from": 1946,
       "to": 1947,
-      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6"
+      "source": "El Bidasoa, Irun, 28 de junio de 1946, p. 13; El Bidasoa, Irun, 28 de junio de 1947, p. 6",
+      "notes": "La fuente usa la denominación Santa Elena, forma castellana integrada aquí bajo Ama Shantalen."
     },
     {
-      "company_slug": "santa-elena",
-      "company": "Santa Elena",
+      "company_slug": "ama-shantalen",
+      "company": "Ama Shantalen",
       "name": "Juan Jose Aldaco Miquelarena",
       "from": 1967,
       "to": 1967,
       "source": "El Bidasoa, Irun, 25 de junio de 1967, p. 6",
-      "notes": "La relacion lo cita al frente de Santa Elena, segunda del pueblo."
+      "notes": "La relacion lo cita al frente de Santa Elena, segunda del pueblo. La fuente usa la denominación Santa Elena, forma castellana integrada aquí bajo Ama Shantalen."
     },
     {
       "company_slug": "santiago",
@@ -5330,14 +5331,14 @@
       "notes": "La relación de 1952 lo cita como capitán de Meaka y a Andrés Aramburu como teniente. Contrasta con listados secundarios que sitúan a Andrés Aramburu como capitán ese mismo año."
     },
     {
-      "company_slug": "santa-elena",
-      "company": "Santa Elena",
+      "company_slug": "ama-shantalen",
+      "company": "Ama Shantalen",
       "name": "Juan Campos",
       "role": "Capitán",
       "from": 1952,
       "to": 1952,
       "source": "“Hace medio siglo. Mandos del Alarde de 1952”, El Irunés, año 14, núm. 71, junio de 2002, p. 9 del PDF",
-      "notes": "La fuente la denomina Séptima Compañía del Pueblo, Santa Elena, y cita a Teodoro Lizari como teniente y María Luisa Niño como cantinera."
+      "notes": "La fuente la denomina Séptima Compañía del Pueblo, Santa Elena, y cita a Teodoro Lizari como teniente y María Luisa Niño como cantinera. La fuente usa la denominación Santa Elena, forma castellana integrada aquí bajo Ama Shantalen."
     },
     {
       "company_slug": "anaka",
