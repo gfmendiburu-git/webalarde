@@ -1234,6 +1234,19 @@ h3 {
   color: var(--muted-ink);
 }
 
+.downloads-section-title {
+  max-width: 1120px;
+  margin: 0 auto 26px;
+  text-align: center;
+}
+
+.downloads-section-title h2 {
+  margin: 0;
+  font-family: var(--title-font);
+  font-size: clamp(1.75rem, 3.4vw, 3rem);
+  line-height: 1.05;
+}
+
 .download-panel {
   display: flex;
   align-items: center;
