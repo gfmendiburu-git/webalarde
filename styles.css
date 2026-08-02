@@ -419,7 +419,7 @@ a {
 .history-article .lead {
   margin: 0 0 clamp(22px, 3.5vw, 34px);
   color: var(--ink);
-  font-size: clamp(1.12rem, 1.8vw, 1.34rem);
+  font-size: inherit;
   font-weight: 650;
   line-height: 1.55;
 }
