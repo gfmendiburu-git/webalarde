@@ -39,6 +39,20 @@
   ],
   "entries": [
     {
+      "year": 1880,
+      "company": "Banda de Música",
+      "name": "Sin datos",
+      "source_url": "local:/home/gaizka/Descargas/Alarde de San Marcial/Revistas y periodicos/1880/1880-07-04 - El Bidasoa.pdf",
+      "source_title": "El Bidasoa, Irun, 4 de julio de 1880, p. 2; El Liberal, Madrid, 16 de julio de 1880, p. 2",
+      "mentions": 2,
+      "needs_review": false,
+      "alternatives": [],
+      "confirmed": true,
+      "pending_confirmation": false,
+      "no_data": true,
+      "note": "La prensa de 1880 documenta una cantinera de la música, pero no conserva su nombre."
+    },
+    {
       "year": 1883,
       "company": "Meaka",
       "name": "Natalia Eizaguirre Alzaga",
@@ -21797,13 +21811,13 @@
     }
   ],
   "stats": {
-    "total_entries": 1721,
-    "confirmed_entries": 1665,
+    "total_entries": 1722,
+    "confirmed_entries": 1666,
     "pending_confirmation_entries": 56,
     "needs_review_entries": 56,
     "manual_update_note": "Actualizada fuente de Azken Portu desde la web del Alarde de Irun; toda cantinera pendiente queda marcada para revisar.",
-    "entries": 1721,
-    "confirmed": 1665,
+    "entries": 1722,
+    "confirmed": 1666,
     "pending_confirmation": 56,
     "needs_review": 56
   }

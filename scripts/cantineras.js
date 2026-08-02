@@ -65,8 +65,13 @@
     if (entry.no_data) {
       const source = document.createElement("span");
       source.className = "cantinera-source-text";
-      source.textContent = "Sin datos";
-      source.title = entry.note || "Compañía documentada ese año; cantinera pendiente de identificar";
+      if (entry.source_title || entry.source_url) {
+        source.textContent = `Fuente: ${entry.source_title || entry.source_url}`;
+        source.title = entry.source_url || entry.source_title;
+      } else {
+        source.textContent = "Sin datos";
+        source.title = entry.note || "Compañía documentada ese año; cantinera pendiente de identificar";
+      }
       return source;
     }
 
