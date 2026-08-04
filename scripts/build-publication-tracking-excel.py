@@ -192,10 +192,10 @@ def build_workbook(root: Path, output: Path) -> None:
     for cell in ws[1]:
         cell.fill = header_fill
         cell.font = header_font
-        cell.alignment = Alignment(horizontal="center", vertical="bottom", textRotation=90, wrap_text=True)
+        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
         cell.border = border
     ws.cell(1, 1).alignment = Alignment(horizontal="center", vertical="center")
-    ws.row_dimensions[1].height = 170
+    ws.row_dimensions[1].height = 48
 
     for row in ws.iter_rows(min_row=2):
         for cell in row:
@@ -326,10 +326,10 @@ def create_publication_sheet(
     for cell in ws[1]:
         cell.fill = header_fill
         cell.font = header_font
-        cell.alignment = Alignment(horizontal="center", vertical="bottom", textRotation=90, wrap_text=True)
+        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
         cell.border = border
     ws.cell(1, 1).alignment = Alignment(horizontal="center", vertical="center")
-    ws.row_dimensions[1].height = 90
+    ws.row_dimensions[1].height = 36
     for row in ws.iter_rows(min_row=2):
         for cell in row:
             cell.border = border
