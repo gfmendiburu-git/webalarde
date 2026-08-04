@@ -15,6 +15,7 @@ from openpyxl.worksheet.table import Table, TableStyleInfo
 
 DEFAULT_ROOT = Path("/home/gaizka/Descargas/Alarde de San Marcial")
 DEFAULT_OUTPUT = Path("/tmp/seguimiento_publicaciones_alarde.xlsx")
+TRACKING_YEARS = list(range(1880, 2027))
 INCLUDE_EXTS = {".pdf", ".jpg", ".jpeg", ".png", ".tif", ".tiff"}
 EXCLUDE_PARTS = {"Fotos", "Mi web", "Extracciones"}
 
@@ -165,7 +166,7 @@ def collect(root: Path):
 
 def build_workbook(root: Path, output: Path) -> None:
     matrix, details = collect(root)
-    years = sorted({year for values in matrix.values() for year in values}, key=lambda value: (value == "Sin año", str(value)))
+    years = TRACKING_YEARS
     publications = sorted(matrix.keys(), key=norm)
     details_by_publication: dict[str, list[dict]] = defaultdict(list)
     for item in details:
@@ -209,12 +210,13 @@ def build_workbook(root: Path, output: Path) -> None:
     summary = wb.create_sheet("Resumen")
     summary.append(["Dato", "Valor"])
     summary.append(["Publicaciones", len(publications)])
-    summary.append(["Años / filas", len(years)])
+    summary.append(["Años / filas", f"{TRACKING_YEARS[0]}-{TRACKING_YEARS[-1]} ({len(TRACKING_YEARS)} años)"])
     summary.append(["Archivos considerados", len(details)])
     summary.append(["Pestañas por publicación", len(publications)])
     summary.append(["Carpeta base", str(root)])
     summary.append(["Criterio matriz", "x indica que existe al menos un archivo de esa publicacion asociado a ese año."])
-    summary.append(["Criterio pestañas", "En cada publicacion, las filas son años y las columnas son fechas dia-mes detectadas en los nombres de archivo."])
+    summary.append(["Criterio pestañas", "En cada publicacion, las filas muestran todos los años entre 1880 y 2026, y las columnas son fechas dia-mes detectadas en los nombres de archivo."])
+    summary.append(["Documentos sin año", "Los documentos sin año detectado quedan trazados en Detalle archivos, pero no generan fila propia en las matrices."])
     for cell in summary[1]:
         cell.fill = header_fill
         cell.font = header_font
@@ -303,10 +305,7 @@ def create_publication_sheet(
     if not hasattr(wb, "_publication_sheet_names"):
         wb._publication_sheet_names = set(wb.sheetnames)
     ws = wb.create_sheet(safe_sheet_name(publication, wb._publication_sheet_names))
-    years = sorted(
-        {year for item in items for year in item["year_values"]},
-        key=lambda value: (value == "Sin año", str(value)),
-    )
+    years = TRACKING_YEARS
     dates = sorted({item["date"] for item in items}, key=date_sort_key)
     paths_by_cell = defaultdict(list)
     for item in items:
