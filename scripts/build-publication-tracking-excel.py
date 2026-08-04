@@ -83,6 +83,13 @@ def extract_years(text: str) -> set[int | str]:
     return {year for year in years if 1800 <= year <= 2099}
 
 
+def extract_date_label(text: str) -> str:
+    match = re.search(r"(?<!\d)(18\d{2}|19\d{2}|20\d{2})-(\d{2})-(\d{2})(?!\d)", text)
+    if match:
+        return f"{match.group(2)}-{match.group(3)}"
+    return "Sin fecha exacta"
+
+
 def publication_from_name(name: str) -> str:
     cleaned = re.sub(r"\.[^.]+$", "", name)
     cleaned = re.sub(r"^\d{4}-\d{2}-\d{2}\s+-\s+", "", cleaned)
@@ -146,6 +153,8 @@ def collect(root: Path):
             {
                 "publication": publication,
                 "years": ", ".join(str(year) for year in sorted(years, key=str)),
+                "year_values": years,
+                "date": extract_date_label(str(rel)),
                 "path": str(rel),
                 "status": "Pendiente" if "Pdte revisar" in rel.parts else "Archivado",
             }
@@ -158,6 +167,9 @@ def build_workbook(root: Path, output: Path) -> None:
     matrix, details = collect(root)
     years = sorted({year for values in matrix.values() for year in values}, key=lambda value: (value == "Sin año", str(value)))
     publications = sorted(matrix.keys(), key=norm)
+    details_by_publication: dict[str, list[dict]] = defaultdict(list)
+    for item in details:
+        details_by_publication[item["publication"]].append(item)
 
     wb = Workbook()
     ws = wb.active
@@ -199,18 +211,44 @@ def build_workbook(root: Path, output: Path) -> None:
     summary.append(["Publicaciones", len(publications)])
     summary.append(["Años / filas", len(years)])
     summary.append(["Archivos considerados", len(details)])
+    summary.append(["Pestañas por publicación", len(publications)])
     summary.append(["Carpeta base", str(root)])
-    summary.append(["Criterio", "x indica que existe al menos un archivo de esa publicacion asociado a ese año."])
+    summary.append(["Criterio matriz", "x indica que existe al menos un archivo de esa publicacion asociado a ese año."])
+    summary.append(["Criterio pestañas", "En cada publicacion, las filas son años y las columnas son fechas dia-mes detectadas en los nombres de archivo."])
     for cell in summary[1]:
         cell.fill = header_fill
         cell.font = header_font
     summary.column_dimensions["A"].width = 24
     summary.column_dimensions["B"].width = 120
 
+    publication_sheet_names = []
+    for publication in publications:
+        sheet_name = create_publication_sheet(
+            wb,
+            publication,
+            details_by_publication[publication],
+            header_fill,
+            header_font,
+            border,
+        )
+        publication_sheet_names.append((publication, sheet_name))
+
+    index_ws = wb.create_sheet("Indice publicaciones", 2)
+    index_ws.append(["Publicacion", "Pestaña"])
+    for publication, sheet_name in publication_sheet_names:
+        index_ws.append([publication, sheet_name])
+    for cell in index_ws[1]:
+        cell.fill = header_fill
+        cell.font = header_font
+    index_ws.freeze_panes = "A2"
+    index_ws.auto_filter.ref = index_ws.dimensions
+    index_ws.column_dimensions["A"].width = 64
+    index_ws.column_dimensions["B"].width = 36
+
     detail_ws = wb.create_sheet("Detalle archivos")
-    detail_ws.append(["Publicacion", "Años detectados", "Estado", "Ruta relativa"])
+    detail_ws.append(["Publicacion", "Años detectados", "Fecha columna", "Estado", "Ruta relativa"])
     for item in details:
-        detail_ws.append([item["publication"], item["years"], item["status"], item["path"]])
+        detail_ws.append([item["publication"], item["years"], item["date"], item["status"], item["path"]])
     for cell in detail_ws[1]:
         cell.fill = header_fill
         cell.font = header_font
@@ -218,8 +256,9 @@ def build_workbook(root: Path, output: Path) -> None:
     detail_ws.auto_filter.ref = detail_ws.dimensions
     detail_ws.column_dimensions["A"].width = 48
     detail_ws.column_dimensions["B"].width = 18
-    detail_ws.column_dimensions["C"].width = 14
-    detail_ws.column_dimensions["D"].width = 120
+    detail_ws.column_dimensions["C"].width = 18
+    detail_ws.column_dimensions["D"].width = 14
+    detail_ws.column_dimensions["E"].width = 120
     table = Table(displayName="DetalleArchivos", ref=detail_ws.dimensions)
     table.tableStyleInfo = TableStyleInfo(name="TableStyleMedium2", showRowStripes=True)
     detail_ws.add_table(table)
@@ -228,6 +267,80 @@ def build_workbook(root: Path, output: Path) -> None:
     wb.save(output)
     print(output)
     print(f"{len(publications)} publicaciones, {len(years)} filas de año, {len(details)} archivos considerados")
+
+
+def safe_sheet_name(name: str, used: set[str]) -> str:
+    cleaned = re.sub(r"[\[\]:*?/\\]", " ", name)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip() or "Publicacion"
+    base = cleaned[:31]
+    candidate = base
+    index = 2
+    while candidate in used:
+        suffix = f" {index}"
+        candidate = f"{base[:31 - len(suffix)]}{suffix}"
+        index += 1
+    used.add(candidate)
+    return candidate
+
+
+def date_sort_key(value: str):
+    if value == "Sin fecha exacta":
+        return (1, value)
+    match = re.match(r"(\d{2})-(\d{2})$", value)
+    if match:
+        return (0, int(match.group(1)), int(match.group(2)))
+    return (0, value)
+
+
+def create_publication_sheet(
+    wb: Workbook,
+    publication: str,
+    items: list[dict],
+    header_fill: PatternFill,
+    header_font: Font,
+    border: Border,
+) -> str:
+    if not hasattr(wb, "_publication_sheet_names"):
+        wb._publication_sheet_names = set(wb.sheetnames)
+    ws = wb.create_sheet(safe_sheet_name(publication, wb._publication_sheet_names))
+    years = sorted(
+        {year for item in items for year in item["year_values"]},
+        key=lambda value: (value == "Sin año", str(value)),
+    )
+    dates = sorted({item["date"] for item in items}, key=date_sort_key)
+    paths_by_cell = defaultdict(list)
+    for item in items:
+        for year in item["year_values"]:
+            paths_by_cell[(year, item["date"])].append(item["path"])
+
+    ws.cell(1, 1, "Año")
+    for col, date in enumerate(dates, start=2):
+        ws.cell(1, col, date)
+    for row, year in enumerate(years, start=2):
+        ws.cell(row, 1, year)
+        for col, date in enumerate(dates, start=2):
+            paths = paths_by_cell.get((year, date), [])
+            if paths:
+                ws.cell(row, col, "x")
+                ws.cell(row, col).comment = None
+
+    for cell in ws[1]:
+        cell.fill = header_fill
+        cell.font = header_font
+        cell.alignment = Alignment(horizontal="center", vertical="bottom", textRotation=90, wrap_text=True)
+        cell.border = border
+    ws.cell(1, 1).alignment = Alignment(horizontal="center", vertical="center")
+    ws.row_dimensions[1].height = 90
+    for row in ws.iter_rows(min_row=2):
+        for cell in row:
+            cell.border = border
+            cell.alignment = Alignment(horizontal="center", vertical="center")
+    ws.freeze_panes = "B2"
+    ws.auto_filter.ref = ws.dimensions
+    ws.column_dimensions["A"].width = 10
+    for col in range(2, len(dates) + 2):
+        ws.column_dimensions[get_column_letter(col)].width = 5
+    return ws.title
 
 
 def main() -> None:
