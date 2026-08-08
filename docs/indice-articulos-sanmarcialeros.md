@@ -20,15 +20,17 @@ Este indice no sustituye a `fuentes-examinadas.md`. Su funcion es distinta:
 Ademas del indice curado que aparece debajo, se mantiene un barrido amplio en CSV para poder buscar rapidamente en todo el corpus documental local sin releer cada PDF:
 
 - `docs/indice-articulos-sanmarcialeros.csv`: pasajes detectados por barrido textual fuerte en los PDFs de `/home/gaizka/Alarde`. Incluye publicacion, fecha o numero, articulo o pasaje, temas, uso, localizacion y extracto.
-- `docs/rastreo-documentos-articulos.csv`: control de todos los PDFs rastreados, indicando si tenian texto extraible, cuantos pasajes se localizaron y cuales quedaron sin texto suficiente para OCR posterior.
+- `docs/rastreo-documentos-articulos.csv`: control de todos los PDFs rastreados, indicando si tenian texto extraible, cuantos pasajes se localizaron y que resultado dio el OCR visual cuando fue necesario.
 
-Estado del barrido de 8 de agosto de 2026:
+Estado del barrido de 9 de agosto de 2026:
 
 - PDFs rastreados: 1.105.
-- PDFs con texto extraible suficiente: 451.
-- PDFs sin texto suficiente o necesitados de OCR: 654.
-- Documentos con pasajes localizados por texto: 422.
-- Pasajes incorporados al CSV amplio: 2.288.
+- PDFs con texto extraido suficiente en la primera pasada: 451.
+- PDFs procesados por OCR visual: 654.
+- PDFs con pasajes localizados tras OCR visual: 330.
+- Paginas marcadas con timeout durante OCR visual: 3.102.
+- Documentos con pasajes localizados por texto u OCR: 752.
+- Pasajes incorporados al CSV amplio: 3.295.
 
 El CSV amplio no sustituye a la lectura historica ni a la integracion editorial en la web. Su funcion es localizar donde volver a mirar. Las filas generadas por OCR o texto deficiente deben tratarse como pista documental hasta que se contraste el pasaje en la imagen o PDF original.
 
