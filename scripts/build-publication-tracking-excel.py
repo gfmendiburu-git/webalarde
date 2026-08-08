@@ -13,7 +13,7 @@ from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.table import Table, TableStyleInfo
 
 
-DEFAULT_ROOT = Path("/home/gaizka/Descargas/Alarde de San Marcial")
+DEFAULT_ROOT = Path("/home/gaizka/Alarde")
 DEFAULT_OUTPUT = Path("/tmp/seguimiento_publicaciones_alarde.xlsx")
 TRACKING_YEARS = list(range(1880, 2027))
 INCLUDE_EXTS = {".pdf", ".jpg", ".jpeg", ".png", ".tif", ".tiff"}

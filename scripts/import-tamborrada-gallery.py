@@ -14,7 +14,7 @@ from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 TMP_PAGES = Path("/tmp/tamborrada-pages.json")
-ORIGINALS_DIR = Path("/home/gaizka/Descargas/Alarde de San Marcial/Tamborrada Alarde Irun/originales")
+ORIGINALS_DIR = Path("/home/gaizka/Alarde/Tamborrada Alarde Irun/originales")
 MANIFEST_PATH = ORIGINALS_DIR.parent / "_manifest_tamborrada_alarde_irun.json"
 FULL_DIR = ROOT / "assets/alarde-imagenes/tamborrada/full"
 THUMB_DIR = ROOT / "assets/alarde-imagenes/tamborrada/thumbs"

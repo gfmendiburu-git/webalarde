@@ -5,7 +5,7 @@ import subprocess
 from pathlib import Path
 
 
-SOURCE = Path("/home/gaizka/Descargas/Alarde de San Marcial/La Voz de Guipuzcoa - Diario Republicano")
+SOURCE = Path("/home/gaizka/Alarde/La Voz de Guipuzcoa - Diario Republicano")
 OUT = Path("/tmp/la-voz-guipuzcoa-columns")
 SKIP = {"La Voz de Guipúzcoa diario republicano - 01-07-1900.pdf"}
 TERMS = [

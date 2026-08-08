@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 DEFAULT_SOURCE = Path(
-    "/home/gaizka/Descargas/Alarde de San Marcial/La Voz de Guipuzcoa - Diario Republicano"
+    "/home/gaizka/Alarde/La Voz de Guipuzcoa - Diario Republicano"
 )
 DEFAULT_OUT = Path("/tmp/la-voz-guipuzcoa-ocr")
 SKIP = {"La Voz de Guipúzcoa diario republicano - 01-07-1900.pdf"}

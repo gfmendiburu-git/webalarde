@@ -16,7 +16,7 @@ from PIL import Image
 
 
 SITE_ROOT = Path(__file__).resolve().parents[1]
-SOURCE_ROOT = Path("/home/gaizka/Descargas/Alarde de San Marcial")
+SOURCE_ROOT = Path("/home/gaizka/Alarde")
 DEFAULT_ORIGINALS = SOURCE_ROOT / "Recortes web" / "originales"
 DEFAULT_ASSETS = SITE_ROOT / "assets" / "document-recortes"
 DEFAULT_MANIFEST = SITE_ROOT / "data" / "document-recortes-candidatos.json"
