@@ -6443,6 +6443,116 @@
       "to": 1899,
       "source": "El Correo de Guipúzcoa, San Sebastián, 1 de julio de 1899, p. 2",
       "notes": "La crónica indica que la bandera del batallón era la del Ayuntamiento de Irun y que la llevaba el concejal carlista Miguel Nogueras."
+    },
+    {
+      "company_slug": "behobia",
+      "company": "Behobia",
+      "name": "José Glazábal",
+      "role": "Capitán",
+      "from": 1951,
+      "to": 1951,
+      "source": "El Bidasoa, Irun, 28 de junio de 1951",
+      "source_url": "local:/home/gaizka/Alarde/Revistas y periodicos/1951/1951-06-28 - El Bidasoa.pdf",
+      "notes": "Relación de mandos del Alarde de 1951 publicada en el número extraordinario de San Marcial; lectura OCR contrastada solo para los cargos legibles."
+    },
+    {
+      "company_slug": "bidasoa",
+      "company": "Bidasoa",
+      "name": "Félix Bengoechea",
+      "role": "Capitán",
+      "from": 1951,
+      "to": 1951,
+      "source": "El Bidasoa, Irun, 28 de junio de 1951",
+      "source_url": "local:/home/gaizka/Alarde/Revistas y periodicos/1951/1951-06-28 - El Bidasoa.pdf",
+      "notes": "Relación de mandos del Alarde de 1951 publicada en el número extraordinario de San Marcial; lectura OCR contrastada solo para los cargos legibles."
+    },
+    {
+      "company_slug": "san-miguel",
+      "company": "San Miguel",
+      "name": "Cipriano Reguero",
+      "role": "Capitán",
+      "from": 1951,
+      "to": 1951,
+      "source": "El Bidasoa, Irun, 28 de junio de 1951",
+      "source_url": "local:/home/gaizka/Alarde/Revistas y periodicos/1951/1951-06-28 - El Bidasoa.pdf",
+      "notes": "Relación de mandos del Alarde de 1951 publicada en el número extraordinario de San Marcial; lectura OCR contrastada solo para los cargos legibles."
+    },
+    {
+      "company_slug": "anaka",
+      "company": "Anaka",
+      "name": "Julián Amantegui",
+      "role": "Capitán",
+      "from": 1951,
+      "to": 1951,
+      "source": "El Bidasoa, Irun, 28 de junio de 1951",
+      "source_url": "local:/home/gaizka/Alarde/Revistas y periodicos/1951/1951-06-28 - El Bidasoa.pdf",
+      "notes": "Relación de mandos del Alarde de 1951 publicada en el número extraordinario de San Marcial; lectura OCR contrastada solo para los cargos legibles."
+    },
+    {
+      "company_slug": "banda",
+      "company": "Banda de Música",
+      "name": "Teodoro Murua",
+      "role": "Director de Banda",
+      "from": 1951,
+      "to": 1951,
+      "source": "El Bidasoa, Irun, 28 de junio de 1951",
+      "source_url": "local:/home/gaizka/Alarde/Revistas y periodicos/1951/1951-06-28 - El Bidasoa.pdf",
+      "notes": "Relación de mandos del Alarde de 1951 publicada en el número extraordinario de San Marcial; lectura OCR contrastada solo para los cargos legibles."
+    },
+    {
+      "company_slug": "deposito-de-maquinas-renfe",
+      "company": "Depósito de Máquinas / RENFE",
+      "name": "Saturnino Ibargoyen",
+      "role": "Capitán",
+      "from": 1951,
+      "to": 1951,
+      "source": "El Bidasoa, Irun, 28 de junio de 1951",
+      "source_url": "local:/home/gaizka/Alarde/Revistas y periodicos/1951/1951-06-28 - El Bidasoa.pdf",
+      "notes": "Relación de mandos del Alarde de 1951 publicada en el número extraordinario de San Marcial; lectura OCR contrastada solo para los cargos legibles."
+    },
+    {
+      "company_slug": "estado-mayor",
+      "company": "Estado Mayor",
+      "name": "Antonio María Gil Rodrigo",
+      "role": "Ayudante del General",
+      "from": 1951,
+      "to": 1951,
+      "source": "El Bidasoa, Irun, 28 de junio de 1951",
+      "source_url": "local:/home/gaizka/Alarde/Revistas y periodicos/1951/1951-06-28 - El Bidasoa.pdf",
+      "notes": "Relación de mandos del Alarde de 1951 publicada en el número extraordinario de San Marcial; lectura OCR contrastada solo para los cargos legibles."
+    },
+    {
+      "company_slug": "estado-mayor",
+      "company": "Estado Mayor",
+      "name": "José Manuel Gil Rodrigo",
+      "role": "Ayudante del General",
+      "from": 1951,
+      "to": 1951,
+      "source": "El Bidasoa, Irun, 28 de junio de 1951",
+      "source_url": "local:/home/gaizka/Alarde/Revistas y periodicos/1951/1951-06-28 - El Bidasoa.pdf",
+      "notes": "Relación de mandos del Alarde de 1951 publicada en el número extraordinario de San Marcial; lectura OCR contrastada solo para los cargos legibles."
+    },
+    {
+      "company_slug": "estado-mayor",
+      "company": "Estado Mayor",
+      "name": "Cornelio Arregui",
+      "role": "Ayudante del General",
+      "from": 1951,
+      "to": 1951,
+      "source": "El Bidasoa, Irun, 28 de junio de 1951",
+      "source_url": "local:/home/gaizka/Alarde/Revistas y periodicos/1951/1951-06-28 - El Bidasoa.pdf",
+      "notes": "Relación de mandos del Alarde de 1951 publicada en el número extraordinario de San Marcial; lectura OCR contrastada solo para los cargos legibles."
+    },
+    {
+      "company_slug": "estado-mayor",
+      "company": "Estado Mayor",
+      "name": "Francisco Álvarez",
+      "role": "Ayudante del General",
+      "from": 1951,
+      "to": 1951,
+      "source": "El Bidasoa, Irun, 28 de junio de 1951",
+      "source_url": "local:/home/gaizka/Alarde/Revistas y periodicos/1951/1951-06-28 - El Bidasoa.pdf",
+      "notes": "Relación de mandos del Alarde de 1951 publicada en el número extraordinario de San Marcial; lectura OCR contrastada solo para los cargos legibles."
     }
   ]
 }
