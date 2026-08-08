@@ -86,6 +86,8 @@
     comandante: "Comandantes documentados",
   };
 
+  if (slug === "general") return;
+
   fetch("../data/capitanes-companias.json?v=15")
     .then((response) => response.json())
     .then((data) => {
