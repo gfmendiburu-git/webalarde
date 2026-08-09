@@ -100,7 +100,7 @@ def group_entries(catalog: list[dict[str, str]]) -> dict[str, list[dict[str, str
             }
         )
 
-    for entries in grouped.values():
+    for document, entries in list(grouped.items()):
         entries.sort(
             key=lambda item: (
                 0 if item["Origen"] == "Entrada curada" else 1,
@@ -108,29 +108,27 @@ def group_entries(catalog: list[dict[str, str]]) -> dict[str, list[dict[str, str
                 item["Articulo o pasaje"],
             )
         )
+        deduped = []
+        seen = set()
+        for entry in entries:
+            key = (compact(entry.get("Articulo o pasaje", "")).lower(), entry.get("Pagina", ""))
+            if key in seen:
+                continue
+            seen.add(key)
+            deduped.append(entry)
+        grouped[document] = deduped
     return grouped
-
-
-def trim(text: str, limit: int = 360) -> str:
-    text = compact(text)
-    if len(text) <= limit:
-        return text
-    return text[: limit - 1].rstrip() + "…"
 
 
 def render_entry(entry: dict[str, str]) -> list[str]:
     title = entry["Articulo o pasaje"] or "Pasaje pendiente de titular"
-    bits = [f"  - {title}"]
-    meta = []
+    suffix = []
     if entry.get("Pagina"):
-        meta.append(f"pagina {entry['Pagina']}")
-    if entry.get("Temas"):
-        meta.append(f"temas: {entry['Temas']}")
-    if entry.get("Uso"):
-        meta.append(f"uso: {entry['Uso']}")
-    if meta:
-        bits.append(f"    - {'; '.join(meta)}.")
-    return bits
+        suffix.append(f"p. {entry['Pagina']}")
+    if entry.get("Origen") != "Entrada curada":
+        suffix.append("pendiente de confirmar")
+    detail = f" ({'; '.join(suffix)})" if suffix else ""
+    return [f"  - {title}{detail}"]
 
 
 def sort_key(row: dict[str, str]) -> tuple[str, str, str, str]:
@@ -147,12 +145,12 @@ def build_document(output: Path) -> None:
         "",
         "Documento de trabajo para revisar manualmente el corpus conservado en `/home/gaizka/Alarde`.",
         "",
-        "Cada bloque corresponde a un documento. Las viñetas interiores recogen articulos, cronicas, entrevistas, paginas graficas o pasajes que ya conocemos por el indice curado o por rastreo automatico. Las pistas automaticas y OCR deben verificarse contra el archivo original antes de usarse como fuente.",
+        "Cada bloque corresponde a un documento. Debajo aparece una lista unica de articulos, cronicas, entrevistas, paginas graficas o pasajes sanmarcialeros ya detectados. Las entradas marcadas como pendientes de confirmar proceden de rastreo automatico u OCR y deben comprobarse contra el archivo original.",
         "",
         "## Resumen",
         "",
         f"- Documentos catalogados: {len(catalog)}.",
-        f"- Documentos con entradas o pistas conocidas: {sum(1 for row in catalog if entries_by_doc.get(row['Ruta']))}.",
+        f"- Documentos con articulos localizados: {sum(1 for row in catalog if entries_by_doc.get(row['Ruta']))}.",
         f"- Documentos pendientes de completar manualmente: {sum(1 for row in catalog if not entries_by_doc.get(row['Ruta']))}.",
         "",
         "## Documentos",
@@ -163,8 +161,6 @@ def build_document(output: Path) -> None:
         filename = Path(row["Ruta"]).name
         heading_date = row["Fecha"] or row["Fecha o numero fuente"] or "Fecha sin normalizar"
         entries = entries_by_doc.get(row["Ruta"], [])
-        curated_entries = [entry for entry in entries if entry["Origen"] == "Entrada curada"]
-        automatic_entries = [entry for entry in entries if entry["Origen"] != "Entrada curada"]
 
         lines.extend(
             [
@@ -174,28 +170,16 @@ def build_document(output: Path) -> None:
                 f"- **Ruta**: `{row['Ruta']}`",
                 f"- **Nombre del documento**: {row['Publicacion']}",
                 f"- **Fecha de publicacion**: {row['Fecha o numero fuente']}",
-                f"- **Tipo documental**: {row['Tipo documental']}",
-                f"- **Estado**: {row['Estado del indice real']}",
-                f"- **Calidad de lectura**: {row['Calidad de lectura']}",
                 "",
-                "  **Entradas conocidas o verificadas**:",
+                "**Articulos sanmarcialeros localizados**:",
             ]
         )
 
-        if curated_entries:
-            for entry in curated_entries:
+        if entries:
+            for entry in entries:
                 lines.extend(render_entry(entry))
         else:
             lines.append("  - Pendiente de completar manualmente.")
-
-        lines.extend(["", "  **Pistas automaticas a revisar**:"])
-        if automatic_entries:
-            for entry in automatic_entries:
-                lines.extend(render_entry(entry))
-        else:
-            lines.append("  - Sin pistas automaticas registradas.")
-
-        lines.extend(["", "  **Notas de revision manual**:", "  - "])
         lines.append("")
 
     output.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
