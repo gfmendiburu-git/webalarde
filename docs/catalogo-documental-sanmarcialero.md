@@ -50,9 +50,3 @@ Para regenerar la version manual en Markdown:
 ```bash
 python3 scripts/build-manual-document-index.py
 ```
-
-Para regenerar la version en Word:
-
-```bash
-python3 scripts/build-manual-document-word.py
-```
