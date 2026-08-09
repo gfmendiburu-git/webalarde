@@ -2,9 +2,10 @@
 
 Registro vivo de articulos, cronicas, entrevistas, reportajes, paginas graficas y pasajes documentales utiles para investigar el Alarde de San Marcial de Irun.
 
-Este indice no sustituye a `fuentes-examinadas.md`. Su funcion es distinta:
+Este indice no sustituye a `fuentes-examinadas.md` ni al catalogo maestro `catalogo-documental-sanmarcialero.csv`. Su funcion es distinta:
 
 - `fuentes-examinadas.md` indica que documentos, publicaciones o fondos se han revisado.
+- `catalogo-documental-sanmarcialero.csv` lista todos los documentos del corpus y funciona como indice real de trabajo.
 - Este fichero indica donde hay articulos o pasajes concretos a los que conviene volver cuando se busque informacion sobre un tema.
 
 ## Criterios
@@ -17,8 +18,9 @@ Este indice no sustituye a `fuentes-examinadas.md`. Su funcion es distinta:
 
 ## Barrido exhaustivo
 
-Ademas del indice curado que aparece debajo, se mantiene un barrido amplio en CSV para poder buscar rapidamente en todo el corpus documental local sin releer cada PDF:
+Ademas del indice curado que aparece debajo, se mantiene un catalogo maestro y un barrido amplio en CSV para poder buscar rapidamente en todo el corpus documental local sin releer cada PDF:
 
+- `docs/catalogo-documental-sanmarcialero.csv`: catalogo maestro con una fila por documento del corpus. Incluye tambien documentos sin pasajes automaticos, porque todos forman parte de la documentacion sanmarcialera local.
 - `docs/indice-articulos-sanmarcialeros.csv`: pasajes detectados por barrido textual fuerte en los PDFs de `/home/gaizka/Alarde`. Incluye publicacion, fecha o numero, articulo o pasaje, temas, uso, localizacion y extracto.
 - `docs/rastreo-documentos-articulos.csv`: control de todos los PDFs rastreados, indicando si tenian texto extraible, cuantos pasajes se localizaron y que resultado dio el OCR visual cuando fue necesario.
 
