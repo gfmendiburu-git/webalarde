@@ -7,6 +7,7 @@ A diferencia del rastreo OCR, aqui debe aparecer cada documento del corpus aunqu
 ## Archivo principal
 
 - `docs/catalogo-documental-sanmarcialero.csv`: catalogo maestro, una fila por documento.
+- `docs/indice-revision-manual-sanmarcialero.md`: version en formato documento para revision manual, ordenada por fecha y con un bloque por archivo.
 - `docs/indice-articulos-sanmarcialeros.csv`: indice amplio de pasajes localizados por lectura automatica u OCR.
 - `docs/rastreo-documentos-articulos.csv`: control tecnico de extraccion de texto, OCR visual y pasajes detectados.
 
@@ -42,4 +43,10 @@ Para regenerarlo:
 
 ```bash
 python3 scripts/build-document-catalog.py
+```
+
+Para regenerar la version manual en Markdown:
+
+```bash
+python3 scripts/build-manual-document-index.py
 ```
